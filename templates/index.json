@@ -1,0 +1,52 @@
+{
+    "sections": {
+        "headernavmain": {
+            "type": "headernavmain"
+        },
+        "videohero": {
+            "type": "videohero"
+        },
+        "scrollanimatecontent": {
+            "type": "scrollanimatecontent"
+        },
+        "5cardbentobox": {
+            "type": "5cardbentobox"
+        },
+        "productslider": {
+            "type": "productslider"
+        },
+        "calltoactionbanner": {
+            "type": "calltoactionbanner"
+        },
+        "featuredarticles": {
+            "type": "featuredarticles"
+        },
+        "testimonialslider": {
+            "type": "testimonialslider"
+        },
+        "faqs": {
+            "type": "faqs"
+        },
+        "contactcta": {
+            "type": "contactcta"
+        },
+        "footermain": {
+            "type": "footermain"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "headernavmain",
+        "videohero",
+        "scrollanimatecontent",
+        "5cardbentobox",
+        "productslider",
+        "calltoactionbanner",
+        "featuredarticles",
+        "testimonialslider",
+        "faqs",
+        "contactcta",
+        "footermain"
+    ]
+}
