@@ -11,7 +11,9 @@
   "sections": {
     "headernavmain": {
       "type": "headernavmain",
-      "settings": {}
+      "settings": {
+        "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg"
+      }
     },
     "videohero": {
       "type": "videohero",
@@ -91,6 +93,7 @@
       "type": "footermain",
       "settings": {
         "footer_top_tagline_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "footer_top_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
         "footer_contact_details_heading_text": "Short Heading",
         "footer_location_details_heading_text": "Short Heading",
         "footer_column_1_heading_text": "Short Column Heading",
@@ -100,7 +103,9 @@
         "footer_newsletter_submission_success_text": "Thank you! Your submission has been received!",
         "footer_newsletter_submission_error_text": "Oops! Something went wrong while submitting the form.",
         "footer_newsletter_terms_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "footer_copyright_text": "Company Name. All Rights Reserved",
+        "footer_logo_banner": "shopify://shop_images/16.5_-_The_Print_Garage_-_Logotype_Wide_Condensed_-_Inverted_Colour.svg",
+        "footer_copyright_text": "The Print Garage. All Rights Reserved.",
+        "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
         "url_card_4_button_link": "",
         "checkbox_true": true
       }
