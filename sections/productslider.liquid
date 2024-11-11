@@ -2,19 +2,23 @@
 <div class="margin-bottom margin-xsmall"><h2 li-object="section.settings.products_heading_text" class="heading-style-h2">{{ section.settings.products_heading_text }}</h2></div><div class="richtext-wrapper text-size-medium w-richtext"><p li-object="section.settings.products_paragraph_text">{{ section.settings.products_paragraph_text }}</p></div></div></div><div id="w-node-ec3ac92a-f59e-af01-6817-0e380c9b0ad3-30216f13" class="button-group">{% for block in section.blocks %}
     {% if block.type == "button" %}
                     <div li-block="Button" id="w-node-_54d2c181-ee84-938e-a919-4a3bc895f63f-30216f13" class="block-wrapper">
+                                    
                                     <a li-object:href="section.settings.btn_url" id="w-node-_54d2c181-ee84-938e-a919-4a3bc895f640-30216f13" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
 {% if section.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-_54d2c181-ee84-938e-a919-4a3bc895f642-30216f13" li-if="section.settings.btn_layout != 'btn_layout_icon'">
     {{ section.settings.btn_text | default: "Button Text" }}    </span>
 {% endif %}{% if section.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ section.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="section.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ section.settings.btn_icon_size }}">
     <path d="{{ section.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>
 {% endif %}</a>
+                                    
                             </div>
             {% endif %}
 {% endfor %}
 </div></div></div><div data-delay="4000" data-animation="slide" class="product12_slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true"><div class="product12_mask w-slider-mask">{% for product in section.settings.collection_select_a_collection.products limit: section.settings.collection_select_a_collection_limit %}
 <div li-for="product in collection.products" class="product12_slide w-slide">
+    
     {% render 'product' %}
 
+    
 </div>
 {% endfor %}
 </div><div class="slider_arrow is-left w-slider-arrow-left"><div class="product12_arrow-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.31066 8.75001L9.03033 14.4697L7.96967 15.5303L0.439339 8.00001L7.96967 0.469676L9.03033 1.53034L3.31066 7.25001L15.5 7.25L15.5 8.75L3.31066 8.75001Z" fill="currentColor"></path></svg></div></div><div class="slider_arrow w-slider-arrow-right"><div class="product12_arrow-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6893 7.25L6.96967 1.53033L8.03033 0.469666L15.5607 8L8.03033 15.5303L6.96967 14.4697L12.6893 8.75H0.5V7.25H12.6893Z" fill="currentColor"></path></svg></div></div><div class="slider-nav w-slider-nav w-slider-nav-invert w-round"></div><div class="w-embed"><style>.w-slider-nav.w-round>div	{
