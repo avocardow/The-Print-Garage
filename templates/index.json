@@ -76,18 +76,6 @@
     },
     "faqs": {
       "type": "faqs",
-      "blocks": {
-        "faq_kAF6zT": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "Question text goes herekjnjkjknknk",
-            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.jhbjhbhbhjjbh</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_kAF6zT"
-      ],
       "settings": {
         "faq_heading_text": "Medium length heading goes here",
         "faq_cta_heading_text": "Short heading goes here",
