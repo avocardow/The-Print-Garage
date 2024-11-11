@@ -1,1 +1,45 @@
-[]
+[
+    {
+        "name": "theme_info",
+        "theme_name": "The Print Garage",
+        "theme_author": "Cardow & Co",
+        "theme_version": "0.1.0",
+        "theme_documentation_url": "https:\/\/www.cardow.co",
+        "theme_support_email": "rowan@cardow.co"
+    },
+    {
+        "name": "General Settings",
+        "settings": [
+            {
+                  "type": "url",
+                  "id": "social_facebook_link",
+                  "label": "Facebook",
+                  "info": "https:\/\/facebook.com\/theprintgarage"
+            },
+            {
+                  "type": "url",
+                  "id": "social_linkedin_link",
+                  "label": "LinkedIn",
+                  "info": "https:\/\/linkedin.com\/theprintgarage"
+            },
+            {
+                  "type": "url",
+                  "id": "social_tiktok_link",
+                  "label": "TikTok",
+                  "info": "https:\/\/tiktok.com\/theprintgarage"
+            },
+            {
+                  "type": "url",
+                  "id": "social_instagram_link",
+                  "label": "Instagram",
+                  "info": "https:\/\/instagram.com\/theprintgarage"
+            },
+            {
+                  "type": "url",
+                  "id": "social_youtube_link",
+                  "label": "Youtube",
+                  "info": "https:\/\/youtube.com\/theprintgarage"
+            },
+        ]
+    }
+]
