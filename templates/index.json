@@ -30,6 +30,17 @@
     },
     "scrollanimatecontent": {
       "type": "scrollanimatecontent",
+      "blocks": {
+        "scroll_animate_image_1_zgbkq4": {
+          "type": "scroll-animate-image-1",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/Green_TShirt.png"
+          }
+        }
+      },
+      "block_order": [
+        "scroll_animate_image_1_zgbkq4"
+      ],
       "settings": {
         "scroll_animate_text": "\"At The Print Garage, we're fuelled by a passion for creativity and an obsession for everything vintage. Our story began with a vision to transform the world of custom printing by combining cutting-edge technology with a hip, nostalgic aesthetic. Think of us as the retro-styled print shop where your creative visions come to life.\n\""
       }
