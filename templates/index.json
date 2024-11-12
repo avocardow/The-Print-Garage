@@ -55,8 +55,8 @@
     "calltoactionbanner": {
       "type": "calltoactionbanner",
       "settings": {
-        "cta_heading_text": "Medium or long length heading goes here",
-        "cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+        "cta_heading_text": "Boost Your Brand with Custom Products",
+        "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>",
         "cta_banner_image": "shopify://shop_images/CTA_Main_Page_noOutline_bf027c83-57e9-4ca3-a800-f9924417881b.png"
       }
     },
