@@ -77,6 +77,18 @@
     },
     "faqs": {
       "type": "faqs",
+      "blocks": {
+        "faq_wjgNHW": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "What printing methods do you offer at The Print Garage?",
+            "faq_answer": "<p>We specialize in Direct to Film (DTF), Direct to Garment (DTG), and screen printing, as well as embroidery services. Each method has its own unique advantages, and we can help you choose the best one for your project.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_wjgNHW"
+      ],
       "settings": {
         "faq_heading_text": "Medium length heading goes here",
         "faq_cta_heading_text": "Short heading goes here",
