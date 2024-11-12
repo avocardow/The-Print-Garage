@@ -18,8 +18,8 @@
     "videohero": {
       "type": "videohero",
       "settings": {
-        "hero_heading_text": "Medium length hero heading goes here",
-        "hero_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+        "hero_heading_text": "BRING YOUR BRAND TO LIFE",
+        "hero_paragraph_text": "<p>Make your mark with custom apparel and products designed to elevate your brand. From bold prints to high-quality finishes, we’re here to turn your vision into reality. Join our mailing list below to stay up to date and get the latest deals</p>",
         "hero_cta": "hero_form_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
