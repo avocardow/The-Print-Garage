@@ -19,7 +19,7 @@
       "type": "videohero",
       "settings": {
         "hero_heading_text": "BRING YOUR BRAND TO LIFE",
-        "hero_paragraph_text": "<p>Make your mark with custom apparel and products designed to elevate your brand. From bold prints to high-quality finishes, we’re here to turn your vision into reality. Join our mailing list below to stay up to date and get the latest deals</p>",
+        "hero_paragraph_text": "<p>Make your mark with custom apparel and products designed to elevate your brand. From bold prints to high-quality finishes, we’re here to turn your vision into reality. Join our mailing list below to stay up to date and get the latest deals!</p>",
         "hero_cta": "hero_form_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
@@ -57,7 +57,7 @@
       "settings": {
         "cta_heading_text": "Boost Your Brand with Custom Products",
         "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>",
-        "cta_banner_image": "shopify://shop_images/CTA_Main_Page_noOutline_bf027c83-57e9-4ca3-a800-f9924417881b.png"
+        "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png"
       }
     },
     "featuredarticles": {
