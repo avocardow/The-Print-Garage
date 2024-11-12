@@ -24,6 +24,7 @@
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
         "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
+        "hero_video_poster_image": "shopify://shop_images/Video_thumb_nail.jpg",
         "hero_video": "shopify://files/videos/Print Garage Video.mp4"
       }
     },
@@ -55,7 +56,8 @@
       "type": "calltoactionbanner",
       "settings": {
         "cta_heading_text": "Medium or long length heading goes here",
-        "cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+        "cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+        "cta_banner_image": "shopify://shop_images/CTA_Main_Page_noOutline_bf027c83-57e9-4ca3-a800-f9924417881b.png"
       }
     },
     "featuredarticles": {
@@ -91,14 +93,30 @@
             "faq_question": "What is the minimum order quantity?",
             "faq_answer": "<p>For DTF and DTG printing methods the minimum order is 10pcs.<br/>Due to the more complicated setup process, for screen printing the minimum order is 25pcs. </p>"
           }
+        },
+        "faq_QdtxVj": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "How long does it take to complete an order?",
+            "faq_answer": "<p>Turnaround times vary depending on the order size and printing method. Standard orders are typically ready in 7-10 business days after payment, but we offer rush services for quicker delivery when needed.</p>"
+          }
+        },
+        "faq_yyXheT": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "Can I see a mock-up of my design before you print?",
+            "faq_answer": "<p>Absolutely! We provide digital mock-ups to ensure you’re happy with the design, placement, and colors before moving forward with production.</p>"
+          }
         }
       },
       "block_order": [
         "faq_wjgNHW",
-        "faq_3FRt8L"
+        "faq_3FRt8L",
+        "faq_QdtxVj",
+        "faq_yyXheT"
       ],
       "settings": {
-        "faq_heading_text": "Medium length heading goes here",
+        "faq_heading_text": "FAQs",
         "faq_cta_heading_text": "Short heading goes here",
         "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
