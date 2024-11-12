@@ -3,12 +3,14 @@
     {% for block in section.blocks %}
     {% if block.type == "button" %}
                     <div li-block="Button" id="w-node-a86f0941-a747-4636-8015-a068df418d6a-30216f13" class="block-wrapper">
+                                    
                                     <a li-object:href="section.settings.btn_url" id="w-node-e049b515-f1d1-54bd-8eb8-b869628a85c9-30216f13" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
 {% if section.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-e049b515-f1d1-54bd-8eb8-b869628a85cb-30216f13" li-if="section.settings.btn_layout != 'btn_layout_icon'">
     {{ section.settings.btn_text | default: "Button Text" }}    </span>
 {% endif %}{% if section.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ section.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="section.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ section.settings.btn_icon_size }}">
     <path d="{{ section.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>
 {% endif %}</a>
+                                    
                             </div>
             {% endif %}
 {% endfor %}
