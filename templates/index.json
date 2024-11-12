@@ -23,7 +23,8 @@
         "hero_cta": "hero_form_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
-        "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>"
+        "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
+        "hero_video": "shopify://files/videos/Print Garage Video.mp4"
       }
     },
     "scrollanimatecontent": {
