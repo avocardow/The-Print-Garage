@@ -3,7 +3,7 @@
                     <div li-block="Scroll Animate Image 1" id="w-node-_844c2eb3-c9ab-208a-eea2-fb9d40386b04-30216f13" class="block-wrapper">
                                     <div class="settings-schema w-embed"></div>
 
-                                    <img li-object:src="section.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ section.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
+                                    <img li-object:src="block.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ block.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
 
                             </div>
             {% endif %}
@@ -13,7 +13,7 @@
                     <div li-block="Scroll Animate Image 2" id="w-node-ac088758-1c36-ffef-31a1-0eead21bc45a-30216f13" class="block-wrapper">
                                     <div class="settings-schema w-embed"></div>
 
-                                    <img li-object:src="section.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ section.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
+                                    <img li-object:src="block.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ block.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
 
                             </div>
             {% endif %}
@@ -23,7 +23,7 @@
                     <div li-block="Scroll Animate Image 3" id="w-node-_69eb86e5-0d9b-c1da-72d6-61b1defad5d5-30216f13" class="block-wrapper">
                                     <div class="settings-schema w-embed"></div>
 
-                                    <img li-object:src="section.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ section.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
+                                    <img li-object:src="block.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ block.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
 
                             </div>
             {% endif %}
@@ -33,7 +33,7 @@
                     <div li-block="Scroll Animate Image 4" id="w-node-_77781704-7a00-79f6-999a-71a4ced09446-30216f13" class="block-wrapper">
                                     <div class="settings-schema w-embed"></div>
 
-                                    <img li-object:src="section.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ section.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
+                                    <img li-object:src="block.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ block.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
 
                             </div>
             {% endif %}
@@ -43,7 +43,7 @@
                     <div li-block="Scroll Animate Image 5" id="w-node-_4659fb10-0efb-3e0a-bc6c-3208325e0f60-30216f13" class="block-wrapper">
                                     <div class="settings-schema w-embed"></div>
 
-                                    <img li-object:src="section.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ section.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
+                                    <img li-object:src="block.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ block.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
 
                             </div>
             {% endif %}
@@ -53,7 +53,7 @@
                     <div li-block="Scroll Animate Image 6" id="w-node-_74a04546-4ca1-aa58-cecc-c2d2f19a758a-30216f13" class="block-wrapper">
                                     <div class="settings-schema w-embed"></div>
 
-                                    <img li-object:src="section.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ section.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
+                                    <img li-object:src="block.settings.scroll_animate_image | img_url: 'master'" loading="lazy" alt="" src="{{ block.settings.scroll_animate_image | img_url: 'master' }}" class="header80_image">
 
                             </div>
             {% endif %}
@@ -62,29 +62,26 @@
 <div class="max-width-xlarge align-center"><div class="richtext-wrapper w-richtext"><h2 li-object="section.settings.scroll_animate_text" class="layout484_text">{{ section.settings.scroll_animate_text }}</h2></div><div class="margin-top margin-small"><div class="button-group">{% for block in section.blocks %}
     {% if block.type == "button" %}
                     <div li-block="Button" id="w-node-d90cdb56-2a25-59cb-4603-d5dcf05c9c86-30216f13" class="block-wrapper">
-                                    <a li-object:href="section.settings.btn_url" id="w-node-d90cdb56-2a25-59cb-4603-d5dcf05c9c87-30216f13" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
-{% if section.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-d90cdb56-2a25-59cb-4603-d5dcf05c9c89-30216f13" li-if="section.settings.btn_layout != 'btn_layout_icon'">
-    {{ section.settings.btn_text | default: "Button Text" }}    </span>
-{% endif %}{% if section.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ section.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="section.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ section.settings.btn_icon_size }}">
-    <path d="{{ section.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>
+                                    <a li-object:href="block.settings.btn_url" id="w-node-d90cdb56-2a25-59cb-4603-d5dcf05c9c87-30216f13" href="{{ block.settings.btn_url }}" class="button w-inline-block {{ block.settings.btn_size }} {{ block.settings.btn_style }}"><div class="settings-schema w-embed"></div>
+{% if block.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-d90cdb56-2a25-59cb-4603-d5dcf05c9c89-30216f13" li-if="block.settings.btn_layout != 'btn_layout_icon'">
+    {{ block.settings.btn_text | default: "Button Text" }}    </span>
+{% endif %}{% if block.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ block.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="block.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ block.settings.btn_icon_size }}">
+    <path d="{{ block.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>
 {% endif %}</a>
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div></div></div><div data-w-id="e01dc816-73be-4c0e-7ee0-c6605f588498" class="header80_ix-trigger"></div><div class="layout484_split-text w-embed w-script"><!--  Include GSAP library, ScrollTrigger plugin, Split-Type library  --><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script><script src="https://unpkg.com/split-type"></script><script>document.addEventListener('DOMContentLoaded', function() {
+</div></div></div></div></div><div data-w-id="e01dc816-73be-4c0e-7ee0-c6605f588498" class="header80_ix-trigger"></div><div class="layout484_split-text w-embed w-script"><!--   Include GSAP library, ScrollTrigger plugin, Split-Type library   --><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script><script src="https://unpkg.com/split-type"></script><script>document.addEventListener('DOMContentLoaded', function() {
 // Function to check if the viewport width is 767px or less
 function isMobile() {
   return window.innerWidth <= 767;
 }
-
 // Split text into individual words
 const layoutText = new SplitType(".layout484_text", { types: "words" });
 const layoutTL = gsap.timeline();
-
 // Define different start and end values for mobile devices
 let startValue = isMobile() ? "top 35%" : "top center";
 let endValue = isMobile() ? "bottom 90%" : "bottom center";
-
 layoutTL.from(layoutText.words,{
   // Initial opacity for each word
   opacity: 0.25,
