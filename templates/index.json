@@ -70,6 +70,42 @@
     },
     "testimonialslider": {
       "type": "testimonialslider",
+      "blocks": {
+        "testimonial_G6Ppmf": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_WwnQCK": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_LYiHq3": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_Bc6rWc": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_G6Ppmf",
+        "testimonial_WwnQCK",
+        "testimonial_LYiHq3",
+        "testimonial_Bc6rWc"
+      ],
       "settings": {
         "testimonials_heading_text": "Medium length section heading goes here",
         "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
@@ -127,8 +163,7 @@
         "footer_logo_banner": "shopify://shop_images/16.5_-_The_Print_Garage_-_Logotype_Wide_Condensed_-_Inverted_Colour.svg",
         "footer_copyright_text": "The Print Garage. All Rights Reserved.",
         "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
-        "url_card_4_button_link": "",
-        "checkbox_true": true
+        "url_card_4_button_link": ""
       }
     }
   },
