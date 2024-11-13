@@ -92,7 +92,7 @@
                 <div class="margin-bottom margin-small">
                   <div class="blog42_meta-wrapper">
                     <div class="tag">
-                      <div li-object="article.blog.title">{{ article.handle | split: '/' | first }}</div>
+                      <div li-object="article.blog.title">{{ article.handle | split: '/' | first | replace: '-',' ' }}</div>
                     </div>
                     <div li-object="article.created_at | date: '%B %d, %Y'" class="text-weight-semibold text-size-tiny">
                       {{ article.created_at | date: '%B %d, %Y' }}
