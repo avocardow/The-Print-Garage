@@ -68,7 +68,6 @@
     },
     "productslider": {
       "type": "productslider",
-      "disabled": true,
       "settings": {
         "products_heading_text": "Medium length section heading goes here",
         "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
