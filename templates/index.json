@@ -127,10 +127,6 @@
           "type": "gallery-image",
           "settings": {}
         },
-        "gallery_image_KMLkMG": {
-          "type": "gallery-image",
-          "settings": {}
-        },
         "gallery_image_6hRFaG": {
           "type": "gallery-image",
           "settings": {}
@@ -150,7 +146,6 @@
       },
       "block_order": [
         "gallery_image_8aqcnA",
-        "gallery_image_KMLkMG",
         "gallery_image_6hRFaG",
         "gallery_image_AjLWcd",
         "gallery_image_7kfzct",
