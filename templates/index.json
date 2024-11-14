@@ -55,6 +55,66 @@
     },
     "5cardbentobox": {
       "type": "5cardbentobox",
+      "blocks": {
+        "bento_card_1_LBTCVd": {
+          "type": "bento-card-1",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": ""
+          }
+        },
+        "bento_card_2_fGVgih": {
+          "type": "bento-card-2",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_3_gqnkxk": {
+          "type": "bento-card-3",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_4_PFphid": {
+          "type": "bento-card-4",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_5_c3PLCY": {
+          "type": "bento-card-5",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_1_LBTCVd",
+        "bento_card_2_fGVgih",
+        "bento_card_3_gqnkxk",
+        "bento_card_4_PFphid",
+        "bento_card_5_c3PLCY"
+      ],
       "settings": {
         "bento_heading_text": "Medium length hero heading goes here",
         "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
@@ -62,6 +122,40 @@
     },
     "productgallery_nxmn6e": {
       "type": "productgallery",
+      "blocks": {
+        "gallery_image_8aqcnA": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_KMLkMG": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_6hRFaG": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_AjLWcd": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_7kfzct": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_KMCQLh": {
+          "type": "gallery-image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "gallery_image_8aqcnA",
+        "gallery_image_KMLkMG",
+        "gallery_image_6hRFaG",
+        "gallery_image_AjLWcd",
+        "gallery_image_7kfzct",
+        "gallery_image_KMCQLh"
+      ],
       "settings": {
         "gallery_heading_text": "Medium length section heading goes here",
         "gallery_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
