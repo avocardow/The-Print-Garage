@@ -13,17 +13,15 @@
             {% endif %}
 {% endfor %}
     </div>
-{% endif %}{% if section.settings.hero_cta == 'hero_form_cta' %}    <div li-if="section.settings.hero_cta == 'hero_form_cta'" li-form="customer" class="header29_form-block w-form">
+{% endif %}{% if section.settings.hero_cta == 'hero_form_cta' %}    <div li-if="section.settings.hero_cta == 'hero_form_cta'" class="header29_form-block w-form">
     <div class="settings-schema w-embed"></div>
-<form id="wf-form-Stay-Updated-Form" name="wf-form-Stay-Updated-Form" data-name="Stay Updated Form" method="get" class="header29_form" data-wf-page-id="67030cb0eac8338230216f13" data-wf-element-id="7082a1dd-fd5e-d37a-502a-6b37df7cc1ee"><input class="form_input w-input" maxlength="256" name="Stay-Updated-Email-Address" data-name="Stay Updated Email Address" placeholder="{{ section.settings.newsletter_input_placeholder | default: "Enter your email here..." }}" type="email" id="Stay-Updated-Email-Address-2" required="">
+{% form 'customer', return_to: '/', class: 'header29_form' %}
+<input class="form_input w-input" maxlength="256" name="contact[email]" data-name="Stay Updated Email Address" placeholder="{{ section.settings.newsletter_input_placeholder | default: "Enter your email here..." }}" type="email" id="Stay-Updated-Email-Address-2" required="">
 <input type="submit" data-wait="Please wait..." class="button w-button" value="{{ section.settings.newsletter_btn_text | default: "Submit" }}">
-</form><div class="richtext-wrapper is-center text-size-tiny w-richtext"><p li-object:text="section.settings.newsletter_terms_text">
+{% endform %}
+<div class="richtext-wrapper is-center text-size-tiny w-richtext"><p li-object:text="section.settings.newsletter_terms_text">
 {{ section.settings.newsletter_terms_text }}
-</p></div>{% if form.posted_successfully? %}    <div li-if="form.posted_successfully?" class="form_message-success-wrapper w-form-done">
-    <div class="form_message-success"><div>Thank you! Your submission has been received!</div></div>    </div>
-{% endif %}{% if form.errors %}    <div li-if="form.errors" class="form_message-error-wrapper w-form-fail">
-    <div class="form_message-error"><div>Oops! Something went wrong while submitting the form.</div></div>    </div>
-{% endif %}    </div>
+</p></div><div li-object="form.posted_successfully?" class="form_message-success-wrapper w-form-done">{{ form.posted_successfully? }}</div><div li-object="form.errors | default_errors" class="form_message-error-wrapper w-form-fail">{{ form.errors | default_errors }}</div>    </div>
 {% endif %}</div></div></div></div><div class="header75_content-bottom"><div class="video-player-wrapper"><div id="video1" f-data-video="wrapper" data-w-id="3040fc50-320f-1659-700d-5bbd43417a03" class="html-video-wrapper"><div class="settings-schema w-embed"></div>
 <div class="html-video-player w-embed"><video width="100%" height="100%" class="video-player-style" f-data-video="video-element" playsinline="" preload="metadata"><source f-data-video-src-quality="720p" src="{{ section.settings.hero_video | video_tag }}">
 </video></div><div f-data-video="poster-button" class="video-play-overlay"><div f-data-video="poster-button" class="play-button"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 384 512" width="100%" fill="currentColor" f-data-video="play-icon" class="icon-1x1-medium"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 512" width="100%" fill="currentColor" f-data-video="pause-icon" class="icon-1x1-medium"><path d="M48 64C21.5 64 0 85.5 0 112L0 400c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L48 64zm192 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0z"></path></svg></div><img src="{{ section.settings.hero_video_poster_image | img_url: 'master' }}" loading="lazy" f-data-video="poster" li-object:src="section.settings.hero_video_poster_image | img_url: 'master'" alt="" class="video-poster-image">
