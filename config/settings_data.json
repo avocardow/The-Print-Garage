@@ -8,5 +8,34 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "headernavmain": {
+        "type": "headernavmain",
+        "settings": {
+          "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg"
+        }
+      },
+      "footermain": {
+        "type": "footermain",
+        "settings": {
+          "footer_top_tagline_text": "TAKE YOUR BRANDING TO THE NEXT LEVEL WITH THE PRINT GARAGE",
+          "footer_top_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
+          "footer_contact_details_heading_text": "Contact us",
+          "footer_location_details_heading_text": "Find us here",
+          "footer_column_1_heading_text": "Short Column Heading",
+          "footer_column_2_heading_text": "Short Column Heading",
+          "footer_newsletter_heading_text": "Stay up to date",
+          "footer_newsletter_paragraph_text": "Sign up for our newsletter and never miss the latest deals",
+          "footer_newsletter_submission_success_text": "Thank you! Your submission has been received!",
+          "footer_newsletter_submission_error_text": "Oops! Something went wrong while submitting the form.",
+          "footer_newsletter_terms_text": "You can unsubscribe at anytime",
+          "footer_logo_banner": "shopify://shop_images/16.5_-_The_Print_Garage_-_Logotype_Wide_Condensed_-_Inverted_Colour.svg",
+          "footer_copyright_text": "The Print Garage. All Rights Reserved.",
+          "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg"
+        }
+      }
+    },
+    "content_for_index": []
+  }
 }
