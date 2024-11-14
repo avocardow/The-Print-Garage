@@ -9,14 +9,14 @@
  */
 {
   "sections": {
-    "default_PwCCEQ": {
-      "type": "default",
+    "404_Kdm7xz": {
+      "type": "404",
       "settings": {}
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default_PwCCEQ"
+    "404_Kdm7xz"
   ]
 }
