@@ -9,12 +9,6 @@
  */
 {
   "sections": {
-    "headernavmain": {
-      "type": "headernavmain",
-      "settings": {
-        "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg"
-      }
-    },
     "videohero": {
       "type": "videohero",
       "settings": {
@@ -66,14 +60,11 @@
         "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
-    "productslider": {
-      "type": "productslider",
+    "productgallery_nxmn6e": {
+      "type": "productgallery",
       "settings": {
-        "products_heading_text": "Medium length section heading goes here",
-        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "hide_links": false,
-        "collection_select_a_collection": "all",
-        "collection_select_a_collection_limit": 6
+        "gallery_heading_text": "Medium length section heading goes here",
+        "gallery_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
     "calltoactionbanner": {
@@ -89,13 +80,65 @@
       "settings": {
         "blog_heading_text": "Short heading goes here",
         "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "article_select_article_1": "news/example",
+        "article_select_article_1": "the-print-garage-news/example",
         "article_select_article_2": "design-tips-tricks/tips-tricks",
-        "article_select_article_3": ""
+        "article_select_article_3": "the-print-garage-news/example"
       }
     },
     "testimonialslider": {
       "type": "testimonialslider",
+      "blocks": {
+        "testimonial_8ewAUL": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_K7PDQ9": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_znT8a6": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_emtgdR": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_jhQ3cK": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_WNV76P": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_8ewAUL",
+        "testimonial_K7PDQ9",
+        "testimonial_znT8a6",
+        "testimonial_emtgdR",
+        "testimonial_jhQ3cK",
+        "testimonial_WNV76P"
+      ],
       "settings": {
         "testimonials_heading_text": "Medium length section heading goes here",
         "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
@@ -151,41 +194,19 @@
         "contact_heading_text": "Need Assistance? Our Team is Here for You!",
         "contact_paragraph_text": "<p>Send us a message and let one of our decoration experts guide you on your branding needs. </p>"
       }
-    },
-    "footermain": {
-      "type": "footermain",
-      "settings": {
-        "footer_top_tagline_text": "TAKE YOUR BRANDING TO THE NEXT LEVEL WITH THE PRINT GARAGE",
-        "footer_top_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
-        "footer_contact_details_heading_text": "Contact us",
-        "footer_location_details_heading_text": "Find us here",
-        "footer_column_1_heading_text": "",
-        "footer_column_2_heading_text": "Short Column Heading",
-        "footer_newsletter_heading_text": "Stay up to date",
-        "footer_newsletter_paragraph_text": "Sign up for our newsletter and never miss the latest deals",
-        "footer_newsletter_submission_success_text": "Thank you! Your submission has been received!",
-        "footer_newsletter_submission_error_text": "Oops! Something went wrong while submitting the form.",
-        "footer_newsletter_terms_text": "You can unsubscribe at anytime",
-        "footer_logo_banner": "shopify://shop_images/16.5_-_The_Print_Garage_-_Logotype_Wide_Condensed_-_Inverted_Colour.svg",
-        "footer_copyright_text": "The Print Garage. All Rights Reserved.",
-        "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
-        "url_card_4_button_link": ""
-      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "headernavmain",
     "videohero",
     "scrollanimatecontent",
     "5cardbentobox",
-    "productslider",
+    "productgallery_nxmn6e",
     "calltoactionbanner",
     "featuredarticles",
     "testimonialslider",
     "faqs",
-    "contactcta",
-    "footermain"
+    "contactcta"
   ]
 }
