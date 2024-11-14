@@ -60,13 +60,11 @@
         "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
-    "productslider": {
-      "type": "productslider",
+    "productgallery_nxmn6e": {
+      "type": "productgallery",
       "settings": {
-        "products_heading_text": "Medium length section heading goes here",
-        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "collection_select_a_collection": "bamboo-coasters",
-        "collection_select_a_collection_limit": 6
+        "gallery_heading_text": "Medium length section heading goes here",
+        "gallery_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
     "calltoactionbanner": {
@@ -82,13 +80,65 @@
       "settings": {
         "blog_heading_text": "Short heading goes here",
         "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "article_select_article_1": "news/example",
+        "article_select_article_1": "the-print-garage-news/example",
         "article_select_article_2": "design-tips-tricks/tips-tricks",
-        "article_select_article_3": ""
+        "article_select_article_3": "the-print-garage-news/example"
       }
     },
     "testimonialslider": {
       "type": "testimonialslider",
+      "blocks": {
+        "testimonial_8ewAUL": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_K7PDQ9": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_znT8a6": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_emtgdR": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_jhQ3cK": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_WNV76P": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_8ewAUL",
+        "testimonial_K7PDQ9",
+        "testimonial_znT8a6",
+        "testimonial_emtgdR",
+        "testimonial_jhQ3cK",
+        "testimonial_WNV76P"
+      ],
       "settings": {
         "testimonials_heading_text": "Medium length section heading goes here",
         "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
@@ -152,7 +202,7 @@
     "videohero",
     "scrollanimatecontent",
     "5cardbentobox",
-    "productslider",
+    "productgallery_nxmn6e",
     "calltoactionbanner",
     "featuredarticles",
     "testimonialslider",
