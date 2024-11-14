@@ -1,52 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "headernavmain": {
-            "type": "headernavmain"
-        },
-        "videohero": {
-            "type": "videohero"
-        },
-        "scrollanimatecontent": {
-            "type": "scrollanimatecontent"
-        },
-        "5cardbentobox": {
-            "type": "5cardbentobox"
-        },
-        "productslider": {
-            "type": "productslider"
-        },
-        "calltoactionbanner": {
-            "type": "calltoactionbanner"
-        },
-        "featuredarticles": {
-            "type": "featuredarticles"
-        },
-        "testimonialslider": {
-            "type": "testimonialslider"
-        },
-        "faqs": {
-            "type": "faqs"
-        },
-        "contactcta": {
-            "type": "contactcta"
-        },
-        "footermain": {
-            "type": "footermain"
-        }
+  "sections": {
+    "headernavmain": {
+      "type": "headernavmain",
+      "settings": {}
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "headernavmain",
-        "videohero",
-        "scrollanimatecontent",
-        "5cardbentobox",
-        "productslider",
-        "calltoactionbanner",
-        "featuredarticles",
-        "testimonialslider",
-        "faqs",
-        "contactcta",
-        "footermain"
-    ]
+    "videohero": {
+      "type": "videohero",
+      "settings": {
+        "hero_heading_text": "Medium length hero heading goes here",
+        "hero_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+        "hero_cta": "hero_form_cta",
+        "newsletter_input_placeholder": "",
+        "newsletter_btn_text": "",
+        "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>"
+      }
+    },
+    "scrollanimatecontent": {
+      "type": "scrollanimatecontent",
+      "settings": {
+        "scroll_animate_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat troy."
+      }
+    },
+    "5cardbentobox": {
+      "type": "5cardbentobox",
+      "settings": {
+        "bento_heading_text": "Medium length hero heading goes here",
+        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "productgallery_9w9Uix": {
+      "type": "productgallery",
+      "blocks": {
+        "gallery_image_QtmdkE": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_JdzYeY": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_MrfaH9": {
+          "type": "gallery-image",
+          "settings": {}
+        },
+        "gallery_image_eC8LfT": {
+          "type": "gallery-image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "gallery_image_QtmdkE",
+        "gallery_image_JdzYeY",
+        "gallery_image_MrfaH9",
+        "gallery_image_eC8LfT"
+      ],
+      "settings": {
+        "gallery_heading_text": "Medium length section heading goes here",
+        "gallery_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "calltoactionbanner": {
+      "type": "calltoactionbanner",
+      "settings": {
+        "cta_heading_text": "Medium or long length heading goes here",
+        "cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+      }
+    },
+    "featuredarticles": {
+      "type": "featuredarticles",
+      "settings": {
+        "blog_heading_text": "Short heading goes here",
+        "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "article_select_article_1": "",
+        "article_select_article_2": "",
+        "article_select_article_3": ""
+      }
+    },
+    "testimonialslider": {
+      "type": "testimonialslider",
+      "settings": {
+        "testimonials_heading_text": "Medium length section heading goes here",
+        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "faqs": {
+      "type": "faqs",
+      "settings": {
+        "faq_heading_text": "Medium length heading goes here",
+        "faq_cta_heading_text": "Short heading goes here",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "contactcta": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "footermain": {
+      "type": "footermain",
+      "settings": {
+        "footer_top_tagline_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "footer_contact_details_heading_text": "Short Heading",
+        "footer_location_details_heading_text": "Short Heading",
+        "footer_column_1_heading_text": "Short Column Heading",
+        "footer_column_2_heading_text": "Short Column Heading",
+        "footer_newsletter_heading_text": "Short Column Heading",
+        "footer_newsletter_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "footer_newsletter_submission_success_text": "Thank you! Your submission has been received!",
+        "footer_newsletter_submission_error_text": "Oops! Something went wrong while submitting the form.",
+        "footer_newsletter_terms_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "footer_copyright_text": "Company Name. All Rights Reserved",
+        "url_card_4_button_link": ""
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "headernavmain",
+    "videohero",
+    "scrollanimatecontent",
+    "5cardbentobox",
+    "productgallery_9w9Uix",
+    "calltoactionbanner",
+    "featuredarticles",
+    "testimonialslider",
+    "faqs",
+    "contactcta",
+    "footermain"
+  ]
 }
