@@ -1,8 +1,3 @@
-{% if section.settings.hide_link != false %}    <div li-if="section.settings.hide_link != false" li-object:href="product.url" href="product.url">
-    <div class="margin-bottom margin-xsmall"><div class="product12_image-wrapper"><img li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" class="product12_image">
-</div></div>{% if section.settings.hide_link != true %}    <div li-if="section.settings.hide_link != true" class="margin-bottom margin-xsmall">
-    <div class="product12_title-wrapper"><div class="product12_left"><div li-object="product-title" class="text-size-medium text-weight-semibold">{{ product-title }}</div><div li-element="product-options-name" class="text-size-small" x-text="option">Variant</div></div><div li-object="product.price | money" class="text-size-large text-weight-semibold">{{ product.price | money }}</div></div><a li-object:href="product.url" href="{{ product.url }}" class="product12_item-link w-inline-block"></a>    </div>
-{% endif %}{% if section.settings.hide_link != true %}    <div li-if="section.settings.hide_link != true" li-element="add-to-cart" class="button is-tertiary is-small">
-    <div>Add to cart</div>    </div>
-{% endif %}    </div>
-{% endif %}
+<div class="product12_image-wrapper"><img li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" class="product12_image">
+</div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
+<div li-element="direct-add-to-cart" class="button is-tertiary is-small" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart(true)"><div>Add to cart</div></div>
