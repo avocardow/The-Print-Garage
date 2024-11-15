@@ -78,17 +78,6 @@
             "icon_path": ""
           }
         },
-        "bento_card_3_M46PdJ": {
-          "type": "bento-card-3",
-          "settings": {
-            "card_heading_text": "m length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": true,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
         "bento_card_4_CRX6Fc": {
           "type": "bento-card-4",
           "settings": {
@@ -114,7 +103,6 @@
       "block_order": [
         "bento_card_1_LBTCVd",
         "bento_card_2_gkTyK4",
-        "bento_card_3_M46PdJ",
         "bento_card_4_CRX6Fc",
         "bento_card_5_bjJabz"
       ],
