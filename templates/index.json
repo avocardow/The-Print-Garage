@@ -125,7 +125,9 @@
       "blocks": {
         "gallery_image_8aqcnA": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/Ratbag_test_502ed04c-51b4-4f36-a616-139e37cf1026.jpg"
+          }
         },
         "gallery_image_6hRFaG": {
           "type": "gallery-image",
