@@ -137,7 +137,9 @@
         },
         "gallery_image_UKeBgy": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/Hard_Hats.jpg"
+          }
         },
         "gallery_image_AjLWcd": {
           "type": "gallery-image",
