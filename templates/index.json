@@ -61,7 +61,7 @@
           "settings": {
             "card_heading_text": "",
             "card_paragraph_text": "",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "card_background_image": "shopify://shop_images/AS_Shirts.jpg"
           }
