@@ -91,7 +91,7 @@
         "bento_card_4_CRX6Fc": {
           "type": "bento-card-4",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
+            "card_heading_text": "We have a huge range of high quality blanks.",
             "card_paragraph_text": "<p>We source only the highest quality blanks from trusted brands like AS Colour, known for their durability and premium feel. With a wide range of garment styles and color options, we ensure there’s something to perfectly match every brand's unique look and feel</p>",
             "hide_link": true,
             "card_link": "",
@@ -102,8 +102,8 @@
         "bento_card_5_bjJabz": {
           "type": "bento-card-5",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "",
+            "card_paragraph_text": "",
             "hide_link": true,
             "card_link": "",
             "card_background_image": "shopify://shop_images/AS_Shirts.jpg"
