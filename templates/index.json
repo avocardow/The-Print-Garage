@@ -59,10 +59,11 @@
         "bento_card_1_LBTCVd": {
           "type": "bento-card-1",
           "settings": {
-            "card_heading_text": "Custom Printing, Tailored to You",
-            "card_paragraph_text": "<p>Whether for your business, team, or personal brand, our custom printing solutions turn everyday products into powerful brand assets. Let’s create something exceptional together.</p>",
+            "card_heading_text": "",
+            "card_paragraph_text": "",
             "hide_link": false,
-            "card_link": ""
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/AS_Shirts.jpg"
           }
         },
         "bento_card_2_gkTyK4": {
