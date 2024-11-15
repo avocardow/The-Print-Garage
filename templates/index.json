@@ -59,13 +59,13 @@
         "bento_card_1_LBTCVd": {
           "type": "bento-card-1",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Custom Printing, Tailored to You",
+            "card_paragraph_text": "<p>Whether for your business, team, or personal brand, our custom printing solutions turn everyday products into powerful brand assets. Let’s create something exceptional together.</p>",
             "hide_link": false,
             "card_link": ""
           }
         },
-        "bento_card_2_fGVgih": {
+        "bento_card_2_gkTyK4": {
           "type": "bento-card-2",
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
@@ -76,7 +76,7 @@
             "icon_path": ""
           }
         },
-        "bento_card_3_gqnkxk": {
+        "bento_card_3_M46PdJ": {
           "type": "bento-card-3",
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
@@ -87,7 +87,7 @@
             "icon_path": ""
           }
         },
-        "bento_card_4_PFphid": {
+        "bento_card_4_CRX6Fc": {
           "type": "bento-card-4",
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
@@ -98,7 +98,7 @@
             "icon_path": ""
           }
         },
-        "bento_card_5_c3PLCY": {
+        "bento_card_5_bjJabz": {
           "type": "bento-card-5",
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
@@ -110,10 +110,10 @@
       },
       "block_order": [
         "bento_card_1_LBTCVd",
-        "bento_card_2_fGVgih",
-        "bento_card_3_gqnkxk",
-        "bento_card_4_PFphid",
-        "bento_card_5_c3PLCY"
+        "bento_card_2_gkTyK4",
+        "bento_card_3_M46PdJ",
+        "bento_card_4_CRX6Fc",
+        "bento_card_5_bjJabz"
       ],
       "settings": {
         "bento_heading_text": "Medium length hero heading goes here",
@@ -126,13 +126,13 @@
         "gallery_image_8aqcnA": {
           "type": "gallery-image",
           "settings": {
-            "gallery_image": "shopify://shop_images/Ratbag_test_502ed04c-51b4-4f36-a616-139e37cf1026.jpg"
+            "gallery_image": "shopify://shop_images/Monster_Truck_Tee.jpg"
           }
         },
         "gallery_image_6hRFaG": {
           "type": "gallery-image",
           "settings": {
-            "gallery_image": "shopify://shop_images/Monster_Truck_Tee.jpg"
+            "gallery_image": "shopify://shop_images/Ratbag_test_502ed04c-51b4-4f36-a616-139e37cf1026.jpg"
           }
         },
         "gallery_image_UKeBgy": {
@@ -140,6 +140,10 @@
           "settings": {
             "gallery_image": "shopify://shop_images/Hard_Hats.jpg"
           }
+        },
+        "gallery_image_Wmc4Ey": {
+          "type": "gallery-image",
+          "settings": {}
         },
         "gallery_image_AjLWcd": {
           "type": "gallery-image",
@@ -158,6 +162,7 @@
         "gallery_image_8aqcnA",
         "gallery_image_6hRFaG",
         "gallery_image_UKeBgy",
+        "gallery_image_Wmc4Ey",
         "gallery_image_AjLWcd",
         "gallery_image_7kfzct",
         "gallery_image_KMCQLh"
