@@ -150,15 +150,15 @@
             "gallery_image": "shopify://shop_images/Hard_Hats.jpg"
           }
         },
+        "gallery_image_AjLWcd": {
+          "type": "gallery-image",
+          "settings": {}
+        },
         "gallery_image_3M3X6a": {
           "type": "gallery-image",
           "settings": {
             "gallery_image": "shopify://shop_images/Hells_Gate_Tee_V2.jpg"
           }
-        },
-        "gallery_image_AjLWcd": {
-          "type": "gallery-image",
-          "settings": {}
         }
       },
       "block_order": [
@@ -166,8 +166,8 @@
         "gallery_image_6hRFaG",
         "gallery_image_8aqcnA",
         "gallery_image_UKeBgy",
-        "gallery_image_3M3X6a",
-        "gallery_image_AjLWcd"
+        "gallery_image_AjLWcd",
+        "gallery_image_3M3X6a"
       ],
       "settings": {
         "gallery_heading_text": "check out some of our latest work",
