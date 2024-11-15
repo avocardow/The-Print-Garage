@@ -152,7 +152,9 @@
         },
         "gallery_image_AjLWcd": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
+          }
         },
         "gallery_image_3M3X6a": {
           "type": "gallery-image",
