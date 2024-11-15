@@ -159,14 +159,6 @@
         "gallery_image_AjLWcd": {
           "type": "gallery-image",
           "settings": {}
-        },
-        "gallery_image_7kfzct": {
-          "type": "gallery-image",
-          "settings": {}
-        },
-        "gallery_image_KMCQLh": {
-          "type": "gallery-image",
-          "settings": {}
         }
       },
       "block_order": [
@@ -175,9 +167,7 @@
         "gallery_image_8aqcnA",
         "gallery_image_UKeBgy",
         "gallery_image_3M3X6a",
-        "gallery_image_AjLWcd",
-        "gallery_image_7kfzct",
-        "gallery_image_KMCQLh"
+        "gallery_image_AjLWcd"
       ],
       "settings": {
         "gallery_heading_text": "check out some of our latest work",
