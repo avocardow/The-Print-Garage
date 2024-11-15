@@ -71,7 +71,7 @@
           "type": "bento-card-2",
           "settings": {
             "card_heading_text": "Brands you know and trust!",
-            "card_paragraph_text": "<p>We’re proud to partner with top brands like AS Colour, Gildan, JB's Wear, RAMO, Urban Collab, and CB Clothing to offer durable, stylish apparel. Beyond quality clothing, we also decorate promotional products—from branded merchandise to corporate gifts—helping your brand leave a lasting impression.</p>",
+            "card_paragraph_text": "<p>We’re proud to partner with top brands like AS Colour, Gildan, JB's Wear, RAMO, Urban Collab, and CB Clothing to offer durable, stylish apparel. </p><p>Beyond quality clothing, we also decorate promotional products—from branded merchandise to corporate gifts—helping your brand leave a lasting impression.</p>",
             "hide_link": true,
             "card_link": "",
             "icon_viewbox": "",
