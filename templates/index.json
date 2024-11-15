@@ -49,6 +49,7 @@
         "scroll_animate_image_2_YW99rM",
         "scroll_animate_image_3_dzGhCH"
       ],
+      "custom_css": [],
       "settings": {
         "scroll_animate_text": "\"At The Print Garage, we're fuelled by a passion for creativity and an obsession for everything vintage. Our story began with a vision to transform the world of custom printing by combining cutting-edge technology with a hip, nostalgic aesthetic. Think of us as the retro-styled print shop where your creative visions come to life.\n\""
       }
@@ -302,8 +303,8 @@
       ],
       "settings": {
         "faq_heading_text": "FAQs",
-        "faq_cta_heading_text": "Short heading goes here",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "faq_cta_heading_text": "",
+        "faq_cta_paragraph_text": ""
       }
     },
     "contactcta": {
