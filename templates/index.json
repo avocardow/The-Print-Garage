@@ -63,15 +63,15 @@
             "card_paragraph_text": "",
             "hide_link": true,
             "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Shirts.jpg"
+            "card_background_image": "shopify://shop_images/AS_Label.jpg"
           }
         },
         "bento_card_2_gkTyK4": {
           "type": "bento-card-2",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
+            "card_heading_text": "High quality blanks!",
+            "card_paragraph_text": "<p>We source only the highest quality blanks from trusted brands like AS Colour, known for their durability and premium feel. With a wide range of garment styles and color options, we ensure there’s something to perfectly match every brand's unique look and feel</p>",
+            "hide_link": true,
             "card_link": "",
             "icon_viewbox": "",
             "icon_path": ""
@@ -82,7 +82,7 @@
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "icon_viewbox": "",
             "icon_path": ""
@@ -93,7 +93,7 @@
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "icon_viewbox": "",
             "icon_path": ""
@@ -104,8 +104,9 @@
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
-            "card_link": ""
+            "hide_link": true,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/AS_Shirts.jpg"
           }
         }
       },
