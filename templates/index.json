@@ -197,8 +197,9 @@
         "testimonial_znT8a6": {
           "type": "testimonial",
           "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+            "testimonial_name": "Bremer State High School",
+            "testimonial_image": "shopify://shop_images/288923206_5269129073170580_5122789883451384551_n.jpg",
+            "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
           }
         },
         "testimonial_emtgdR": {
