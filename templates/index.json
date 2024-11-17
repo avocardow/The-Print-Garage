@@ -42,23 +42,44 @@
           "settings": {
             "scroll_animate_image": "shopify://shop_images/becket_tets_2.png"
           }
+        },
+        "scroll_animate_image_4_xAzkJg": {
+          "type": "scroll-animate-image-4",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/becket_tets_2.png"
+          }
+        },
+        "scroll_animate_image_5_DddgqP": {
+          "type": "scroll-animate-image-5",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
+          }
+        },
+        "scroll_animate_image_6_NfHcxz": {
+          "type": "scroll-animate-image-6",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
+          }
         }
       },
       "block_order": [
         "scroll_animate_image_1_zgbkq4",
         "scroll_animate_image_2_YW99rM",
-        "scroll_animate_image_3_dzGhCH"
+        "scroll_animate_image_3_dzGhCH",
+        "scroll_animate_image_4_xAzkJg",
+        "scroll_animate_image_5_DddgqP",
+        "scroll_animate_image_6_NfHcxz"
       ],
       "custom_css": [],
       "settings": {
-        "scroll_animate_text": "\"At The Print Garage, we're fuelled by a passion for creativity and an obsession for everything vintage. Our story began with a vision to transform the world of custom printing by combining cutting-edge technology with a hip, nostalgic aesthetic. Think of us as the retro-styled print shop where your creative visions come to life.\n\""
+        "scroll_animate_text": "At The Print Garage, we're fuelled by a passion for creativity and an obsession for everything vintage. Our story began with a vision to transform the world of custom printing by combining cutting-edge technology with a hip, nostalgic aesthetic. Think of us as the retro-styled print shop where your creative visions come to life."
       }
     },
-    "5cardbentobox": {
-      "type": "5cardbentobox",
+    "bentobox_JQECti": {
+      "type": "bentobox",
       "blocks": {
-        "bento_card_1_LBTCVd": {
-          "type": "bento-card-1",
+        "large_bento_card_1_36YbfM": {
+          "type": "large-bento-card-1",
           "settings": {
             "card_heading_text": "",
             "card_paragraph_text": "",
@@ -67,20 +88,48 @@
             "card_background_image": "shopify://shop_images/AS_Label.jpg"
           }
         },
-        "bento_card_2_gkTyK4": {
-          "type": "bento-card-2",
+        "medium_bento_card_1_LqqfVz": {
+          "type": "medium-bento-card-1",
           "settings": {
+            "card_bg": "background-color-secondary",
             "card_heading_text": "Brands you know and trust!",
-            "card_paragraph_text": "<p>We’re proud to partner with top brands like AS Colour, Gildan, JB's Wear, RAMO, Urban Collab, and CB Clothing to offer durable, stylish apparel. </p><p>Beyond quality clothing, we also decorate promotional products—from branded merchandise to corporate gifts—helping your brand leave a lasting impression.</p>",
+            "card_paragraph_text": "<p>We’re proud to partner with top brands like AS Colour, Gildan, JB's Wear, RAMO, Urban Collab, and CB Clothing to offer durable, stylish apparel.<br/><br/>Beyond quality clothing, we also decorate promotional products—from branded merchandise to corporate gifts—helping your brand leave a lasting impression.</p>",
             "hide_link": true,
             "card_link": "",
             "icon_viewbox": "",
             "icon_path": ""
           }
         },
-        "bento_card_4_CRX6Fc": {
-          "type": "bento-card-4",
+        "small_bento_card_1_PymNnW": {
+          "type": "small-bento-card-1",
+          "disabled": true,
           "settings": {
+            "card_bg": "background-color-secondary",
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "small_bento_card_2_tiq98R": {
+          "type": "small-bento-card-2",
+          "disabled": true,
+          "settings": {
+            "card_bg": "background-color-tertiary",
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "medium_bento_card_2_UrbANk": {
+          "type": "medium-bento-card-2",
+          "settings": {
+            "card_bg": "background-color-quaternary",
             "card_heading_text": "We have a huge range of high quality blanks.",
             "card_paragraph_text": "<p>We source only the highest quality blanks from trusted brands like AS Colour, known for their durability and premium feel. With a wide range of garment styles and color options, we ensure there’s something to perfectly match your unique look and feel.</p>",
             "hide_link": true,
@@ -89,8 +138,8 @@
             "icon_path": ""
           }
         },
-        "bento_card_5_bjJabz": {
-          "type": "bento-card-5",
+        "large_bento_card_2_g4fXbX": {
+          "type": "large-bento-card-2",
           "settings": {
             "card_heading_text": "",
             "card_paragraph_text": "",
@@ -101,14 +150,16 @@
         }
       },
       "block_order": [
-        "bento_card_1_LBTCVd",
-        "bento_card_2_gkTyK4",
-        "bento_card_4_CRX6Fc",
-        "bento_card_5_bjJabz"
+        "large_bento_card_1_36YbfM",
+        "medium_bento_card_1_LqqfVz",
+        "small_bento_card_1_PymNnW",
+        "small_bento_card_2_tiq98R",
+        "medium_bento_card_2_UrbANk",
+        "large_bento_card_2_g4fXbX"
       ],
       "settings": {
-        "bento_heading_text": "",
-        "bento_paragraph_text": ""
+        "bento_heading_text": "Medium length hero heading goes here",
+        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
     "productgallery_nxmn6e": {
@@ -300,7 +351,7 @@
   "order": [
     "videohero",
     "scrollanimatecontent",
-    "5cardbentobox",
+    "bentobox_JQECti",
     "productgallery_nxmn6e",
     "calltoactionbanner",
     "featuredarticles",
