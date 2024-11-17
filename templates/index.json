@@ -55,6 +55,66 @@
     },
     "5cardbentobox": {
       "type": "5cardbentobox",
+      "blocks": {
+        "bento_card_1_He64ML": {
+          "type": "bento-card-1",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": ""
+          }
+        },
+        "bento_card_2_JX6np6": {
+          "type": "bento-card-2",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_3_FPQy6z": {
+          "type": "bento-card-3",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_4_tB98Xg": {
+          "type": "bento-card-4",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_5_jNhQAB": {
+          "type": "bento-card-5",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_1_He64ML",
+        "bento_card_2_JX6np6",
+        "bento_card_3_FPQy6z",
+        "bento_card_4_tB98Xg",
+        "bento_card_5_jNhQAB"
+      ],
       "settings": {
         "bento_heading_text": "Medium length hero heading goes here",
         "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
@@ -92,6 +152,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Name Surname",
+            "testimonial_img_bg": "var(--base-color-neutral--neutral-lightest)",
             "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
           }
         },
@@ -99,6 +160,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Name Surname",
+            "testimonial_img_bg": "var(--base-color-neutral--neutral-lightest)",
             "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
           }
         },
@@ -106,6 +168,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Name Surname",
+            "testimonial_img_bg": "var(--base-color-neutral--neutral-lightest)",
             "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
           }
         },
@@ -113,6 +176,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Name Surname",
+            "testimonial_img_bg": "var(--base-color-neutral--neutral-lightest)",
             "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
           }
         },
@@ -120,6 +184,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Name Surname",
+            "testimonial_img_bg": "var(--base-color-neutral--neutral-lightest)",
             "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
           }
         },
@@ -127,6 +192,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Name Surname",
+            "testimonial_img_bg": "var(--base-color-neutral--neutral-lightest)",
             "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
           }
         }
