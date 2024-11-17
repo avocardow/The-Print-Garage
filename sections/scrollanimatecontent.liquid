@@ -81,7 +81,7 @@ const layoutText = new SplitType(".layout484_text", { types: "words" });
 const layoutTL = gsap.timeline();
 // Define different start and end values for mobile devices
 let startValue = isMobile() ? "top 35%" : "top center";
-let endValue = isMobile() ? "bottom 90%" : "bottom center";
+let endValue = isMobile() ? "bottom 90%" : "50% center";
 layoutTL.from(layoutText.words,{
   // Initial opacity for each word
   opacity: 0.25,
