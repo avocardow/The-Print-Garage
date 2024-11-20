@@ -12,10 +12,10 @@
     "404content_V7WtdP": {
       "type": "404content",
       "settings": {
-        "heading_text": "Short heading goes here",
-        "subheading_text": "Medium length heading goes here",
+        "heading_text": "404",
+        "subheading_text": "Looks like we hit a dead end.",
         "image": "shopify://shop_images/becket_tets_2.png",
-        "btn_layout": "btn_layout_both",
+        "btn_layout": "btn_layout_text",
         "btn_style": "is-primary",
         "btn_size": "is-small",
         "btn_icon_size": "icon-1x1-small",
