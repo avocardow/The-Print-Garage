@@ -9,14 +9,19 @@
  */
 {
   "sections": {
-    "default_x9gniC": {
-      "type": "default",
+    "defaulthero_hHAnmb": {
+      "type": "defaulthero",
+      "settings": {}
+    },
+    "defaultcontent_F4UxMW": {
+      "type": "defaultcontent",
       "settings": {}
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default_x9gniC"
+    "defaulthero_hHAnmb",
+    "defaultcontent_F4UxMW"
   ]
 }
