@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "videohero": {
+      "type": "videohero",
+      "settings": {
+        "hero_heading_text": "BRING YOUR BRAND TO LIFE",
+        "hero_paragraph_text": "<p>Make your mark with custom apparel and products designed to elevate your brand. From bold prints to high-quality finishes, we’re here to turn your vision into reality. Join our mailing list below to stay up to date and get the latest deals!</p>",
+        "hero_cta": "hero_form_cta",
+        "newsletter_input_placeholder": "",
+        "newsletter_btn_text": "",
+        "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
+        "hero_video_poster_image": "shopify://shop_images/Video_thumb_nail.jpg",
+        "hero_video": "shopify://files/videos/Print Garage Video.mp4"
+      }
+    },
+    "scrollanimatecontent": {
+      "type": "scrollanimatecontent",
+      "blocks": {
+        "scroll_animate_image_1_zgbkq4": {
+          "type": "scroll-animate-image-1",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
+          }
+        },
+        "scroll_animate_image_2_YW99rM": {
+          "type": "scroll-animate-image-2",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
+          }
+        },
+        "scroll_animate_image_3_dzGhCH": {
+          "type": "scroll-animate-image-3",
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/becket_tets_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "scroll_animate_image_1_zgbkq4",
+        "scroll_animate_image_2_YW99rM",
+        "scroll_animate_image_3_dzGhCH"
+      ],
+      "settings": {
+        "scroll_animate_text": "\"At The Print Garage, we're fuelled by a passion for creativity and an obsession for everything vintage. Our story began with a vision to transform the world of custom printing by combining cutting-edge technology with a hip, nostalgic aesthetic. Think of us as the retro-styled print shop where your creative visions come to life.\n\""
+      }
+    },
+    "bentobox_abjxfH": {
+      "type": "bentobox",
+      "blocks": {
+        "large_bento_card_1_4rqfcG": {
+          "type": "large-bento-card-1",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": ""
+          }
+        },
+        "medium_bento_card_1_Td4Ngd": {
+          "type": "medium-bento-card-1",
+          "settings": {
+            "card_bg": "background-color-quaternary",
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "small_bento_card_1_C8MnPf": {
+          "type": "small-bento-card-1",
+          "disabled": true,
+          "settings": {
+            "card_bg": "background-color-secondary",
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "small_bento_card_2_HizjzV": {
+          "type": "small-bento-card-2",
+          "disabled": true,
+          "settings": {
+            "card_bg": "background-color-tertiary",
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "medium_bento_card_2_mcLQhm": {
+          "type": "medium-bento-card-2",
+          "settings": {
+            "card_bg": "background-color-quaternary",
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": "",
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "large_bento_card_2_jRChgk": {
+          "type": "large-bento-card-2",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "hide_link": false,
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "large_bento_card_1_4rqfcG",
+        "medium_bento_card_1_Td4Ngd",
+        "small_bento_card_1_C8MnPf",
+        "small_bento_card_2_HizjzV",
+        "medium_bento_card_2_mcLQhm",
+        "large_bento_card_2_jRChgk"
+      ],
+      "settings": {
+        "bento_heading_text": "Medium length hero heading goes here",
+        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "productgallery_nxmn6e": {
+      "type": "productgallery",
+      "settings": {
+        "gallery_heading_text": "Medium length section heading goes here",
+        "gallery_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "calltoactionbanner": {
+      "type": "calltoactionbanner",
+      "settings": {
+        "cta_heading_text": "Boost Your Brand with Custom Products",
+        "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>",
+        "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png"
+      }
+    },
+    "featuredarticles": {
+      "type": "featuredarticles",
+      "blocks": {
+        "button_U6miyV": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_U6miyV"
+      ],
+      "settings": {
+        "blog_heading_text": "Short heading goes here",
+        "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "article_select_article_1": "the-print-garage-news/example",
+        "article_select_article_2": "design-tips-tricks/tips-tricks",
+        "article_select_article_3": "the-print-garage-news/example"
+      }
+    },
+    "testimonialslider": {
+      "type": "testimonialslider",
+      "blocks": {
+        "testimonial_znT8a6": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_emtgdR": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_jhQ3cK": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_WNV76P": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_znT8a6",
+        "testimonial_emtgdR",
+        "testimonial_jhQ3cK",
+        "testimonial_WNV76P"
+      ],
+      "settings": {
+        "testimonials_heading_text": "Medium length section heading goes here",
+        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "faqs": {
+      "type": "faqs",
+      "blocks": {
+        "faq_wjgNHW": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "What printing methods do you offer at The Print Garage?",
+            "faq_answer": "<p>We specialize in Direct to Film (DTF), Direct to Garment (DTG), and screen printing, as well as embroidery services. Each method has its own unique advantages, and we can help you choose the best one for your project.</p>"
+          }
+        },
+        "faq_3FRt8L": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "What is the minimum order quantity?",
+            "faq_answer": "<p>For DTF and DTG printing methods the minimum order is 10pcs.<br/>Due to the more complicated setup process, for screen printing the minimum order is 25pcs. </p>"
+          }
+        },
+        "faq_QdtxVj": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "How long does it take to complete an order?",
+            "faq_answer": "<p>Turnaround times vary depending on the order size and printing method. Standard orders are typically ready in 7-10 business days after payment, but we offer rush services for quicker delivery when needed.</p>"
+          }
+        },
+        "faq_yyXheT": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "Can I see a mock-up of my design before you print?",
+            "faq_answer": "<p>Absolutely! We provide digital mock-ups to ensure you’re happy with the design, placement, and colors before moving forward with production.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_wjgNHW",
+        "faq_3FRt8L",
+        "faq_QdtxVj",
+        "faq_yyXheT"
+      ],
+      "settings": {
+        "faq_heading_text": "FAQs",
+        "faq_cta_heading_text": "Short heading goes here",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "contactcta": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Need Assistance? Our Team is Here for You!",
+        "contact_paragraph_text": "<p>Send us a message and let one of our decoration experts guide you on your branding needs. </p>"
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "videohero",
+    "scrollanimatecontent",
+    "bentobox_abjxfH",
+    "productgallery_nxmn6e",
+    "calltoactionbanner",
+    "featuredarticles",
+    "testimonialslider",
+    "faqs",
+    "contactcta"
+  ]
+}
