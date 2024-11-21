@@ -36,39 +36,11 @@
           "settings": {
             "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
           }
-        },
-        "scroll_animate_image_3_dzGhCH": {
-          "type": "scroll-animate-image-3",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/becket_tets_2.png"
-          }
-        },
-        "scroll_animate_image_4_xAzkJg": {
-          "type": "scroll-animate-image-4",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/becket_tets_2.png"
-          }
-        },
-        "scroll_animate_image_5_DddgqP": {
-          "type": "scroll-animate-image-5",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
-          }
-        },
-        "scroll_animate_image_6_NfHcxz": {
-          "type": "scroll-animate-image-6",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
-          }
         }
       },
       "block_order": [
         "scroll_animate_image_1_zgbkq4",
-        "scroll_animate_image_2_YW99rM",
-        "scroll_animate_image_3_dzGhCH",
-        "scroll_animate_image_4_xAzkJg",
-        "scroll_animate_image_5_DddgqP",
-        "scroll_animate_image_6_NfHcxz"
+        "scroll_animate_image_2_YW99rM"
       ],
       "custom_css": [],
       "settings": {
@@ -247,7 +219,7 @@
         "blog_heading_text": "Short heading goes here",
         "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
         "article_select_article_1": "is-dtf-printing-taking-over/is-dtf-printing-taking-over",
-        "article_select_article_2": "is-dtf-printing-taking-over/is-dtf-printing-taking-over",
+        "article_select_article_2": "printing-methods-explained/example",
         "article_select_article_3": "is-dtf-printing-taking-over/is-dtf-printing-taking-over"
       }
     },
