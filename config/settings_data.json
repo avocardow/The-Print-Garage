@@ -18,7 +18,7 @@
             "settings": {
               "btn_style": "is-primary",
               "btn_size": "is-default",
-              "btn_url": "#shopify-section-template--23543634624785__contactcta",
+              "btn_url": "#section_contact5",
               "btn_text": "Contact Us"
             }
           }
@@ -48,6 +48,14 @@
           "footer_copyright_text": "The Print Garage. All Rights Reserved.",
           "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg"
         }
+      },
+      "policyhero": {
+        "type": "policyhero",
+        "settings": {}
+      },
+      "policycontent": {
+        "type": "policycontent",
+        "settings": {}
       }
     },
     "content_for_index": []
