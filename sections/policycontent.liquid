@@ -4,22 +4,7 @@
   <div class="container-large">
     <div class="default_wrapper">
       <div class="text-rich-text w-richtext">
-        {% if request.page_type == 'policy_page' %}
-          {% case request.page_handle %}
-            {% when 'privacy-policy' %}
-              {{ shop.privacy_policy }}
-            {% when 'terms-of-service' %}
-              {{ shop.terms_of_service }}
-            {% when 'refund-policy' %}
-              {{ shop.refund_policy }}
-            {% when 'shipping-policy' %}
-              {{ shop.shipping_policy }}
-            {% else %}
-              <p>Policy content not found.</p>
-          {% endcase %}
-        {% else %}
-          {{ page.content }}
-        {% endif %}
+        {{ page.content }}
       </div>
     </div>
   </div>
