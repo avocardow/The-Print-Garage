@@ -92,7 +92,7 @@
       {% render 'global_styles' %}
       {% section 'headernavmain' %}
       {% if request.path contains '/policies/' %}
-        {% section 'defaulthero' %}
+        {% section 'policyhero' %}
         {% section 'policycontent' %}
       {% else %}
         {{ content_for_layout }}
