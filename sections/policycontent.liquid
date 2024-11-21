@@ -1,8 +1,40 @@
+<!-- sections/PolicyContent.liquid -->
+
 <div class="padding-global padding-section-medium">
   <div class="container-large">
     <div class="default_wrapper">
-      <div li-object="policy.body" class="text-rich-text w-richtext">{{ policy.body }}</div>
+      <div class="text-rich-text w-richtext">
+        {% if request.page_type == 'policy_page' %}
+          {% case request.page_handle %}
+            {% when 'privacy-policy' %}
+              {{ shop.privacy_policy }}
+            {% when 'terms-of-service' %}
+              {{ shop.terms_of_service }}
+            {% when 'refund-policy' %}
+              {{ shop.refund_policy }}
+            {% when 'shipping-policy' %}
+              {{ shop.shipping_policy }}
+            {% else %}
+              <p>Policy content not found.</p>
+          {% endcase %}
+        {% else %}
+          {{ page.content }}
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
-{% schema %} {"tag":"section","name":"PolicyContent","class":"section_policy","presets":[{"name":"PolicyContent","category":"Liquify"}]} {% endschema %}
+
+{% schema %}
+{
+  "tag": "section",
+  "name": "PolicyContent",
+  "class": "section_policy",
+  "presets": [
+    {
+      "name": "PolicyContent",
+      "category": "Liquify"
+    }
+  ]
+}
+{% endschema %}
