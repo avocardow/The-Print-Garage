@@ -1,10 +1,22 @@
 <!-- sections/PolicyContent.liquid -->
 
+{% assign current_policy = '' %}
+{% for policy in shop.policies %}
+  {% if policy.handle == request.page_handle %}
+    {% assign current_policy = policy %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 <div class="padding-global padding-section-medium">
   <div class="container-large">
     <div class="default_wrapper">
       <div class="text-rich-text w-richtext">
-        {{ shop.privacy_policy.body }}
+        {% if current_policy != '' %}
+          {{ current_policy.body }}
+        {% else %}
+          {{ page.content }}
+        {% endif %}
       </div>
     </div>
   </div>
