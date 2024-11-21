@@ -18,7 +18,7 @@
             "settings": {
               "btn_style": "is-primary",
               "btn_size": "is-default",
-              "btn_url": "#section_contact5",
+              "btn_url": "#contact",
               "btn_text": "Contact Us"
             }
           }
