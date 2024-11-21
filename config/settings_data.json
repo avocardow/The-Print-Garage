@@ -12,6 +12,20 @@
     "sections": {
       "headernavmain": {
         "type": "headernavmain",
+        "blocks": {
+          "button_RnChqb": {
+            "type": "button",
+            "settings": {
+              "btn_style": "is-primary",
+              "btn_size": "is-default",
+              "btn_url": "",
+              "btn_text": "Contact Us"
+            }
+          }
+        },
+        "block_order": [
+          "button_RnChqb"
+        ],
         "settings": {
           "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg"
         }
@@ -32,8 +46,7 @@
           "footer_newsletter_terms_text": "You can unsubscribe at anytime",
           "footer_logo_banner": "shopify://shop_images/16.5_-_The_Print_Garage_-_Logotype_Wide_Condensed_-_Inverted_Colour.svg",
           "footer_copyright_text": "The Print Garage. All Rights Reserved.",
-          "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg",
-          "url_card_4_button_link": ""
+          "footer_bottom_logo_icon": "shopify://shop_images/03.5_-_The_Print_Garage_-_Logo_Mark_-_Boundless_Inverted.svg"
         }
       }
     },
