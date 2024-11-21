@@ -1,29 +1,16 @@
+<!-- sections/PolicyHero.liquid -->
+
 <div class="header_background-image-wrapper">
   <div class="header_overlay-layer"></div>
 </div>
 <div class="padding-global padding-section-medium">
   <div class="margin-top margin-xhuge">
     <div class="container-medium">
-      {% if request.page_type == 'policy_page' %}
-        {% case request.page_handle %}
-          {% when 'privacy-policy' %}
-            {% assign policy_title = 'Privacy Policy' %}
-          {% when 'terms-of-service' %}
-            {% assign policy_title = 'Terms of Service' %}
-          {% when 'refund-policy' %}
-            {% assign policy_title = 'Refund Policy' %}
-          {% when 'shipping-policy' %}
-            {% assign policy_title = 'Shipping Policy' %}
-          {% else %}
-            {% assign policy_title = 'Policy' %}
-        {% endcase %}
-        <h1 class="heading-style-display text-color-alternate">{{ policy_title }}</h1>
-      {% else %}
-        <h1 class="heading-style-display text-color-alternate">{{ page.title }}</h1>
-      {% endif %}
+      <h1 class="heading-style-display text-color-alternate">{{ page.title }}</h1>
     </div>
   </div>
 </div>
+
 {% schema %}
 {
   "tag": "header",
