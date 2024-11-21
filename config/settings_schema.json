@@ -30,16 +30,22 @@
             },
             {
                   "type": "url",
-                  "id": "social_instagram_link",
-                  "label": "Instagram",
-                  "info": "https:\/\/instagram.com\/theprintgarage"
-            },
-            {
-                  "type": "url",
                   "id": "social_youtube_link",
                   "label": "Youtube",
                   "info": "https:\/\/youtube.com\/theprintgarage"
             },
+            {
+                  "type": "url",
+                  "id": "social_pinterest_link",
+                  "label": "Pinterest",
+                  "info": "https:\/\/pinterest.com\/theprintgarage"
+            },
+            {
+                  "type": "url",
+                  "id": "social_instagram_link",
+                  "label": "Instagram",
+                  "info": "https:\/\/instagram.com\/theprintgarage"
+            }, 
         ]
     }
 ]
