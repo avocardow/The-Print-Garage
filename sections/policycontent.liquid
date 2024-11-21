@@ -2,7 +2,8 @@
 
 {% assign current_policy = '' %}
 {% for policy in shop.policies %}
-  {% if policy.handle == request.page_handle %}
+  {% assign policy_path = policy.url | remove: shop.url %}
+  {% if policy_path == request.path %}
     {% assign current_policy = policy %}
     {% break %}
   {% endif %}
