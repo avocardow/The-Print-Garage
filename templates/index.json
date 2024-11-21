@@ -158,8 +158,8 @@
         "large_bento_card_2_g4fXbX"
       ],
       "settings": {
-        "bento_heading_text": "Medium length hero heading goes here",
-        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "bento_heading_text": "best of the best blanks",
+        "bento_paragraph_text": "<p>We have selected a range of high quality garments from years of testing and experience.</p>"
       }
     },
     "productgallery_nxmn6e": {
@@ -248,6 +248,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Gorman Agencies",
+            "testimonial_image": "shopify://shop_images/Gorman_fake_logo.jpg",
             "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
           }
         },
@@ -262,22 +263,9 @@
         "testimonial_emtgdR": {
           "type": "testimonial",
           "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
-          }
-        },
-        "testimonial_jhQ3cK": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
-          }
-        },
-        "testimonial_WNV76P": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+            "testimonial_name": "Williamson International",
+            "testimonial_image": "shopify://shop_images/williamson_logo.jpg",
+            "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
           }
         }
       },
@@ -285,13 +273,11 @@
         "testimonial_8ewAUL",
         "testimonial_K7PDQ9",
         "testimonial_znT8a6",
-        "testimonial_emtgdR",
-        "testimonial_jhQ3cK",
-        "testimonial_WNV76P"
+        "testimonial_emtgdR"
       ],
       "settings": {
-        "testimonials_heading_text": "Medium length section heading goes here",
-        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "testimonials_heading_text": "Hear from some of our customers",
+        "testimonials_paragraph_text": ""
       }
     },
     "faqs": {
