@@ -18,7 +18,7 @@
             "settings": {
               "btn_style": "is-primary",
               "btn_size": "is-default",
-              "btn_url": "",
+              "btn_url": "#shopify-section-template--23543634624785__contactcta",
               "btn_text": "Contact Us"
             }
           }
