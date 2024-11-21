@@ -216,8 +216,8 @@
     "featuredarticles": {
       "type": "featuredarticles",
       "settings": {
-        "blog_heading_text": "Short heading goes here",
-        "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "blog_heading_text": "From Pixels to Print",
+        "blog_paragraph_text": "<p>Tricks, Trends, and Techniques Uncovered</p>",
         "article_select_article_1": "is-dtf-printing-taking-over/is-dtf-printing-taking-over",
         "article_select_article_2": "printing-methods-explained/example",
         "article_select_article_3": "is-dtf-printing-taking-over/is-dtf-printing-taking-over"
