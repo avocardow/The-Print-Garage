@@ -1,11 +1,37 @@
 <div class="settings-schema w-embed"></div>
-<div class="navbar10_container"><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="navbar10_logo-link w-nav-brand"><img li-object:src="section.settings.header_logo | image_url: width: 360" loading="lazy" alt="" src="{{ section.settings.header_logo | image_url: width: 360 }}" class="navbar10_logo">
-</a><nav role="navigation" class="navbar10_menu w-nav-menu"><ul role="list" class="navbar10_menu-left w-list-unstyled"></ul><div class="navbar10_menu-right"><ul role="list" class="navbar10_menu-right-buttons w-list-unstyled">{% for block in section.blocks %}
-    {% if block.type == "button" %}
-                    <li li-block="Button" class="block-wrapper navbar10_menu-list-item">
-                                    <a li-object:href="block.settings.btn_url" id="w-node-af4eb294-2c95-019b-537a-ac892241b141-8445efad" href="{{ block.settings.btn_url }}" class="button w-inline-block {{ block.settings.btn_size }} {{ block.settings.btn_style }}"><div class="settings-schema w-embed"></div>
-<span id="w-node-af4eb294-2c95-019b-537a-ac892241b143-8445efad">{{ block.settings.btn_text | default: "Button Text" }}</span></a>
-                            </li>
-            {% endif %}
-{% endfor %}
-</ul></div></nav></div> {% schema %} {"tag":"div","name":"HeaderNavMain","class":"navbar10_component w-nav","blocks":[{"name":"Button","type":"button","settings":[{"type":"header","content":"Header Button Settings"},{"type":"select","id":"btn_style","label":"Button Style","options":[{"value":"is-primary","label":"Primary"},{"value":"is-secondary","label":"Secondary"},{"value":"is-tertiary","label":"Tertiary"},{"value":"is-alternate","label":"Alternate"},{"value":"is-link","label":"Link"}],"default":"is-primary"},{"type":"select","id":"btn_size","label":"Button Size","options":[{"value":"is-xsmall","label":"xSmall"},{"value":"is-small","label":"Small"},{"value":"is-default","label":"Default"},{"value":"is-large","label":"Large"}],"default":"is-default"},{"type":"url","id":"btn_url","label":"Button Link"},{"type":"text","id":"btn_text","label":"Button Text","placeholder":"Button Text","default":"Button Text"}]}],"settings":[{"type":"header","content":"Header Content Settings"},{"type":"image_picker","id":"header_logo","label":"Header Logo"}],"presets":[{"name":"HeaderNavMain","category":"Liquify"}]} {% endschema %}
+<div class="navbar10_container">
+  <a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="navbar10_logo-link w-nav-brand"
+    ><img
+      li-object:src="section.settings.header_logo | image_url: width: 360"
+      loading="lazy"
+      alt=""
+      src="{{ section.settings.header_logo | image_url: width: 360 }}"
+      class="navbar10_logo"
+    >
+  </a>
+  <nav role="navigation" class="navbar10_menu w-nav-menu">
+    <ul role="list" class="navbar10_menu-left w-list-unstyled"></ul>
+    <div class="navbar10_menu-right">
+      <ul role="list" class="navbar10_menu-right-buttons w-list-unstyled">
+        {% for block in section.blocks %}
+          {% if block.type == 'button' %}
+            <li li-block="Button" class="block-wrapper navbar10_menu-list-item">
+              <a
+                li-object:href="block.settings.btn_url"
+                id="w-node-af4eb294-2c95-019b-537a-ac892241b141-8445efad"
+                href="{{ block.settings.btn_url }}"
+                class="button w-inline-block {{ block.settings.btn_size }} {{ block.settings.btn_style }}"
+              >
+                <div class="settings-schema w-embed"></div>
+                <span id="w-node-af4eb294-2c95-019b-537a-ac892241b143-8445efad">
+                  {{- block.settings.btn_text | default: 'Button Text' -}}
+                </span></a
+              >
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</div>
+{% schema %} {"tag":"div","name":"HeaderNavMain","class":"navbar10_component w-nav","blocks":[{"name":"Button","type":"button","settings":[{"type":"header","content":"Header Button Settings"},{"type":"select","id":"btn_style","label":"Button Style","options":[{"value":"is-primary","label":"Primary"},{"value":"is-secondary","label":"Secondary"},{"value":"is-tertiary","label":"Tertiary"},{"value":"is-alternate","label":"Alternate"},{"value":"is-link","label":"Link"}],"default":"is-primary"},{"type":"select","id":"btn_size","label":"Button Size","options":[{"value":"is-xsmall","label":"xSmall"},{"value":"is-small","label":"Small"},{"value":"is-default","label":"Default"},{"value":"is-large","label":"Large"}],"default":"is-default"},{"type":"url","id":"btn_url","label":"Button Link"},{"type":"text","id":"btn_text","label":"Button Text","placeholder":"Button Text","default":"Button Text"}]}],"settings":[{"type":"header","content":"Header Content Settings"},{"type":"image_picker","id":"header_logo","label":"Header Logo"}],"presets":[{"name":"HeaderNavMain","category":"Liquify"}]} {% endschema %}
