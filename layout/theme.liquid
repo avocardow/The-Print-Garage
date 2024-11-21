@@ -93,7 +93,7 @@
       {% section 'headernavmain' %}
       {% if request.path contains '/policies/' %}
         {% section 'defaulthero' %}
-        {% section '404content' %}
+        {% section 'policycontent' %}
       {% else %}
         {{ content_for_layout }}
       {% endif %}
