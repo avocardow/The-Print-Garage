@@ -3,19 +3,9 @@
 <div class="padding-global padding-section-medium">
   <div class="container-large">
     <div class="default_wrapper">
-      {% assign policy_body = '' %}
-      {% if request.page_handle == 'privacy-policy' %}
-        {% assign policy_body = shop.privacy_policy.body %}
-      {% elsif request.page_handle == 'terms-of-service' %}
-        {% assign policy_body = shop.terms_of_service.body %}
-      {% elsif request.page_handle == 'refund-policy' %}
-        {% assign policy_body = shop.refund_policy.body %}
-      {% elsif request.page_handle == 'shipping-policy' %}
-        {% assign policy_body = shop.shipping_policy.body %}
-      {% else %}
-        {% assign policy_body = page.content %}
-      {% endif %}
-      <div class="text-rich-text w-richtext">{{ policy_body }}</div>
+      <div class="text-rich-text w-richtext">
+        {{ shop.privacy_policy.body }}
+      </div>
     </div>
   </div>
 </div>
