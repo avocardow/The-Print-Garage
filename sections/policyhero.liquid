@@ -1,24 +1,24 @@
 <!-- sections/PolicyHero.liquid -->
 
+{% assign current_policy = '' %}
+{% for policy in shop.policies %}
+  {% if policy.handle == request.page_handle %}
+    {% assign current_policy = policy %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 <div class="header_background-image-wrapper">
   <div class="header_overlay-layer"></div>
 </div>
 <div class="padding-global padding-section-medium">
   <div class="margin-top margin-xhuge">
     <div class="container-medium">
-      {% assign policy_title = '' %}
-      {% if request.page_handle == 'privacy-policy' %}
-        {% assign policy_title = shop.privacy_policy.title %}
-      {% elsif request.page_handle == 'terms-of-service' %}
-        {% assign policy_title = shop.terms_of_service.title %}
-      {% elsif request.page_handle == 'refund-policy' %}
-        {% assign policy_title = shop.refund_policy.title %}
-      {% elsif request.page_handle == 'shipping-policy' %}
-        {% assign policy_title = shop.shipping_policy.title %}
+      {% if current_policy != '' %}
+        <h1 class="heading-style-display text-color-alternate">{{ current_policy.title }}</h1>
       {% else %}
-        {% assign policy_title = page.title %}
+        <h1 class="heading-style-display text-color-alternate">{{ page.title }}</h1>
       {% endif %}
-      <h1 class="heading-style-display text-color-alternate">{{ policy_title }}</h1>
     </div>
   </div>
 </div>
