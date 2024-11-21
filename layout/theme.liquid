@@ -91,7 +91,12 @@
     <div class="page-wrapper">
       {% render 'global_styles' %}
       {% section 'headernavmain' %}
-      {{ content_for_layout }}
+      {% if request.path contains '/policies/' %}
+        {% section 'defaulthero' %}
+        {% section 'defaultcontent' %}
+      {% else %}
+        {{ content_for_layout }}
+      {% endif %}
       {% section 'footermain' %}
     </div>
     <script
