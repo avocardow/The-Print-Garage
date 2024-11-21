@@ -400,17 +400,24 @@ figcaption {
 }
 
 .form_checkbox {
+  z-index: 1;
+  opacity: 1;
   flex-direction: row;
   align-items: flex-start;
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
+  position: relative;
 }
 
 .form_checkbox-icon {
+  z-index: 1;
+  opacity: 1;
+  accent-color: var(--background-color--background-secondary);
   flex: none;
   margin: .2rem .5rem 0 0;
   padding: 0;
+  position: relative;
 }
 
 .form_checkbox-icon.w--redirected-checked {
