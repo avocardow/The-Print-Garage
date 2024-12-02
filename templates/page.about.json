@@ -70,6 +70,15 @@
         "timeline_item_fMgLJC": {
           "type": "timeline-item",
           "settings": {
+            "timeline_item_date": "Date herecvsdc",
+            "timeline_item_heading_text": "Short heading heresfdfds",
+            "timeline_item_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "timeline_item_image": "shopify://shop_images/202411210846583609.png"
+          }
+        },
+        "timeline_item_TmAADE": {
+          "type": "timeline-item",
+          "settings": {
             "timeline_item_date": "Date here",
             "timeline_item_heading_text": "Short heading here",
             "timeline_item_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
@@ -78,7 +87,8 @@
       },
       "block_order": [
         "button_WQaQmJ",
-        "timeline_item_fMgLJC"
+        "timeline_item_fMgLJC",
+        "timeline_item_TmAADE"
       ],
       "settings": {
         "timeline_tagline_text": "Short length headingasdasdsad",
@@ -102,6 +112,46 @@
     },
     "team_dniVtq": {
       "type": "team",
+      "blocks": {
+        "team_member_fVaxJt": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_Fkih9L": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_UhwwTR": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_6R7wVw": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "team_member_fVaxJt",
+        "team_member_Fkih9L",
+        "team_member_UhwwTR",
+        "team_member_6R7wVw"
+      ],
       "settings": {
         "team_tagline_text": "Short length heading",
         "team_heading_text": "Medium length heading goes here",
