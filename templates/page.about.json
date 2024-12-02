@@ -9,19 +9,68 @@
  */
 {
   "sections": {
-    "defaulthero_eVFRp8": {
-      "type": "defaulthero",
-      "settings": {}
+    "abouthero_dKdnbM": {
+      "type": "abouthero",
+      "settings": {
+        "hero_heading_text": "Medium length hero heading goes here",
+        "hero_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+      }
     },
-    "defaultcontent_yFT3dp": {
-      "type": "defaultcontent",
-      "settings": {}
+    "timeline_LhGc4f": {
+      "type": "timeline",
+      "settings": {
+        "timeline_tagline_text": "Short length heading",
+        "timeline_heading_text": "Medium length heading goes here",
+        "timeline_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+      }
+    },
+    "bentobox_4YEGc3": {
+      "type": "bentobox",
+      "settings": {
+        "bento_heading_text": "Medium length hero heading goes here",
+        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "testimonialslider_7Pmdry": {
+      "type": "testimonialslider",
+      "settings": {
+        "testimonials_heading_text": "Medium length section heading goes here",
+        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "team_dniVtq": {
+      "type": "team",
+      "settings": {
+        "team_tagline_text": "Short length heading",
+        "team_heading_text": "Medium length heading goes here",
+        "team_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+      }
+    },
+    "faqs_7iEMdP": {
+      "type": "faqs",
+      "settings": {
+        "faq_heading_text": "Medium length heading goes here",
+        "faq_cta_heading_text": "Short heading goes here",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "contactcta_zVK3tN": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_eVFRp8",
-    "defaultcontent_yFT3dp"
+    "abouthero_dKdnbM",
+    "timeline_LhGc4f",
+    "bentobox_4YEGc3",
+    "testimonialslider_7Pmdry",
+    "team_dniVtq",
+    "faqs_7iEMdP",
+    "contactcta_zVK3tN"
   ]
 }
