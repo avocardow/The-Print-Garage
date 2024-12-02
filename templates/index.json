@@ -36,18 +36,11 @@
           "settings": {
             "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
           }
-        },
-        "scroll_animate_image_3_dzGhCH": {
-          "type": "scroll-animate-image-3",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/becket_tets_2.png"
-          }
         }
       },
       "block_order": [
         "scroll_animate_image_1_zgbkq4",
-        "scroll_animate_image_2_YW99rM",
-        "scroll_animate_image_3_dzGhCH"
+        "scroll_animate_image_2_YW99rM"
       ],
       "settings": {
         "scroll_animate_text": "\"At The Print Garage, we're fuelled by a passion for creativity and an obsession for everything vintage. Our story began with a vision to transform the world of custom printing by combining cutting-edge technology with a hip, nostalgic aesthetic. Think of us as the retro-styled print shop where your creative visions come to life.\n\""
@@ -176,9 +169,9 @@
       "settings": {
         "blog_heading_text": "Short heading goes here",
         "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "article_select_article_1": "the-print-garage-news/example",
+        "article_select_article_1": "printing-methods-explained/is-dtf-printing-taking-over",
         "article_select_article_2": "design-tips-tricks/tips-tricks",
-        "article_select_article_3": "the-print-garage-news/example"
+        "article_select_article_3": "printing-methods-explained/example"
       }
     },
     "testimonialslider": {

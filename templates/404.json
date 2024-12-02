@@ -14,12 +14,11 @@
       "settings": {
         "heading_text": "404",
         "subheading_text": "Looks like we hit a dead end.",
-        "image": "shopify://shop_images/becket_tets_2.png",
+        "image": "shopify://shop_images/404_bucket.png",
         "btn_layout": "btn_layout_text",
         "btn_style": "is-primary",
         "btn_size": "is-small",
         "btn_icon_size": "icon-1x1-small",
-        "btn_url": "",
         "btn_text": "Return Home",
         "btn_icon_viewbox": "",
         "btn_icon_path": ""
