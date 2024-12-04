@@ -9,17 +9,22 @@
  */
 {
   "sections": {
-    "cart_UWfWLR": {
-      "type": "cart",
+    "blogs_GeNi8U": {
+      "type": "blogs",
+      "settings": {}
+    },
+    "contactcta_Aizq7D": {
+      "type": "contactcta",
       "settings": {
-        "text_heading": "Cart",
-        "text_cart_empty": "No Products yet."
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "cart_UWfWLR"
+    "blogs_GeNi8U",
+    "contactcta_Aizq7D"
   ]
 }
