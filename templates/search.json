@@ -9,17 +9,14 @@
  */
 {
   "sections": {
-    "cart_UWfWLR": {
-      "type": "cart",
-      "settings": {
-        "text_heading": "Cart",
-        "text_cart_empty": "No Products yet."
-      }
+    "search_9CaibG": {
+      "type": "search",
+      "settings": {}
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "cart_UWfWLR"
+    "search_9CaibG"
   ]
 }
