@@ -1,22 +1,24 @@
 <div class="padding-global"><div class="container-large"><div class="padding-section-large"><div class="timeline12_component"><div class="settings-schema w-embed"></div>
 <div class="margin-bottom margin-xxlarge"><div class="max-width-large align-center z-index-1"><div class="text-align-center"><div class="margin-bottom margin-xsmall"><div li-object="section.settings.timeline_tagline_text" class="text-style-tagline">{{ section.settings.timeline_tagline_text }}</div></div><div class="margin-bottom margin-small"><h2 li-object="section.settings.timeline_heading_text" class="heading-style-h2">{{ section.settings.timeline_heading_text }}</h2></div><div class="richtext-wrapper is-center text-size-medium w-richtext"><p li-object="section.settings.timeline_paragraph_text">{{ section.settings.timeline_paragraph_text }}</p></div><div class="margin-top margin-small"><div class="button-group is-center">{% for block in section.blocks %}
     {% if block.type == "button" %}
-                    <div li-block="Button" id="w-node-_3b25a322-6516-fdfe-0e74-04406e6fa38f-1e2948d0" class="block-wrapper">
-                                    <a li-object:href="block.settings.btn_url" id="w-node-_3b25a322-6516-fdfe-0e74-04406e6fa390-1e2948d0" href="{{ block.settings.btn_url }}" class="button w-inline-block {{ block.settings.btn_size }} {{ block.settings.btn_style }}"><div class="settings-schema w-embed"></div>
-<span id="w-node-_3b25a322-6516-fdfe-0e74-04406e6fa392-1e2948d0">{{ block.settings.btn_text | default: "Button Text" }}</span>{% if block.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ block.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="block.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ block.settings.btn_icon_size }}">
+                    <div li-block="Button" id="w-node-_08c70764-c10c-c3b5-d539-94752a8891a8-1e2948d0" class="block-wrapper">
+                                    <a li-object:href="block.settings.btn_url" id="w-node-_08c70764-c10c-c3b5-d539-94752a8891a9-1e2948d0" href="{{ block.settings.btn_url }}" class="button w-inline-block {{ block.settings.btn_size }} {{ block.settings.btn_style }}"><div class="settings-schema w-embed"></div>
+{% if block.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-_08c70764-c10c-c3b5-d539-94752a8891ab-1e2948d0" li-if="block.settings.btn_layout != 'btn_layout_icon'">
+    {{ block.settings.btn_text | default: "Button Text" }}    </span>
+{% endif %}{% if block.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ block.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="block.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ block.settings.btn_icon_size }}">
     <path d="{{ block.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>
 {% endif %}</a>
                             </div>
             {% endif %}
 {% endfor %}
 </div></div></div></div></div><div class="timeline12_content"><div id="w-node-_7c88c3d6-efd7-3636-326d-9686ce94c8c0-1e2948d0" class="timeline12_progress"><div class="timeline12_fade-overlay-top"></div><div class="timeline12_progress-line"></div><div class="timeline12_line"></div><div class="timeline12_fade-overlay-bottom"></div><div class="timeline12_progress-line-cover"></div></div><div id="w-node-_7c88c3d6-efd7-3636-326d-9686ce94c8c6-1e2948d0" class="timeline12_list"><div id="w-node-e40f1612-2523-cb66-2b46-cc40492b25a7-1e2948d0" class="w-embed"><style>@media only screen and (min-width: 767px) {
-  .timeline12_row:nth-child(even) .timeline12_empty-space, .timeline12_row:nth-child(odd) .timeline12_item	{
+  .timeline12_content .timeline12_row:nth-child(even) .timeline12_empty-space, .timeline12_content .timeline12_row:nth-child(odd) .timeline12_item	{
     order: 1;
   }
-  .timeline12_row .timeline12_circle-wrapper	{
+  .timeline12_content .timeline12_row .timeline12_circle-wrapper	{
     order: 2;
   }
-  .timeline12_row:nth-child(odd) .timeline12_empty-space, .timeline12_row:nth-child(even) .timeline12_item	{
+  .timeline12_content .timeline12_row:nth-child(odd) .timeline12_empty-space, .timeline12_content .timeline12_row:nth-child(even) .timeline12_item	{
     order: 3;
   }
 }
