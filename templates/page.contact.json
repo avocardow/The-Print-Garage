@@ -9,19 +9,28 @@
  */
 {
   "sections": {
-    "defaulthero_eVFRp8": {
-      "type": "defaulthero",
-      "settings": {}
+    "contactformimage_4j9aYE": {
+      "type": "contactformimage",
+      "settings": {
+        "contact_form_tagline_text": "Short tagline here",
+        "contact_form_heading_text": "Short heading here",
+        "contact_form_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "contact_form_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+      }
     },
-    "defaultcontent_yFT3dp": {
-      "type": "defaultcontent",
-      "settings": {}
+    "contactdetailsmap_rR6RRd": {
+      "type": "contactdetailsmap",
+      "settings": {
+        "contact_map_tagline_text": "Short tagline here",
+        "contact_map_heading_text": "Short heading here",
+        "contact_map_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_eVFRp8",
-    "defaultcontent_yFT3dp"
+    "contactformimage_4j9aYE",
+    "contactdetailsmap_rR6RRd"
   ]
 }
