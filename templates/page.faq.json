@@ -31,11 +31,19 @@
             "faq_question": "Question text goes here",
             "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
           }
+        },
+        "faq_item_8jLrmF": {
+          "type": "faq-item",
+          "settings": {
+            "faq_question": "Question text goes here",
+            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
+          }
         }
       },
       "block_order": [
         "button_hX9dxt",
-        "faq_item_yYt8xJ"
+        "faq_item_yYt8xJ",
+        "faq_item_8jLrmF"
       ],
       "settings": {
         "faq_heading_text": "Short heading here",
