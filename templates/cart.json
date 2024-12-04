@@ -9,19 +9,17 @@
  */
 {
   "sections": {
-    "defaulthero_eVFRp8": {
-      "type": "defaulthero",
-      "settings": {}
-    },
-    "defaultcontent_yFT3dp": {
-      "type": "defaultcontent",
-      "settings": {}
+    "cart_UWfWLR": {
+      "type": "cart",
+      "settings": {
+        "text_heading": "Cart",
+        "text_cart_empty": "No Products yet."
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_eVFRp8",
-    "defaultcontent_yFT3dp"
+    "cart_UWfWLR"
   ]
 }
