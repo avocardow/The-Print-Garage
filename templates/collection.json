@@ -32,7 +32,7 @@
       "settings": {
         "collection_heading_text": "Medium length hero heading goes here",
         "collection_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
-        "hero_video_poster_image": "shopify://shop_images/202411210846583609.png"
+        "collection_image": "shopify://shop_images/CTA_Main_PageFinal.png"
       }
     },
     "collectionfilter_jtdtTD": {
