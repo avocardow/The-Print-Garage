@@ -168,12 +168,57 @@
             "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
             "team_member_image": "shopify://shop_images/leadlaundry_Develop_an_ultra-realistic_testimonial_profile_phot_06591f2b-fbf8-42cc-b160-fbdb5b580ae9.png"
           }
+        },
+        "team_member_yyThqD": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_KGCLC8": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_iczMQK": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_keYtBH": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_C9wY4Y": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
         }
       },
       "block_order": [
         "team_member_fVaxJt",
         "team_member_Fkih9L",
-        "team_member_6R7wVw"
+        "team_member_6R7wVw",
+        "team_member_yyThqD",
+        "team_member_KGCLC8",
+        "team_member_iczMQK",
+        "team_member_keYtBH",
+        "team_member_C9wY4Y"
       ],
       "settings": {
         "team_tagline_text": "Short length heading",
