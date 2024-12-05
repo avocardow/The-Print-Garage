@@ -70,10 +70,10 @@
         "timeline_item_fMgLJC": {
           "type": "timeline-item",
           "settings": {
-            "timeline_item_date": "Date herecvsdc",
-            "timeline_item_heading_text": "Short heading heresfdfds",
+            "timeline_item_date": "Date here",
+            "timeline_item_heading_text": "Short heading here",
             "timeline_item_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "timeline_item_image": "shopify://shop_images/202411210846583609.png"
+            "timeline_item_image": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
           }
         },
         "timeline_item_TmAADE": {
@@ -81,7 +81,8 @@
           "settings": {
             "timeline_item_date": "Date here",
             "timeline_item_heading_text": "Short heading here",
-            "timeline_item_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
+            "timeline_item_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "timeline_item_image": "shopify://shop_images/Mettle_Vests.jpg"
           }
         }
       },
@@ -91,8 +92,8 @@
         "timeline_item_TmAADE"
       ],
       "settings": {
-        "timeline_tagline_text": "Short length headingasdasdsad",
-        "timeline_heading_text": "Medium length heading goes hereasasdasdasdasdsadsadasdasdasdas",
+        "timeline_tagline_text": "Short length heading",
+        "timeline_heading_text": "Medium length heading goes here",
         "timeline_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
       }
     },
@@ -105,6 +106,34 @@
     },
     "testimonialslider_7Pmdry": {
       "type": "testimonialslider",
+      "blocks": {
+        "testimonial_8artgz": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_kWha7w": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "testimonial_eFEf4p": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Name Surname",
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_8artgz",
+        "testimonial_kWha7w",
+        "testimonial_eFEf4p"
+      ],
       "settings": {
         "testimonials_heading_text": "Medium length section heading goes here",
         "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
@@ -118,7 +147,8 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/leadlaundry_generate_a_photo-realistic_profile_image_for_use_in_007b43dc-53a9-44d2-87d0-558a4e3b233b.png"
           }
         },
         "team_member_Fkih9L": {
@@ -126,15 +156,8 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
-          }
-        },
-        "team_member_UhwwTR": {
-          "type": "team-member",
-          "settings": {
-            "team_member_name_text": "Full Name",
-            "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/leadlaundry_generate_a_profile_photo_for_use_in_a_testimonial_i_aaa4681c-5c36-4b97-9287-70f00fd17512.png"
           }
         },
         "team_member_6R7wVw": {
@@ -142,14 +165,14 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/leadlaundry_Develop_an_ultra-realistic_testimonial_profile_phot_06591f2b-fbf8-42cc-b160-fbdb5b580ae9.png"
           }
         }
       },
       "block_order": [
         "team_member_fVaxJt",
         "team_member_Fkih9L",
-        "team_member_UhwwTR",
         "team_member_6R7wVw"
       ],
       "settings": {
@@ -160,6 +183,18 @@
     },
     "faqs_7iEMdP": {
       "type": "faqs",
+      "blocks": {
+        "faq_xq7EtG": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "Question text goes here",
+            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_xq7EtG"
+      ],
       "settings": {
         "faq_heading_text": "Medium length heading goes here",
         "faq_cta_heading_text": "Short heading goes here",
