@@ -36,18 +36,29 @@
               {% endfor %}
               <div li-for="item in cart.items" class="cart_grid" data-line="{{ forloop.index }}">
                 <div id="w-node-_50f76717-576d-5a4f-7bde-0a22446d87bc-e8545e99" class="display-inlineflex">
-                  <a
-                    href="{{ item.url }}"
-                    li-object:href="item.url"
-                    id="w-node-_50f76717-576d-5a4f-7bde-0a22446d87bd-e8545e99"
-                    class="w-inline-block"
-                    ><img
-                      src="{{ item.image |  img_url: 'small' }}"
-                      li-object:src="item.image |  img_url: 'small'"
-                      alt=""
-                      class="cart_image"
+                  {% if ref_id != '0' %}
+                    <ul
+                      class="ref-preview-img custom_loading"
+                      style="padding-left: 5px;"
+                      data-ref-id="{{ref_id}}"
+                      data-varId="{{item.variant.id}}"
                     >
-                  </a>
+                      <span class="loading"> Loading product images </span>
+                    </ul>
+                  {% else %}
+                    <a
+                      href="{{ item.url }}"
+                      li-object:href="item.url"
+                      id="w-node-_50f76717-576d-5a4f-7bde-0a22446d87bd-e8545e99"
+                      class="w-inline-block"
+                      ><img
+                        src="{{ item.image |  img_url: 'small' }}"
+                        li-object:src="item.image |  img_url: 'small'"
+                        alt=""
+                        class="cart_image"
+                      >
+                    </a>
+                  {% endif %}
                   <div class="cart_info-order">
                     <a href="{{ item.url }}" li-object:href="item.url" li-object="item.title" class="text-size-regular">
                       {{- item.title -}}
