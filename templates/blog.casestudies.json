@@ -11,7 +11,9 @@
   "sections": {
     "casestudies_q47ckY": {
       "type": "casestudies",
-      "settings": {}
+      "settings": {
+        "article_select_featured_article": "printing-methods-explained/example"
+      }
     },
     "contactcta_kjMXtT": {
       "type": "contactcta",

@@ -11,7 +11,9 @@
   "sections": {
     "blogs_GeNi8U": {
       "type": "blogs",
-      "settings": {}
+      "settings": {
+        "article_select_featured_article": "design-tips-tricks/tips-tricks"
+      }
     },
     "contactcta_Aizq7D": {
       "type": "contactcta",
