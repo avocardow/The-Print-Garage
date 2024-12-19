@@ -106,32 +106,43 @@
         "testimonial_8artgz": {
           "type": "testimonial",
           "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+            "testimonial_name": "Finding New Ground",
+            "testimonial_image": "shopify://shop_images/FNG_Logo_2_e6a70784-1e74-48ed-ad98-7ad89c35b17d.jpg",
+            "testimonial_text": "<p>Been dealing with Anthony and the print shop crew for near on ten years. The service they deliver is second to none and they are never too busy to answer my questions. The quality of work is always top shelf and being a business owner who is super fussy they never fail to deliver.  Would highly recommend them for any of your printing or sublimation needs. </p>"
           }
         },
-        "testimonial_kWha7w": {
+        "testimonial_K7PDQ9": {
           "type": "testimonial",
           "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+            "testimonial_name": "Gorman Agencies",
+            "testimonial_image": "shopify://shop_images/Gorman_fake_logo.jpg",
+            "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
           }
         },
-        "testimonial_eFEf4p": {
+        "testimonial_znT8a6": {
           "type": "testimonial",
           "settings": {
-            "testimonial_name": "Name Surname",
-            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+            "testimonial_name": "Bremer State High School",
+            "testimonial_image": "shopify://shop_images/288923206_5269129073170580_5122789883451384551_n.jpg",
+            "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
+          }
+        },
+        "testimonial_emtgdR": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Williamson International",
+            "testimonial_image": "shopify://shop_images/williamson_logo.jpg",
+            "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
           }
         }
       },
       "block_order": [
-        "testimonial_8artgz",
-        "testimonial_kWha7w",
-        "testimonial_eFEf4p"
+        "testimonial_K7PDQ9",
+        "testimonial_znT8a6",
+        "testimonial_emtgdR"
       ],
       "settings": {
-        "testimonials_heading_text": "Medium length section heading goes here",
+        "testimonials_heading_text": "Hear from some of our customers",
         "testimonials_paragraph_text": "<p>Think of us as the <strong>cool, retro print shop</strong> where ideas are fine-tuned, printed, and delivered with a dose of old-school flair and modern precision.</p>"
       }
     },
