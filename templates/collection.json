@@ -1,0 +1,49 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collectionheader_dUwUBb": {
+      "type": "collectionheader",
+      "blocks": {
+        "button_yRGFHe": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_yRGFHe"
+      ],
+      "settings": {
+        "collection_heading_text": "Medium length hero heading goes here",
+        "collection_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+        "collection_image": "shopify://shop_images/CTA_Main_PageFinal.png"
+      }
+    },
+    "collectionfilter_jtdtTD": {
+      "type": "collectionfilter",
+      "settings": {}
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collectionheader_dUwUBb",
+    "collectionfilter_jtdtTD"
+  ]
+}
