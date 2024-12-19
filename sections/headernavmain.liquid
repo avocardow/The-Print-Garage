@@ -1,5 +1,5 @@
 <div class="settings-schema w-embed"></div>
-<div id="nav" class="navbar10_container"><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="navbar10_logo-link w-nav-brand"><img li-object:src="section.settings.header_logo | image_url: width: 360" loading="lazy" alt="" src="{{ section.settings.header_logo | image_url: width: 360 }}" class="navbar10_logo">
+<div id="nav" x-data="" class="navbar10_container"><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="navbar10_logo-link w-nav-brand"><img li-object:src="section.settings.header_logo | image_url: width: 360" loading="lazy" alt="" src="{{ section.settings.header_logo | image_url: width: 360 }}" class="navbar10_logo">
 </a><nav role="navigation" class="navbar10_menu w-nav-menu"><ul role="list" class="navbar10_menu-left w-list-unstyled">{% for link in linklists.main-menu.links %}    <li li-for="link in linklists.main-menu.links" class="navbar10_menu-list-item">
                                     
                             <a href="{{ link.url }}" li-object:href="link.url" li-object="link.title" class="navbar10_link w-nav-link">{{ link.title }}</a>

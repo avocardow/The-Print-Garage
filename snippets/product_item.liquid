@@ -6,7 +6,7 @@
     Sale    </div>
 {% endif %}</div></div><div class="spacer-xxsmall"></div><a li-object:href="product.url" href="{{ product.url }}" class="product-item_text-link w-inline-block"><div class="product-item_left"><div li-object="product.vendor" class="text-size-small">{{ product.vendor }}</div><div class="heading-style-h4 text-weight-normal"><span li-object="product.title">{{ product.title }}</span></div></div><div class="product-item_price">{% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price">
     <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-style-muted">{{ product.compare_at_price | money }}</div>    </div>
-{% endif %}<div li-object="product.price | money" class="text-size-regular">{{ product.price | money }}</div></div></a><div class="margin-top-auto"><div class="product-item_form-wrapper">{% if product.available == true %}    <div li-if="product.available == true">
+{% endif %}<div li-object="product.price | money" class="text-size-regular">{{ product.price | money }}</div></div></a><div class="spacer-xsmall"></div><div class="margin-top-auto"><div class="product-item_form-wrapper">{% if product.available == true %}    <div li-if="product.available == true">
     <a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart(true)" :disabled="!addToCartButton">Add to Cart</a>    </div>
 {% endif %}{% if product.available != true %}    <div li-if="product.available != true">
     <a href="#" class="button is-secondary pointer-events-off max-width-full w-button">Not in Stock</a>    </div>
