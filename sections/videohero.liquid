@@ -16,7 +16,7 @@
 {% endif %}{% if section.settings.hero_cta == 'hero_form_cta' %}    <div li-if="section.settings.hero_cta == 'hero_form_cta'" class="header29_form-block w-form">
     <div class="settings-schema w-embed"></div>
 {% form 'customer', return_to: '/', class: 'header29_form' %}
-<input class="form_input w-input" maxlength="256" name="contact[email]" data-name="Stay Updated Email Address 3" placeholder="{{ section.settings.newsletter_input_placeholder | default: "Enter your email here..." }}" type="email" id="Stay-Updated-Email-Address-3" required="">
+<input class="form_input is-newsletter w-input" maxlength="256" name="contact[email]" data-name="Stay Updated Email Address 3" placeholder="{{ section.settings.newsletter_input_placeholder | default: "Enter your email here..." }}" type="email" id="Stay-Updated-Email-Address-3" required="">
 <input type="submit" data-wait="Please wait..." class="button w-button" value="{{ section.settings.newsletter_btn_text | default: "Submit" }}">
 {% endform %}
 <div class="richtext-wrapper is-center text-size-tiny w-richtext"><p li-object:text="section.settings.newsletter_terms_text">
