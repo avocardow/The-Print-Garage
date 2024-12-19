@@ -228,18 +228,41 @@
         "faq_xq7EtG": {
           "type": "faq",
           "settings": {
-            "faq_question": "Question text goes here",
-            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
+            "faq_question": "What printing methods do you offer at The Print Garage?",
+            "faq_answer": "<p>We specialize in Direct to Film (DTF), Direct to Garment (DTG), and screen printing, as well as embroidery services. Each method has its own unique advantages, and we can help you choose the best one for your project.</p>"
+          }
+        },
+        "faq_3FRt8L": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "What is the minimum order quantity?",
+            "faq_answer": "<p>For DTF and DTG printing methods the minimum order is 10pcs.<br/>Due to the more complicated setup process, for screen printing the minimum order is 25pcs. </p>"
+          }
+        },
+        "faq_QdtxVj": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "How long does it take to complete an order?",
+            "faq_answer": "<p>Turnaround times vary depending on the order size and printing method. Standard orders are typically ready in 7-10 business days after payment, but we offer rush services for quicker delivery when needed.</p>"
+          }
+        },
+        "faq_yyXheT": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "Can I see a mock-up of my design before you print?",
+            "faq_answer": "<p>Absolutely! We provide digital mock-ups to ensure you’re happy with the design, placement, and colors before moving forward with production.</p>"
           }
         }
       },
       "block_order": [
-        "faq_xq7EtG"
+        "faq_3FRt8L",
+        "faq_QdtxVj",
+        "faq_yyXheT"
       ],
       "settings": {
-        "faq_heading_text": "Medium length heading goes here",
-        "faq_cta_heading_text": "Short heading goes here",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "faq_heading_text": "FAQs",
+        "faq_cta_heading_text": "",
+        "faq_cta_paragraph_text": ""
       }
     },
     "contactcta_zVK3tN": {
