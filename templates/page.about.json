@@ -219,6 +219,7 @@
         "team_member_keYtBH",
         "team_member_C9wY4Y"
       ],
+      "disabled": true,
       "settings": {
         "team_tagline_text": "Short length heading",
         "team_heading_text": "Medium length heading goes here",
