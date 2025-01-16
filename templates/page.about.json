@@ -103,14 +103,6 @@
     "testimonialslider_7Pmdry": {
       "type": "testimonialslider",
       "blocks": {
-        "testimonial_8artgz": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Finding New Ground",
-            "testimonial_image": "shopify://shop_images/FNG_Logo_2_e6a70784-1e74-48ed-ad98-7ad89c35b17d.jpg",
-            "testimonial_text": "<p>Been dealing with Anthony and the print shop crew for near on ten years. The service they deliver is second to none and they are never too busy to answer my questions. The quality of work is always top shelf and being a business owner who is super fussy they never fail to deliver.  Would highly recommend them for any of your printing or sublimation needs. </p>"
-          }
-        },
         "testimonial_K7PDQ9": {
           "type": "testimonial",
           "settings": {
@@ -236,13 +228,6 @@
     "faqs_7iEMdP": {
       "type": "faqs",
       "blocks": {
-        "faq_xq7EtG": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "What printing methods do you offer at The Print Garage?",
-            "faq_answer": "<p>We specialize in Direct to Film (DTF), Direct to Garment (DTG), and screen printing, as well as embroidery services. Each method has its own unique advantages, and we can help you choose the best one for your project.</p>"
-          }
-        },
         "faq_3FRt8L": {
           "type": "faq",
           "settings": {
@@ -279,8 +264,8 @@
     "contactcta_zVK3tN": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Need Assistance? Our Team is Here for You!",
+        "contact_paragraph_text": "<p>Send us a message and let one of our decoration experts guide you on your branding needs. </p>"
       }
     }
   },
