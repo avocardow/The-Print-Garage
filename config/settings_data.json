@@ -27,7 +27,12 @@
           "button_RnChqb"
         ],
         "settings": {
-          "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg"
+          "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
+          "checkbox_show_search": false,
+          "collection_bestseller": "",
+          "collection_bestseller_limit": 6,
+          "checkbox_show_account": false,
+          "checkbox_show_cart": false
         }
       },
       "footermain": {

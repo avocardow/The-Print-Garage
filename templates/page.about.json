@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "abouthero_dKdnbM": {
+      "type": "abouthero",
+      "blocks": {
+        "button_wQHhmk": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Contact Us",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_wQHhmk"
+      ],
+      "settings": {
+        "hero_heading_text": "Driven by Creativity. \nFueled by Retro Vibes.",
+        "hero_paragraph_text": "<p>Welcome to <strong>The Print Garage</strong> – your go-to destination for <strong>Branded Merch & Apparel</strong> that stands out. <br/><br/>We’re not just another print-on-demand service; we’re where bold ideas, quality cratsmanship, and a passion for everything retro come together.</p>",
+        "hero_image_1": "shopify://shop_images/TAS_Machine.jpg",
+        "hero_image_2": "shopify://shop_images/AS_Shirts.jpg",
+        "hero_image_3": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
+      }
+    },
+    "timeline_LhGc4f": {
+      "type": "timeline",
+      "blocks": {
+        "button_WQaQmJ": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-link",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        },
+        "timeline_item_fMgLJC": {
+          "type": "timeline-item",
+          "settings": {
+            "timeline_item_date": "End-to-End Customisation",
+            "timeline_item_heading_text": "",
+            "timeline_item_paragraph_text": "<p>Whether you want<strong> screen printing</strong>, <strong>sublimation</strong>, <strong>direct-to-garment (DTG)</strong>, <strong>UV printing</strong>, or <strong>Digital Transfer Film (DTF)</strong> – we’ve got the tools to make it happen.</p>",
+            "timeline_item_image": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
+          }
+        },
+        "timeline_item_8UfLf9": {
+          "type": "timeline-item",
+          "settings": {
+            "timeline_item_date": "For Creators and Brands",
+            "timeline_item_heading_text": "",
+            "timeline_item_paragraph_text": "<p>We cater to businesses and individuals who value creativity, quality, and a distinctive look.</p>",
+            "timeline_item_image": "shopify://shop_images/Ratbag_test_2.jpg"
+          }
+        },
+        "timeline_item_TmAADE": {
+          "type": "timeline-item",
+          "settings": {
+            "timeline_item_date": "Wholesale Solutions",
+            "timeline_item_heading_text": "",
+            "timeline_item_paragraph_text": "<p>Resellers and distributors can rely on us for <strong>bulk orders, quick turnarounds, and top-tier quality</strong> every time.</p>",
+            "timeline_item_image": "shopify://shop_images/Mettle_Vests.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "button_WQaQmJ",
+        "timeline_item_fMgLJC",
+        "timeline_item_8UfLf9",
+        "timeline_item_TmAADE"
+      ],
+      "settings": {
+        "timeline_tagline_text": "Specialists In Print",
+        "timeline_heading_text": "Over 30 years of experience in apparel and merchandise",
+        "timeline_paragraph_text": "<p>With over <strong>30 years of experience</strong> in apparel and merchandise, we specialise in delivering custom solutions for <strong>boutique motoring brands, YouTube influencers, corporate partners, resellers, and marketing agencies</strong>. <br/><br/>From <strong>t-shirts and hoodies</strong> to <strong>hats, mugs, and more</strong>, we combine cutting-edge printing techniques with a classic garage aesthetic to bring your vision to life.</p>"
+      }
+    },
+    "bentobox_4YEGc3": {
+      "type": "bentobox",
+      "settings": {
+        "bento_heading_text": "Our Mission & Vibe",
+        "bento_paragraph_text": "<p>The Print Garage exists to empower brands and individuals with <strong>Branded Merch & Apparel</strong> that leaves a lasting impact. We believe in making custom printing easy, creative, and authentic – without compromising on quality.  <br/>Think of us as the <strong>cool, retro print shop</strong> where ideas are fine-tuned, printed, and delivered with a dose of old-school flair and modern precision.</p>"
+      }
+    },
+    "testimonialslider_7Pmdry": {
+      "type": "testimonialslider",
+      "blocks": {
+        "testimonial_K7PDQ9": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Gorman Agencies",
+            "testimonial_image": "shopify://shop_images/Gorman_fake_logo.jpg",
+            "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
+          }
+        },
+        "testimonial_znT8a6": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Bremer State High School",
+            "testimonial_image": "shopify://shop_images/288923206_5269129073170580_5122789883451384551_n.jpg",
+            "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
+          }
+        },
+        "testimonial_emtgdR": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Williamson International",
+            "testimonial_image": "shopify://shop_images/williamson_logo.jpg",
+            "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_K7PDQ9",
+        "testimonial_znT8a6",
+        "testimonial_emtgdR"
+      ],
+      "settings": {
+        "testimonials_heading_text": "Hear from some of our customers",
+        "testimonials_paragraph_text": "<p>Think of us as the <strong>cool, retro print shop</strong> where ideas are fine-tuned, printed, and delivered with a dose of old-school flair and modern precision.</p>"
+      }
+    },
+    "team_dniVtq": {
+      "type": "team",
+      "blocks": {
+        "team_member_fVaxJt": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/leadlaundry_generate_a_photo-realistic_profile_image_for_use_in_007b43dc-53a9-44d2-87d0-558a4e3b233b.png"
+          }
+        },
+        "team_member_Fkih9L": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/leadlaundry_generate_a_profile_photo_for_use_in_a_testimonial_i_aaa4681c-5c36-4b97-9287-70f00fd17512.png"
+          }
+        },
+        "team_member_6R7wVw": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/leadlaundry_Develop_an_ultra-realistic_testimonial_profile_phot_06591f2b-fbf8-42cc-b160-fbdb5b580ae9.png"
+          }
+        },
+        "team_member_yyThqD": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_KGCLC8": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_iczMQK": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_keYtBH": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "team_member_C9wY4Y": {
+          "type": "team-member",
+          "settings": {
+            "team_member_name_text": "Full Name",
+            "team_member_title_text": "Job Title",
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "team_member_fVaxJt",
+        "team_member_Fkih9L",
+        "team_member_6R7wVw",
+        "team_member_yyThqD",
+        "team_member_KGCLC8",
+        "team_member_iczMQK",
+        "team_member_keYtBH",
+        "team_member_C9wY4Y"
+      ],
+      "disabled": true,
+      "settings": {
+        "team_tagline_text": "Short length heading",
+        "team_heading_text": "Medium length heading goes here",
+        "team_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+      }
+    },
+    "faqs_7iEMdP": {
+      "type": "faqs",
+      "blocks": {
+        "faq_3FRt8L": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "What is the minimum order quantity?",
+            "faq_answer": "<p>For DTF and DTG printing methods the minimum order is 10pcs.<br/>Due to the more complicated setup process, for screen printing the minimum order is 25pcs. </p>"
+          }
+        },
+        "faq_QdtxVj": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "How long does it take to complete an order?",
+            "faq_answer": "<p>Turnaround times vary depending on the order size and printing method. Standard orders are typically ready in 7-10 business days after payment, but we offer rush services for quicker delivery when needed.</p>"
+          }
+        },
+        "faq_yyXheT": {
+          "type": "faq",
+          "settings": {
+            "faq_question": "Can I see a mock-up of my design before you print?",
+            "faq_answer": "<p>Absolutely! We provide digital mock-ups to ensure you’re happy with the design, placement, and colors before moving forward with production.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_3FRt8L",
+        "faq_QdtxVj",
+        "faq_yyXheT"
+      ],
+      "settings": {
+        "faq_heading_text": "FAQs",
+        "faq_cta_heading_text": "",
+        "faq_cta_paragraph_text": ""
+      }
+    },
+    "contactcta_zVK3tN": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Need Assistance? Our Team is Here for You!",
+        "contact_paragraph_text": "<p>Send us a message and let one of our decoration experts guide you on your branding needs. </p>"
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "abouthero_dKdnbM",
+    "timeline_LhGc4f",
+    "bentobox_4YEGc3",
+    "testimonialslider_7Pmdry",
+    "team_dniVtq",
+    "faqs_7iEMdP",
+    "contactcta_zVK3tN"
+  ]
+}
