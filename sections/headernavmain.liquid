@@ -5,9 +5,6 @@
                             <a href="{{ link.url }}" li-object:href="link.url" li-object="link.title" class="navbar10_link w-nav-link">{{ link.title }}</a>
                             
                         </li>
-{% endfor %}{% for link in linklists.main-menu.links %}    <li li-for="link in linklists.main-menu.links" class="navbar10_menu-list-item">
-                                    
-                        </li>
 {% endfor %}<li class="navbar10_menu-list-item"><div data-delay="300" data-hover="true" data-w-id="f519aa18-49ed-ca22-d713-f5c18445efbd" class="navbar10_menu-dropdown w-dropdown"><div li-object:href="link.url" class="navbar10_dropdown-toggle w-dropdown-toggle" href="{{ link.url }}"><div li-object="link.title">{{ link.title }}</div><div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path></svg></div></div><nav class="navbar10_dropdown-list w-dropdown-list"><div class="navbar10_container"><div class="navbar10_dropdown-content"><div class="navbar10_dropdown-content-left"><div class="navbar10_dropdown-column"><div class="margin-bottom margin-xsmall"><h4 class="text-size-small">Product categories</h4></div><div class="navbar10_dropdown-link-list">{% for child_link in link.links %}    <a li-for="child_link in link.links" href="#" class="navbar10_dropdown-link w-inline-block">
                                     
                             <div li-object="child_link.title">{{ child_link.title }}</div>
