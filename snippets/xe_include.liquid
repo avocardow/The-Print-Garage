@@ -1,0 +1,10 @@
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+ {{ 'xe_cart.min.js' | asset_url | script_tag }}
+  {{ 'xe_app.js' | asset_url | script_tag }}
+  {{ 'xe_cart_image.css' | asset_url | stylesheet_tag }}
+  <script type="text/javascript">
+            jQuery(function() {
+               CartJS.init({{ cart | json }}); 
+ 	});
+  </script>
