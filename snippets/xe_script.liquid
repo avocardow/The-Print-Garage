@@ -1,4 +1,6 @@
-<script type=text/javascript>
+<script
+  type="text/javascript"
+>
     var prntTypes = '';
   var rvno = '';
   var strUrl = '';
@@ -158,4 +160,71 @@ function addPDPtoCart(pid,refID) {
        alert('Something went wrong. Please try another product.');
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  
+    try {
+         let metafieldElement = document.getElementById("customData");
+         let metafieldData = JSON.parse(metafieldElement.textContent);
+          console.error(metafieldData);
+        if (!metafieldData || !metafieldData.data.options || !metafieldData.data.variants) {
+            console.error("Invalid metafield format.");
+            return;
+        }
+
+        // Hide Shopify's default variant selectors
+        document.querySelectorAll("variant-selects").forEach(el => el.style.display = "none");
+
+        let form = document.querySelector(".product__info-wrapper");
+        if (!form) {
+            console.error("Product form not found.");
+            return;
+        }
+
+        let options = metafieldData.data.options;
+        let variants = metafieldData.data.variants;
+
+        // Generate new variant selectors
+       let container = document.createElement("div");
+        container.setAttribute("id", "custom-variant-container");
+        container.style.marginTop = "10px";
+
+        options.forEach((option, optionIndex) => {
+            let fieldset = document.createElement("fieldset");
+            fieldset.className = "js product-form__input product-form__input--pill";
+
+            let legend = document.createElement("legend");
+            legend.className = "form__label";
+            legend.textContent = option.name;
+            fieldset.appendChild(legend);
+
+            option.values.forEach((value, valueIndex) => {
+                let input = document.createElement("input");
+                input.type = "radio";
+                input.id = `custom-option-${optionIndex}-${valueIndex}`;
+                input.name = `custom-${option.name}`;
+                input.value = value;
+                input.setAttribute("data-option", option.name);
+
+                let label = document.createElement("label");
+                label.setAttribute("for", input.id);
+                label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
+
+                fieldset.appendChild(input);
+                fieldset.appendChild(label);
+            });
+
+            container.appendChild(fieldset);
+        });
+      
+        let priceElement = document.querySelector(".price");
+        // Insert custom variant options **below the price**
+        priceElement.insertAdjacentElement("afterend", container);
+
+
+        console.log("Custom product options loaded successfully!");
+    } catch (error) {
+        console.error("Error parsing metafield data:", error);
+    }
+});
 </script>
