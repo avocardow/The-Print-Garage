@@ -11,17 +11,21 @@
   "sections": {
     "product_hero_kMCttr": {
       "type": "product_hero",
-      "settings": {}
+      "settings": {
+        "text_product_description_heading": "Description"
+      }
     },
-    "product_recommended_mDwW4J": {
+    "product_recommended_zxKCE7": {
       "type": "product_recommended",
-      "settings": {}
+      "settings": {
+        "text_recommended_products_heading": "Recommended"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
     "product_hero_kMCttr",
-    "product_recommended_mDwW4J"
+    "product_recommended_zxKCE7"
   ]
 }
