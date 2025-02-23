@@ -45,103 +45,16 @@
     "bentobox_JQECti": {
       "type": "bentobox",
       "blocks": {
-        "large_bento_card_1_36YbfM": {
-          "type": "large-bento-card-1",
-          "settings": {
-            "card_heading_text": "",
-            "card_paragraph_text": "",
-            "hide_link": true,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/PG_Home_Static_Image_1.jpg"
-          }
-        },
-        "medium_bento_card_1_LqqfVz": {
-          "type": "medium-bento-card-1",
-          "settings": {
-            "card_bg": "background-color-secondary",
-            "card_heading_text": "Brands you know and trust!",
-            "card_paragraph_text": "<p>We’re proud to partner with top brands like AS Colour, Gildan, </p><p>JB's Wear, RAMO, Urban Collab, and CB Clothing to offer durable, stylish apparel.<br/><br/>Beyond quality clothing, we also decorate promotional products from branded merchandise to corporate gifts helping your brand leave a lasting impression.</p>",
-            "hide_link": true,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "small_bento_card_1_PymNnW": {
-          "type": "small-bento-card-1",
-          "disabled": true,
-          "settings": {
-            "card_bg": "background-color-secondary",
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "small_bento_card_2_tiq98R": {
-          "type": "small-bento-card-2",
-          "disabled": true,
-          "settings": {
-            "card_bg": "background-color-tertiary",
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "medium_bento_card_2_UrbANk": {
-          "type": "medium-bento-card-2",
-          "settings": {
-            "card_bg": "background-color-quaternary",
-            "card_heading_text": "We have a huge range of high quality blanks.",
-            "card_paragraph_text": "<p>We source only the highest quality blanks from trusted brands like AS Colour, known for their durability and premium feel. With a wide range of garment styles and color options, we ensure there’s something to perfectly match your unique look and feel.</p>",
-            "hide_link": true,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "large_bento_card_2_g4fXbX": {
-          "type": "large-bento-card-2",
-          "settings": {
-            "card_heading_text": "",
-            "card_paragraph_text": "",
-            "hide_link": true,
-            "card_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "large_bento_card_1_36YbfM",
-        "medium_bento_card_1_LqqfVz",
-        "small_bento_card_1_PymNnW",
-        "small_bento_card_2_tiq98R",
-        "medium_bento_card_2_UrbANk",
-        "large_bento_card_2_g4fXbX"
-      ],
-      "settings": {
-        "bento_heading_text": "best of the best blanks",
-        "bento_paragraph_text": "<p>We have selected a range of high quality garments from years of testing and experience.</p>"
-      }
-    },
-    "bentoboxtest_XPFp8y": {
-      "type": "bentoboxtest",
-      "blocks": {
-        "bento_card_tBn4RQ": {
+        "bento_card_KaMGeK": {
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-large",
-            "card_bg": "background-color-secondary",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
             "hide_link": false,
             "card_link": "",
-            "card_background_image": "shopify://shop_images/PG_Home_Static_Image_1.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -149,11 +62,11 @@
         }
       },
       "block_order": [
-        "bento_card_tBn4RQ"
+        "bento_card_KaMGeK"
       ],
       "settings": {
-        "bento_heading_text": "Medium length hero heading goes here",
-        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "bento_heading_text": "best of the best blanks",
+        "bento_paragraph_text": "<p>We have selected a range of high quality garments from years of testing and experience.</p>"
       }
     },
     "productgallery_nxmn6e": {
@@ -315,7 +228,6 @@
     "videohero",
     "scrollanimatecontent",
     "bentobox_JQECti",
-    "bentoboxtest_XPFp8y",
     "productgallery_nxmn6e",
     "calltoactionbanner",
     "featuredarticles",
