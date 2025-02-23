@@ -18,7 +18,6 @@
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
         "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
-        "hero_video_poster_image": "shopify://shop_images/Video_thumb_nail.jpg",
         "hero_video": "shopify://files/videos/welcome-to-the-print-garage-compressed.mp4"
       }
     },
@@ -27,15 +26,11 @@
       "blocks": {
         "scroll_animate_image_1_zgbkq4": {
           "type": "scroll-animate-image-1",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
-          }
+          "settings": {}
         },
         "scroll_animate_image_2_YW99rM": {
           "type": "scroll-animate-image-2",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -60,7 +55,7 @@
             "card_bg": "background-color-quaternary",
             "hide_link": false,
             "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Label.jpg",
+            "card_background_image": "shopify://shop_images/PG_Home_Static_Image_2.jpg",
             "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
@@ -121,7 +116,7 @@
             "card_bg": "background-color-quaternary",
             "hide_link": false,
             "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Shirts.jpg",
+            "card_background_image": "shopify://shop_images/MugsWhite.jpg",
             "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
@@ -145,39 +140,27 @@
       "blocks": {
         "gallery_image_Wmc4Ey": {
           "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Mettle_Vests.jpg"
-          }
+          "settings": {}
         },
         "gallery_image_6hRFaG": {
           "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Ratbag_test_502ed04c-51b4-4f36-a616-139e37cf1026.jpg"
-          }
+          "settings": {}
         },
         "gallery_image_8aqcnA": {
           "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Monster_Truck_Tee.jpg"
-          }
+          "settings": {}
         },
         "gallery_image_UKeBgy": {
           "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Hard_Hats.jpg"
-          }
+          "settings": {}
         },
         "gallery_image_AjLWcd": {
           "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
-          }
+          "settings": {}
         },
         "gallery_image_3M3X6a": {
           "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Hells_Gate_Tee_V2.jpg"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -197,8 +180,7 @@
       "type": "calltoactionbanner",
       "settings": {
         "cta_heading_text": "Boost Your Brand with Custom Products",
-        "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>",
-        "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png"
+        "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>"
       }
     },
     "featuredarticles": {
@@ -218,7 +200,6 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Finding New Ground",
-            "testimonial_image": "shopify://shop_images/FNG_Logo_2_e6a70784-1e74-48ed-ad98-7ad89c35b17d.jpg",
             "testimonial_text": "<p>Been dealing with Anthony and the print shop crew for near on ten years. The service they deliver is second to none and they are never too busy to answer my questions. The quality of work is always top shelf and being a business owner who is super fussy they never fail to deliver.  Would highly recommend them for any of your printing or sublimation needs. </p>"
           }
         },
@@ -226,7 +207,6 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Gorman Agencies",
-            "testimonial_image": "shopify://shop_images/Gorman_fake_logo.jpg",
             "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
           }
         },
@@ -234,7 +214,6 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Bremer State High School",
-            "testimonial_image": "shopify://shop_images/288923206_5269129073170580_5122789883451384551_n.jpg",
             "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
           }
         },
@@ -242,7 +221,6 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Williamson International",
-            "testimonial_image": "shopify://shop_images/williamson_logo.jpg",
             "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
           }
         }
