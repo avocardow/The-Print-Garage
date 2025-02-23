@@ -6,19 +6,19 @@
                                     <div class="settings-schema w-embed"></div>
 
                                     
-                                    <div data-w-id="b99a0505-314b-d1dc-3a78-149ceb3a71a2" class="faq4_question"><div li-object="section.settings.faq_question" class="text-size-medium text-weight-bold">{{ section.settings.faq_question }}</div><div class="faq4_icon-wrappper"><div id="w-node-b99a0505-314b-d1dc-3a78-149ceb3a71a6-eb3a7193" class="button is-xsmall"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" width="100%" fill="currentColor" class="icon-1x1-small"><path d="M248 72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 160L40 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l160 0 0 160c0 13.3 10.7 24 24 24s24-10.7 24-24l0-160 160 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-160 0 0-160z"></path></svg></div></div></div>
+                                    <div data-w-id="b99a0505-314b-d1dc-3a78-149ceb3a71a2" class="faq4_question"><div li-object="section.settings.faq_question" class="text-size-medium text-weight-bold">{{ section.settings.faq_question }}</div><div class="faq4_icon-wrappper"><div class="button is-xsmall"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" width="100%" fill="currentColor" class="icon-1x1-small"><path d="M248 72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 160L40 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l160 0 0 160c0 13.3 10.7 24 24 24s24-10.7 24-24l0-160 160 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-160 0 0-160z"></path></svg></div></div></div>
                                     
                                     <div class="faq4_answer"><div class="margin-bottom margin-small"><div class="richtext-wrapper w-richtext"><p li-object="section.settings.faq_answer">{{ section.settings.faq_answer }}</p></div></div></div>
                                     
                             </div>
             {% endif %}
 {% endfor %}
-</div></div><div class="margin-top margin-xxlarge"><div class="text-align-center"><div class="max-width-medium align-center"><div class="margin-bottom margin-xsmall"><h3 li-object="section.settings.faq_cta_heading_text">{{ section.settings.faq_cta_heading_text }}</h3></div><div class="richtext-wrapper w-richtext"><p li-object="section.settings.faq_cta_paragraph_text">{{ section.settings.faq_cta_paragraph_text }}</p></div><div class="margin-top margin-small"><div id="w-node-b99a0505-314b-d1dc-3a78-149ceb3a71b8-eb3a7193" class="button-group is-center">{% for block in section.blocks %}
+</div></div><div class="margin-top margin-xxlarge"><div class="text-align-center"><div class="max-width-medium align-center"><div class="margin-bottom margin-xsmall"><h3 li-object="section.settings.faq_cta_heading_text">{{ section.settings.faq_cta_heading_text }}</h3></div><div class="richtext-wrapper w-richtext"><p li-object="section.settings.faq_cta_paragraph_text">{{ section.settings.faq_cta_paragraph_text }}</p></div><div class="margin-top margin-small"><div class="button-group is-center">{% for block in section.blocks %}
     {% if block.type == "button" %}
-                    <div li-block="Button" id="w-node-b99a0505-314b-d1dc-3a78-149ceb3a71b9-eb3a7193" class="block-wrapper">
+                    <div li-block="Button" class="block-wrapper">
                                     
-                                    <a li-object:href="section.settings.btn_url" id="w-node-b99a0505-314b-d1dc-3a78-149ceb3a71ba-eb3a7193" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
-{% if section.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-b99a0505-314b-d1dc-3a78-149ceb3a71bc-eb3a7193" li-if="section.settings.btn_layout != 'btn_layout_icon'">
+                                    <a li-object:href="section.settings.btn_url" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
+{% if section.settings.btn_layout != 'btn_layout_icon' %}    <span li-if="section.settings.btn_layout != 'btn_layout_icon'">
     {{ section.settings.btn_text | default: "Button Text" }}    </span>
 {% endif %}{% if section.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ section.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="section.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ section.settings.btn_icon_size }}">
     <path d="{{ section.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>

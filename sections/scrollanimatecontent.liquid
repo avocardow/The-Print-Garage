@@ -1,6 +1,6 @@
 <div id="intro" class="padding-global"><div class="header80_component"><div class="header80_content-wrapper max-width-xxlarge align-center"><div class="header80_images-wrapper"><div class="header80_image-list"><div class="header80_image-wrapper is-image-1">{% for block in section.blocks %}
     {% if block.type == "scroll-animate-image-1" %}
-                    <div li-block="Scroll Animate Image 1" id="w-node-fb920dda-a2b2-0f8b-e298-6d7ce6d0b0a2-e6d0b09b" class="block-wrapper">
+                    <div li-block="Scroll Animate Image 1" class="block-wrapper">
                                     
                                     <div class="settings-schema w-embed"></div>
 
@@ -12,7 +12,7 @@
 {% endfor %}
 </div></div><div class="header80_image-list image-list-right"><div class="header80_image-wrapper is-image-5">{% for block in section.blocks %}
     {% if block.type == "scroll-animate-image-2" %}
-                    <div li-block="Scroll Animate Image 2" id="w-node-fb920dda-a2b2-0f8b-e298-6d7ce6d0b0a7-e6d0b09b" class="block-wrapper">
+                    <div li-block="Scroll Animate Image 2" class="block-wrapper">
                                     
                                     <div class="settings-schema w-embed"></div>
 
@@ -25,10 +25,10 @@
 </div></div></div><div class="header80_content"><div class="settings-schema w-embed"></div>
 <div class="max-width-large"><div class="richtext-wrapper w-richtext"><h2 li-object="section.settings.scroll_animate_text" class="layout484_text">{{ section.settings.scroll_animate_text }}</h2></div><div class="margin-top margin-small"><div class="button-group">{% for block in section.blocks %}
     {% if block.type == "button" %}
-                    <div li-block="Button" id="w-node-fb920dda-a2b2-0f8b-e298-6d7ce6d0b0b2-e6d0b09b" class="block-wrapper">
+                    <div li-block="Button" class="block-wrapper">
                                     
-                                    <a li-object:href="section.settings.btn_url" id="w-node-fb920dda-a2b2-0f8b-e298-6d7ce6d0b0b3-e6d0b09b" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
-{% if section.settings.btn_layout != 'btn_layout_icon' %}    <span id="w-node-fb920dda-a2b2-0f8b-e298-6d7ce6d0b0b5-e6d0b09b" li-if="section.settings.btn_layout != 'btn_layout_icon'">
+                                    <a li-object:href="section.settings.btn_url" href="{{ section.settings.btn_url }}" class="button w-inline-block {{ section.settings.btn_size }} {{ section.settings.btn_style }}"><div class="settings-schema w-embed"></div>
+{% if section.settings.btn_layout != 'btn_layout_icon' %}    <span li-if="section.settings.btn_layout != 'btn_layout_icon'">
     {{ section.settings.btn_text | default: "Button Text" }}    </span>
 {% endif %}{% if section.settings.btn_layout != 'btn_layout_text' %}    <svg xmlns="http://www.w3.org/2000/svg" viewbox="{{ section.settings.btn_icon_viewbox | default: "0 0 384 512" }}" width="100%" fill="currentColor" li-if="section.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small {{ section.settings.btn_icon_size }}">
     <path d="{{ section.settings.btn_icon_path | default: "M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z" }}"></path>    </svg>
