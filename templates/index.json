@@ -136,10 +136,11 @@
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "card_size": "is-small",
-            "card_bg": "background-color-quaternary",
+            "card_size": "is-large",
+            "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/PG_Home_Static_Image_1.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
