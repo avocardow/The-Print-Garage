@@ -26,7 +26,9 @@
       "blocks": {
         "scroll_animate_image_1_zgbkq4": {
           "type": "scroll-animate-image-1",
-          "settings": {}
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/5001_STAPLE_TEE_RED.jpg"
+          }
         },
         "scroll_animate_image_2_YW99rM": {
           "type": "scroll-animate-image-2",
@@ -140,27 +142,39 @@
       "blocks": {
         "gallery_image_Wmc4Ey": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/PG_Home_Static_Image_1.jpg"
+          }
         },
         "gallery_image_6hRFaG": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/HatBlack.jpg"
+          }
         },
         "gallery_image_8aqcnA": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/202306221041386596.png"
+          }
         },
         "gallery_image_UKeBgy": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/BlackTowel.jpg"
+          }
         },
         "gallery_image_AjLWcd": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/BlackInfuserBottle.jpg"
+          }
         },
         "gallery_image_3M3X6a": {
           "type": "gallery-image",
-          "settings": {}
+          "settings": {
+            "gallery_image": "shopify://shop_images/MousePads.jpg"
+          }
         }
       },
       "block_order": [
