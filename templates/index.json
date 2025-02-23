@@ -218,6 +218,24 @@
     },
     "featuredarticles": {
       "type": "featuredarticles",
+      "blocks": {
+        "button_cQHr7R": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_cQHr7R"
+      ],
       "settings": {
         "blog_heading_text": "From Pixels to Print",
         "blog_paragraph_text": "<p>Exploring Techniques, Trends, and Tips within the Printing Industry</p>",
@@ -233,6 +251,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Finding New Ground",
+            "testimonial_image": "shopify://shop_images/ASColourMaple4001-01.png",
             "testimonial_text": "<p>Been dealing with Anthony and the print shop crew for near on ten years. The service they deliver is second to none and they are never too busy to answer my questions. The quality of work is always top shelf and being a business owner who is super fussy they never fail to deliver.  Would highly recommend them for any of your printing or sublimation needs. </p>"
           }
         },
@@ -240,6 +259,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Gorman Agencies",
+            "testimonial_image": "shopify://shop_images/ASColourKids3005-01.png",
             "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
           }
         },
@@ -247,6 +267,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Bremer State High School",
+            "testimonial_image": "shopify://shop_images/HatWhite.jpg",
             "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
           }
         },
@@ -254,6 +275,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial_name": "Williamson International",
+            "testimonial_image": "shopify://shop_images/BlackInfuserBottle.jpg",
             "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
           }
         }
