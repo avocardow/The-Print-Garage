@@ -10,7 +10,7 @@
                     <div class="settings-schema w-embed"></div>
 
                     
-                    <div class="layout527_background-image-wrapper">{% if block.settings.hide_link != true or block.settings.card_type == 'card_type_image' %}    <div li-if="block.settings.hide_link != true or block.settings.card_type == 'card_type_image'" class="image-overlay-layer">
+                    <div class="layout527_background-image-wrapper">{% if block.settings.hide_link != true or block.settings.card_type == 'card_type_image' %}    <div li-if="block.settings.hide_link == false or block.settings.card_type == 'card_type_image'" class="image-overlay-layer">
         </div>
 {% endif %}<img li-object:src="block.settings.card_background_image | image_url: width: 720" li-if="block.settings.card_type == 'card_type_image'" alt="" src="{{ block.settings.card_background_image | image_url: width: 720 }}" loading="lazy" class="layout527_background-image">
 {% if block.settings.card_type == 'card_type_color' %}    <div li-if="block.settings.card_type == 'card_type_color'" class="layout527_background-color {{ block.settings.card_bg }}">
