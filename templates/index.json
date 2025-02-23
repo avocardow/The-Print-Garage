@@ -76,6 +76,7 @@
             "card_bg": "background-color-tertiary",
             "hide_link": false,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/WO_HEAVY.jpg",
             "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
@@ -91,6 +92,7 @@
             "card_bg": "background-color-quaternary",
             "hide_link": false,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
             "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
@@ -106,6 +108,7 @@
             "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/4026.jpg",
             "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
