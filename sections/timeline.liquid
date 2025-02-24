@@ -18,12 +18,7 @@
     {% case block.type %}
         {% when '@app' %}
             {% render block %}
-    <div class="w-embed"><style>@media only screen and (min-width: 767px) {
-  .timeline12_content .timeline12_row:nth-child(odd)	{
-    flex-direction: row-reverse;
-  }
-}
-</style></div>{% when 'timeline-item' %}
+    {% when 'timeline-item' %}
             <div li-block="Timeline Item" class="timeline12_row">
                     
                     <div class="settings-schema w-embed"></div>
