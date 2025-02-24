@@ -1,24 +1,19 @@
 <div class="padding-global"><div class="container-large"><div class="padding-section-large"><div class="team4_component"><div class="settings-schema w-embed"></div>
 <div class="margin-bottom margin-xlarge"><div class="max-width-large"><div class="margin-bottom margin-xsmall"><div li-object="section.settings.team_tagline_text" class="text-style-tagline">{{ section.settings.team_tagline_text }}</div></div><div class="margin-bottom margin-small"><h2 li-object="section.settings.team_heading_text" class="heading-style-h2">{{ section.settings.team_heading_text }}</h2></div><div class="richtext-wrapper text-size-medium w-richtext"><p li-object="section.settings.team_paragraph_text">{{ section.settings.team_paragraph_text }}</p></div></div></div><div class="team4_list-wrapper"><div li-content-for-blocks="" class="w-layout-grid team4_list">
-{% for block in section.blocks %}
-    {% case block.type %}
-        {% when '@app' %}
-            {% render block %}
-    {% when 'team-member' %}
+{% for team in metaobjects.team.values %}
             <div li-block="Team Member" class="team4_item">
                     
                     <div class="settings-schema w-embed"></div>
 
                     
-                    <div class="margin-bottom margin-small"><div class="team4_image-wrapper"><img li-object:src="block.settings.team_member_image | image_url: width: 720" loading="lazy" alt="" src="{{ block.settings.team_member_image | image_url: width: 720 }}" class="team4_image">
+                    <div class="margin-bottom margin-small"><div class="team4_image-wrapper"><img li-object:src="block.settings.team_member_image | image_url: width: 720" loading="lazy" alt="" src="{{ team.image | image_url: width: 720 }}" class="team4_image">
 </div></div>
                     
-                    <div class="margin-bottom margin-xsmall"><div class="team4_title-wrapper"><div li-object="block.settings.team_member_name_text" class="text-size-large text-weight-semibold">{{ block.settings.team_member_name_text }}</div><div li-object="block.settings.team_member_title_text" class="text-size-medium">{{ block.settings.team_member_title_text }}</div></div></div>
+                    <div class="margin-bottom margin-xsmall"><div class="team4_title-wrapper"><div li-object="block.settings.team_member_name_text" class="text-size-large text-weight-semibold">{{ team.name }}</div><div li-object="block.settings.team_member_title_text" class="text-size-medium">{{ team.title }}</div></div></div>
                     
-                    <div class="richtext-wrapper text-size-regular w-richtext"><p li-object="block.settings.team_member_paragraph_text">{{ block.settings.team_member_paragraph_text }}</p></div>
+                    <div class="richtext-wrapper text-size-regular w-richtext"><p li-object="block.settings.team_member_paragraph_text">{{ team.bio }}</p></div>
                     
                 </div>
-        {% endcase %}
 {% endfor %}
 
 </div>
