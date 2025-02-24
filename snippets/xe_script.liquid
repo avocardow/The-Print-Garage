@@ -244,11 +244,11 @@ function addPDPtoCart(pid,refID) {
 
                 let label = document.createElement("label");
                 label.setAttribute("for", input.id);
-                label.className = "custom-option-label";
-                label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
+                //label.className = "custom-option-label";
+                //label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
 
                 fieldset.appendChild(input);
-                fieldset.appendChild(label);
+                //fieldset.appendChild(label);
             });
 
             container.appendChild(fieldset);
