@@ -189,7 +189,7 @@ function addPDPtoCart(pid,refID) {
         container.setAttribute("li-if", "product.has_only_default_variant != true");
         container.className = "product-header_option-list";
 
-        product.options.forEach((option, optionKey) => {
+        options.forEach((option, optionKey) => {
             const optionDiv = document.createElement("div");
             optionDiv.setAttribute("li-element", "product-options-loop");
             optionDiv.className = "product-header_option";
