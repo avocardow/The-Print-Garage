@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
          let metafieldElement = document.getElementById("customData");
          let metafieldData = JSON.parse(metafieldElement.textContent);
-          console.error(metafieldData);
+          console.log(metafieldData);
         if (!metafieldData || !metafieldData.data.options || !metafieldData.data.variants) {
             console.error("Invalid metafield format.");
             return;
