@@ -19,14 +19,8 @@
         {% when '@app' %}
             {% render block %}
     <style>@media only screen and (min-width: 767px) {
-  .timeline12_content .timeline12_row:nth-child(even) .timeline12_empty-space, .timeline12_content .timeline12_row:nth-child(odd) .timeline12_item	{
-    order: 1;
-  }
-  .timeline12_content .timeline12_row .timeline12_circle-wrapper	{
-    order: 2;
-  }
-  .timeline12_content .timeline12_row:nth-child(odd) .timeline12_empty-space, .timeline12_content .timeline12_row:nth-child(even) .timeline12_item	{
-    order: 3;
+  .timeline12_content .timeline12_row:nth-child(odd)	{
+    flex-direction: row-reverse;
   }
 }
 </style>    {% endcase %}
