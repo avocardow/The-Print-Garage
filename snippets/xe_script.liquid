@@ -175,7 +175,7 @@ function addPDPtoCart(pid,refID) {
         // Hide Shopify's default variant selectors
         document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
 
-        let form = document.querySelector(".product-header_add-to-cart w-form");
+        let form = document.querySelector(".product-header_product-details");
         if (!form) {
             console.error("Product form not found.");
             return;
