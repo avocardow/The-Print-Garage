@@ -49,14 +49,14 @@
 	flex-flow: row;
 }
 </style></div><div li-content-for-blocks="" class="testimonial24_mask w-slider-mask">
-{% for testimonials in shop.metaobjects.testimonials.value %}
+{% for testimonials in shop.metaobjects.testimonials.values %}
             <div li-block="Testimonial" class="testimonial24_slide w-slide">
                     
                     <div class="settings-schema w-embed"></div>
 
                     
                     <div class="testimonial24_card"><div class="testimonial24_content-top"><div class="margin-bottom margin-large"><div class="testimonial24_client-image-wrapper"><img li-object:src="block.settings.testimonial_image | image_url: width: 180" loading="lazy" alt="" src="{{ block.settings.testimonial_image | image_url: width: 180 }}" class="testimonial24_customer-image">
-</div></div><div class="richtext-wrapper w-richtext"><p li-object="block.settings.testimonial_text">{{ shop.metaobjects.testimonials.testimonial }}</p></div><div class="margin-top margin-small"><div class="testimonial24_client"><div class="testimonial24_client-info"><div li-object="block.settings.testimonial_name" class="text-size-tiny text-weight-semibold">{{ block.settings.testimonial_name }}</div></div></div></div></div></div>
+</div></div><div class="richtext-wrapper w-richtext"><p li-object="block.settings.testimonial_text">{{ shop.metaobjects.testimonials.values.testimonial }}</p></div><div class="margin-top margin-small"><div class="testimonial24_client"><div class="testimonial24_client-info"><div li-object="block.settings.testimonial_name" class="text-size-tiny text-weight-semibold">{{ block.settings.testimonial_name }}</div></div></div></div></div></div>
                     
                 </div>
 {% endfor %}
