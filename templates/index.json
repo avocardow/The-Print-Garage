@@ -195,7 +195,7 @@
       "settings": {
         "products_heading_text": "Medium length section heading goes here",
         "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "collection_select_a_collection": "bamboo-coasters",
+        "collection_select_a_collection": "all",
         "collection_select_a_collection_limit": 6
       }
     },
