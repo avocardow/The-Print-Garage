@@ -37,6 +37,33 @@
     {% endunless %}
 
   $(document).ready(function() {
+    $("head").append(`
+        <style>
+            .variant-selector-container {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .variant-selector {
+                border: 1px solid #ddd;
+                background: #f9f9f9;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .variant-label-option {
+                padding: 8px 12px;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background 0.2s ease;
+            }
+            .variant-label-option.active {
+                background-color: #007bff;
+                color: #fff;
+                border-color: #007bff;
+            }
+        </style>
+    `);
+
   //redirect to site if duplicate product is opened
   if(thisVendor == 'imprintNext'){
           window.location.href="/";
