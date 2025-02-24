@@ -68,39 +68,42 @@
     let options = metafieldData.data.options;
     let variants = metafieldData.data.variants;
 
-    // Generate new variant selectors
-    let $container = $("<div>", {
-        id: "custom-variant-container",
-        css: { marginTop: "10px" }
-    });
+  // Generate new variant selectors
+let $container = $("<div>", {
+    id: "variant-selector-container",
+    css: { marginTop: "10px" }
+});
 
-    $.each(options, function(optionIndex, option) {
-        let $fieldset = $("<fieldset>", { class: "js product-form__input product-form__input--pill" });
+$.each(options, function(optionIndex, option) {
+    let $fieldset = $("<fieldset>", { class: "variant-selector variant-selector--pill" });
 
-        let $legend = $("<legend>", { class: "form__label", text: option.name });
-        $fieldset.append($legend);
+    let $legend = $("<legend>", { class: "variant-label", text: option.name });
+    $fieldset.append($legend);
 
-        $.each(option.values, function(valueIndex, value) {
-            let inputId = `custom-option-${optionIndex}-${valueIndex}`;
-            
-            let $input = $("<input>", {
-                type: "radio",
-                id: inputId,
-                name: `custom-${option.name}`,
-                value: value,
-                "data-option": option.name
-            });
-
-            let $label = $("<label>", {
-                for: inputId,
-                html: `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`
-            });
-
-            $fieldset.append($input, $label);
+    $.each(option.values, function(valueIndex, value) {
+        let inputId = `variant-option-${optionIndex}-${valueIndex}`;
+        
+        let $input = $("<input>", {
+            type: "radio",
+            id: inputId,
+            name: `variant-${option.name}`,
+            value: value,
+            "data-option": option.name,
+            class: "variant-input"
         });
 
-        $container.append($fieldset);
+        let $label = $("<label>", {
+            for: inputId,
+            html: `${value} <span class="visually-hidden variant-unavailable">Variant sold out or unavailable</span>`,
+            class: "variant-label-option"
+        });
+
+        $fieldset.append($input, $label);
     });
+
+    $container.append($fieldset);
+});
+
 
     let $priceElement = $(".product-header_price-wrapper");
     if ($priceElement.length) {
