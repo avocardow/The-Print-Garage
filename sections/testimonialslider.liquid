@@ -50,10 +50,6 @@
 }
 </style></div><div li-content-for-blocks="" class="testimonial24_mask w-slider-mask">
 {% for testimonials in shop.metaobjects.testimonials %}
-    {% case block.type %}
-        {% when '@app' %}
-            {% render block %}
-    {% when 'testimonial' %}
             <div li-block="Testimonial" class="testimonial24_slide w-slide">
                     
                     <div class="settings-schema w-embed"></div>
@@ -63,7 +59,6 @@
 </div></div><div class="richtext-wrapper w-richtext"><p li-object="block.settings.testimonial_text">{{ shop.metaobjects.testimonials.testimonial }}</p></div><div class="margin-top margin-small"><div class="testimonial24_client"><div class="testimonial24_client-info"><div li-object="block.settings.testimonial_name" class="text-size-tiny text-weight-semibold">{{ block.settings.testimonial_name }}</div></div></div></div></div></div>
                     
                 </div>
-        {% endcase %}
 {% endfor %}
 
 </div>
