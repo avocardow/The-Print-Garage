@@ -40,6 +40,79 @@
   if(thisVendor == 'imprintNext'){
           window.location.href="/";
         }
+    try {
+    let $metafieldElement = $("#customData");
+    if ($metafieldElement.length === 0) {
+        console.error("Element #customData not found.");
+        return;
+    }
+
+    let metafieldData = JSON.parse($metafieldElement.text().trim());
+    console.log(metafieldData);
+
+    if (!metafieldData || !metafieldData.data.options || !metafieldData.data.variants) {
+        console.error("Invalid metafield format.");
+        return;
+    }
+
+    // Hide Shopify's default variant selectors
+    $(".product-header_option-list").hide();
+
+    let $form = $(".product-header_add-to-cart.w-form");
+    if ($form.length === 0) {
+        console.error("Product form not found.");
+        return;
+    }
+
+    let options = metafieldData.data.options;
+    let variants = metafieldData.data.variants;
+
+    // Generate new variant selectors
+    let $container = $("<div>", {
+        id: "custom-variant-container",
+        css: { marginTop: "10px" }
+    });
+
+    $.each(options, function(optionIndex, option) {
+        let $fieldset = $("<fieldset>", { class: "js product-form__input product-form__input--pill" });
+
+        let $legend = $("<legend>", { class: "form__label", text: option.name });
+        $fieldset.append($legend);
+
+        $.each(option.values, function(valueIndex, value) {
+            let inputId = `custom-option-${optionIndex}-${valueIndex}`;
+            
+            let $input = $("<input>", {
+                type: "radio",
+                id: inputId,
+                name: `custom-${option.name}`,
+                value: value,
+                "data-option": option.name
+            });
+
+            let $label = $("<label>", {
+                for: inputId,
+                html: `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`
+            });
+
+            $fieldset.append($input, $label);
+        });
+
+        $container.append($fieldset);
+    });
+
+    // Uncomment below if you want to insert after the price
+    // let $priceElement = $(".price");
+    // if ($priceElement.length) {
+    //     $priceElement.after($container);
+    // }
+
+    console.log("Custom product options loaded successfully!");
+
+} catch (error) {
+    console.error("Error parsing metafield data:", error);
+}
+
   });
   // for template based product
   if(productCat != ''){
