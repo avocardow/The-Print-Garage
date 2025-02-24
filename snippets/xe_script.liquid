@@ -69,39 +69,64 @@
     let variants = metafieldData.data.variants;
 
   // Generate new variant selectors
-let $container = $("<div>", {
-    id: "variant-selector-container",
-    css: { marginTop: "10px" }
-});
+let $container = $(".product-header_option-list");
+
+// Clear the container before appending new elements
+$container.empty();
 
 $.each(options, function(optionIndex, option) {
-    let $fieldset = $("<fieldset>", { class: "variant-selector variant-selector--pill" });
-
-    let $legend = $("<legend>", { class: "variant-label", text: option.name });
-    $fieldset.append($legend);
-
-    $.each(option.values, function(valueIndex, value) {
-        let inputId = `variant-option-${optionIndex}-${valueIndex}`;
-        
-        let $input = $("<input>", {
-            type: "radio",
-            id: inputId,
-            name: `variant-${option.name}`,
-            value: value,
-            "data-option": option.name,
-            class: "variant-input"
-        });
-
-        let $label = $("<label>", {
-            for: inputId,
-            html: `${value} <span class="visually-hidden variant-unavailable">Variant sold out or unavailable</span>`,
-            class: "variant-label-option"
-        });
-
-        $fieldset.append($input, $label);
+    let $optionWrapper = $("<div>", {
+        class: "product-header_option",
+        "data-productvariantsloop": "true"
     });
 
-    $container.append($fieldset);
+    let $optionLabel = $("<div>", {
+        class: "product-header_option-name",
+        text: option.name
+    });
+
+    let $radioList = $("<div>", {
+        class: "product-header_radio-list"
+    });
+
+    $.each(option.values, function(valueIndex, value) {
+        let inputId = value.toString().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "").replace(/--+/g, "-");
+
+        let $label = $("<label>", {
+            class: "product-header_radio w-radio",
+            "li-element": "product-option-loop"
+        });
+
+        let $radioButton = $("<div>", {
+            class: "w-form-formradioinput w-form-formradioinput--inputType-custom product-header_radio-button w-radio-input"
+        });
+
+        let $input = $("<input>", {
+            type: "radio",
+            class: "product-option-input",
+            "li-element": "product-option-input",
+            name: option.name,
+            "data-name": option.name,
+            value: value,
+            id: inputId,
+            style: "opacity:0;position:absolute;z-index:-1",
+            "x-on:click": "setVariant",
+            "data-selectortype": "radio"
+        });
+
+        let $span = $("<span>", {
+            class: "text-size-regular z-index-2 w-form-label",
+            text: value,
+            for: inputId
+        });
+
+        $label.append($radioButton, $input, $span);
+        $radioList.append($label);
+    });
+
+    $optionWrapper.append($optionLabel, $radioList);
+    $container.append($optionWrapper);
 });
 
 
