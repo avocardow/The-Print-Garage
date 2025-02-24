@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Hide Shopify's default variant selectors
         document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
 
-        let form = document.querySelector(".product-header_default-state");
+        let form = document.querySelector(".product-header_add-to-cart w-form");
         if (!form) {
             console.error("Product form not found.");
             return;
