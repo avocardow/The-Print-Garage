@@ -28,11 +28,12 @@
         ],
         "settings": {
           "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
-          "checkbox_show_search": false,
+          "menu_handle": "main-menu",
+          "checkbox_show_search": true,
           "collection_bestseller": "",
           "collection_bestseller_limit": 6,
-          "checkbox_show_account": false,
-          "checkbox_show_cart": false
+          "checkbox_show_account": true,
+          "checkbox_show_cart": true
         }
       },
       "footermain": {
