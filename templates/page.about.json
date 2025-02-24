@@ -96,6 +96,202 @@
     },
     "bentobox_4YEGc3": {
       "type": "bentobox",
+      "blocks": {
+        "bento_card_7Pm8nH": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_frJgPL": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_cfWxDk": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_CKKKFr": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_rbn68K": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_fU6AN9": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_U9PA9p": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_PkFiB6": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_r3N4tX": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_tQnawa": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_dWqz8Q": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_pLQJBi": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_7Pm8nH",
+        "bento_card_frJgPL",
+        "bento_card_cfWxDk",
+        "bento_card_CKKKFr",
+        "bento_card_rbn68K",
+        "bento_card_fU6AN9",
+        "bento_card_U9PA9p",
+        "bento_card_PkFiB6",
+        "bento_card_r3N4tX",
+        "bento_card_tQnawa",
+        "bento_card_dWqz8Q",
+        "bento_card_pLQJBi"
+      ],
       "settings": {
         "bento_heading_text": "Our Mission & Vibe",
         "bento_paragraph_text": "<p>The Print Garage exists to empower brands and individuals with <strong>Branded Merch & Apparel</strong> that leaves a lasting impact. We believe in making custom printing easy, creative, and authentic – without compromising on quality.  <br/>Think of us as the <strong>cool, retro print shop</strong> where ideas are fine-tuned, printed, and delivered with a dose of old-school flair and modern precision.</p>"
@@ -144,7 +340,8 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/mockup-t-shirt-of-a-flat-laid-t-shirt-on-a-rugged-surface-m1252.png"
           }
         },
         "team_member_Fkih9L": {
@@ -152,7 +349,8 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/202306150458128666.png"
           }
         },
         "team_member_6R7wVw": {
@@ -160,7 +358,8 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/202306150606143346.png"
           }
         },
         "team_member_yyThqD": {
@@ -168,39 +367,8 @@
           "settings": {
             "team_member_name_text": "Full Name",
             "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
-          }
-        },
-        "team_member_KGCLC8": {
-          "type": "team-member",
-          "settings": {
-            "team_member_name_text": "Full Name",
-            "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
-          }
-        },
-        "team_member_iczMQK": {
-          "type": "team-member",
-          "settings": {
-            "team_member_name_text": "Full Name",
-            "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
-          }
-        },
-        "team_member_keYtBH": {
-          "type": "team-member",
-          "settings": {
-            "team_member_name_text": "Full Name",
-            "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
-          }
-        },
-        "team_member_C9wY4Y": {
-          "type": "team-member",
-          "settings": {
-            "team_member_name_text": "Full Name",
-            "team_member_title_text": "Job Title",
-            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+            "team_member_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
+            "team_member_image": "shopify://shop_images/202306150913188410.png"
           }
         }
       },
@@ -208,11 +376,7 @@
         "team_member_fVaxJt",
         "team_member_Fkih9L",
         "team_member_6R7wVw",
-        "team_member_yyThqD",
-        "team_member_KGCLC8",
-        "team_member_iczMQK",
-        "team_member_keYtBH",
-        "team_member_C9wY4Y"
+        "team_member_yyThqD"
       ],
       "settings": {
         "team_tagline_text": "Short length heading",
