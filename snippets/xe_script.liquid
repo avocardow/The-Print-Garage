@@ -1,3 +1,28 @@
+<style>
+  .product-form__input {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+  .form__label {
+      font-weight: bold;
+  }
+  .custom-radio-label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+  }
+  .custom-radio-label input[type="radio"] {
+      display: none;
+  }
+  .custom-radio-label input[type="radio"]:checked + label {
+      background-color: #007bff;
+      color: white;
+      border-color: #007bff;
+  }
+</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script
   type="text/javascript"
