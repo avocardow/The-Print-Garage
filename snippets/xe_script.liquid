@@ -185,7 +185,7 @@ function addPDPtoCart(pid,refID) {
         let variants = metafieldData.data.variants;
 
         // Generate new variant selectors
-             const container = document.createElement("div");
+        const container = document.createElement("div");
         container.setAttribute("li-if", "product.has_only_default_variant != true");
         container.className = "product-header_option-list";
 
