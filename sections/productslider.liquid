@@ -16,7 +16,7 @@
 </div></div></div><div data-delay="4000" data-animation="slide" class="product12_slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true"><div class="product12_mask w-slider-mask">{% for product in section.settings.collection_select_a_collection.products limit: section.settings.collection_select_a_collection_limit %}
 <div class="product12_slide w-slide">
     
-    {% render 'product_slide', product: product-slide %}
+    {% render 'product_slide', product: product %}
 
     
 </div>
