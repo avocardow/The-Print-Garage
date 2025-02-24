@@ -185,43 +185,64 @@ function addPDPtoCart(pid,refID) {
         let variants = metafieldData.data.variants;
 
         // Generate new variant selectors
-       let container = document.createElement("div");
-        container.setAttribute("id", "custom-variant-container");
-        container.style.marginTop = "10px";
+             const container = document.createElement("div");
+        container.setAttribute("li-if", "product.has_only_default_variant != true");
+        container.className = "product-header_option-list";
 
-        options.forEach((option, optionIndex) => {
-            let fieldset = document.createElement("fieldset");
-            fieldset.className = "js product-form__input product-form__input--pill";
+        product.options.forEach((option, optionKey) => {
+            const optionDiv = document.createElement("div");
+            optionDiv.setAttribute("li-element", "product-options-loop");
+            optionDiv.className = "product-header_option";
+            optionDiv.setAttribute("data-productvariantsloop", "true");
 
-            let legend = document.createElement("legend");
-            legend.className = "form__label";
-            legend.textContent = option.name;
-            fieldset.appendChild(legend);
+            const optionNameDiv = document.createElement("div");
+            optionNameDiv.setAttribute("li-element", "product-options-name");
+            optionNameDiv.setAttribute("x-text", "option");
+            optionNameDiv.textContent = option.name;
+            optionDiv.appendChild(optionNameDiv);
 
-            option.values.forEach((value, valueIndex) => {
-                let input = document.createElement("input");
+            const radioListDiv = document.createElement("div");
+            radioListDiv.className = "product-header_radio-list";
+
+            option.values.forEach((variantName, variantKey) => {
+                const label = document.createElement("label");
+                label.setAttribute("li-element", "product-option-loop");
+                label.className = "product-header_radio w-radio";
+
+                const radioButtonDiv = document.createElement("div");
+                radioButtonDiv.className = "w-form-formradioinput w-form-formradioinput--inputType-custom product-header_radio-button w-radio-input";
+                label.appendChild(radioButtonDiv);
+
+                const input = document.createElement("input");
                 input.type = "radio";
-                input.id = `custom-option-${optionIndex}-${valueIndex}`;
-                input.name = `custom-${option.name}`;
-                input.value = value;
-                input.setAttribute("data-option", option.name);
+                input.setAttribute("li-element", "product-option-input");
+                input.style.opacity = "0";
+                input.style.position = "absolute";
+                input.style.zIndex = "-1";
+                input.setAttribute("x-on:click", "setVariant");
+                input.name = option.name;
+                input.setAttribute("data-name", option.name);
+                input.value = variantName;
+                input.id = variantName.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/--+/g, '-');
+                input.setAttribute(":checked", "selected_or_first_available_variant?.options.includes(variantName)");
+                input.setAttribute("data-selectortype", "radio");
+                input.className = "data-disabled";
+                label.appendChild(input);
 
-                let label = document.createElement("label");
-                label.setAttribute("for", input.id);
-                label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
+                const span = document.createElement("span");
+                span.setAttribute("li-element", "product-option-name");
+                span.className = "text-size-regular z-index-2 w-form-label";
+                span.setAttribute("for", variantName);
+                span.setAttribute("x-text", "variantName");
+                span.textContent = variantName;
+                label.appendChild(span);
 
-                fieldset.appendChild(input);
-                fieldset.appendChild(label);
+                radioListDiv.appendChild(label);
             });
 
-            container.appendChild(fieldset);
+            optionDiv.appendChild(radioListDiv);
+            container.appendChild(optionDiv);
         });
-      
-        let priceElement = document.querySelector(".product-header_price-wrapper");
-        // Insert custom variant options **below the price**
-        priceElement.insertAdjacentElement("afterend", container);
-
-
         console.log("Custom product options loaded successfully!");
     } catch (error) {
         console.error("Error parsing metafield data:", error);
