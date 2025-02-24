@@ -161,7 +161,7 @@ function addPDPtoCart(pid,refID) {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+ $(document).ready(function() {
     try {
          let metafieldElement = document.getElementById("customData");
          let metafieldData = JSON.parse(metafieldElement.textContent);
