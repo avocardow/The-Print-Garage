@@ -59,7 +59,7 @@
             "timeline_item_date": "End-to-End Customisation",
             "timeline_item_heading_text": "",
             "timeline_item_paragraph_text": "<p>Whether you want<strong> screen printing</strong>, <strong>sublimation</strong>, <strong>direct-to-garment (DTG)</strong>, <strong>UV printing</strong>, or <strong>Digital Transfer Film (DTF)</strong> – we’ve got the tools to make it happen.</p>",
-            "timeline_item_image": "shopify://shop_images/Print_Garage_Logo_Square_100x100_7050c9f7-89f3-4c53-b622-2d734445721f.jpg"
+            "timeline_item_image": "shopify://shop_images/PG_Home_Static_Image_2.jpg"
           }
         },
         "timeline_item_8UfLf9": {
@@ -67,7 +67,8 @@
           "settings": {
             "timeline_item_date": "For Creators and Brands",
             "timeline_item_heading_text": "",
-            "timeline_item_paragraph_text": "<p>We cater to businesses and individuals who value creativity, quality, and a distinctive look.</p>"
+            "timeline_item_paragraph_text": "<p>We cater to businesses and individuals who value creativity, quality, and a distinctive look.</p>",
+            "timeline_item_image": "shopify://shop_images/HatWhite.jpg"
           }
         },
         "timeline_item_TmAADE": {
@@ -75,7 +76,8 @@
           "settings": {
             "timeline_item_date": "Wholesale Solutions",
             "timeline_item_heading_text": "",
-            "timeline_item_paragraph_text": "<p>Resellers and distributors can rely on us for <strong>bulk orders, quick turnarounds, and top-tier quality</strong> every time.</p>"
+            "timeline_item_paragraph_text": "<p>Resellers and distributors can rely on us for <strong>bulk orders, quick turnarounds, and top-tier quality</strong> every time.</p>",
+            "timeline_item_image": "shopify://shop_images/mockup-t-shirt-of-a-flat-laid-t-shirt-on-a-rugged-surface-m1252.png"
           }
         }
       },
@@ -84,6 +86,9 @@
         "timeline_item_fMgLJC",
         "timeline_item_8UfLf9",
         "timeline_item_TmAADE"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 767px) {.timeline12_content .timeline12_row:nth-child(even) .timeline12_empty-space, .timeline12_content .timeline12_row:nth-child(odd) .timeline12_item{order: 1; } .timeline12_content .timeline12_row .timeline12_circle-wrapper{order: 2; } .timeline12_content .timeline12_row:nth-child(odd) .timeline12_empty-space, .timeline12_content .timeline12_row:nth-child(even) .timeline12_item{order: 3; }}"
       ],
       "settings": {
         "timeline_tagline_text": "Specialists In Print",
