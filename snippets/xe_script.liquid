@@ -1,3 +1,39 @@
+<style>
+  /* Custom styling for horizontally aligned options */
+  #custom-variant-container fieldset {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      border: none; /* Remove default fieldset border */
+      margin: 10px 0;
+      padding: 0;
+  }
+
+  /* Input hidden but clickable through label */
+  .custom-option-input {
+      display: none;
+  }
+
+  /* Label acts like button */
+  .custom-option-label {
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 50px; /* Oval Shape */
+      border: 2px solid #ccc;
+      cursor: pointer;
+      text-align: center;
+      min-width: 50px;
+      transition: all 0.3s ease-in-out;
+  }
+
+  /* When selected, highlight in orange */
+  .custom-option-input:checked + .custom-option-label {
+      background-color: orange;
+      color: white;
+      border-color: orange;
+      font-weight: bold;
+  }
+</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script
   type="text/javascript"
@@ -163,29 +199,10 @@ function addPDPtoCart(pid,refID) {
 }
 
  $(document).ready(function() {
-    try {
-         let metafieldElement = document.getElementById("customData");
-         let metafieldData = JSON.parse(metafieldElement.textContent);
-          console.log(metafieldData);
-        if (!metafieldData || !metafieldData.data.options || !metafieldData.data.variants) {
-            console.error("Invalid metafield format.");
-            return;
-        }
-
-        // Hide Shopify's default variant selectors
-        document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
-
-        let form = document.querySelector(".product-header_product-details");
-        if (!form) {
-            console.error("Product form not found.");
-            return;
-        }
-
-        let options = metafieldData.data.options;
+     let options = metafieldData.data.options;
         let variants = metafieldData.data.variants;
 
-        // Generate new variant selectors
-       let container = document.createElement("div");
+        let container = document.createElement("div");
         container.setAttribute("id", "custom-variant-container");
         container.style.marginTop = "10px";
 
@@ -204,10 +221,12 @@ function addPDPtoCart(pid,refID) {
                 input.id = `custom-option-${optionIndex}-${valueIndex}`;
                 input.name = `custom-${option.name}`;
                 input.value = value;
+                input.className = "custom-option-input";
                 input.setAttribute("data-option", option.name);
 
                 let label = document.createElement("label");
                 label.setAttribute("for", input.id);
+                label.className = "custom-option-label";
                 label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
 
                 fieldset.appendChild(input);
@@ -216,15 +235,8 @@ function addPDPtoCart(pid,refID) {
 
             container.appendChild(fieldset);
         });
-      
+
         let priceElement = document.querySelector(".product-header_price-wrapper");
-        // Insert custom variant options **below the price**
         priceElement.insertAdjacentElement("afterend", container);
-
-
-        console.log("Custom product options loaded successfully!");
-    } catch (error) {
-        console.error("Error parsing metafield data:", error);
-    }
 });
 </script>
