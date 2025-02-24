@@ -242,6 +242,10 @@ function addPDPtoCart(pid,refID) {
                 input.className = "custom-option-input";
                 input.setAttribute("data-option", option.name);
 
+                // ✅ Auto-select the first variant in each option group
+                if (valueIndex === 0) {
+                    input.checked = true;
+                }
                 let label = document.createElement("label");
                 label.setAttribute("for", input.id);
                 label.className = "custom-option-label";
