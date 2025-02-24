@@ -36,6 +36,7 @@
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
         "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
+        "hero_video_poster_image": "shopify://shop_images/PG_Home_Static_Image_2.jpg",
         "hero_video": "shopify://files/videos/welcome-to-the-print-garage-compressed.mp4"
       }
     },
@@ -45,17 +46,33 @@
         "scroll_animate_image_1_zgbkq4": {
           "type": "scroll-animate-image-1",
           "settings": {
-            "scroll_animate_image": "shopify://shop_images/5001_STAPLE_TEE_RED.jpg"
+            "scroll_animate_image": "shopify://shop_images/Print_Garage_Logo_Light_300x_f86d63c5-6094-41ed-9b18-a904f7c6bc3b.png"
           }
         },
         "scroll_animate_image_2_YW99rM": {
           "type": "scroll-animate-image-2",
-          "settings": {}
+          "settings": {
+            "scroll_animate_image": "shopify://shop_images/Print_Garage_Logo_Light_300x_f86d63c5-6094-41ed-9b18-a904f7c6bc3b.png"
+          }
+        },
+        "button_CUKcHJ": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
         }
       },
       "block_order": [
         "scroll_animate_image_1_zgbkq4",
-        "scroll_animate_image_2_YW99rM"
+        "scroll_animate_image_2_YW99rM",
+        "button_CUKcHJ"
       ],
       "custom_css": [],
       "settings": {
