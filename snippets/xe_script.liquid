@@ -37,7 +37,6 @@
     {% endunless %}
 
   $(document).ready(function() {
-    console.log("hello");
   //redirect to site if duplicate product is opened
   if(thisVendor == 'imprintNext'){
           window.location.href="/";
@@ -103,11 +102,11 @@
         $container.append($fieldset);
     });
 
-    // Uncomment below if you want to insert after the price
-    // let $priceElement = $(".price");
-    // if ($priceElement.length) {
-    //     $priceElement.after($container);
-    // }
+    Uncomment below if you want to insert after the price
+    let $priceElement = $(".price");
+    if ($priceElement.length) {
+        $priceElement.after($container);
+    }
 
     console.log("Custom product options loaded successfully!");
 
