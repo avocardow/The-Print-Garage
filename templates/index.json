@@ -163,8 +163,8 @@
       "settings": {
         "products_heading_text": "Medium length section heading goes here",
         "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "collection_select_a_collection": "all",
-        "collection_select_a_collection_limit": 6
+        "collection_select_a_collection": "show-in-designer",
+        "collection_select_a_collection_limit": 12
       }
     },
     "productgallery_nxmn6e": {
