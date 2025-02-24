@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Hide Shopify's default variant selectors
-        document.querySelectorAll("variant-selects").forEach(el => el.style.display = "none");
+        document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
 
         let form = document.querySelector(".product__info-wrapper");
         if (!form) {
