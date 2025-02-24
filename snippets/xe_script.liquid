@@ -199,7 +199,25 @@ function addPDPtoCart(pid,refID) {
 }
 
  $(document).ready(function() {
-     let options = metafieldData.data.options;
+    try {
+         let metafieldElement = document.getElementById("customData");
+         let metafieldData = JSON.parse(metafieldElement.textContent);
+          console.log(metafieldData);
+        if (!metafieldData || !metafieldData.data.options || !metafieldData.data.variants) {
+            console.error("Invalid metafield format.");
+            return;
+        }
+
+        // Hide Shopify's default variant selectors
+        document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
+
+        let form = document.querySelector(".product-header_product-details");
+        if (!form) {
+            console.error("Product form not found.");
+            return;
+        }
+
+         let options = metafieldData.data.options;
         let variants = metafieldData.data.variants;
 
         let container = document.createElement("div");
@@ -238,5 +256,11 @@ function addPDPtoCart(pid,refID) {
 
         let priceElement = document.querySelector(".product-header_price-wrapper");
         priceElement.insertAdjacentElement("afterend", container);
+
+
+        console.log("Custom product options loaded successfully!");
+    } catch (error) {
+        console.error("Error parsing metafield data:", error);
+    }
 });
 </script>
