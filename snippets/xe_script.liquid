@@ -1,4 +1,4 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" async></script>
 <script
   type="text/javascript"
 >
@@ -37,33 +37,7 @@
     {% endunless %}
 
   $(document).ready(function() {
-    $("head").append(`
-        <style>
-            .variant-selector-container {
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-            }
-            .variant-selector {
-                border: 1px solid #ddd;
-                background: #f9f9f9;
-                padding: 10px;
-                border-radius: 5px;
-            }
-            .variant-label-option {
-                padding: 8px 12px;
-                border-radius: 4px;
-                cursor: pointer;
-                transition: background 0.2s ease;
-            }
-            .variant-label-option.active {
-                background-color: #007bff;
-                color: #fff;
-                border-color: #007bff;
-            }
-        </style>
-    `);
-
+    console.log("hello");
   //redirect to site if duplicate product is opened
   if(thisVendor == 'imprintNext'){
           window.location.href="/";
@@ -95,58 +69,45 @@
     let options = metafieldData.data.options;
     let variants = metafieldData.data.variants;
 
-  // Generate new variant selectors
-let $container = $("<div>", { class: "variant-selector-container mt-3" });
+    // Generate new variant selectors
+    let $container = $("<div>", {
+        id: "custom-variant-container",
+        css: { marginTop: "10px" }
+    });
 
-    $.each(options, function (optionIndex, option) {
-        let $fieldset = $("<fieldset>", { class: "variant-selector border p-3 rounded" });
+    $.each(options, function(optionIndex, option) {
+        let $fieldset = $("<fieldset>", { class: "js product-form__input product-form__input--pill" });
 
-        let $legend = $("<legend>", { class: "variant-label fw-bold", text: option.name });
+        let $legend = $("<legend>", { class: "form__label", text: option.name });
         $fieldset.append($legend);
 
-        let $radioGroup = $("<div>", { class: "d-flex flex-wrap gap-2" });
-
-        $.each(option.values, function (valueIndex, value) {
-            let inputId = `variant-option-${optionIndex}-${valueIndex}`;
-
+        $.each(option.values, function(valueIndex, value) {
+            let inputId = `custom-option-${optionIndex}-${valueIndex}`;
+            
             let $input = $("<input>", {
                 type: "radio",
                 id: inputId,
-                name: `variant-${option.name}`,
+                name: `custom-${option.name}`,
                 value: value,
-                "data-option": option.name,
-                class: "variant-input d-none"
+                "data-option": option.name
             });
 
             let $label = $("<label>", {
                 for: inputId,
-                text: value,
-                class: "btn btn-outline-primary variant-label-option"
+                html: `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`
             });
 
-            $input.on("change", function () {
-                // Remove active state from all labels in the group
-                $(this).closest(".variant-selector").find(".variant-label-option").removeClass("active");
-                // Add active state to selected label
-                if (this.checked) {
-                    $label.addClass("active");
-                }
-            });
-
-            $radioGroup.append($input, $label);
+            $fieldset.append($input, $label);
         });
 
-        $fieldset.append($radioGroup);
         $container.append($fieldset);
     });
 
-    $("#variants-container").append($container);
-
-
-    let $priceElement = $(".product-header_price-wrapper");
-    if ($priceElement.length) {
-        $priceElement.after($container);
-    }
+    // Uncomment below if you want to insert after the price
+    // let $priceElement = $(".price");
+    // if ($priceElement.length) {
+    //     $priceElement.after($container);
+    // }
 
     console.log("Custom product options loaded successfully!");
 
