@@ -252,7 +252,7 @@ function addPDPtoCart(pid,refID) {
             input.className = "custom-option-input";
             input.setAttribute("data-option", option.name);
 
-            // ✅ Auto-select the first option in each group
+            //Auto-select the first option in each group
             if (valueIndex === 0) {
                 input.checked = true;
                 selectedOptions[option.name] = value;
