@@ -261,7 +261,7 @@ function addPDPtoCart(pid,refID) {
             let label = document.createElement("label");
             label.setAttribute("for", input.id);
             label.className = "custom-option-label";
-            label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
+            label.innerHTML = `${value}`;
 
             // Update selected options when changed
             input.addEventListener("change", function () {
