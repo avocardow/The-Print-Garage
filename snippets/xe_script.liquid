@@ -227,7 +227,7 @@ function addPDPtoCart(pid,refID) {
     // Function to find matching variant ID
     function getVariantId(selectedOptions) {
         let matchedVariant = variants.find(variant => {
-            return JSON.stringify(variant.options) === JSON.stringify(selectedOptions);
+            return JSON.stringify(variant.title) === JSON.stringify(selectedOptions);
         });
         return matchedVariant ? matchedVariant.id : null;
     }
