@@ -290,6 +290,7 @@ function addPDPtoCart(pid,refID) {
     // Add element to display selected variant ID
     let variantIdDisplay = document.createElement("div");
     variantIdDisplay.setAttribute("id", "selected-variant-id");
+    variantIdDisplay.style.display = "none";
     priceElement.insertAdjacentElement("afterend", variantIdDisplay);
 
     // Set initial variant ID based on default selections
