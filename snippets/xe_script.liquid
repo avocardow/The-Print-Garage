@@ -259,6 +259,15 @@ function addPDPtoCart(pid,refID) {
                 label.className = "custom-option-label";
                 label.innerHTML = `${value}`;
 
+                 // Update selected options when changed
+                input.addEventListener("change", function () {
+                    selectedOptions[option.name] = this.value;
+                    let selectedVariantId = getVariantId(Object.values(selectedOptions));
+    
+                    console.log("Selected Variant ID:", selectedVariantId);
+                    document.getElementById("selected-variant-id").textContent = selectedVariantId || "No Variant Found";
+                });
+
                 fieldset.appendChild(input);
                 fieldset.appendChild(label);
             });
