@@ -228,7 +228,7 @@ function addPDPtoCart(pid,refID) {
     function getVariantId(selectedOptions) {
         let selectedTitle = selectedOptions.join(" / "); // Convert array to string like "S / Red"
         let matchedVariant = variants.find(variant => {
-            return variant.title === selectedTitle; // Compare with variant.title
+             variant.title === selectedTitle; // Compare with variant.title
         });
         return matchedVariant ? matchedVariant.xe_id : null;
     }
