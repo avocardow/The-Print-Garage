@@ -226,9 +226,11 @@ function addPDPtoCart(pid,refID) {
 
      // Function to find matching variant ID
     function getVariantId(selectedOptions) {
-        let selectedTitle = selectedOptions.join(" / "); // Convert array to string like "S / Red"
+        let selectedTitle = selectedOptions.join(" / "); 
         let matchedVariant = variants.find(variant => {
-             variant.title === selectedTitle; // Compare with variant.title
+            if(variant.title === selectedTitle){
+              return variant;
+            }  
         });
         return matchedVariant ? matchedVariant.xe_id : null;
     }
