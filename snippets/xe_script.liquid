@@ -226,7 +226,7 @@ function addPDPtoCart(pid,refID) {
 
      // Function to find matching variant ID
     function getVariantId(selectedOptions) {
-        let selectedTitle = selectedOptions.join(" / "); 
+        let selectedTitle = selectedOptions.join("/"); 
         let matchedVariant = variants.find(variant => {
             if(variant.title === selectedTitle){
               return variant;
