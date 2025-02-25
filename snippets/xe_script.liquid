@@ -217,77 +217,82 @@ function addPDPtoCart(pid,refID) {
             return;
         }
 
-         let options = metafieldData.data.options;
-        let variants = metafieldData.data.variants;
+        let options = metafieldData.data.options;
+    let variants = metafieldData.data.variants;
 
-        let container = document.createElement("div");
-        container.setAttribute("id", "custom-variant-container");
-        container.style.marginTop = "10px";
+    let container = document.createElement("div");
+    container.setAttribute("id", "custom-variant-container");
+    container.style.marginTop = "10px";
 
-        // Function to find matching variant ID
-          function getVariantId(selectedOptions) {
-              let matchedVariant = variants.find(variant => {
-                  return JSON.stringify(variant.options) === JSON.stringify(selectedOptions);
-              });
-              return matchedVariant ? matchedVariant.id : null;
-          }
+    // Function to find matching variant ID
+    function getVariantId(selectedOptions) {
+        let matchedVariant = variants.find(variant => {
+            return JSON.stringify(variant.options) === JSON.stringify(selectedOptions);
+        });
+        return matchedVariant ? matchedVariant.id : null;
+    }
 
-        options.forEach((option, optionIndex) => {
-            let fieldset = document.createElement("fieldset");
-            fieldset.className = "js product-form__input product-form__input--pill";
+    // Create variant selectors
+    let selectedOptions = {}; // Store user selections
+    options.forEach((option, optionIndex) => {
+        let fieldset = document.createElement("fieldset");
+        fieldset.className = "js product-form__input product-form__input--pill";
 
-            let legend = document.createElement("legend");
-            legend.className = "form__label";
-            legend.textContent = option.name;
-            fieldset.appendChild(legend);
+        let legend = document.createElement("legend");
+        legend.className = "form__label";
+        legend.textContent = option.name;
+        fieldset.appendChild(legend);
 
-            option.values.forEach((value, valueIndex) => {
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.id = `custom-option-${optionIndex}-${valueIndex}`;
-                input.name = `custom-${option.name}`;
-                input.value = value;
-                input.className = "custom-option-input";
-                input.setAttribute("data-option", option.name);
+        option.values.forEach((value, valueIndex) => {
+            let input = document.createElement("input");
+            input.type = "radio";
+            input.id = `custom-option-${optionIndex}-${valueIndex}`;
+            input.name = `custom-${option.name}`;
+            input.value = value;
+            input.className = "custom-option-input";
+            input.setAttribute("data-option", option.name);
 
-                // Auto-select the first variant in each option group
-                if (valueIndex === 0) {
-                    input.checked = true;
-                }
-                let label = document.createElement("label");
-                label.setAttribute("for", input.id);
-                label.className = "custom-option-label";
-                label.innerHTML = `${value}`;
+            // ✅ Auto-select the first option in each group
+            if (valueIndex === 0) {
+                input.checked = true;
+                selectedOptions[option.name] = value;
+            }
 
-                 // Update selected options when changed
-                input.addEventListener("change", function () {
-                    selectedOptions[option.name] = this.value;
-                    let selectedVariantId = getVariantId(Object.values(selectedOptions));
-    
-                    console.log("Selected Variant ID:", selectedVariantId);
-                    document.getElementById("selected-variant-id").textContent = selectedVariantId || "No Variant Found";
-                });
+            let label = document.createElement("label");
+            label.setAttribute("for", input.id);
+            label.className = "custom-option-label";
+            label.innerHTML = `${value} <span class="visually-hidden label-unavailable">Variant sold out or unavailable</span>`;
 
-                fieldset.appendChild(input);
-                fieldset.appendChild(label);
+            // Update selected options when changed
+            input.addEventListener("change", function () {
+                selectedOptions[option.name] = this.value;
+                let selectedVariantId = getVariantId(Object.values(selectedOptions));
+
+                console.log("Selected Variant ID:", selectedVariantId);
+                document.getElementById("selected-variant-id").textContent = selectedVariantId || "No Variant Found";
             });
 
-            container.appendChild(fieldset);
+            fieldset.appendChild(input);
+            fieldset.appendChild(label);
         });
 
-        let priceElement = document.querySelector(".product-header_price-wrapper");
-        priceElement.insertAdjacentElement("afterend", container);
+        container.appendChild(fieldset);
+    });
 
-         // Add element to display selected variant ID
-        let variantIdDisplay = document.createElement("div");
-        variantIdDisplay.setAttribute("id", "selected-variant-id");
-        variantIdDisplay.style.marginTop = "10px";
-        variantIdDisplay.style.fontWeight = "bold";
-        priceElement.insertAdjacentElement("afterend", variantIdDisplay);
+    // Insert below price
+    let priceElement = document.querySelector(".product-header_price-wrapper");
+    priceElement.insertAdjacentElement("afterend", container);
 
-        // Set initial variant ID based on default selections
-        let initialVariantId = getVariantId(Object.values(selectedOptions));
-        document.getElementById("selected-variant-id").textContent = initialVariantId || "No Variant Found";
+    // Add element to display selected variant ID
+    let variantIdDisplay = document.createElement("div");
+    variantIdDisplay.setAttribute("id", "selected-variant-id");
+    variantIdDisplay.style.marginTop = "10px";
+    variantIdDisplay.style.fontWeight = "bold";
+    priceElement.insertAdjacentElement("afterend", variantIdDisplay);
+
+    // Set initial variant ID based on default selections
+    let initialVariantId = getVariantId(Object.values(selectedOptions));
+    document.getElementById("selected-variant-id").textContent = initialVariantId || "No Variant Found";
 
 
         console.log("Custom product options loaded successfully!");
