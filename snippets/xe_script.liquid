@@ -224,6 +224,14 @@ function addPDPtoCart(pid,refID) {
         container.setAttribute("id", "custom-variant-container");
         container.style.marginTop = "10px";
 
+        // Function to find matching variant ID
+          function getVariantId(selectedOptions) {
+              let matchedVariant = variants.find(variant => {
+                  return JSON.stringify(variant.options) === JSON.stringify(selectedOptions);
+              });
+              return matchedVariant ? matchedVariant.id : null;
+          }
+
         options.forEach((option, optionIndex) => {
             let fieldset = document.createElement("fieldset");
             fieldset.className = "js product-form__input product-form__input--pill";
@@ -260,6 +268,17 @@ function addPDPtoCart(pid,refID) {
 
         let priceElement = document.querySelector(".product-header_price-wrapper");
         priceElement.insertAdjacentElement("afterend", container);
+
+         // Add element to display selected variant ID
+        let variantIdDisplay = document.createElement("div");
+        variantIdDisplay.setAttribute("id", "selected-variant-id");
+        variantIdDisplay.style.marginTop = "10px";
+        variantIdDisplay.style.fontWeight = "bold";
+        priceElement.insertAdjacentElement("afterend", variantIdDisplay);
+
+        // Set initial variant ID based on default selections
+        let initialVariantId = getVariantId(Object.values(selectedOptions));
+        document.getElementById("selected-variant-id").textContent = initialVariantId || "No Variant Found";
 
 
         console.log("Custom product options loaded successfully!");
