@@ -212,10 +212,28 @@
     },
     "faqs": {
       "type": "faqs",
+      "blocks": {
+        "button_r6dLpL": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-small",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_r6dLpL"
+      ],
       "settings": {
         "faq_heading_text": "FAQs",
-        "faq_cta_heading_text": "",
-        "faq_cta_paragraph_text": ""
+        "faq_cta_heading_text": "Still have questions?",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum</p>"
       }
     },
     "contactcta": {
