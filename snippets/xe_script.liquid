@@ -1,7 +1,46 @@
-<script type=text/javascript>
+<style>
+  /* Custom styling for horizontally aligned options */
+  #custom-variant-container fieldset {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      border: none; /* Remove default fieldset border */
+      margin: 10px 0;
+      padding: 0;
+  }
+
+  /* Input hidden but clickable through label */
+  .custom-option-input {
+      display: none;
+  }
+
+  /* Label acts like button */
+  .custom-option-label {
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 50px; /* Oval Shape */
+      border: 2px solid #ccc;
+      cursor: pointer;
+      text-align: center;
+      min-width: 50px;
+      transition: all 0.3s ease-in-out;
+  }
+
+  /* When selected, highlight in orange */
+  .custom-option-input:checked + .custom-option-label {
+      background-color: #f66718;
+      color: #001828;
+      border-color: #f66718;
+      font-weight: bold;
+  }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script
+  type="text/javascript"
+>
     var prntTypes = '';
-  var rvno = '';
-  var strUrl = '';
+    var rvno = '';
+    var strUrl = '';
     var pvid = '';
     var custID = '';
     var base_url = "https://designer.theprintgarage.com.au/designer/";
@@ -92,7 +131,9 @@ function customize_product(pid, cid) {
           }
         }
     });
-  
+    if(document.getElementById('customData')){
+      pvid = document.getElementById("selected-variant-id").textContent;
+    }
     if (pvid == '') {
       alert('This color is not customizable please select another.');
       return false;
@@ -158,4 +199,110 @@ function addPDPtoCart(pid,refID) {
        alert('Something went wrong. Please try another product.');
     }
 }
+
+ $(document).ready(function() {
+    try {
+         let metafieldElement = document.getElementById("customData");
+         let metafieldData = JSON.parse(metafieldElement.textContent);
+          console.log(metafieldData);
+        if (!metafieldData || !metafieldData.data.options || !metafieldData.data.variants) {
+            console.error("Invalid metafield format.");
+            return;
+        }
+
+        // Hide Shopify's default variant selectors
+        document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
+
+        let form = document.querySelector(".product-header_product-details");
+        if (!form) {
+            console.error("Product form not found.");
+            return;
+        }
+
+        let options = metafieldData.data.options;
+    let variants = metafieldData.data.variants;
+
+    let container = document.createElement("div");
+    container.setAttribute("id", "custom-variant-container");
+    container.style.marginTop = "10px";
+
+     // Function to find matching variant ID
+    function getVariantId(selectedOptions) {
+        let selectedTitle = selectedOptions.join("/"); 
+        let matchedVariant = variants.find(variant => {
+            if(variant.title === selectedTitle){
+              return variant;
+            }  
+        });
+        return matchedVariant ? matchedVariant.xe_id : null;
+    }
+
+
+    // Create variant selectors
+    let selectedOptions = {}; // Store user selections
+    options.forEach((option, optionIndex) => {
+        let fieldset = document.createElement("fieldset");
+        fieldset.className = "js product-form__input product-form__input--pill";
+
+        let legend = document.createElement("legend");
+        legend.className = "form__label";
+        legend.textContent = option.name;
+        fieldset.appendChild(legend);
+
+        option.values.forEach((value, valueIndex) => {
+            let input = document.createElement("input");
+            input.type = "radio";
+            input.id = `custom-option-${optionIndex}-${valueIndex}`;
+            input.name = `custom-${option.name}`;
+            input.value = value;
+            input.className = "custom-option-input";
+            input.setAttribute("data-option", option.name);
+
+            //Auto-select the first option in each group
+            if (valueIndex === 0) {
+                input.checked = true;
+                selectedOptions[option.name] = value;
+            }
+
+            let label = document.createElement("label");
+            label.setAttribute("for", input.id);
+            label.className = "custom-option-label";
+            label.innerHTML = `${value}`;
+
+            // Update selected options when changed
+            input.addEventListener("change", function () {
+                selectedOptions[option.name] = this.value;
+                let selectedVariantId = getVariantId(Object.values(selectedOptions));
+
+                console.log("Selected Variant ID:", selectedVariantId);
+                document.getElementById("selected-variant-id").textContent = selectedVariantId || "No Variant Found";
+            });
+
+            fieldset.appendChild(input);
+            fieldset.appendChild(label);
+        });
+
+        container.appendChild(fieldset);
+    });
+
+    // Insert below price
+    let priceElement = document.querySelector(".product-header_price-wrapper");
+    priceElement.insertAdjacentElement("afterend", container);
+
+    // Add element to display selected variant ID
+    let variantIdDisplay = document.createElement("div");
+    variantIdDisplay.setAttribute("id", "selected-variant-id");
+    variantIdDisplay.style.display = "none";
+    priceElement.insertAdjacentElement("afterend", variantIdDisplay);
+
+    // Set initial variant ID based on default selections
+    let initialVariantId = getVariantId(Object.values(selectedOptions));
+    document.getElementById("selected-variant-id").textContent = initialVariantId || "No Variant Found";
+
+
+        console.log("Custom product options loaded successfully!");
+    } catch (error) {
+        console.error("Error parsing metafield data:", error);
+    }
+});
 </script>
