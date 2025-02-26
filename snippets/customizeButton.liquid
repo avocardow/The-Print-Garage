@@ -1,11 +1,11 @@
 <br>{% for c in product.collections %}		
 	          {% if c.handle == "show-in-designer" %}		
 	              {% if customer %}		
-	                  <button type="button" name="cust" id="custom" class="button" onclick="customize_product({{ product.id }},{{ customer.id}});">		
+	                  <button type="button" name="cust" id="custom" class="button is-large" onclick="customize_product({{ product.id }},{{ customer.id}});">		
 	               <span id="custText">Launch Custom Designer</span>		
 	                </button>		
 	                {% else %}		
-	                <button type="button" name="cust" id="custom" class="button" onclick="customize_product({{ product.id }},0);">		
+	                <button type="button" name="cust" id="custom" class="button is-large" onclick="customize_product({{ product.id }},0);">		
 	                  <span id="custText">Launch Custom Designer</span>		
 	                </button>		
 	                {% endif %}		
