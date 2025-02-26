@@ -167,59 +167,6 @@
         "collection_select_a_collection_limit": 12
       }
     },
-    "productgallery_nxmn6e": {
-      "type": "productgallery",
-      "blocks": {
-        "gallery_image_Wmc4Ey": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Mettle_Vests.jpg"
-          }
-        },
-        "gallery_image_6hRFaG": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Ratbag_test_502ed04c-51b4-4f36-a616-139e37cf1026.jpg"
-          }
-        },
-        "gallery_image_8aqcnA": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Monster_Truck_Tee.jpg"
-          }
-        },
-        "gallery_image_UKeBgy": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Hard_Hats.jpg"
-          }
-        },
-        "gallery_image_AjLWcd": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
-          }
-        },
-        "gallery_image_3M3X6a": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Hells_Gate_Tee_V2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "gallery_image_Wmc4Ey",
-        "gallery_image_6hRFaG",
-        "gallery_image_8aqcnA",
-        "gallery_image_UKeBgy",
-        "gallery_image_AjLWcd",
-        "gallery_image_3M3X6a"
-      ],
-      "settings": {
-        "gallery_heading_text": "check out some of our latest work",
-        "gallery_paragraph_text": ""
-      }
-    },
     "calltoactionbanner": {
       "type": "calltoactionbanner",
       "settings": {
@@ -268,7 +215,6 @@
     "scrollanimatecontent",
     "bentobox_JQECti",
     "productslider_B7FDfb",
-    "productgallery_nxmn6e",
     "calltoactionbanner",
     "featuredarticles",
     "testimonialslider",
