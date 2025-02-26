@@ -12,10 +12,10 @@
     "videohero": {
       "type": "videohero",
       "blocks": {
-        "button_f86AJ6": {
+        "button_Bmn4Hz": {
           "type": "button",
           "settings": {
-            "btn_layout": "btn_layout_text",
+            "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
@@ -25,10 +25,10 @@
             "btn_icon_path": ""
           }
         },
-        "button_qTRCzn": {
+        "button_GXw7Q8": {
           "type": "button",
           "settings": {
-            "btn_layout": "btn_layout_text",
+            "btn_layout": "btn_layout_both",
             "btn_style": "is-secondary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
@@ -40,8 +40,8 @@
         }
       },
       "block_order": [
-        "button_f86AJ6",
-        "button_qTRCzn"
+        "button_Bmn4Hz",
+        "button_GXw7Q8"
       ],
       "settings": {
         "hero_heading_text": "BRING YOUR BRAND TO LIFE",
@@ -216,7 +216,7 @@
     "calltoactionbanner": {
       "type": "calltoactionbanner",
       "blocks": {
-        "button_h8kFcz": {
+        "button_CTpzqz": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_text",
@@ -231,7 +231,7 @@
         }
       },
       "block_order": [
-        "button_h8kFcz"
+        "button_CTpzqz"
       ],
       "settings": {
         "cta_heading_text": "Boost Your Brand with Custom Products",
