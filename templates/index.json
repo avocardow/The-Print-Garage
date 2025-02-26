@@ -240,46 +240,6 @@
     },
     "testimonialslider": {
       "type": "testimonialslider",
-      "blocks": {
-        "testimonial_8ewAUL": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Finding New Ground",
-            "testimonial_image": "shopify://shop_images/FNG_Logo_2_e6a70784-1e74-48ed-ad98-7ad89c35b17d.jpg",
-            "testimonial_text": "<p>Been dealing with Anthony and the print shop crew for near on ten years. The service they deliver is second to none and they are never too busy to answer my questions. The quality of work is always top shelf and being a business owner who is super fussy they never fail to deliver.  Would highly recommend them for any of your printing or sublimation needs. </p>"
-          }
-        },
-        "testimonial_K7PDQ9": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Gorman Agencies",
-            "testimonial_image": "shopify://shop_images/Gorman_fake_logo.jpg",
-            "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
-          }
-        },
-        "testimonial_znT8a6": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Bremer State High School",
-            "testimonial_image": "shopify://shop_images/288923206_5269129073170580_5122789883451384551_n.jpg",
-            "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
-          }
-        },
-        "testimonial_emtgdR": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Williamson International",
-            "testimonial_image": "shopify://shop_images/williamson_logo.jpg",
-            "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_8ewAUL",
-        "testimonial_K7PDQ9",
-        "testimonial_znT8a6",
-        "testimonial_emtgdR"
-      ],
       "settings": {
         "testimonials_heading_text": "Hear from some of our customers",
         "testimonials_paragraph_text": ""
@@ -287,42 +247,6 @@
     },
     "faqs": {
       "type": "faqs",
-      "blocks": {
-        "faq_wjgNHW": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "What printing methods do you offer at The Print Garage?",
-            "faq_answer": "<p>We specialize in Direct to Film (DTF), Direct to Garment (DTG), and screen printing, as well as embroidery services. Each method has its own unique advantages, and we can help you choose the best one for your project.</p>"
-          }
-        },
-        "faq_3FRt8L": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "What is the minimum order quantity?",
-            "faq_answer": "<p>For DTF and DTG printing methods the minimum order is 10pcs.<br/>Due to the more complicated setup process, for screen printing the minimum order is 25pcs. </p>"
-          }
-        },
-        "faq_QdtxVj": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "How long does it take to complete an order?",
-            "faq_answer": "<p>Turnaround times vary depending on the order size and printing method. Standard orders are typically ready in 7-10 business days after payment, but we offer rush services for quicker delivery when needed.</p>"
-          }
-        },
-        "faq_yyXheT": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "Can I see a mock-up of my design before you print?",
-            "faq_answer": "<p>Absolutely! We provide digital mock-ups to ensure you’re happy with the design, placement, and colors before moving forward with production.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_wjgNHW",
-        "faq_3FRt8L",
-        "faq_QdtxVj",
-        "faq_yyXheT"
-      ],
       "settings": {
         "faq_heading_text": "FAQs",
         "faq_cta_heading_text": "",
