@@ -61,58 +61,6 @@
       "policycontent": {
         "type": "policycontent",
         "settings": {}
-      },
-      "headernavmain_2": {
-        "type": "headernavmain_2",
-        "blocks": {
-          "vorschlaege_qf4E3g": {
-            "type": "vorschlaege",
-            "settings": {
-              "url_link": "",
-              "text_text": "Tag"
-            }
-          },
-          "button_zmzcLA": {
-            "type": "button",
-            "settings": {
-              "btn_layout": "btn_layout_text",
-              "btn_style": "is-secondary",
-              "btn_size": "is-default",
-              "btn_icon_size": "icon-1x1-small",
-              "btn_url": "",
-              "btn_text": "Button Text",
-              "btn_icon_viewbox": "",
-              "btn_icon_path": ""
-            }
-          },
-          "button_XYLVff": {
-            "type": "button",
-            "settings": {
-              "btn_layout": "btn_layout_text",
-              "btn_style": "is-primary",
-              "btn_size": "is-default",
-              "btn_icon_size": "icon-1x1-small",
-              "btn_url": "",
-              "btn_text": "Button Text",
-              "btn_icon_viewbox": "",
-              "btn_icon_path": ""
-            }
-          }
-        },
-        "block_order": [
-          "vorschlaege_qf4E3g",
-          "button_zmzcLA",
-          "button_XYLVff"
-        ],
-        "settings": {
-          "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
-          "menu_handle": "main-menu",
-          "checkbox_show_search": true,
-          "collection_bestseller": "all",
-          "collection_bestseller_limit": 6,
-          "checkbox_show_account": true,
-          "checkbox_show_cart": true
-        }
       }
     },
     "content_for_index": []

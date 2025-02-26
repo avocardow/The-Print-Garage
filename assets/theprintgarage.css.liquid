@@ -694,12 +694,7 @@ figcaption {
   font-weight: 500;
 }
 
-.form_input:focus-visible {
-  border-width: 1px;
-  border-color: var(--border-color--border-primary);
-}
-
-.form_input[data-wf-focus-visible] {
+.form_input:focus-visible, .form_input[data-wf-focus-visible] {
   border-width: 1px;
   border-color: var(--border-color--border-primary);
 }
@@ -740,11 +735,7 @@ figcaption {
   font-size: 1.25rem;
 }
 
-.form_input.is-simple:focus-visible {
-  border-bottom-color: var(--border-color--border-alternate);
-}
-
-.form_input.is-simple[data-wf-focus-visible] {
+.form_input.is-simple:focus-visible, .form_input.is-simple[data-wf-focus-visible] {
   border-bottom-color: var(--border-color--border-alternate);
 }
 
@@ -2878,11 +2869,13 @@ figcaption {
 .filter_layout {
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
+  flex-flow: column;
   grid-template-rows: auto;
   grid-template-columns: max-content 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
-  display: grid;
+  grid-auto-flow: row;
+  align-items: stretch;
+  display: flex;
 }
 
 .filter_filters-wrapper {
@@ -4823,11 +4816,7 @@ figcaption {
   display: flex;
 }
 
-.footer16_form:focus-visible {
-  border-bottom-color: var(--border-color--border-alternate);
-}
-
-.footer16_form[data-wf-focus-visible] {
+.footer16_form:focus-visible, .footer16_form[data-wf-focus-visible] {
   border-bottom-color: var(--border-color--border-alternate);
 }
 
@@ -6037,12 +6026,7 @@ figcaption {
   font-weight: 500;
 }
 
-.form_input-2:focus-visible {
-  border-width: 1px;
-  border-color: var(--border-color--border-primary);
-}
-
-.form_input-2[data-wf-focus-visible] {
+.form_input-2:focus-visible, .form_input-2[data-wf-focus-visible] {
   border-width: 1px;
   border-color: var(--border-color--border-primary);
 }
@@ -6675,12 +6659,7 @@ figcaption {
   font-weight: 500;
 }
 
-.form_input-3:focus-visible {
-  border-width: 1px;
-  border-color: var(--border-color--border-primary);
-}
-
-.form_input-3[data-wf-focus-visible] {
+.form_input-3:focus-visible, .form_input-3[data-wf-focus-visible] {
   border-width: 1px;
   border-color: var(--border-color--border-primary);
 }
@@ -6977,12 +6956,7 @@ figcaption {
   font-weight: 500;
 }
 
-.form_input-4:focus-visible {
-  border-width: 1px;
-  border-color: var(--border-color--border-primary);
-}
-
-.form_input-4[data-wf-focus-visible] {
+.form_input-4:focus-visible, .form_input-4[data-wf-focus-visible] {
   border-width: 1px;
   border-color: var(--border-color--border-primary);
 }
