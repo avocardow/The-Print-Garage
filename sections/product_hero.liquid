@@ -65,10 +65,10 @@
     </template>
 </div></template>
 <div class="spacer-small"></div>    </div>
-{% endif %}<div class="product-header_add-to-cart-wrapper"><template x-if="selected_or_first_available_variant.available">
+{% endif %}<div class="product-header_ad-to-cart-wrapper"><template x-if="selected_or_first_available_variant.available">
             <div li-js-if="selected_or_first_available_variant.available" class="product-header_quantity">
         <input class="form_input is-quantity w-input" maxlength="256" name="quantity-2" li-element="add-to-cart-quantity" data-name="Quantity 2" placeholder="1" type="number" id="quantity-2" required="" x-model="quantity">
-Add to cart        </div>
+        </div>
     </template>
 <template x-if="!selected_or_first_available_variant.available">
             <div li-js-if="!selected_or_first_available_variant.available">
