@@ -11,10 +11,42 @@
   "sections": {
     "videohero": {
       "type": "videohero",
+      "blocks": {
+        "button_f86AJ6": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        },
+        "button_qTRCzn": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_f86AJ6",
+        "button_qTRCzn"
+      ],
       "settings": {
         "hero_heading_text": "BRING YOUR BRAND TO LIFE",
         "hero_paragraph_text": "<p>Make your mark with custom apparel and products designed to elevate your brand. From bold prints to high-quality finishes, we’re here to turn your vision into reality. Join our mailing list below to stay up to date and get the latest deals!</p>",
-        "hero_cta": "hero_form_cta",
+        "hero_cta": "hero_btn_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
         "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
@@ -36,11 +68,25 @@
           "settings": {
             "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
           }
+        },
+        "button_g3YLYV": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
         }
       },
       "block_order": [
         "scroll_animate_image_1_zgbkq4",
-        "scroll_animate_image_2_YW99rM"
+        "scroll_animate_image_2_YW99rM",
+        "button_g3YLYV"
       ],
       "custom_css": [],
       "settings": {
