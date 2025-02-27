@@ -13,6 +13,27 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
+          "search_suggestions_mCYJnC": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://collections/all",
+              "text_text": "All Products"
+            }
+          },
+          "search_suggestions_BxCMRi": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://products/as-colour-tees",
+              "text_text": "AS Colour Tees"
+            }
+          },
+          "search_suggestions_RKPzwd": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://products/trucker-cap",
+              "text_text": "Trucker Cap"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -28,6 +49,9 @@
           }
         },
         "block_order": [
+          "search_suggestions_mCYJnC",
+          "search_suggestions_BxCMRi",
+          "search_suggestions_RKPzwd",
           "button_RnChqb"
         ],
         "settings": {
