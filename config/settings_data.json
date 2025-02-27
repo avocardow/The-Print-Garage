@@ -13,6 +13,13 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
+          "vorschlaege_H9t3kH": {
+            "type": "vorschlaege",
+            "settings": {
+              "url_link": "",
+              "text_text": "Tag"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -28,6 +35,7 @@
           }
         },
         "block_order": [
+          "vorschlaege_H9t3kH",
           "button_RnChqb"
         ],
         "settings": {
