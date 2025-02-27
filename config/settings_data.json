@@ -25,10 +25,34 @@
               "btn_icon_viewbox": "",
               "btn_icon_path": ""
             }
+          },
+          "search_suggestions_nmPBae": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://collections/all",
+              "text_text": "All Products"
+            }
+          },
+          "search_suggestions_NNxXQK": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://products/as-colour-tees",
+              "text_text": "AS Colour Tees"
+            }
+          },
+          "search_suggestions_Ye4Www": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://products/trucker-cap",
+              "text_text": "Trucker Cap"
+            }
           }
         },
         "block_order": [
-          "button_RnChqb"
+          "button_RnChqb",
+          "search_suggestions_nmPBae",
+          "search_suggestions_NNxXQK",
+          "search_suggestions_Ye4Www"
         ],
         "settings": {
           "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
