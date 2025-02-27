@@ -11,10 +11,42 @@
   "sections": {
     "videohero": {
       "type": "videohero",
+      "blocks": {
+        "button_Bmn4Hz": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        },
+        "button_GXw7Q8": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_Bmn4Hz",
+        "button_GXw7Q8"
+      ],
       "settings": {
         "hero_heading_text": "BRING YOUR BRAND TO LIFE",
         "hero_paragraph_text": "<p>Make your mark with custom apparel and products designed to elevate your brand. From bold prints to high-quality finishes, we’re here to turn your vision into reality. Join our mailing list below to stay up to date and get the latest deals!</p>",
-        "hero_cta": "hero_form_cta",
+        "hero_cta": "hero_btn_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
         "newsletter_terms_text": "<p>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>",
@@ -36,11 +68,25 @@
           "settings": {
             "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
           }
+        },
+        "button_g3YLYV": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
         }
       },
       "block_order": [
         "scroll_animate_image_1_zgbkq4",
-        "scroll_animate_image_2_YW99rM"
+        "scroll_animate_image_2_YW99rM",
+        "button_g3YLYV"
       ],
       "custom_css": [],
       "settings": {
@@ -50,145 +96,143 @@
     "bentobox_JQECti": {
       "type": "bentobox",
       "blocks": {
-        "large_bento_card_1_36YbfM": {
-          "type": "large-bento-card-1",
+        "bento_card_LMz49M": {
+          "type": "bento-card",
           "settings": {
-            "card_heading_text": "",
-            "card_paragraph_text": "",
-            "hide_link": true,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Label.jpg"
-          }
-        },
-        "medium_bento_card_1_LqqfVz": {
-          "type": "medium-bento-card-1",
-          "settings": {
-            "card_bg": "background-color-secondary",
-            "card_heading_text": "Brands you know and trust!",
-            "card_paragraph_text": "<p>We’re proud to partner with top brands like AS Colour, Gildan, </p><p>JB's Wear, RAMO, Urban Collab, and CB Clothing to offer durable, stylish apparel.<br/><br/>Beyond quality clothing, we also decorate promotional products from branded merchandise to corporate gifts helping your brand leave a lasting impression.</p>",
-            "hide_link": true,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "small_bento_card_1_PymNnW": {
-          "type": "small-bento-card-1",
-          "disabled": true,
-          "settings": {
-            "card_bg": "background-color-secondary",
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "small_bento_card_2_tiq98R": {
-          "type": "small-bento-card-2",
-          "disabled": true,
-          "settings": {
-            "card_bg": "background-color-tertiary",
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "hide_link": false,
-            "card_link": "",
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "medium_bento_card_2_UrbANk": {
-          "type": "medium-bento-card-2",
-          "settings": {
+            "card_type": "card_type_image",
+            "card_size": "is-large",
             "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/AS_Label.jpg",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_mFrkFG": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-tertiary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_DdNhgX": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_tkPR3y": {
+          "type": "bento-card",
+          "settings": {
             "card_heading_text": "We have a huge range of high quality blanks.",
             "card_paragraph_text": "<p>We source only the highest quality blanks from trusted brands like AS Colour, known for their durability and premium feel. With a wide range of garment styles and color options, we ensure there’s something to perfectly match your unique look and feel.</p>",
-            "hide_link": true,
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-secondary",
+            "hide_link": false,
             "card_link": "",
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
         },
-        "large_bento_card_2_g4fXbX": {
-          "type": "large-bento-card-2",
+        "bento_card_BzDcpK": {
+          "type": "bento-card",
           "settings": {
-            "card_heading_text": "",
-            "card_paragraph_text": "",
-            "hide_link": true,
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
             "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Shirts.jpg"
+            "card_background_image": "shopify://shop_images/AS_Shirts.jpg",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
           }
         }
       },
       "block_order": [
-        "large_bento_card_1_36YbfM",
-        "medium_bento_card_1_LqqfVz",
-        "small_bento_card_1_PymNnW",
-        "small_bento_card_2_tiq98R",
-        "medium_bento_card_2_UrbANk",
-        "large_bento_card_2_g4fXbX"
+        "bento_card_LMz49M",
+        "bento_card_mFrkFG",
+        "bento_card_DdNhgX",
+        "bento_card_tkPR3y",
+        "bento_card_BzDcpK"
       ],
       "settings": {
         "bento_heading_text": "best of the best blanks",
         "bento_paragraph_text": "<p>We have selected a range of high quality garments from years of testing and experience.</p>"
       }
     },
-    "productgallery_nxmn6e": {
-      "type": "productgallery",
+    "productslider_B7FDfb": {
+      "type": "productslider",
       "blocks": {
-        "gallery_image_Wmc4Ey": {
-          "type": "gallery-image",
+        "button_8XVhKE": {
+          "type": "button",
           "settings": {
-            "gallery_image": "shopify://shop_images/Mettle_Vests.jpg"
-          }
-        },
-        "gallery_image_6hRFaG": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Ratbag_test_502ed04c-51b4-4f36-a616-139e37cf1026.jpg"
-          }
-        },
-        "gallery_image_8aqcnA": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Monster_Truck_Tee.jpg"
-          }
-        },
-        "gallery_image_UKeBgy": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Hard_Hats.jpg"
-          }
-        },
-        "gallery_image_AjLWcd": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Thrilla_Motocross_shirt.jpg"
-          }
-        },
-        "gallery_image_3M3X6a": {
-          "type": "gallery-image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/Hells_Gate_Tee_V2.jpg"
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "gallery_image_Wmc4Ey",
-        "gallery_image_6hRFaG",
-        "gallery_image_8aqcnA",
-        "gallery_image_UKeBgy",
-        "gallery_image_AjLWcd",
-        "gallery_image_3M3X6a"
+        "button_8XVhKE"
       ],
       "settings": {
-        "gallery_heading_text": "check out some of our latest work",
-        "gallery_paragraph_text": ""
+        "products_heading_text": "Medium length section heading goes here",
+        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "collection_select_a_collection": "show-in-designer",
+        "collection_select_a_collection_limit": 6
       }
     },
     "calltoactionbanner": {
       "type": "calltoactionbanner",
+      "blocks": {
+        "button_CTpzqz": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_CTpzqz"
+      ],
       "settings": {
         "cta_heading_text": "Boost Your Brand with Custom Products",
         "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>",
@@ -197,6 +241,24 @@
     },
     "featuredarticles": {
       "type": "featuredarticles",
+      "blocks": {
+        "button_a9Thxa": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_a9Thxa"
+      ],
       "settings": {
         "blog_heading_text": "From Pixels to Print",
         "blog_paragraph_text": "<p>Exploring Techniques, Trends, and Tips within the Printing Industry</p>",
@@ -207,46 +269,6 @@
     },
     "testimonialslider": {
       "type": "testimonialslider",
-      "blocks": {
-        "testimonial_8ewAUL": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Finding New Ground",
-            "testimonial_image": "shopify://shop_images/FNG_Logo_2_e6a70784-1e74-48ed-ad98-7ad89c35b17d.jpg",
-            "testimonial_text": "<p>Been dealing with Anthony and the print shop crew for near on ten years. The service they deliver is second to none and they are never too busy to answer my questions. The quality of work is always top shelf and being a business owner who is super fussy they never fail to deliver.  Would highly recommend them for any of your printing or sublimation needs. </p>"
-          }
-        },
-        "testimonial_K7PDQ9": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Gorman Agencies",
-            "testimonial_image": "shopify://shop_images/Gorman_fake_logo.jpg",
-            "testimonial_text": "<p>I have been a The Print Garage customer for about 5 years now and I have to say they have been great to deal with. From design choices through to art and production, I have found The Print Garage very professional and a great partner in business. Their communication is always good and the finished polos are of a high quality. I would recommend them to anyone considering custom designed apparel and art design.   </p>"
-          }
-        },
-        "testimonial_znT8a6": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Bremer State High School",
-            "testimonial_image": "shopify://shop_images/288923206_5269129073170580_5122789883451384551_n.jpg",
-            "testimonial_text": "<p>The Print Garage did an amazing job with our custom shirts. From the design, to the colours to the final product, their professionalism and customer service was amazing. We will definitely be using them again. <br/></p>"
-          }
-        },
-        "testimonial_emtgdR": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_name": "Williamson International",
-            "testimonial_image": "shopify://shop_images/williamson_logo.jpg",
-            "testimonial_text": "<p>We have been using The Print Garage, formerly Natural Art Screen Printing for our printing for over 30 years, I have always found the jobs done well and on time, and would recommend them as a quality business to look after your printing requirements.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_8ewAUL",
-        "testimonial_K7PDQ9",
-        "testimonial_znT8a6",
-        "testimonial_emtgdR"
-      ],
       "settings": {
         "testimonials_heading_text": "Hear from some of our customers",
         "testimonials_paragraph_text": ""
@@ -255,45 +277,27 @@
     "faqs": {
       "type": "faqs",
       "blocks": {
-        "faq_wjgNHW": {
-          "type": "faq",
+        "button_r6dLpL": {
+          "type": "button",
           "settings": {
-            "faq_question": "What printing methods do you offer at The Print Garage?",
-            "faq_answer": "<p>We specialize in Direct to Film (DTF), Direct to Garment (DTG), and screen printing, as well as embroidery services. Each method has its own unique advantages, and we can help you choose the best one for your project.</p>"
-          }
-        },
-        "faq_3FRt8L": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "What is the minimum order quantity?",
-            "faq_answer": "<p>For DTF and DTG printing methods the minimum order is 10pcs.<br/>Due to the more complicated setup process, for screen printing the minimum order is 25pcs. </p>"
-          }
-        },
-        "faq_QdtxVj": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "How long does it take to complete an order?",
-            "faq_answer": "<p>Turnaround times vary depending on the order size and printing method. Standard orders are typically ready in 7-10 business days after payment, but we offer rush services for quicker delivery when needed.</p>"
-          }
-        },
-        "faq_yyXheT": {
-          "type": "faq",
-          "settings": {
-            "faq_question": "Can I see a mock-up of my design before you print?",
-            "faq_answer": "<p>Absolutely! We provide digital mock-ups to ensure you’re happy with the design, placement, and colors before moving forward with production.</p>"
+            "btn_layout": "btn_layout_text",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "faq_wjgNHW",
-        "faq_3FRt8L",
-        "faq_QdtxVj",
-        "faq_yyXheT"
+        "button_r6dLpL"
       ],
       "settings": {
         "faq_heading_text": "FAQs",
-        "faq_cta_heading_text": "",
-        "faq_cta_paragraph_text": ""
+        "faq_cta_heading_text": "Still have questions?",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum</p>"
       }
     },
     "contactcta": {
@@ -310,7 +314,7 @@
     "videohero",
     "scrollanimatecontent",
     "bentobox_JQECti",
-    "productgallery_nxmn6e",
+    "productslider_B7FDfb",
     "calltoactionbanner",
     "featuredarticles",
     "testimonialslider",
