@@ -38,7 +38,7 @@
           "checkbox_show_resources_megamenu": false,
           "checkbox_show_search": true,
           "collection_bestseller": "all",
-          "collection_bestseller_limit": 66,
+          "collection_bestseller_limit": 3,
           "checkbox_show_account": true,
           "checkbox_show_cart": true
         }
