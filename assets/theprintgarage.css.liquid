@@ -869,6 +869,12 @@ figcaption {
   background-image: none;
 }
 
+.button.is-secondary.is-icon.is-large {
+  box-shadow: var(--shadow-size--x-xsmall) var(--shadow-size--y-xsmall) 0 0 var(--shades-blue--blue600);
+  padding: .875rem;
+  font-size: .875rem;
+}
+
 .button.is-outline {
   color: #111;
   background-color: #0000;
@@ -4869,7 +4875,6 @@ figcaption {
 }
 
 .navbar10_component {
-  z-index: 100;
   background-color: var(--background-color--background-primary);
   align-items: center;
   width: 100%;
@@ -4877,8 +4882,6 @@ figcaption {
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
-  position: sticky;
-  top: 0;
 }
 
 .navbar10_container {
@@ -6237,6 +6240,12 @@ figcaption {
   height: 100%;
   position: absolute;
   inset: 0%;
+}
+
+.navbar_main {
+  z-index: 100;
+  position: sticky;
+  top: 0;
 }
 
 @media screen and (max-width: 991px) {
