@@ -209,7 +209,8 @@ function addPDPtoCart(pid,refID) {
             console.error("Invalid metafield format.");
             return;
         }
-
+        //Hide Add to cart and Quantity button
+        $('.product-header_quantity').hide();
         // Hide Shopify's default variant selectors
         document.querySelectorAll(".product-header_option-list").forEach(el => el.style.display = "none");
 
