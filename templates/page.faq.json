@@ -18,32 +18,6 @@
     },
     "faqsalternate_aD4d3w": {
       "type": "faqsalternate",
-      "blocks": {
-        "faq_item_b7MAyJ": {
-          "type": "faq-item",
-          "settings": {
-            "faq_question": "Question text goes here",
-            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>"
-          }
-        },
-        "button_iYUXkg": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "faq_item_b7MAyJ",
-        "button_iYUXkg"
-      ],
       "settings": {
         "faq_heading_text": "Short heading here",
         "faq_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
