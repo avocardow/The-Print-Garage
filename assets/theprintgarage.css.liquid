@@ -2934,7 +2934,13 @@ figcaption {
   display: flex;
 }
 
-.filter_list-wrapper, .filter_list {
+.filter_list-wrapper {
+  overflow: visible;
+}
+
+.filter_list {
+  flex-flow: wrap;
+  display: flex;
   overflow: visible;
 }
 
