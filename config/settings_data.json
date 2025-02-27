@@ -13,58 +13,26 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
-          "search_suggestions_mCYJnC": {
-            "type": "search-suggestions",
-            "settings": {
-              "url_link": "shopify://collections/all",
-              "text_text": "All Products"
-            }
-          },
-          "search_suggestions_BxCMRi": {
-            "type": "search-suggestions",
-            "settings": {
-              "url_link": "shopify://products/as-colour-tees",
-              "text_text": "AS Colour Tees"
-            }
-          },
-          "search_suggestions_RKPzwd": {
-            "type": "search-suggestions",
-            "settings": {
-              "url_link": "shopify://products/trucker-cap",
-              "text_text": "Trucker Cap"
-            }
-          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
-              "btn_layout": "btn_layout_both",
               "btn_style": "is-primary",
               "btn_size": "is-default",
-              "btn_icon_size": "icon-1x1-small",
               "btn_url": "#contact",
-              "btn_text": "Contact Us",
-              "btn_icon_viewbox": "",
-              "btn_icon_path": ""
+              "btn_text": "Contact Us"
             }
           }
         },
         "block_order": [
-          "search_suggestions_mCYJnC",
-          "search_suggestions_BxCMRi",
-          "search_suggestions_RKPzwd",
           "button_RnChqb"
         ],
         "settings": {
           "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
-          "checkbox_show_products_megamenu": false,
-          "checkbox_show_services_megamenu": false,
-          "checkbox_show_solutions_megamenu": false,
-          "checkbox_show_resources_megamenu": false,
-          "checkbox_show_search": true,
-          "collection_bestseller": "all",
+          "checkbox_show_search": false,
+          "collection_bestseller": "",
           "collection_bestseller_limit": 6,
-          "checkbox_show_account": true,
-          "checkbox_show_cart": true
+          "checkbox_show_account": false,
+          "checkbox_show_cart": false
         }
       },
       "footermain": {
