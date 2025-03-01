@@ -9,19 +9,80 @@
  */
 {
   "sections": {
-    "defaulthero_hHAnmb": {
-      "type": "defaulthero",
-      "settings": {}
+    "productslider_MHP7BD": {
+      "type": "productslider",
+      "blocks": {
+        "button_mYFKW9": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_mYFKW9"
+      ],
+      "settings": {
+        "products_heading_text": "Medium length section heading goes here",
+        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "collection_select_a_collection": "all",
+        "collection_select_a_collection_limit": 6
+      }
     },
-    "defaultcontent_F4UxMW": {
-      "type": "defaultcontent",
-      "settings": {}
+    "testimonialslider_YLMUBX": {
+      "type": "testimonialslider",
+      "settings": {
+        "testimonials_heading_text": "Medium length section heading goes here",
+        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "contactcta_Pz99pd": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "faqs_H9mFEz": {
+      "type": "faqs",
+      "blocks": {
+        "button_dJTrF7": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_dJTrF7"
+      ],
+      "settings": {
+        "faq_heading_text": "Medium length heading goes here",
+        "faq_cta_heading_text": "Short heading goes here",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_hHAnmb",
-    "defaultcontent_F4UxMW"
+    "productslider_MHP7BD",
+    "testimonialslider_YLMUBX",
+    "faqs_H9mFEz",
+    "contactcta_Pz99pd"
   ]
 }
