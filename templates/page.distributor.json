@@ -1,0 +1,20 @@
+{
+    "sections": {
+        "distributorformimage": {
+            "type": "distributorformimage"
+        },
+        "contactformimage": {
+            "type": "contactformimage"
+        },
+        "contactdetailsmap": {
+            "type": "contactdetailsmap"
+        }
+    },
+    "layout": "page.distributor",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "distributorformimage",
+        "contactformimage",
+        "contactdetailsmap"
+    ]
+}
