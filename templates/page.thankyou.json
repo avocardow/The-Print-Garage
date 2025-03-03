@@ -1,0 +1,16 @@
+{
+    "sections": {
+        "thankyou": {
+            "type": "thankyou"
+        },
+        "contactdetailsmap": {
+            "type": "contactdetailsmap"
+        }
+    },
+    "layout": "page.thankyou",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "thankyou",
+        "contactdetailsmap"
+    ]
+}
