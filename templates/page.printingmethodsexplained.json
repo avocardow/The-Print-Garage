@@ -1,0 +1,24 @@
+{
+    "sections": {
+        "herotextimagebg": {
+            "type": "herotextimagebg"
+        },
+        "bentobox": {
+            "type": "bentobox"
+        },
+        "faqs": {
+            "type": "faqs"
+        },
+        "contactcta": {
+            "type": "contactcta"
+        }
+    },
+    "layout": "page.printingmethodsexplained",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "herotextimagebg",
+        "bentobox",
+        "faqs",
+        "contactcta"
+    ]
+}
