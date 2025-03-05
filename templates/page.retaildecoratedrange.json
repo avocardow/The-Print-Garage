@@ -1,0 +1,28 @@
+{
+    "sections": {
+        "heroheader": {
+            "type": "heroheader"
+        },
+        "featurecards": {
+            "type": "featurecards"
+        },
+        "testimonialslider": {
+            "type": "testimonialslider"
+        },
+        "productslider": {
+            "type": "productslider"
+        },
+        "contactcta": {
+            "type": "contactcta"
+        }
+    },
+    "layout": "page.retaildecoratedrange",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "heroheader",
+        "featurecards",
+        "testimonialslider",
+        "productslider",
+        "contactcta"
+    ]
+}
