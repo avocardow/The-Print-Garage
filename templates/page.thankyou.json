@@ -1,27 +1,16 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "headercentertext": {
-      "type": "headercentertext",
-      "settings": {}
+    "sections": {
+        "headercentertext": {
+            "type": "headercentertext"
+        },
+        "contactdetailsmap": {
+            "type": "contactdetailsmap"
+        }
     },
-    "contactdetailsmap": {
-      "type": "contactdetailsmap",
-      "settings": {}
-    }
-  },
-  "layout": "page.thankyou",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "headercentertext",
-    "contactdetailsmap"
-  ]
+    "layout": "page.thankyou",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "headercentertext",
+        "contactdetailsmap"
+    ]
 }

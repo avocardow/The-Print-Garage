@@ -6420,6 +6420,7 @@ figcaption {
 }
 
 .layout1_image-wrapper {
+  aspect-ratio: 1;
   border: 1px solid var(--border-color--border-primary);
   border-radius: var(--border-radius--xlarge);
   max-width: 50%;
@@ -6435,7 +6436,7 @@ figcaption {
 
 .section_layout502 {
   background-image: url({{ 'Asset-27.svg' | asset_url }});
-  background-position: 50% 35vw;
+  background-position: 50% 80%;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -6495,11 +6496,6 @@ figcaption {
   grid-auto-columns: 1fr;
   transition: all .3s;
   overflow: hidden;
-}
-
-.layout502_tab-wrapper:hover {
-  box-shadow: var(--shadow-size--x-large) var(--shadow-size--y-large) 0 0 var(--border-color--border-primary);
-  transform: translate(.5rem, -.5rem);
 }
 
 .layout502_image-wrapper {
