@@ -1,24 +1,37 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "herotextimagebg": {
-            "type": "herotextimagebg"
-        },
-        "bentobox": {
-            "type": "bentobox"
-        },
-        "faqs": {
-            "type": "faqs"
-        },
-        "contactcta": {
-            "type": "contactcta"
-        }
+  "sections": {
+    "herotextimagebg": {
+      "type": "herotextimagebg",
+      "settings": {}
     },
-    "layout": "page.printingmethodsexplained",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "herotextimagebg",
-        "bentobox",
-        "faqs",
-        "contactcta"
-    ]
+    "bentobox": {
+      "type": "bentobox",
+      "settings": {}
+    },
+    "faqs": {
+      "type": "faqs",
+      "settings": {}
+    },
+    "contactcta": {
+      "type": "contactcta",
+      "settings": {}
+    }
+  },
+  "layout": "page.printingmethodsexplained",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "herotextimagebg",
+    "bentobox",
+    "faqs",
+    "contactcta"
+  ]
 }
