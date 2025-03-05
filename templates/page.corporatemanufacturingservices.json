@@ -11,23 +11,67 @@
   "sections": {
     "heroheader": {
       "type": "heroheader",
-      "settings": {}
+      "settings": {
+        "heroheader_heading_text": "Manufacturing Services",
+        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     },
     "featurecards": {
       "type": "featurecards",
-      "settings": {}
+      "blocks": {
+        "feature_card_yaEpKG": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        },
+        "feature_card_BbryQG": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        },
+        "feature_card_nimRqP": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_card_yaEpKG",
+        "feature_card_BbryQG",
+        "feature_card_nimRqP"
+      ],
+      "settings": {
+        "featurecards_heading_text": "Medium length section heading goes here"
+      }
     },
     "testimonialslider": {
       "type": "testimonialslider",
-      "settings": {}
+      "settings": {
+        "testimonials_heading_text": "Medium length section heading goes here",
+        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     },
     "productslider": {
       "type": "productslider",
-      "settings": {}
+      "settings": {
+        "products_heading_text": "Medium length section heading goes here",
+        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "collection_select_a_collection": "all",
+        "collection_select_a_collection_limit": 6
+      }
     },
     "contactcta": {
       "type": "contactcta",
-      "settings": {}
+      "settings": {
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     }
   },
   "layout": "page.corporatemanufacturingservices",
