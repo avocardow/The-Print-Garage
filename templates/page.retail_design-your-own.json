@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "defaulthero_hHAnmb": {
-      "type": "defaulthero",
-      "settings": {}
-    },
     "defaultcontent_F4UxMW": {
       "type": "defaultcontent",
       "settings": {}
@@ -21,7 +17,6 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_hHAnmb",
     "defaultcontent_F4UxMW"
   ]
 }
