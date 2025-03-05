@@ -1,0 +1,28 @@
+{
+    "sections": {
+        "pageheadersplit": {
+            "type": "pageheadersplit"
+        },
+        "imagetabs": {
+            "type": "imagetabs"
+        },
+        "contenttextimagesplit": {
+            "type": "contenttextimagesplit"
+        },
+        "featuredarticles": {
+            "type": "featuredarticles"
+        },
+        "contactcta": {
+            "type": "contactcta"
+        }
+    },
+    "layout": "page.servicesretail",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "pageheadersplit",
+        "imagetabs",
+        "contenttextimagesplit",
+        "featuredarticles",
+        "contactcta"
+    ]
+}
