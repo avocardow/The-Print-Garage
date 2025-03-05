@@ -9,19 +9,239 @@
  */
 {
   "sections": {
-    "defaulthero_8LknxR": {
-      "type": "defaulthero",
-      "settings": {}
+    "heroheader_yPCMDq": {
+      "type": "heroheader",
+      "settings": {
+        "heroheader_heading_text": "Short heading here",
+        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     },
-    "defaultcontent_qhJxNe": {
-      "type": "defaultcontent",
-      "settings": {}
+    "featurecards_8gcrNH": {
+      "type": "featurecards",
+      "blocks": {
+        "feature_card_AaD7Kf": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        },
+        "feature_card_tBFzJV": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        },
+        "feature_card_Eqcj3D": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_card_AaD7Kf",
+        "feature_card_tBFzJV",
+        "feature_card_Eqcj3D"
+      ],
+      "settings": {
+        "featurecards_heading_text": "Medium length section heading goes here"
+      }
+    },
+    "contenttextimagespli_yFXdMN": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_We4Xf9": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_We4Xf9"
+      ],
+      "settings": {
+        "content_layout": "is-horizontal",
+        "content_tagline_text": "Short tagline here",
+        "content_heading_text": "Medium length section heading goes here",
+        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+      }
+    },
+    "contenttextimagespli_WYCcDX": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_bmrqMd": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_bmrqMd"
+      ],
+      "settings": {
+        "content_layout": "is-reversed",
+        "content_tagline_text": "Short tagline here",
+        "content_heading_text": "Medium length section heading goes here",
+        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+      }
+    },
+    "bentobox_LwWa88": {
+      "type": "bentobox",
+      "blocks": {
+        "bento_card_MLkGGh": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_DkxHe4": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-tertiary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_6TGdXJ": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_GDhJrd": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-secondary",
+            "hide_link": false,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_qDJqrp": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Medium length hero heading goes here",
+            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/5146_STACK.jpg",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_MLkGGh",
+        "bento_card_DkxHe4",
+        "bento_card_6TGdXJ",
+        "bento_card_GDhJrd",
+        "bento_card_qDJqrp"
+      ],
+      "settings": {
+        "bento_heading_text": "Medium length hero heading goes here",
+        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "faqs_eRAMpx": {
+      "type": "faqs",
+      "blocks": {
+        "button_cip7RN": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_cip7RN"
+      ],
+      "settings": {
+        "faq_heading_text": "Medium length heading goes here",
+        "faq_cta_heading_text": "Short heading goes here",
+        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "contactcta_WejnfM": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_8LknxR",
-    "defaultcontent_qhJxNe"
+    "heroheader_yPCMDq",
+    "featurecards_8gcrNH",
+    "contenttextimagespli_yFXdMN",
+    "contenttextimagespli_WYCcDX",
+    "bentobox_LwWa88",
+    "faqs_eRAMpx",
+    "contactcta_WejnfM"
   ]
 }
