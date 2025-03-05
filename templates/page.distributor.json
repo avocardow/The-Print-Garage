@@ -3,9 +3,6 @@
         "distributorformimage": {
             "type": "distributorformimage"
         },
-        "contactformimage": {
-            "type": "contactformimage"
-        },
         "contactdetailsmap": {
             "type": "contactdetailsmap"
         }
@@ -14,7 +11,6 @@
     "wrapper": "main.main-wrapper",
     "order": [
         "distributorformimage",
-        "contactformimage",
         "contactdetailsmap"
     ]
 }

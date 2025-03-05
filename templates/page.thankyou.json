@@ -1,7 +1,7 @@
 {
     "sections": {
-        "thankyou": {
-            "type": "thankyou"
+        "headercentertext": {
+            "type": "headercentertext"
         },
         "contactdetailsmap": {
             "type": "contactdetailsmap"
@@ -10,7 +10,7 @@
     "layout": "page.thankyou",
     "wrapper": "main.main-wrapper",
     "order": [
-        "thankyou",
+        "headercentertext",
         "contactdetailsmap"
     ]
 }
