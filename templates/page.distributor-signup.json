@@ -9,13 +9,13 @@
  */
 {
   "sections": {
-    "contactformimage_4j9aYE": {
-      "type": "contactformimage",
+    "distributorformimage_xAMUQn": {
+      "type": "distributorformimage",
       "settings": {
-        "contact_form_tagline_text": "Let’s bring your ideas to life.",
-        "contact_form_heading_text": "Get in Touch with The Print Garage",
-        "contact_form_paragraph_text": "<p>Have a question, a big idea, or need help with your next merch project? We’d love to hear from you! Whether you’re a business looking for bulk orders, a creator with a vision, or just curious about what we do, our team is here to help.<br/><br/>Fill out the form below, and we’ll get back to you as soon as possible. Or, if you’d prefer, give us a call or drop by – we’re always ready to talk shop and bring your ideas to life.</p>",
-        "contact_form_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+        "contact_form_tagline_text": "Short tagline here",
+        "contact_form_heading_text": "Short heading here",
+        "contact_form_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "contact_form_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
     "contactdetailsmap_rR6RRd": {
@@ -31,7 +31,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "contactformimage_4j9aYE",
+    "distributorformimage_xAMUQn",
     "contactdetailsmap_rR6RRd"
   ]
 }
