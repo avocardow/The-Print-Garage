@@ -16,16 +16,16 @@
         "pageheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
-    "imagetabs_GFTQmc": {
+    "imagetabs_Rz3CV3": {
       "type": "imagetabs",
       "settings": {
         "tabs_heading_text": "Short heading goes here",
-        "tabs_button1_text": "One",
-        "tabs_button2_text": "Two",
-        "tabs_button3_text": "Three",
-        "tabs_image1": "shopify://shop_images/WO_HEAVY.jpg",
-        "tabs_image2": "shopify://shop_images/4080_WOS_HEAVY_TEE_MAIN.jpg",
-        "tabs_image3": "shopify://shop_images/5161_RELAX_HOOD_MAIN.jpg"
+        "tabs_button1_text": "Tab Button 1",
+        "tabs_button2_text": "Tab Button 2",
+        "tabs_button3_text": "Tab Button 3",
+        "tabs_image1": "shopify://shop_images/20250225070433972.png",
+        "tabs_image2": "shopify://shop_images/202502250658563555.png",
+        "tabs_image3": "shopify://shop_images/202502250656206069.png"
       }
     },
     "contenttextimagespli_H9hjqb": {
@@ -88,7 +88,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "pageheadersplit_4dJeJa",
-    "imagetabs_GFTQmc",
+    "imagetabs_Rz3CV3",
     "contenttextimagespli_H9hjqb",
     "contenttextimagespli_j6izai",
     "featuredarticles_Fdpxi4",
