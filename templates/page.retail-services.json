@@ -9,19 +9,89 @@
  */
 {
   "sections": {
-    "defaulthero_hHAnmb": {
-      "type": "defaulthero",
-      "settings": {}
+    "pageheadersplit_4dJeJa": {
+      "type": "pageheadersplit",
+      "settings": {
+        "pageheader_heading_text": "Medium length heading goes here",
+        "pageheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     },
-    "defaultcontent_F4UxMW": {
-      "type": "defaultcontent",
-      "settings": {}
+    "imagetabs_GFTQmc": {
+      "type": "imagetabs",
+      "settings": {
+        "tabs_heading_text": "Short heading goes here",
+        "tabs_button1_text": "One",
+        "tabs_button2_text": "Two",
+        "tabs_button3_text": "Three",
+        "tabs_image1": "shopify://shop_images/WO_HEAVY.jpg",
+        "tabs_image2": "shopify://shop_images/4080_WOS_HEAVY_TEE_MAIN.jpg",
+        "tabs_image3": "shopify://shop_images/5161_RELAX_HOOD_MAIN.jpg"
+      }
+    },
+    "contenttextimagespli_H9hjqb": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_JzTQPe": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_JzTQPe"
+      ],
+      "settings": {
+        "content_layout": "is-horizontal",
+        "content_tagline_text": "Short tagline here",
+        "content_heading_text": "Medium length section heading goes here",
+        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_image": "shopify://shop_images/5146_STACK.jpg"
+      }
+    },
+    "contenttextimagespli_j6izai": {
+      "type": "contenttextimagespli",
+      "settings": {
+        "content_layout": "is-reversed",
+        "content_tagline_text": "Short tagline here",
+        "content_heading_text": "Medium length section heading goes here",
+        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_image": "shopify://shop_images/TAS_Machine.jpg"
+      }
+    },
+    "featuredarticles_Fdpxi4": {
+      "type": "featuredarticles",
+      "settings": {
+        "blog_heading_text": "Short heading goes here",
+        "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "article_select_article_1": "printing-methods-explained/is-dtf-printing-taking-over",
+        "article_select_article_2": "printing-methods-explained/example",
+        "article_select_article_3": "design-tips-tricks/tips-tricks"
+      }
+    },
+    "contactcta_JtJxiE": {
+      "type": "contactcta",
+      "settings": {
+        "contact_heading_text": "Medium length section heading goes here",
+        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "defaulthero_hHAnmb",
-    "defaultcontent_F4UxMW"
+    "pageheadersplit_4dJeJa",
+    "imagetabs_GFTQmc",
+    "contenttextimagespli_H9hjqb",
+    "contenttextimagespli_j6izai",
+    "featuredarticles_Fdpxi4",
+    "contactcta_JtJxiE"
   ]
 }
