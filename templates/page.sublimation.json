@@ -1,0 +1,32 @@
+{
+    "sections": {
+        "heroheaderimage": {
+            "type": "heroheaderimage"
+        },
+        "contenttextimagesplit": {
+            "type": "contenttextimagesplit"
+        },
+        "calltoactionbanner": {
+            "type": "calltoactionbanner"
+        },
+        "featurecards": {
+            "type": "featurecards"
+        },
+        "faqs": {
+            "type": "faqs"
+        },
+        "contactcta": {
+            "type": "contactcta"
+        }
+    },
+    "layout": "page.sublimation",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "heroheaderimage",
+        "contenttextimagesplit",
+        "calltoactionbanner",
+        "featurecards",
+        "faqs",
+        "contactcta"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "sections": {
+        "heroheader": {
+            "type": "heroheader"
+        },
+        "featurecards": {
+            "type": "featurecards"
+        },
+        "contenttextimagesplit": {
+            "type": "contenttextimagesplit"
+        },
+        "bentobox": {
+            "type": "bentobox"
+        },
+        "faqs": {
+            "type": "faqs"
+        },
+        "contactcta": {
+            "type": "contactcta"
+        }
+    },
+    "layout": "page.corporatesolutions",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "heroheader",
+        "featurecards",
+        "contenttextimagesplit",
+        "bentobox",
+        "faqs",
+        "contactcta"
+    ]
+}
