@@ -6451,6 +6451,7 @@ figcaption {
 .layout502_tabs-menu {
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
   display: flex;
@@ -6518,6 +6519,59 @@ figcaption {
   font-size: 1.625rem;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.layout250_list {
+  grid-column-gap: 2rem;
+  grid-row-gap: 3rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  place-items: start;
+  display: grid;
+}
+
+.layout250_item {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.home4-features_image-wrapper {
+  aspect-ratio: 3 / 2;
+  border: 1px solid var(--border-color--border-primary);
+  border-radius: var(--border-radius--medium);
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.layout250_image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.section_header23 {
+  background-image: url({{ 'Asset-27.svg' | asset_url }});
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header23_component {
+  margin-bottom: 18rem;
+}
+
+.heading-style-h1-4 {
+  text-transform: uppercase;
+  text-wrap: balance;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 1.1;
 }
 
 @media screen and (max-width: 991px) {
@@ -7565,6 +7619,14 @@ figcaption {
   .layout502_tab-wrapper {
     grid-column-gap: 3rem;
   }
+
+  .layout250_list {
+    grid-column-gap: 2rem;
+  }
+
+  .header23_component {
+    margin-bottom: 8rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -8431,6 +8493,19 @@ figcaption {
   .heading-style-h3-2 {
     font-size: 1.5rem;
   }
+
+  .layout250_list {
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .header23_component {
+    margin-bottom: 6rem;
+  }
+
+  .heading-style-h1-4 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -8938,6 +9013,14 @@ figcaption {
 
   .layout502_tab-wrapper {
     grid-row-gap: 3rem;
+  }
+
+  .layout250_list {
+    grid-template-columns: 1fr;
+  }
+
+  .header23_component {
+    margin-bottom: 3rem;
   }
 }
 
