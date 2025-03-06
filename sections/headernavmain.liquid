@@ -1,6 +1,6 @@
 <div fs-scrolldisable-element="smart-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar10_component w-nav"><div class="settings-schema w-embed"></div>
 <div id="nav" x-data="" class="navbar10_container"><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="navbar10_logo-link w-nav-brand"><img li-object:src="section.settings.header_logo | image_url: width: 360" loading="lazy" alt="" src="{{ section.settings.header_logo | image_url: width: 360 }}" class="navbar10_logo">
-</a><nav role="navigation" class="navbar10_menu w-nav-menu"><ul role="list" class="navbar10_menu-left w-list-unstyled">{% for link in linklists.main-menu.links %}    <li li-for="link in linklists.main-menu.links" class="navbar10_menu-list-item">
+</a><nav role="navigation" class="navbar10_menu w-nav-menu"><ul role="list" class="navbar10_menu-left w-list-unstyled">{% for link in linklists.main-menu.links limit:2 %}    <li li-for="link in linklists.main-menu.links limit:2" class="navbar10_menu-list-item">
                                     
                             <a href="{{ link.url }}" li-object:href="link.url" li-object="link.title" class="navbar10_link w-nav-link">{{ link.title }}</a>
                             
@@ -63,7 +63,12 @@
 </div><div class="navbar5_item-right"><div class="text-weight-semibold">Page Eight</div><p class="text-size-small hide-mobile-landscape">Lorem ipsum dolor sit amet consectetur elit</p></div></a></div></div><div class="navbar-dropdown2_content-right"><div class="navbar-dropdown2_dropdown-content-wrapper z-index-1"><h4 class="text-size-small text-weight-semibold">Featured from Blog</h4><div id="w-node-c3698abe-e1fd-136d-9d07-5802fa94b446-fa94b36a" class="navbar-dropdown2_blog-list-wrapper"><div class="navbar-dropdown2_blog-list"><a href="#" class="navbar-dropdown2_blog-item w-inline-block"><div class="navbar-dropdown2_blog-image-wrapper"><img loading="lazy" src="{{ 'Placeholder-Image---Landscape.svg' | asset_url }}" alt="" class="navbar-dropdown2_blog-image">
 </div><div class="navbar-dropdown2_large-item-content"><div class="margin-bottom margin-tiny"><div class="text-weight-semibold">Article Title</div></div><p class="text-size-small">Lorem ipsum dolor sit amet consectetur elit</p><div class="margin-top margin-xxsmall"><div class="text-style-link text-size-small">Read more</div></div></div></a><a href="#" class="navbar-dropdown2_blog-item w-inline-block"><div class="navbar-dropdown2_blog-image-wrapper"><img loading="lazy" src="{{ 'Placeholder-Image---Landscape.svg' | asset_url }}" alt="" class="navbar-dropdown2_blog-image">
 </div><div class="navbar-dropdown2_large-item-content"><div class="margin-bottom margin-tiny"><div class="text-weight-semibold">Article Title</div></div><p class="text-size-small">Lorem ipsum dolor sit amet consectetur elit</p><div class="margin-top margin-xxsmall"><div class="text-style-link text-size-small">Read more</div></div></div></a></div></div><div class="button-group"><a href="#" class="button is-link is-icon w-inline-block"><div>See all articles</div><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path></svg></div></a></div></div><div class="navbar-dropdown2_dropdown-background-layer"></div></div></div></div></nav></div></li>{% endif %}
-</ul><div class="navbar10_menu-right"><ul role="list" class="navbar10_menu-right-actions w-list-unstyled">{% if section.settings.checkbox_show_search == true %}
+{% for link in linklists.main-menu.links offset:2 %}    <li li-for="link in linklists.main-menu.links offset:2" class="navbar10_menu-list-item">
+                                    
+                            <a href="{{ link.url }}" li-object:href="link.url" li-object="link.title" class="navbar10_link w-nav-link">{{ link.title }}</a>
+                            
+                        </li>
+{% endfor %}</ul><div class="navbar10_menu-right"><ul role="list" class="navbar10_menu-right-actions w-list-unstyled">{% if section.settings.checkbox_show_search == true %}
 <li class="navbar10_menu-list-item">{% render 'mini_search' %}
 </li>{% endif %}
 {% if section.settings.checkbox_show_account == true %}
