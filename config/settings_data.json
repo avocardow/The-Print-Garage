@@ -13,6 +13,13 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
+          "search_suggestions_dAMXXk": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://collections/all",
+              "text_text": "Suggestion"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -28,6 +35,7 @@
           }
         },
         "block_order": [
+          "search_suggestions_dAMXXk",
           "button_RnChqb"
         ],
         "settings": {
