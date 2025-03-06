@@ -190,6 +190,54 @@
               "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
             }
           },
+          "column_1_resource_card_RGm8UT": {
+            "type": "column-1-resource-card",
+            "settings": {
+              "resourcescard_heading_text": "Screen Printing",
+              "resourcescard_link": "shopify://pages/screen-printing",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
+            }
+          },
+          "column_1_resource_card_TiaQke": {
+            "type": "column-1-resource-card",
+            "settings": {
+              "resourcescard_heading_text": "Direct to Garment (DTG)",
+              "resourcescard_link": "shopify://pages/direct-to-garment",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
+            }
+          },
+          "column_1_resource_card_VzfCg9": {
+            "type": "column-1-resource-card",
+            "settings": {
+              "resourcescard_heading_text": "Direct to Film (DTF)",
+              "resourcescard_link": "shopify://pages/direct-to-film",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
+            }
+          },
+          "column_1_resource_card_ydXkyF": {
+            "type": "column-1-resource-card",
+            "settings": {
+              "resourcescard_heading_text": "UV Printing",
+              "resourcescard_link": "shopify://pages/uv-printing",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
+            }
+          },
+          "column_1_resource_card_jp6UQg": {
+            "type": "column-1-resource-card",
+            "settings": {
+              "resourcescard_heading_text": "Sublimation",
+              "resourcescard_link": "shopify://pages/sublimation",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
+            }
+          },
+          "column_1_resource_card_JyKFxd": {
+            "type": "column-1-resource-card",
+            "settings": {
+              "resourcescard_heading_text": "Embroidery",
+              "resourcescard_link": "shopify://pages/embroidery",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
+            }
+          },
           "column_2_resource_card_Q4x8ta": {
             "type": "column-2-resource-card",
             "settings": {
@@ -276,6 +324,12 @@
           "solution_card_eBXGtz",
           "solution_card_7KzxPe",
           "solution_card_YFGPNp",
+          "column_1_resource_card_RGm8UT",
+          "column_1_resource_card_TiaQke",
+          "column_1_resource_card_VzfCg9",
+          "column_1_resource_card_ydXkyF",
+          "column_1_resource_card_jp6UQg",
+          "column_1_resource_card_JyKFxd",
           "column_2_resource_card_Q4x8ta",
           "column_2_resource_card_bL7pje",
           "column_2_resource_card_3xaHzK",
