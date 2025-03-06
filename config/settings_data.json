@@ -103,54 +103,54 @@
           "column_1_service_card_giUEaj": {
             "type": "column-1-service-card",
             "settings": {
-              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_heading_text": "Design Your Own",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "servicecard_link": "",
+              "servicecard_link": "shopify://pages/design-your-own",
               "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
           },
           "column_1_service_card_Fqy8Je": {
             "type": "column-1-service-card",
             "settings": {
-              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_heading_text": "Decorated Product Range",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "servicecard_link": "",
+              "servicecard_link": "shopify://pages/retro-automotive-range",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
           },
           "column_2_service_card_ede6HX": {
             "type": "column-2-service-card",
             "settings": {
-              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_heading_text": "Customised Apparel & Merchandise",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "servicecard_link": "",
+              "servicecard_link": "shopify://pages/custom-apparel-merch",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
           },
           "column_2_service_card_RcCkaz": {
             "type": "column-2-service-card",
             "settings": {
-              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_heading_text": "Manufacturing Services",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "servicecard_link": "",
+              "servicecard_link": "shopify://pages/manufacturing-services",
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
             }
           },
           "column_3_service_card_HbUq46": {
             "type": "column-3-service-card",
             "settings": {
-              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_heading_text": "Trade Printing",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "servicecard_link": "",
+              "servicecard_link": "shopify://pages/trade-printing",
               "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
           },
           "column_3_service_card_tFyzdM": {
             "type": "column-3-service-card",
             "settings": {
-              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_heading_text": "Trade Manufacturing",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "servicecard_link": "",
+              "servicecard_link": "shopify://pages/trade-manufacturing",
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left.png"
             }
           },
