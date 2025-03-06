@@ -97,6 +97,24 @@
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
           },
+          "column_2_service_card_ede6HX": {
+            "type": "column-2-service-card",
+            "settings": {
+              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_link": "",
+              "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
+            }
+          },
+          "column_2_service_card_RcCkaz": {
+            "type": "column-2-service-card",
+            "settings": {
+              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_link": "",
+              "servicecard_icon": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
+            }
+          },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
             "settings": {
@@ -199,6 +217,8 @@
           "featured_product_3UMRab",
           "column_1_service_card_giUEaj",
           "column_1_service_card_Fqy8Je",
+          "column_2_service_card_ede6HX",
+          "column_2_service_card_RcCkaz",
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
