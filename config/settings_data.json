@@ -109,6 +109,51 @@
               "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
             }
           },
+          "solution_card_LeexB7": {
+            "type": "solution-card",
+            "settings": {
+              "solutioncard_heading_text": "Short heading goes here",
+              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "solutioncard_link": "",
+              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+            }
+          },
+          "solution_card_eiPVbF": {
+            "type": "solution-card",
+            "settings": {
+              "solutioncard_heading_text": "Short heading goes here",
+              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "solutioncard_link": "",
+              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+            }
+          },
+          "solution_card_eBXGtz": {
+            "type": "solution-card",
+            "settings": {
+              "solutioncard_heading_text": "Short heading goes here",
+              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "solutioncard_link": "",
+              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+            }
+          },
+          "solution_card_7KzxPe": {
+            "type": "solution-card",
+            "settings": {
+              "solutioncard_heading_text": "Short heading goes here",
+              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "solutioncard_link": "",
+              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+            }
+          },
+          "solution_card_YFGPNp": {
+            "type": "solution-card",
+            "settings": {
+              "solutioncard_heading_text": "Short heading goes here",
+              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "solutioncard_link": "",
+              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -138,6 +183,11 @@
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
           "solution_card_UU4zYb",
+          "solution_card_LeexB7",
+          "solution_card_eiPVbF",
+          "solution_card_eBXGtz",
+          "solution_card_7KzxPe",
+          "solution_card_YFGPNp",
           "button_RnChqb"
         ],
         "settings": {
