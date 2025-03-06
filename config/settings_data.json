@@ -84,7 +84,8 @@
             "settings": {
               "servicecard_heading_text": "Short heading goes here",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "servicecard_link": ""
+              "servicecard_link": "",
+              "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
           },
           "column_1_service_card_Fqy8Je": {
@@ -92,7 +93,8 @@
             "settings": {
               "servicecard_heading_text": "Short heading goes here",
               "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "servicecard_link": ""
+              "servicecard_link": "",
+              "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
           },
           "solution_menu_item_3KF9LJ": {
