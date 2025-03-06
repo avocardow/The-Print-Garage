@@ -308,36 +308,36 @@
           "column_2_resource_card_Q4x8ta": {
             "type": "column-2-resource-card",
             "settings": {
-              "resourcescard_heading_text": "Short heading goes here",
+              "resourcescard_heading_text": "Design Tips & Tricks",
               "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "resourcescard_link": "",
+              "resourcescard_link": "shopify://pages/design-tips-tricks",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
           },
           "column_2_resource_card_bL7pje": {
             "type": "column-2-resource-card",
             "settings": {
-              "resourcescard_heading_text": "Short heading goes here",
+              "resourcescard_heading_text": "Size Guides",
               "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "resourcescard_link": "",
+              "resourcescard_link": "shopify://pages/size-guides",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
           },
           "column_2_resource_card_3xaHzK": {
             "type": "column-2-resource-card",
             "settings": {
-              "resourcescard_heading_text": "Short heading goes here",
+              "resourcescard_heading_text": "Frequently Asked Questions",
               "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "resourcescard_link": "",
+              "resourcescard_link": "shopify://pages/frequently-asked-questions",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
           },
           "column_2_resource_card_4jAdpB": {
             "type": "column-2-resource-card",
             "settings": {
-              "resourcescard_heading_text": "Short heading goes here",
+              "resourcescard_heading_text": "Testimonials & Case Studies",
               "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "resourcescard_link": "",
+              "resourcescard_link": "shopify://pages/testimonials-case-studies",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
           },
