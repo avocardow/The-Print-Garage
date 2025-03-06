@@ -190,6 +190,18 @@
               "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
             }
           },
+          "featured_blog_post_AYzEWT": {
+            "type": "featured-blog-post",
+            "settings": {
+              "article_select_a_blog_post": "printing-methods-explained/is-dtf-printing-taking-over"
+            }
+          },
+          "featured_blog_post_eeWDGF": {
+            "type": "featured-blog-post",
+            "settings": {
+              "article_select_a_blog_post": "printing-methods-explained/example"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -228,6 +240,8 @@
           "solution_card_eBXGtz",
           "solution_card_7KzxPe",
           "solution_card_YFGPNp",
+          "featured_blog_post_AYzEWT",
+          "featured_blog_post_eeWDGF",
           "button_RnChqb"
         ],
         "settings": {
@@ -242,6 +256,9 @@
           "checkbox_show_solutions_megamenu": true,
           "text_solutions_menu_recommended_solutions_heading_text": "Our Solutions",
           "checkbox_show_resources_megamenu": true,
+          "text_resources_menu_column_1_heading_text": "Printing Methods Explained",
+          "text_resources_menu_column_2_heading_text": "The Print Garage Tips",
+          "text_resources_menu_featured_articles_heading_text": "Featured from the blog",
           "checkbox_show_search": true,
           "collection_bestseller": "all",
           "collection_bestseller_limit": 4,
