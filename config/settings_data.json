@@ -272,20 +272,7 @@
               "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "resourcescard_link": "",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
-            }
-          },
-          "featured_blog_post_AYzEWT": {
-            "type": "featured-blog-post",
-            "settings": {
-              "article_select_a_blog_post": "printing-methods-explained/is-dtf-printing-taking-over"
-            }
-          },
-          "featured_blog_post_eeWDGF": {
-            "type": "featured-blog-post",
-            "settings": {
-              "article_select_a_blog_post": "printing-methods-explained/example"
-            }
-          },
+            },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -334,8 +321,6 @@
           "column_2_resource_card_bL7pje",
           "column_2_resource_card_3xaHzK",
           "column_2_resource_card_4jAdpB",
-          "featured_blog_post_AYzEWT",
-          "featured_blog_post_eeWDGF",
           "button_RnChqb"
         ],
         "settings": {
