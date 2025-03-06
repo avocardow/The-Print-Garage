@@ -30,7 +30,25 @@
           "featured_product_cfm7jJ": {
             "type": "featured-product",
             "settings": {
-              "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
+              "product_select_a_featured_product": "black-hoodie"
+            }
+          },
+          "featured_product_TUhGBh": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "black-hoodie"
+            }
+          },
+          "featured_product_MamAJL": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "black-hoodie"
+            }
+          },
+          "featured_product_3UMRab": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "black-hoodie"
             }
           },
           "button_RnChqb": {
@@ -51,6 +69,9 @@
           "search_suggestions_dAMXXk",
           "featured_product_category_zjG9XE",
           "featured_product_cfm7jJ",
+          "featured_product_TUhGBh",
+          "featured_product_MamAJL",
+          "featured_product_3UMRab",
           "button_RnChqb"
         ],
         "settings": {
