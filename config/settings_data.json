@@ -13,240 +13,26 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
-          "search_suggestions_dAMXXk": {
-            "type": "search-suggestions",
-            "settings": {
-              "url_link": "shopify://collections/all",
-              "text_text": "Suggestion"
-            }
-          },
-          "featured_product_category_zjG9XE": {
-            "type": "featured-product-category",
-            "settings": {
-              "url_select_a_collection": "shopify://collections",
-              "text_collection_label": "All Collections"
-            }
-          },
-          "featured_product_category_YeaixJ": {
-            "type": "featured-product-category",
-            "settings": {
-              "url_select_a_collection": "shopify://collections/all",
-              "text_collection_label": "All Products"
-            }
-          },
-          "featured_product_category_hMDdan": {
-            "type": "featured-product-category",
-            "settings": {
-              "url_select_a_collection": "shopify://collections/hats",
-              "text_collection_label": "Hats"
-            }
-          },
-          "featured_product_category_6qKjAA": {
-            "type": "featured-product-category",
-            "settings": {
-              "url_select_a_collection": "shopify://collections/hats",
-              "text_collection_label": "Hats"
-            }
-          },
-          "featured_product_category_Lx3ybH": {
-            "type": "featured-product-category",
-            "settings": {
-              "url_select_a_collection": "shopify://collections/hats",
-              "text_collection_label": "Hats"
-            }
-          },
-          "featured_product_cfm7jJ": {
-            "type": "featured-product",
-            "settings": {
-              "product_select_a_featured_product": "black-hoodie"
-            }
-          },
-          "featured_product_TUhGBh": {
-            "type": "featured-product",
-            "settings": {
-              "product_select_a_featured_product": "black-hoodie"
-            }
-          },
-          "featured_product_MamAJL": {
-            "type": "featured-product",
-            "settings": {
-              "product_select_a_featured_product": "black-hoodie"
-            }
-          },
-          "featured_product_3UMRab": {
-            "type": "featured-product",
-            "settings": {
-              "product_select_a_featured_product": "black-hoodie"
-            }
-          },
-          "column_1_service_card_giUEaj": {
-            "type": "column-1-service-card",
-            "settings": {
-              "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "servicecard_link": "",
-              "servicecard_icon": "shopify://shop_images/becket_tets.png"
-            }
-          },
-          "column_1_service_card_Fqy8Je": {
-            "type": "column-1-service-card",
-            "settings": {
-              "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "servicecard_link": "",
-              "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
-            }
-          },
-          "column_2_service_card_ede6HX": {
-            "type": "column-2-service-card",
-            "settings": {
-              "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "servicecard_link": "",
-              "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
-            }
-          },
-          "column_2_service_card_RcCkaz": {
-            "type": "column-2-service-card",
-            "settings": {
-              "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "servicecard_link": "",
-              "servicecard_icon": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
-            }
-          },
-          "solution_menu_item_3KF9LJ": {
-            "type": "solution-menu-item",
-            "settings": {
-              "url_select_a_solution_page": "shopify://pages/retail-solutions",
-              "text_solution_label": "Retail (B2C) Solutions"
-            }
-          },
-          "solution_menu_item_rrEhrf": {
-            "type": "solution-menu-item",
-            "settings": {
-              "url_select_a_solution_page": "shopify://pages/corporate-solutions",
-              "text_solution_label": "Corporate (B2B) Solutions"
-            }
-          },
-          "solution_menu_item_PTDAdP": {
-            "type": "solution-menu-item",
-            "settings": {
-              "url_select_a_solution_page": "shopify://pages/distributors-solutions",
-              "text_solution_label": "Distributors (B2D) Solutions"
-            }
-          },
-          "solution_card_UU4zYb": {
-            "type": "solution-card",
-            "settings": {
-              "solutioncard_heading_text": "Short heading goes here",
-              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "solutioncard_link": "",
-              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
-            }
-          },
-          "solution_card_LeexB7": {
-            "type": "solution-card",
-            "settings": {
-              "solutioncard_heading_text": "Short heading goes here",
-              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "solutioncard_link": "",
-              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
-            }
-          },
-          "solution_card_eiPVbF": {
-            "type": "solution-card",
-            "settings": {
-              "solutioncard_heading_text": "Short heading goes here",
-              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "solutioncard_link": "",
-              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
-            }
-          },
-          "solution_card_eBXGtz": {
-            "type": "solution-card",
-            "settings": {
-              "solutioncard_heading_text": "Short heading goes here",
-              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "solutioncard_link": "",
-              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
-            }
-          },
-          "solution_card_7KzxPe": {
-            "type": "solution-card",
-            "settings": {
-              "solutioncard_heading_text": "Short heading goes here",
-              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "solutioncard_link": "",
-              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
-            }
-          },
-          "solution_card_YFGPNp": {
-            "type": "solution-card",
-            "settings": {
-              "solutioncard_heading_text": "Short heading goes here",
-              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-              "solutioncard_link": "",
-              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
-            }
-          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
-              "btn_layout": "btn_layout_both",
               "btn_style": "is-primary",
               "btn_size": "is-default",
-              "btn_icon_size": "icon-1x1-small",
               "btn_url": "#contact",
-              "btn_text": "Contact Us",
-              "btn_icon_viewbox": "",
-              "btn_icon_path": ""
+              "btn_text": "Contact Us"
             }
           }
         },
         "block_order": [
-          "search_suggestions_dAMXXk",
-          "featured_product_category_zjG9XE",
-          "featured_product_category_YeaixJ",
-          "featured_product_category_hMDdan",
-          "featured_product_category_6qKjAA",
-          "featured_product_category_Lx3ybH",
-          "featured_product_cfm7jJ",
-          "featured_product_TUhGBh",
-          "featured_product_MamAJL",
-          "featured_product_3UMRab",
-          "column_1_service_card_giUEaj",
-          "column_1_service_card_Fqy8Je",
-          "column_2_service_card_ede6HX",
-          "column_2_service_card_RcCkaz",
-          "solution_menu_item_3KF9LJ",
-          "solution_menu_item_rrEhrf",
-          "solution_menu_item_PTDAdP",
-          "solution_card_UU4zYb",
-          "solution_card_LeexB7",
-          "solution_card_eiPVbF",
-          "solution_card_eBXGtz",
-          "solution_card_7KzxPe",
-          "solution_card_YFGPNp",
           "button_RnChqb"
         ],
         "settings": {
           "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
-          "checkbox_show_products_megamenu": true,
-          "text_products_menu_recommended_categories_heading_text": "Product Categories",
-          "checkbox_show_services_megamenu": true,
-          "text_services_menu_column_1_heading_text": "Retail (B2C)",
-          "text_services_menu_column_2_heading_text": "Corporate (B2B)",
-          "text_services_menu_column_3_heading_text": "Distributors (B2D)",
-          "text_services_menu_recommended_service_heading_text": "What are you looking for?",
-          "checkbox_show_solutions_megamenu": true,
-          "text_solutions_menu_recommended_solutions_heading_text": "Our Solutions",
-          "checkbox_show_resources_megamenu": true,
-          "checkbox_show_search": true,
-          "collection_bestseller": "all",
-          "collection_bestseller_limit": 4,
-          "checkbox_show_account": true,
-          "checkbox_show_cart": true
+          "checkbox_show_search": false,
+          "collection_bestseller": "",
+          "collection_bestseller_limit": 6,
+          "checkbox_show_account": false,
+          "checkbox_show_cart": false
         }
       },
       "footermain": {
