@@ -100,6 +100,15 @@
               "text_solution_label": "Distributors (B2D) Solutions"
             }
           },
+          "solution_card_UU4zYb": {
+            "type": "solution-card",
+            "settings": {
+              "solutioncard_heading_text": "Short heading goes here",
+              "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "solutioncard_link": "",
+              "solutioncard_image": "shopify://shop_images/ThePrintGarage-building-corner-shot-Recovered.jpg"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -128,6 +137,7 @@
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
+          "solution_card_UU4zYb",
           "button_RnChqb"
         ],
         "settings": {
