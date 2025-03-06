@@ -79,6 +79,27 @@
               "product_select_a_featured_product": "black-hoodie"
             }
           },
+          "solution_menu_item_3KF9LJ": {
+            "type": "solution-menu-item",
+            "settings": {
+              "url_select_a_solution_page": "shopify://pages/retail-solutions",
+              "text_solution_label": "Retail (B2C) Solutions"
+            }
+          },
+          "solution_menu_item_rrEhrf": {
+            "type": "solution-menu-item",
+            "settings": {
+              "url_select_a_solution_page": "shopify://pages/corporate-solutions",
+              "text_solution_label": "Corporate (B2B) Solutions"
+            }
+          },
+          "solution_menu_item_PTDAdP": {
+            "type": "solution-menu-item",
+            "settings": {
+              "url_select_a_solution_page": "shopify://pages/distributors-solutions",
+              "text_solution_label": "Distributors (B2D) Solutions"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -104,6 +125,9 @@
           "featured_product_TUhGBh",
           "featured_product_MamAJL",
           "featured_product_3UMRab",
+          "solution_menu_item_3KF9LJ",
+          "solution_menu_item_rrEhrf",
+          "solution_menu_item_PTDAdP",
           "button_RnChqb"
         ],
         "settings": {
