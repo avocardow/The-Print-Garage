@@ -47,11 +47,11 @@
           "checkbox_show_services_megamenu": true,
           "checkbox_show_solutions_megamenu": true,
           "checkbox_show_resources_megamenu": true,
-          "checkbox_show_search": false,
+          "checkbox_show_search": true,
           "collection_bestseller": "",
           "collection_bestseller_limit": 6,
-          "checkbox_show_account": false,
-          "checkbox_show_cart": false
+          "checkbox_show_account": true,
+          "checkbox_show_cart": true
         }
       },
       "footermain": {
