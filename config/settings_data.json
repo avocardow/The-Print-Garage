@@ -115,6 +115,24 @@
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
             }
           },
+          "column_3_service_card_HbUq46": {
+            "type": "column-3-service-card",
+            "settings": {
+              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_link": "",
+              "servicecard_icon": "shopify://shop_images/becket_tets.png"
+            }
+          },
+          "column_3_service_card_tFyzdM": {
+            "type": "column-3-service-card",
+            "settings": {
+              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_link": "",
+              "servicecard_icon": "shopify://shop_images/Green_TShirt_left.png"
+            }
+          },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
             "settings": {
@@ -303,6 +321,8 @@
           "column_1_service_card_Fqy8Je",
           "column_2_service_card_ede6HX",
           "column_2_service_card_RcCkaz",
+          "column_3_service_card_HbUq46",
+          "column_3_service_card_tFyzdM",
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
