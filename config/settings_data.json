@@ -161,13 +161,6 @@
               "text_recommended_service_label": "Service"
             }
           },
-          "recommended_service_MVk9na": {
-            "type": "recommended-service",
-            "settings": {
-              "url_select_a_service_page": "shopify://pages/design-your-own",
-              "text_recommended_service_label": "Service"
-            }
-          },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
             "settings": {
@@ -362,7 +355,6 @@
           "recommended_service_teUwKq",
           "recommended_service_gTmtyH",
           "recommended_service_CGtgmN",
-          "recommended_service_MVk9na",
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
@@ -401,6 +393,8 @@
           "text_resources_menu_featured_articles_heading_text": "Featured from the blog",
           "article_select_featured_blog_post_1": "printing-methods-explained/is-dtf-printing-taking-over",
           "article_select_featured_blog_post_2": "printing-methods-explained/example",
+          "blog_resources_menu_select_a_blog": "",
+          "post_limit_resources_menu_select_a_blog": 3,
           "checkbox_show_search": true,
           "collection_search_bar_bestsellers": "show-in-designer",
           "collection_search_bar_bestsellers_limit": 4,
