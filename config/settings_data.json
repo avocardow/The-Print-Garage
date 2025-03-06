@@ -20,6 +20,27 @@
               "text_text": "Suggestion"
             }
           },
+          "search_suggestions_ndCW9t": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://collections/all",
+              "text_text": "Suggestion"
+            }
+          },
+          "search_suggestions_cTYUtQ": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://collections/all",
+              "text_text": "Suggestion"
+            }
+          },
+          "search_suggestions_cUncnB": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://collections/all",
+              "text_text": "Suggestion"
+            }
+          },
           "featured_product_category_zjG9XE": {
             "type": "featured-product-category",
             "settings": {
@@ -336,6 +357,9 @@
         },
         "block_order": [
           "search_suggestions_dAMXXk",
+          "search_suggestions_ndCW9t",
+          "search_suggestions_cTYUtQ",
+          "search_suggestions_cUncnB",
           "featured_product_category_zjG9XE",
           "featured_product_category_YeaixJ",
           "featured_product_category_hMDdan",
