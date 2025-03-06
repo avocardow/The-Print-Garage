@@ -140,6 +140,34 @@
               "text_recommended_service_label": "Service"
             }
           },
+          "recommended_service_teUwKq": {
+            "type": "recommended-service",
+            "settings": {
+              "url_select_a_service_page": "shopify://pages/design-your-own",
+              "text_recommended_service_label": "Service"
+            }
+          },
+          "recommended_service_gTmtyH": {
+            "type": "recommended-service",
+            "settings": {
+              "url_select_a_service_page": "shopify://pages/design-your-own",
+              "text_recommended_service_label": "Service"
+            }
+          },
+          "recommended_service_CGtgmN": {
+            "type": "recommended-service",
+            "settings": {
+              "url_select_a_service_page": "shopify://pages/design-your-own",
+              "text_recommended_service_label": "Service"
+            }
+          },
+          "recommended_service_MVk9na": {
+            "type": "recommended-service",
+            "settings": {
+              "url_select_a_service_page": "shopify://pages/design-your-own",
+              "text_recommended_service_label": "Service"
+            }
+          },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
             "settings": {
@@ -331,6 +359,10 @@
           "column_3_service_card_HbUq46",
           "column_3_service_card_tFyzdM",
           "recommended_service_6WrWnU",
+          "recommended_service_teUwKq",
+          "recommended_service_gTmtyH",
+          "recommended_service_CGtgmN",
+          "recommended_service_MVk9na",
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
