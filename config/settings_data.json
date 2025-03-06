@@ -133,6 +133,13 @@
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left.png"
             }
           },
+          "recommended_service_6WrWnU": {
+            "type": "recommended-service",
+            "settings": {
+              "url_select_a_service_page": "shopify://pages/design-your-own",
+              "text_recommended_service_label": "Service"
+            }
+          },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
             "settings": {
@@ -323,6 +330,7 @@
           "column_2_service_card_RcCkaz",
           "column_3_service_card_HbUq46",
           "column_3_service_card_tFyzdM",
+          "recommended_service_6WrWnU",
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
