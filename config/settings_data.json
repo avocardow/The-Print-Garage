@@ -13,6 +13,13 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
+          "search_suggestions_DKU6AM": {
+            "type": "search-suggestions",
+            "settings": {
+              "url_link": "shopify://products/as-colour-kids-staple-tee-3005",
+              "text_text": "Tag"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -28,6 +35,7 @@
           }
         },
         "block_order": [
+          "search_suggestions_DKU6AM",
           "button_RnChqb"
         ],
         "settings": {
