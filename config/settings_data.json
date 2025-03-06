@@ -13,6 +13,12 @@
       "headernavmain": {
         "type": "headernavmain",
         "blocks": {
+          "featured_product_Mq9aBE": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
+            }
+          },
           "featured_product_category_ywmyLG": {
             "type": "featured-product-category",
             "settings": {
@@ -35,6 +41,7 @@
           }
         },
         "block_order": [
+          "featured_product_Mq9aBE",
           "featured_product_category_ywmyLG",
           "button_RnChqb"
         ],
