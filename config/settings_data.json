@@ -19,6 +19,24 @@
               "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
             }
           },
+          "featured_product_9Qwtq6": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
+            }
+          },
+          "featured_product_Dy93Be": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
+            }
+          },
+          "featured_product_C4n98r": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
+            }
+          },
           "featured_product_category_ywmyLG": {
             "type": "featured-product-category",
             "settings": {
@@ -42,6 +60,9 @@
         },
         "block_order": [
           "featured_product_Mq9aBE",
+          "featured_product_9Qwtq6",
+          "featured_product_Dy93Be",
+          "featured_product_C4n98r",
           "featured_product_category_ywmyLG",
           "button_RnChqb"
         ],
