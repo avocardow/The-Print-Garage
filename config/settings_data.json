@@ -20,6 +20,13 @@
               "text_text": "Suggestion"
             }
           },
+          "featured_product_category_zjG9XE": {
+            "type": "featured-product-category",
+            "settings": {
+              "url_select_a_collection": "shopify://collections/hats",
+              "text_collection_label": "Hats"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -36,6 +43,7 @@
         },
         "block_order": [
           "search_suggestions_dAMXXk",
+          "featured_product_category_zjG9XE",
           "button_RnChqb"
         ],
         "settings": {
