@@ -23,15 +23,15 @@
           "featured_product_category_zjG9XE": {
             "type": "featured-product-category",
             "settings": {
-              "url_select_a_collection": "shopify://collections/hats",
-              "text_collection_label": "Hats"
+              "url_select_a_collection": "shopify://collections",
+              "text_collection_label": "All Collections"
             }
           },
           "featured_product_category_YeaixJ": {
             "type": "featured-product-category",
             "settings": {
-              "url_select_a_collection": "shopify://collections/hats",
-              "text_collection_label": "Hats"
+              "url_select_a_collection": "shopify://collections/all",
+              "text_collection_label": "All Products"
             }
           },
           "featured_product_category_hMDdan": {
