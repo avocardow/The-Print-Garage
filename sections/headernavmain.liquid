@@ -234,7 +234,7 @@
 <div class="button-group">
   {% assign blog = blogs[section.settings.blog_resources_menu_select_a_blog] %}{% for article in blog.articles limit: section.settings.post_limit_resources_menu_select_a_blog %}
     <div>
-<a li-object:href="blog.url" href="{{ article.url }}" class="button is-link w-inline-block"><div>Check out the blog</div><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 384 512" width="100%" fill="currentColor" class="icon-1x1-small"><path d="M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z"></path></svg></a>
+<a li-object:href="blog.url" href="{{ blog.url }}" class="button is-link w-inline-block"><div>Check out the blog</div><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 384 512" width="100%" fill="currentColor" class="icon-1x1-small"><path d="M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z"></path></svg></a>
     </div>
       {% endfor %}
     </div>
