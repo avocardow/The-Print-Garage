@@ -272,7 +272,8 @@
               "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "resourcescard_link": "",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
-            },
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -339,8 +340,6 @@
           "text_resources_menu_column_2_heading_text": "The Print Garage Tips",
           "text_resources_menu_featured_articles_heading_text": "Featured from the blog",
           "checkbox_show_search": true,
-          "collection_bestseller": "all",
-          "collection_bestseller_limit": 4,
           "checkbox_show_account": true,
           "checkbox_show_cart": true
         }
