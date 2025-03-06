@@ -79,6 +79,22 @@
               "product_select_a_featured_product": "black-hoodie"
             }
           },
+          "column_1_service_card_giUEaj": {
+            "type": "column-1-service-card",
+            "settings": {
+              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_link": ""
+            }
+          },
+          "column_1_service_card_Fqy8Je": {
+            "type": "column-1-service-card",
+            "settings": {
+              "servicecard_heading_text": "Short heading goes here",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_link": ""
+            }
+          },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
             "settings": {
@@ -179,6 +195,8 @@
           "featured_product_TUhGBh",
           "featured_product_MamAJL",
           "featured_product_3UMRab",
+          "column_1_service_card_giUEaj",
+          "column_1_service_card_Fqy8Je",
           "solution_menu_item_3KF9LJ",
           "solution_menu_item_rrEhrf",
           "solution_menu_item_PTDAdP",
@@ -193,8 +211,14 @@
         "settings": {
           "header_logo": "shopify://shop_images/the-print-garage_logo_landscape-colour.svg",
           "checkbox_show_products_megamenu": true,
+          "text_products_menu_recommended_categories_heading_text": "Product Categories",
           "checkbox_show_services_megamenu": true,
+          "text_services_menu_column_1_heading_text": "Retail (B2C)",
+          "text_services_menu_column_2_heading_text": "Corporate (B2B)",
+          "text_services_menu_column_3_heading_text": "Distributors (B2D)",
+          "text_services_menu_recommended_service_heading_text": "What are you looking for?",
           "checkbox_show_solutions_megamenu": true,
+          "text_solutions_menu_recommended_solutions_heading_text": "Our Solutions",
           "checkbox_show_resources_megamenu": true,
           "checkbox_show_search": true,
           "collection_bestseller": "all",
