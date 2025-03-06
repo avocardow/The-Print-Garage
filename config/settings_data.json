@@ -83,7 +83,7 @@
             "type": "column-1-service-card",
             "settings": {
               "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "servicecard_link": "",
               "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
@@ -92,7 +92,7 @@
             "type": "column-1-service-card",
             "settings": {
               "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "servicecard_link": "",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
@@ -101,7 +101,7 @@
             "type": "column-2-service-card",
             "settings": {
               "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "servicecard_link": "",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
@@ -110,7 +110,7 @@
             "type": "column-2-service-card",
             "settings": {
               "servicecard_heading_text": "Short heading goes here",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "servicecard_link": "",
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
             }
