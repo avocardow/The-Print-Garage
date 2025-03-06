@@ -339,7 +339,11 @@
           "text_resources_menu_column_1_heading_text": "Printing Methods Explained",
           "text_resources_menu_column_2_heading_text": "The Print Garage Tips",
           "text_resources_menu_featured_articles_heading_text": "Featured from the blog",
+          "article_select_featured_blog_post_1": "printing-methods-explained/is-dtf-printing-taking-over",
+          "article_select_featured_blog_post_2": "printing-methods-explained/example",
           "checkbox_show_search": true,
+          "collection_search_bar_bestsellers": "show-in-designer",
+          "collection_search_bar_bestsellers_limit": 4,
           "checkbox_show_account": true,
           "checkbox_show_cart": true
         }
