@@ -27,6 +27,12 @@
               "text_collection_label": "Hats"
             }
           },
+          "featured_product_cfm7jJ": {
+            "type": "featured-product",
+            "settings": {
+              "product_select_a_featured_product": "as-colour-kids-staple-tee-3005"
+            }
+          },
           "button_RnChqb": {
             "type": "button",
             "settings": {
@@ -44,6 +50,7 @@
         "block_order": [
           "search_suggestions_dAMXXk",
           "featured_product_category_zjG9XE",
+          "featured_product_cfm7jJ",
           "button_RnChqb"
         ],
         "settings": {
