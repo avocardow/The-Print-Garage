@@ -157,29 +157,29 @@
           "recommended_service_6WrWnU": {
             "type": "recommended-service",
             "settings": {
-              "url_select_a_service_page": "shopify://pages/design-your-own",
-              "text_recommended_service_label": "Service"
+              "url_select_a_service_page": "shopify://pages/corporate-services",
+              "text_recommended_service_label": "Corporate Apparel"
             }
           },
           "recommended_service_teUwKq": {
             "type": "recommended-service",
             "settings": {
-              "url_select_a_service_page": "shopify://pages/design-your-own",
-              "text_recommended_service_label": "Service"
+              "url_select_a_service_page": "shopify://pages/retail-services",
+              "text_recommended_service_label": "Personalised Gifts"
             }
           },
           "recommended_service_gTmtyH": {
             "type": "recommended-service",
             "settings": {
-              "url_select_a_service_page": "shopify://pages/design-your-own",
-              "text_recommended_service_label": "Service"
+              "url_select_a_service_page": "shopify://pages/retail-services",
+              "text_recommended_service_label": "Merch for Events"
             }
           },
           "recommended_service_CGtgmN": {
             "type": "recommended-service",
             "settings": {
-              "url_select_a_service_page": "shopify://pages/design-your-own",
-              "text_recommended_service_label": "Service"
+              "url_select_a_service_page": "shopify://pages/distributors-services",
+              "text_recommended_service_label": "Printing Partners"
             }
           },
           "solution_menu_item_3KF9LJ": {
