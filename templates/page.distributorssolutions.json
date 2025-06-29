@@ -13,7 +13,7 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "A trade partner that protects your margins – and your reputation.",
-        "heroheader_paragraph_text": "<p>You’ve worked hard to earn your clients’ trust. When it’s your name on the box, you can’t afford production missteps, fulfilment mishaps, or inconsistent quality. That’s where we come in.</p><p>At The Print Garage, we’re not just another supplier. We’re the quiet engine behind our distributors who deliver like clockwork. We give you the tools to grow: exclusive access to wholesale pricing that actually supports your margin, reliable print capacity that scales when you need it, and the peace of mind that comes with knowing your production partner has your back.</p><p>Everything is white-label by default. Everything is tailored to your workflow. And everything is built to help you look good, stay profitable, and never miss a beat.</p>"
+        "heroheader_paragraph_text": "<p>You’ve worked hard to earn your clients’ trust. When it’s your name on the box, you can’t afford production missteps, fulfilment mishaps, or inconsistent quality. </p><p>That’s where we come in.</p>"
       }
     },
     "pageheadersplit_emhM3j": {
@@ -189,10 +189,10 @@
         "bento_paragraph_text": ""
       }
     },
-    "faqs_eRAMpx": {
-      "type": "faqs",
+    "calltoactionbanner_qjGKig": {
+      "type": "calltoactionbanner",
       "blocks": {
-        "button_cip7RN": {
+        "button_qfJJcD": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
@@ -200,19 +200,20 @@
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
             "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_text": "Become a Distributor",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_cip7RN"
+        "button_qfJJcD"
       ],
+      "name": "CallToActionBanner",
       "settings": {
-        "faq_heading_text": "Medium length heading goes here",
-        "faq_cta_heading_text": "Short heading goes here",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "cta_heading_text": "Get our crew in your corner.",
+        "cta_paragraph_text": "<p>Become a Garage Distributor and unlock a production partner that works as hard (and fast) as you do. From white-label printing to full-scale fulfilment, we’re the behind-the-scenes crew helping you deliver confidently, consistently, and without compromise.</p>",
+        "banner_bg": "background-color-quaternary"
       }
     },
     "contactcta_WejnfM": {
@@ -231,7 +232,7 @@
     "contenttextimagespli_WYCcDX",
     "contenttextimagespli_yFXdMN",
     "bentobox_LwWa88",
-    "faqs_eRAMpx",
+    "calltoactionbanner_qjGKig",
     "contactcta_WejnfM"
   ]
 }
