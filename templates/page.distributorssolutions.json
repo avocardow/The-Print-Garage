@@ -83,22 +83,6 @@
     "bentobox_LwWa88": {
       "type": "bentobox",
       "blocks": {
-        "bento_card_MLkGGh": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Consistent quality, every time.",
-            "card_paragraph_text": "<p>Every item, every order, every run – held to the same high standards. Whatever the run size, your clients get results that feel deliberate, polished, and on-brand.</p>",
-            "card_type": "card_type_image",
-            "card_size": "is-medium",
-            "card_bg": "background-color-quaternary",
-            "hide_link": true,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
         "bento_card_DkxHe4": {
           "type": "bento-card",
           "settings": {
@@ -114,29 +98,30 @@
             "icon_path": ""
           }
         },
+        "bento_card_MLkGGh": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Consistent quality, every time.",
+            "card_paragraph_text": "<p>Every item, every order, every run – held to the same high standards. Whatever the run size, your clients get results that feel deliberate, polished, and on-brand.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
         "bento_card_6TGdXJ": {
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Reliable turnarounds (that you can set your watch to).",
             "card_paragraph_text": "<p>Standard production in 5-7 business days, with rush options when deadlines sneak up. We don’t overpromise, we just deliver.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-medium",
-            "card_bg": "background-color-quaternary",
-            "hide_link": true,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_GDhJrd": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Real humans delivering unmatched trade support.",
-            "card_paragraph_text": "<p>We live and breathe this, and we have done for 30+ years. Expect fast quoting, proactive updates, and a dedicated trade team who gets the rhythm and pace of your workflow – no explaining needed.</p>",
-            "card_type": "card_type_color",
             "card_size": "is-small",
-            "card_bg": "background-color-secondary",
+            "card_bg": "background-color-quaternary",
             "hide_link": true,
             "card_link": "",
             "hide_icon": true,
@@ -160,6 +145,21 @@
             "icon_path": ""
           }
         },
+        "bento_card_GDhJrd": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Real humans delivering unmatched trade support.",
+            "card_paragraph_text": "<p>We live and breathe this, and we have done for 30+ years. Expect fast quoting, proactive updates, and a dedicated trade team who gets the rhythm and pace of your workflow – no explaining needed.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
         "bento_card_xmKJbQ": {
           "type": "bento-card",
           "settings": {
@@ -167,7 +167,7 @@
             "card_paragraph_text": "<p>From screen print to embroidery, from tote bags to tech kits – we make it easy to deliver across categories with one consistent production partner who keeps things moving smoothly behind the scenes.</p>",
             "card_type": "card_type_color",
             "card_size": "is-small",
-            "card_bg": "background-color-quaternary",
+            "card_bg": "background-color-tertiary",
             "hide_link": true,
             "card_link": "",
             "hide_icon": true,
@@ -177,11 +177,11 @@
         }
       },
       "block_order": [
-        "bento_card_MLkGGh",
         "bento_card_DkxHe4",
+        "bento_card_MLkGGh",
         "bento_card_6TGdXJ",
-        "bento_card_GDhJrd",
         "bento_card_qDJqrp",
+        "bento_card_GDhJrd",
         "bento_card_xmKJbQ"
       ],
       "settings": {
