@@ -12,70 +12,16 @@
     "heroheader_yPCMDq": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Distributors Solutions",
-        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "heroheader_heading_text": "A trade partner that protects your margins – and your reputation.",
+        "heroheader_paragraph_text": "<p>You’ve worked hard to earn your clients’ trust. When it’s your name on the box, you can’t afford production missteps, fulfilment mishaps, or inconsistent quality. That’s where we come in.</p><p>At The Print Garage, we’re not just another supplier. We’re the quiet engine behind our distributors who deliver like clockwork. We give you the tools to grow: exclusive access to wholesale pricing that actually supports your margin, reliable print capacity that scales when you need it, and the peace of mind that comes with knowing your production partner has your back.</p><p>Everything is white-label by default. Everything is tailored to your workflow. And everything is built to help you look good, stay profitable, and never miss a beat.</p>"
       }
     },
-    "featurecards_8gcrNH": {
-      "type": "featurecards",
-      "blocks": {
-        "feature_card_AaD7Kf": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        },
-        "feature_card_tBFzJV": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        },
-        "feature_card_Eqcj3D": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_card_AaD7Kf",
-        "feature_card_tBFzJV",
-        "feature_card_Eqcj3D"
-      ],
+    "pageheadersplit_emhM3j": {
+      "type": "pageheadersplit",
+      "name": "PageHeaderSplit",
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
-      }
-    },
-    "contenttextimagespli_yFXdMN": {
-      "type": "contenttextimagespli",
-      "blocks": {
-        "button_We4Xf9": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_We4Xf9"
-      ],
-      "settings": {
-        "content_layout": "is-horizontal",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+        "pageheader_heading_text": "Not just another supplier",
+        "pageheader_paragraph_text": "<p>We’re the quiet engine behind our distributors, deliver production power like clockwork. </p><p><br/>We give you the tools to grow: exclusive access to wholesale pricing that actually supports your margin, reliable print capacity that scales when you need it, and the peace of mind that comes with knowing your production partner has your back.</p><p><br/>Everything is white-label by default. Everything is tailored to your workflow. And everything is built to help you look good, stay profitable, and never miss a beat.</p>"
       }
     },
     "contenttextimagespli_WYCcDX": {
@@ -89,7 +35,7 @@
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
             "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_text": "Learn More",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -100,9 +46,37 @@
       ],
       "settings": {
         "content_layout": "is-reversed",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_tagline_text": "",
+        "content_heading_text": "Trade Printing",
+        "content_paragraph_text": "<p>Overflow? Under control. When client orders stack up and your presses are maxed out, we step in as your silent sidekick. <br/><br/>With crisp DTG, screen printing, embroidery and more, our white label trade printing integrates effortlessly into your workflow. <br/><br/>Fast turnaround. Consistent quality. Zero stress.<br/></p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+      }
+    },
+    "contenttextimagespli_yFXdMN": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_We4Xf9": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Learn More",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_We4Xf9"
+      ],
+      "settings": {
+        "content_layout": "is-horizontal",
+        "content_tagline_text": "Big briefs. Bigger capabilities.",
+        "content_heading_text": "Trade Manufacturing",
+        "content_paragraph_text": "<p>Custom product sourcing? Multi-method decoration? Full-scale fulfilment? Tick, tick, tick. <br/><br/>We partner with trade operators who need the kind of muscle that only comes with experience. You bring the vision. We build the machine behind it.</p>",
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
@@ -112,15 +86,15 @@
         "bento_card_MLkGGh": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Consistent quality, every time.",
+            "card_paragraph_text": "<p>Every item, every order, every run – held to the same high standards. Whatever the run size, your clients get results that feel deliberate, polished, and on-brand.</p>",
             "card_type": "card_type_image",
-            "card_size": "is-large",
+            "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -128,14 +102,14 @@
         "bento_card_DkxHe4": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Margin-friendly trade pricing.",
+            "card_paragraph_text": "<p>Transparent wholesale rates with volume discounts designed to preserve your margins and boost profitability. No surprise fees or complicated price gymnastics here.</p>",
             "card_type": "card_type_color",
             "card_size": "is-small",
             "card_bg": "background-color-tertiary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -143,14 +117,14 @@
         "bento_card_6TGdXJ": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Reliable turnarounds (that you can set your watch to).",
+            "card_paragraph_text": "<p>Standard production in 5-7 business days, with rush options when deadlines sneak up. We don’t overpromise, we just deliver.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-small",
+            "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -158,14 +132,14 @@
         "bento_card_GDhJrd": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Real humans delivering unmatched trade support.",
+            "card_paragraph_text": "<p>We live and breathe this, and we have done for 30+ years. Expect fast quoting, proactive updates, and a dedicated trade team who gets the rhythm and pace of your workflow – no explaining needed.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-medium",
+            "card_size": "is-small",
             "card_bg": "background-color-secondary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -173,15 +147,30 @@
         "bento_card_qDJqrp": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Access to premium quality blanks and specialty products.",
+            "card_paragraph_text": "<p>Offer your clients more than the stock-standard range. Our trade network unlocks premium AS Colour, niche items, and exclusive product lines not available off the retail shelf.</p>",
             "card_type": "card_type_image",
             "card_size": "is-large",
             "card_bg": "background-color-quaternary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "card_background_image": "shopify://shop_images/5146_STACK.jpg",
-            "hide_icon": false,
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_xmKJbQ": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "One partner. Multiple solutions.",
+            "card_paragraph_text": "<p>From screen print to embroidery, from tote bags to tech kits – we make it easy to deliver across categories with one consistent production partner who keeps things moving smoothly behind the scenes.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -192,11 +181,12 @@
         "bento_card_DkxHe4",
         "bento_card_6TGdXJ",
         "bento_card_GDhJrd",
-        "bento_card_qDJqrp"
+        "bento_card_qDJqrp",
+        "bento_card_xmKJbQ"
       ],
       "settings": {
-        "bento_heading_text": "Medium length hero heading goes here",
-        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "bento_heading_text": "Why distributors trust The Print Garage",
+        "bento_paragraph_text": ""
       }
     },
     "faqs_eRAMpx": {
@@ -237,9 +227,9 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "heroheader_yPCMDq",
-    "featurecards_8gcrNH",
-    "contenttextimagespli_yFXdMN",
+    "pageheadersplit_emhM3j",
     "contenttextimagespli_WYCcDX",
+    "contenttextimagespli_yFXdMN",
     "bentobox_LwWa88",
     "faqs_eRAMpx",
     "contactcta_WejnfM"
