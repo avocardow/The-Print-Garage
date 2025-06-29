@@ -13,7 +13,7 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "Your moment made real in minutes, with Design Your Own.",
-        "heroheader_paragraph_text": "<p>Big ideas deserve more than a dusty sketchbook or a forgotten draft folder. They deserve to be seen, worn, and shared.</p><p>Enter: The Print Garage<em> Design Your Own</em> studio, an easy-to-use platform built for creators, business owners, and anyone with a bold idea. </p><p>Upload your artwork, fine-tune your layout, add text, and explore design elements that help your vision stand out. You’ll see exactly how your product will look before it hits the press (goodbye, back-and-forth approvals 👋).</p><p>From first idea to final print, every step is simple – and backed by Garage-grade quality on premium stock.</p>"
+        "heroheader_paragraph_text": "<p>Big ideas deserve more than a dusty sketchbook or a forgotten draft folder. They deserve to be seen, worn, and shared.<br/><br/>Enter: The Print Garage<em> Design Your Own</em> studio, an easy-to-use platform built for creators, business owners, and anyone with a bold idea. </p><p>Upload your artwork, fine-tune your layout, add text, and explore design elements that help your vision stand out. You’ll see exactly how your product will look before it hits the press (goodbye, back-and-forth approvals 👋).</p><p>From first idea to final print, every step is simple – and backed by Garage-grade quality on premium stock.</p>"
       }
     },
     "featurecards": {
@@ -136,7 +136,7 @@
       "settings": {
         "header_tagline_text": "Make it personal. Make it wearable.",
         "header_heading_text": "Make it yours.",
-        "header_paragraph_text": "<p>The Design Your Own studio was made for the dreamers, gifters, side-hustlers and late-night tinkerers. The ones with big ideas, niche obsessions, and bold style that doesn’t come off a shelf.</p><p><br/><strong>Design gear that feels like you.</strong></p>"
+        "header_paragraph_text": "<p>The Design Your Own studio was made for the dreamers, gifters, side-hustlers and late-night tinkerers. The ones with big ideas, niche obsessions, and bold style that doesn’t come off a shelf. <strong><br/><br/>Design gear that feels like you.</strong></p>"
       }
     },
     "contactcta": {
