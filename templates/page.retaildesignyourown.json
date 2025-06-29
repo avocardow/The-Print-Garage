@@ -12,8 +12,8 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Design Your Own",
-        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "heroheader_heading_text": "Your moment made real in minutes, with Design Your Own.",
+        "heroheader_paragraph_text": "<p>Big ideas deserve more than a dusty sketchbook or a forgotten draft folder. They deserve to be seen, worn, and shared.</p><p>Enter: The Print Garage<em> Design Your Own</em> studio, an easy-to-use platform built for creators, business owners, and anyone with a bold idea. </p><p>Upload your artwork, fine-tune your layout, add text, and explore design elements that help your vision stand out. You’ll see exactly how your product will look before it hits the press (goodbye, back-and-forth approvals 👋).</p><p>From first idea to final print, every step is simple – and backed by Garage-grade quality on premium stock.</p><p>Testing a new concept? Creating a one-off gift? Launching your first drop? This tool puts you in the driver’s seat, and gets your merch into the world, fast.</p>"
       }
     },
     "featurecards": {
@@ -22,23 +22,23 @@
         "feature_card_WfVyzT": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+            "featurecard_heading_text": "Choose your gear.",
+            "featurecard_paragraph_text": "<p>Pick your starting point. A tee, hoodie, mug, tote, or whatever suits your vibe. Every product is tried, tested, and print-approved by our crew. You won’t find blanks pulled from the bargain bin, here. No, sir. These are the same quality we use for national retail runs.</p>",
             "featurecard_image": "shopify://shop_images/WO_HEAVY.jpg"
           }
         },
         "feature_card_NHHyHB": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Bring the vision.",
+            "featurecard_paragraph_text": "<p>Upload your art. Drop in some text. Browse our graphic bits and design gallery if you need a hand or some extra inspo. Move it, size it, shift the colour. You’ve got full control – and a live preview that shows you exactly how it’ll look in the real world.</p>"
           }
         },
         "feature_card_JYcRjQ": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Send it to the presses.",
+            "featurecard_paragraph_text": "<p>Once you’re happy with your design, we’re ready to roll. Your product is printed fresh in our Brisbane HQ, packed with care, and shipped with speed. Every step is managed by humans who know their stuff and caretake your merch like it's their first born. </p>"
           }
         }
       },
@@ -48,14 +48,41 @@
         "feature_card_JYcRjQ"
       ],
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
+        "featurecards_heading_text": "Big ideas. Simple steps."
+      }
+    },
+    "calltoactionbanner_yJ4LjE": {
+      "type": "calltoactionbanner",
+      "blocks": {
+        "button_kaCm6Q": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_kaCm6Q"
+      ],
+      "name": "CallToActionBanner",
+      "settings": {
+        "cta_heading_text": "Trial one.  Wear one.  Gift one. You’re in control.",
+        "cta_paragraph_text": "<p>Select products in our <em>Design Your Own </em>range are available with no minimums, so you can start small without holding back big ideas.</p><p><br/>Test-drive a new concept without the inventory gamble. Create thoughtful, one-off gifts that still feel polished. Launch your first drop with zero pressure to bulk order. Get real feedback, refine, and relaunch like a pro.</p><p><br/>Built for visionary creators, gifts-as-their-love-language-ers, and side-hustlers who want to dream big but start smart.</p>",
+        "banner_bg": "background-color-quaternary"
       }
     },
     "testimonialslider": {
       "type": "testimonialslider",
       "settings": {
-        "testimonials_heading_text": "Medium length section heading goes here",
-        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "testimonials_heading_text": "What our creators are saying…",
+        "testimonials_paragraph_text": ""
       }
     },
     "productslider": {
@@ -79,8 +106,8 @@
         "button_QVYkwV"
       ],
       "settings": {
-        "products_heading_text": "Medium length section heading goes here",
-        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "products_heading_text": "Custom gear in the wild.",
+        "products_paragraph_text": "<p><br/>Every product here started with an idea – a rough sketch, a logo, a half-dreamed-up slogan. Check out these prints, designed by legends just like you.</p>",
         "collection_select_a_collection": "all",
         "collection_select_a_collection_limit": 6
       }
@@ -98,6 +125,7 @@
   "order": [
     "heroheader",
     "featurecards",
+    "calltoactionbanner_yJ4LjE",
     "testimonialslider",
     "productslider",
     "contactcta"
