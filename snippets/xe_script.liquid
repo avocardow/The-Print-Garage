@@ -135,7 +135,8 @@ function customize_product(pid, cid) {
         }
     });
 
-    //pvid = meta.product.variants[pvid].id;
+    pvid = meta.product.variants[pvid].id;
+    alert(pvid);
   
     if(document.getElementById('customData')){
       pvid = document.getElementById("selected-variant-id").textContent;
