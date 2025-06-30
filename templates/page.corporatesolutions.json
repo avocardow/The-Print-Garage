@@ -12,8 +12,8 @@
     "heroheader_yPCMDq": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Corporate Solutions",
-        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "heroheader_heading_text": "Merch that speaks your brand's language.",
+        "heroheader_paragraph_text": "<p>Corporate doesn’t have to mean cookie-cutter. We kit out brands with gear that’s bold, intentional, and built to get noticed – from fresh onboarding packs to campaign merch that turns heads at your next expo.</p>"
       }
     },
     "featurecards_8gcrNH": {
@@ -22,22 +22,22 @@
         "feature_card_AaD7Kf": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Corporate Apparel.",
+            "featurecard_paragraph_text": "<p>Uniforms don’t have to be boring. We help you create branded pieces your team actually <em>wants</em> to wear – sharp enough for Monday meetings, durable enough for warehouse shifts, and relaxed enough for Friday arvo beers. From elevated workwear to easygoing everyday fits, we blend premium blanks with intentional design that reflects your brand and fits how your people actually show up.</p>"
           }
         },
         "feature_card_tBFzJV": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Promotional Merchandise.",
+            "featurecard_paragraph_text": "<p>From client gifts to conference giveaways, we make sure your promos pack a punch. Pair our premium, retail-grade blanks and design expertise with your killer campaign creative and – *<em>chef’s kiss*</em> – you’ve got a match made in brand heaven. Think quality drinkware, slick tech accessories, durable totes, and desk-friendly extras that carry your brand well beyond the moment. Made to impress. Built to stick around.</p>"
           }
         },
         "feature_card_Eqcj3D": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Speed, scale + support.",
+            "featurecard_paragraph_text": "<p>Need it yesterday? We’ve got you. Our production crew and systems are built for speed and for scale – perfect for tight turnarounds, last-minute event prep, and campaign drops that can’t afford to miss. Whether you’re launching a new product, gearing up for a trade show, or pulling together a nationwide rollout, we keep things fast, fuss-free, and on-brand.</p>"
           }
         }
       },
@@ -47,7 +47,7 @@
         "feature_card_Eqcj3D"
       ],
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
+        "featurecards_heading_text": "Built for business. Designed to be worn."
       }
     },
     "contenttextimagespli_yFXdMN": {
@@ -60,8 +60,8 @@
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/custom-apparel-merch",
+            "btn_text": "Learn More",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -72,9 +72,9 @@
       ],
       "settings": {
         "content_layout": "is-horizontal",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_tagline_text": "Turn your brand into a wearable experience.",
+        "content_heading_text": "Custom Apparel & Merch",
+        "content_paragraph_text": "<p>Whether you're building an apparel brand, expanding your creator merch line, or giving your business a new layer of visibility, we bring the print precision and product know-how to match your ambition.<br/><br/>Think streetwear-grade finishes, premium blanks, and a creative crew that treats your ideas like their own. From sample to scale, we’re here to help you launch gear that looks as good in-store as it does online.</p>",
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
@@ -88,8 +88,8 @@
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/manufacturing-services",
+            "btn_text": "Learn More",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -100,9 +100,9 @@
       ],
       "settings": {
         "content_layout": "is-reversed",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_tagline_text": "When off-the-shelf isn’t enough.",
+        "content_heading_text": "Manufacturing Services.",
+        "content_paragraph_text": "<p>Managing a national promo campaign? Need 10,000 custom garments for an event, rollout or retail program? We partner with agencies and brands to handle the heavy lifting and take care of everything from sourcing and sampling to full-scale fulfilment. <br/><br/>Backed by real infrastructure (local and offshore), our team works behind the scenes to make you look good out front.</p>",
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
@@ -112,12 +112,12 @@
         "bento_card_MLkGGh": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "White-glove vibes without the white-label price tag.",
+            "card_paragraph_text": "<p>You get creative partnership, not just fulfilment. We care about your end product like it’s our name on it—because in a way, it is.</p>",
             "card_type": "card_type_image",
             "card_size": "is-large",
             "card_bg": "background-color-quaternary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
             "hide_icon": false,
@@ -195,8 +195,117 @@
         "bento_card_qDJqrp"
       ],
       "settings": {
-        "bento_heading_text": "Medium length hero heading goes here",
-        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "bento_heading_text": "Why Brands Stick With Us (And Tell Their Friends).",
+        "bento_paragraph_text": ""
+      }
+    },
+    "bentobox_rLmcPT": {
+      "type": "bentobox",
+      "blocks": {
+        "bento_card_8VwXBq": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Margin-friendly trade pricing.",
+            "card_paragraph_text": "<p>Transparent wholesale rates with volume discounts designed to preserve your margins and boost profitability. No surprise fees or complicated price gymnastics here.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_gV3xVg": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Consistent quality, every time.",
+            "card_paragraph_text": "<p>Every item, every order, every run – held to the same high standards. Whatever the run size, your clients get results that feel deliberate, polished, and on-brand.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_DCG37a": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Reliable turnarounds (that you can set your watch to).",
+            "card_paragraph_text": "<p>Standard production in 5-7 business days, with rush options when deadlines sneak up. We don’t overpromise, we just deliver.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_mKFE3X": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Access to premium quality blanks and specialty products.",
+            "card_paragraph_text": "<p>Offer your clients more than the stock-standard range. Our trade network unlocks premium AS Colour, niche items, and exclusive product lines not available off the retail shelf.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/5146_STACK.jpg",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_eVgREr": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Real humans delivering unmatched trade support.",
+            "card_paragraph_text": "<p>We live and breathe this, and we have done for 30+ years. Expect fast quoting, proactive updates, and a dedicated trade team who gets the rhythm and pace of your workflow – no explaining needed.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_NVanrB": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "One partner. Multiple solutions.",
+            "card_paragraph_text": "<p>From screen print to embroidery, from tote bags to tech kits – we make it easy to deliver across categories with one consistent production partner who keeps things moving smoothly behind the scenes.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_8VwXBq",
+        "bento_card_gV3xVg",
+        "bento_card_DCG37a",
+        "bento_card_mKFE3X",
+        "bento_card_eVgREr",
+        "bento_card_NVanrB"
+      ],
+      "settings": {
+        "bento_heading_text": "Why distributors trust The Print Garage",
+        "bento_paragraph_text": ""
       }
     },
     "faqs_eRAMpx": {
@@ -241,6 +350,7 @@
     "contenttextimagespli_yFXdMN",
     "contenttextimagespli_WYCcDX",
     "bentobox_LwWa88",
+    "bentobox_rLmcPT",
     "faqs_eRAMpx",
     "contactcta_WejnfM"
   ]
