@@ -12,8 +12,8 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Retro grit. Studio polish. Made to order.",
-        "heroheader_paragraph_text": "<p>Not sure what to create? Start here. These are our personal designs and favourites – original, ready-to-wear staples with a lil' retro edge.</p>"
+        "heroheader_heading_text": "original, ready-to-wear staples with a lil' retro edge.",
+        "heroheader_paragraph_text": "<p>Not sure what to create? Start here. These are our personal designs and favourites, printed fresh when you click 'order'.</p>"
       }
     },
     "contenttextimagespli_yyNykF": {
@@ -41,15 +41,15 @@
         "content_layout": "is-horizontal",
         "content_tagline_text": "",
         "content_heading_text": "where street-smart design meets our signature creative flair.",
-        "content_paragraph_text": "<p>Browse our curated collection of tees, hoodies, and accessories – designed by us and printed fresh when you order. From bold graphics to vintage-inspired layouts, each piece brings our garage roots to life on premium AS Colour blanks.</p>",
+        "content_paragraph_text": "<p>Browse our curated collection of tees, hoodies, and accessories – designed by us and printed fresh when you order. From bold patterns to vintage-inspired graphics, each piece brings our garage roots to life on premium AS Colour blanks.</p>",
         "content_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513_0dfac2e9-cf02-4a6d-84aa-c5dc4716258d.jpg"
       }
     },
     "productslider": {
       "type": "productslider",
       "settings": {
-        "products_heading_text": "Original, ready-to-wear staples with a lil' retro edge.",
-        "products_paragraph_text": "<p>Premium quality. Made to order. Built to outshine anything off the rack. </p>",
+        "products_heading_text": "Premium quality. Made to order.",
+        "products_paragraph_text": "<p>Built to outshine anything off the rack. </p>",
         "collection_select_a_collection": "all",
         "collection_select_a_collection_limit": 6
       }
