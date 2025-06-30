@@ -74,7 +74,7 @@
       ],
       "settings": {
         "content_layout": "is-horizontal",
-        "content_tagline_text": "Big briefs. Bigger capabilities.",
+        "content_tagline_text": "",
         "content_heading_text": "Trade Manufacturing",
         "content_paragraph_text": "<p>Custom product sourcing? Multi-method decoration? Full-scale fulfilment? Tick, tick, tick. <br/><br/>We partner with trade operators who need the kind of muscle that only comes with experience. You bring the vision. We build the machine behind it.</p>",
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
@@ -219,8 +219,8 @@
     "contactcta_WejnfM": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Wanna collab but have zero clue where to start?",
+        "contact_paragraph_text": "<p>If it’s wearable, printable, or just plain weird, we’re your people. Drop us a note and let’s make some merch magic.</p>"
       }
     }
   },
