@@ -203,8 +203,8 @@
             "btn_style": "is-secondary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -214,8 +214,8 @@
         "button_Cm78LC"
       ],
       "settings": {
-        "products_heading_text": "Medium length section heading goes here",
-        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "products_heading_text": "Start With a Blank. End With a Banger.",
+        "products_paragraph_text": "<p>Our handpicked range of premium-quality blanks is where the magic begins. This is the good stuff your designs deserve.</p>",
         "collection_select_a_collection": "all",
         "collection_select_a_collection_limit": 6
       }
@@ -223,8 +223,8 @@
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Get merch that works as hard as your business.",
+        "contact_paragraph_text": "<p>Not sure where to start? Drop us a note with your business info and printing needs, and one of our merch mechanics will reach out to help.</p>"
       }
     }
   },
