@@ -134,6 +134,9 @@ function customize_product(pid, cid) {
           }
         }
     });
+
+    var pvid = meta.product.variants[pvid].id;
+  
     if(document.getElementById('customData')){
       pvid = document.getElementById("selected-variant-id").textContent;
     }
