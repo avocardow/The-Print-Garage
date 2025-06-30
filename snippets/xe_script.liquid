@@ -174,7 +174,7 @@ function customize_product(pid, cid) {
     var encryptUrl = encrypt(urlparam, secretKeyData);
     if(pvid){
       var url = base_url+"mobile/index.html?" + encryptUrl ;
-      var baseurl = "/pages/designer-studio?" + urlparam ;
+      var baseurl = "/pages/designer-studio?" + encryptUrl ;
     }
     
     if (isMobile || navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2) {
