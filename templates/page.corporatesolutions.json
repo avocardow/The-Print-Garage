@@ -128,12 +128,12 @@
         "bento_card_DkxHe4": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Merch that moves with your brand.",
+            "card_paragraph_text": "<p>Whether you're scaling fast, pivoting a product, or rolling out nationwide – our systems flex with you. No growing pains, just growing gains.</p>",
             "card_type": "card_type_color",
             "card_size": "is-small",
             "card_bg": "background-color-tertiary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "hide_icon": false,
             "icon_viewbox": "",
@@ -143,12 +143,12 @@
         "bento_card_6TGdXJ": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Product previews your team will high-five over.",
+            "card_paragraph_text": "<p>No more risky blind orders. We give you proofs, samples, and mockups so everyone's on board before you hit “go.”</p>",
             "card_type": "card_type_color",
             "card_size": "is-small",
             "card_bg": "background-color-quaternary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "hide_icon": false,
             "icon_viewbox": "",
@@ -158,12 +158,12 @@
         "bento_card_GDhJrd": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Supply chain brains + design eyes.",
+            "card_paragraph_text": "<p>We blend logistics with aesthetic – because your merch needs to look good <em>and</em> land on time. It’s strategy, not just swag.</p>",
             "card_type": "card_type_color",
             "card_size": "is-medium",
             "card_bg": "background-color-secondary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "hide_icon": false,
             "icon_viewbox": "",
@@ -173,12 +173,12 @@
         "bento_card_qDJqrp": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "No BS, just solid follow-through.",
+            "card_paragraph_text": "<p>We show up when we say we will, communicate clearly, and keep things running smooth behind the scenes. Clients say it’s like working with a mate who <em>gets it done.</em></p>",
             "card_type": "card_type_image",
             "card_size": "is-large",
             "card_bg": "background-color-quaternary",
-            "hide_link": false,
+            "hide_link": true,
             "card_link": "",
             "card_background_image": "shopify://shop_images/5146_STACK.jpg",
             "hide_icon": false,
@@ -199,146 +199,11 @@
         "bento_paragraph_text": ""
       }
     },
-    "bentobox_rLmcPT": {
-      "type": "bentobox",
-      "blocks": {
-        "bento_card_8VwXBq": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Margin-friendly trade pricing.",
-            "card_paragraph_text": "<p>Transparent wholesale rates with volume discounts designed to preserve your margins and boost profitability. No surprise fees or complicated price gymnastics here.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-tertiary",
-            "hide_link": true,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_gV3xVg": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Consistent quality, every time.",
-            "card_paragraph_text": "<p>Every item, every order, every run – held to the same high standards. Whatever the run size, your clients get results that feel deliberate, polished, and on-brand.</p>",
-            "card_type": "card_type_image",
-            "card_size": "is-large",
-            "card_bg": "background-color-quaternary",
-            "hide_link": true,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/5166_FLATLAY_GROUP3.jpg",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_DCG37a": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Reliable turnarounds (that you can set your watch to).",
-            "card_paragraph_text": "<p>Standard production in 5-7 business days, with rush options when deadlines sneak up. We don’t overpromise, we just deliver.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-quaternary",
-            "hide_link": true,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_mKFE3X": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Access to premium quality blanks and specialty products.",
-            "card_paragraph_text": "<p>Offer your clients more than the stock-standard range. Our trade network unlocks premium AS Colour, niche items, and exclusive product lines not available off the retail shelf.</p>",
-            "card_type": "card_type_image",
-            "card_size": "is-large",
-            "card_bg": "background-color-quaternary",
-            "hide_link": true,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/5146_STACK.jpg",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_eVgREr": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Real humans delivering unmatched trade support.",
-            "card_paragraph_text": "<p>We live and breathe this, and we have done for 30+ years. Expect fast quoting, proactive updates, and a dedicated trade team who gets the rhythm and pace of your workflow – no explaining needed.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-secondary",
-            "hide_link": true,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_NVanrB": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "One partner. Multiple solutions.",
-            "card_paragraph_text": "<p>From screen print to embroidery, from tote bags to tech kits – we make it easy to deliver across categories with one consistent production partner who keeps things moving smoothly behind the scenes.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-tertiary",
-            "hide_link": true,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "bento_card_8VwXBq",
-        "bento_card_gV3xVg",
-        "bento_card_DCG37a",
-        "bento_card_mKFE3X",
-        "bento_card_eVgREr",
-        "bento_card_NVanrB"
-      ],
-      "settings": {
-        "bento_heading_text": "Why distributors trust The Print Garage",
-        "bento_paragraph_text": ""
-      }
-    },
-    "faqs_eRAMpx": {
-      "type": "faqs",
-      "blocks": {
-        "button_cip7RN": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_cip7RN"
-      ],
-      "settings": {
-        "faq_heading_text": "Medium length heading goes here",
-        "faq_cta_heading_text": "Short heading goes here",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
-      }
-    },
     "contactcta_WejnfM": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Wanna collab but have zero idea where to start?",
+        "contact_paragraph_text": "<p>If it’s wearable, printable, or just plain weird, we’re your people. Drop us a line and let’s make some merch magic.</p>"
       }
     }
   },
@@ -350,8 +215,6 @@
     "contenttextimagespli_yFXdMN",
     "contenttextimagespli_WYCcDX",
     "bentobox_LwWa88",
-    "bentobox_rLmcPT",
-    "faqs_eRAMpx",
     "contactcta_WejnfM"
   ]
 }
