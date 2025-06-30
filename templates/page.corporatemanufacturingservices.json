@@ -12,8 +12,35 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Manufacturing Services",
-        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "heroheader_heading_text": "Manufacturing Power for Merch That Pulls Its Weight.",
+        "heroheader_paragraph_text": "<p>Outgrown off-the-shelf? Our Manufacturing Services are made for brands, agencies, and operators with big merch ambitions. We handle the whole process – from product dev and sampling to local/offshore production, quality control, and logistics – so you get retail-grade results without the runaround. </p>"
+      }
+    },
+    "calltoactionbanner_kH8dR9": {
+      "type": "calltoactionbanner",
+      "blocks": {
+        "button_aXMkiq": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_aXMkiq"
+      ],
+      "name": "CallToActionBanner",
+      "settings": {
+        "cta_heading_text": "Your BTS Print Partner",
+        "cta_paragraph_text": "<p>When your merch vision goes beyond quick prints and casual drops, you need more than a t-shirt printer – you need a powerful production partner. From sourcing and sampling to full-scale fulfilment, we bring the grunt, gear, and grit to help you launch heavyweight campaigns with confidence.</p>",
+        "banner_bg": "background-color-quaternary"
       }
     },
     "featurecards": {
@@ -96,6 +123,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "heroheader",
+    "calltoactionbanner_kH8dR9",
     "featurecards",
     "testimonialslider",
     "productslider",
