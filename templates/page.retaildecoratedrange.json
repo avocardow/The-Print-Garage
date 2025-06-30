@@ -13,82 +13,59 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "Retro grit. Studio polish. Made to order.",
-        "heroheader_paragraph_text": "<p>The Print Garage’s decorated product range is where street-smart design meets our signature creative flair – a curated collection of tees, hoodies, and accessories designed by us and printed fresh when you order.</p><p>From bold graphics to vintage-inspired layouts, each piece brings our garage roots to life on premium AS Colour blanks. Made-to-order means less waste, more detail, and no guesswork.</p><p>Not sure what to create? Start here. These are our personal designs and favourites – original, ready-to-wear staples with a lil' retro edge.</p>"
+        "heroheader_paragraph_text": "<p>Not sure what to create? Start here. These are our personal designs and favourites – original, ready-to-wear staples with a lil' retro edge.</p>"
       }
     },
-    "featurecards": {
-      "type": "featurecards",
+    "contenttextimagespli_yyNykF": {
+      "type": "contenttextimagespli",
       "blocks": {
-        "feature_card_8mdmxc": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        },
-        "feature_card_VAeDar": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        },
-        "feature_card_tFJGFg": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_card_8mdmxc",
-        "feature_card_VAeDar",
-        "feature_card_tFJGFg"
-      ],
-      "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
-      }
-    },
-    "testimonialslider": {
-      "type": "testimonialslider",
-      "settings": {
-        "testimonials_heading_text": "Medium length section heading goes here",
-        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
-      }
-    },
-    "productslider": {
-      "type": "productslider",
-      "blocks": {
-        "button_JxpxNq": {
+        "button_htmqaA": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
-            "btn_style": "is-secondary",
+            "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
             "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_text": "Explore Collection",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_JxpxNq"
+        "button_htmqaA"
       ],
+      "name": "ContentTextImageSpli",
       "settings": {
-        "products_heading_text": "Medium length section heading goes here",
-        "products_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_layout": "is-horizontal",
+        "content_tagline_text": "",
+        "content_heading_text": "where street-smart design meets our signature creative flair.",
+        "content_paragraph_text": "<p>Browse our curated collection of tees, hoodies, and accessories – designed by us and printed fresh when you order. From bold graphics to vintage-inspired layouts, each piece brings our garage roots to life on premium AS Colour blanks.</p>",
+        "content_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513_0dfac2e9-cf02-4a6d-84aa-c5dc4716258d.jpg"
+      }
+    },
+    "productslider": {
+      "type": "productslider",
+      "settings": {
+        "products_heading_text": "Original, ready-to-wear staples with a lil' retro edge.",
+        "products_paragraph_text": "<p>Premium quality. Made to order. Built to outshine anything off the rack. </p>",
         "collection_select_a_collection": "all",
         "collection_select_a_collection_limit": 6
+      }
+    },
+    "testimonialslider": {
+      "type": "testimonialslider",
+      "settings": {
+        "testimonials_heading_text": "Built in the Garage. Backed by the People.",
+        "testimonials_paragraph_text": "<p>Here's some hype we didn't have to write for ourselves.</p>"
       }
     },
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Wanna collab but have zero clue where to start?",
+        "contact_paragraph_text": "<p>If it’s wearable, printable, or just plain weird, we’re your people. Drop us a line and let’s make some merch magic.</p>"
       }
     }
   },
@@ -96,9 +73,9 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "heroheader",
-    "featurecards",
-    "testimonialslider",
+    "contenttextimagespli_yyNykF",
     "productslider",
+    "testimonialslider",
     "contactcta"
   ]
 }
