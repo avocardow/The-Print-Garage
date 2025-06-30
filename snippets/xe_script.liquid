@@ -148,8 +148,10 @@ function customize_product(pid, cid) {
         qty = document.getElementsByName('quantity').value;
     } else if(document.getElementById('qty')){
         qty = document.getElementById('qty').value;
-    } else {
+    }else if(document.getElementById('Qty')){
         qty = document.getElementById('Qty').value;
+    } else {
+        qty = 1;
     }
 
     //     get current variant id
