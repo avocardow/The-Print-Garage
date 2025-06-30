@@ -134,11 +134,6 @@ function customize_product(pid, cid) {
           }
         }
     });
-  //let variants22 = metafieldData.data.variants;
-  console.log(meta);
-
-   // pvid = meta.product.variants[pvid].id;
-    alert(meta.product.variants[3].id);
   
     if(document.getElementById('customData')){
       //pvid = document.getElementById("selected-variant-id").textContent;
@@ -148,8 +143,8 @@ function customize_product(pid, cid) {
       alert('This color is not customizable please select another.');
       return false;
     }
-    var qty =0;
-    if(document.getElementById('Quantity-product-template')){
+    var qty =1;
+    /*if(document.getElementById('Quantity-product-template')){
         qty = document.getElementById('Quantity-product-template').value;
     } else if(document.getElementsByName('quantity')){
         qty = document.getElementsByName('quantity').value;
@@ -159,7 +154,7 @@ function customize_product(pid, cid) {
         qty = document.getElementById('Qty').value;
     } else {
         qty = 1;
-    }
+    }*/
 
     //     get current variant id
     //  if(document.getElementById('Quantity-product-template').style.display == 'none'|| qty === 0){
