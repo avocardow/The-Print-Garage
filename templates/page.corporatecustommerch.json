@@ -13,7 +13,65 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "Branded merch that means business.",
-        "heroheader_paragraph_text": "<p>We help businesses create custom apparel and merchandise that does more than tick a marketing box. It makes your brand tangible. From front desk to field staff, from onboarding packs to client gifts, everything is designed to look sharp, feel great, and speak your brand’s language loud and clear.</p>"
+        "heroheader_paragraph_text": "<p>We help businesses create custom apparel and merchandise that does more than tick a marketing box. It makes your brand <em>tangible</em>. From front desk to field staff, from onboarding packs to client gifts, everything is designed to look sharp, feel great, and speak your brand’s language loud and clear.</p>"
+      }
+    },
+    "contenttextimagespli_KdfTeD": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_QDKmCY": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Request A Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_QDKmCY"
+      ],
+      "name": "ContentTextImageSpli",
+      "settings": {
+        "content_layout": "is-horizontal",
+        "content_tagline_text": "",
+        "content_heading_text": "Trade Show Standouts.",
+        "content_paragraph_text": "<p>Giveaways that don’t get ghosted. Forget the stress balls and pen packs – this is the kind of gear that gets packed, kept, and remembered. Think premium drinkware, slick tech, and totes they’ll actually reuse. Your brand stays top of mind, long after the stand comes down.</p>",
+        "content_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513.jpg"
+      }
+    },
+    "contenttextimagespli_AVtebm": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_EwjdW8": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Request A Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_EwjdW8"
+      ],
+      "name": "ContentTextImageSpli",
+      "settings": {
+        "content_layout": "is-reversed",
+        "content_tagline_text": "",
+        "content_heading_text": "Trade Show Standouts.",
+        "content_paragraph_text": "<p>Giveaways that don’t get ghosted. Forget the stress balls and pen packs – this is the kind of gear that gets packed, kept, and remembered. Think premium drinkware, slick tech, and totes they’ll actually reuse. Your brand stays top of mind, long after the stand comes down.</p>",
+        "content_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513.jpg"
       }
     },
     "featurecards": {
@@ -23,20 +81,20 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Brand-driven design.",
-            "featurecard_paragraph_text": "<p>We tailor every detail to your brand’s exact look and feel. That means we really do sweat the small stuff, running a practiced eye over every element to ensure your final product is nothing short of spot-on.</p>"
+            "featurecard_paragraph_text": "<p>Every detail is tailored to your brand’s exact look and feel. That means we <em>really do sweat the small stuff</em>, running a practiced eye over every element to ensure your final product is nothing short of spot-on.</p>"
           }
         },
         "feature_card_8TaYqy": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Production power that moves.",
-            "featurecard_paragraph_text": "<p>Standard 7-10 business day turnaround. Rush jobs when you need ’em. Real-time updates so you’re never chasing. More streamlined than Michael Phelps.</p>"
+            "featurecard_paragraph_text": "<p>Standard 7-10 business day turnaround. Rush jobs when you need ’em. Real-time updates so you’re never chasing. Yep, we're more streamlined than Michael Phelps.</p>"
           }
         },
         "feature_card_CfwUnM": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Built to scale.",
+            "featurecard_heading_text": "Support built to scale.",
             "featurecard_paragraph_text": "<p>From sample runs to full-team rollouts, our systems grow with you. Easy reorders, consistent sizing, and volume pricing that keeps your accountant happy.</p>"
           }
         }
@@ -53,8 +111,8 @@
     "testimonialslider": {
       "type": "testimonialslider",
       "settings": {
-        "testimonials_heading_text": "Medium length section heading goes here",
-        "testimonials_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "testimonials_heading_text": "Merch That Made The Slack Channels Pop Off.",
+        "testimonials_paragraph_text": ""
       }
     },
     "productslider": {
@@ -96,6 +154,8 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "heroheader",
+    "contenttextimagespli_KdfTeD",
+    "contenttextimagespli_AVtebm",
     "featurecards",
     "testimonialslider",
     "productslider",
