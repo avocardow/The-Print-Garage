@@ -115,7 +115,9 @@ function customize_product(pid, cid) {
     var url = "";
     var baseurl = "";
     // get the variant id from imprintnext
-    let color = $(`#product_form_${pid} .single-option-selector[name='color' i] option`).filter(":selected").val();
+    //let color = $(`#product_form_${pid} .single-option-selector[name='color' i] option`).filter(":selected").val();
+    let firstRadio = document.querySelector('input[name="custom-color"]');
+    let color = firstRadio.value;
     $.ajax({
         url: `${base_url}api/v1/product-options/${pid}/first-variant?color=${color}`,
         type: 'GET',
