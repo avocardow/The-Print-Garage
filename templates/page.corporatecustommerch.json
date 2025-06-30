@@ -12,8 +12,8 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Customised Apparel & Merchandise",
-        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "heroheader_heading_text": "Branded merch that means business.",
+        "heroheader_paragraph_text": "<p>We help businesses create custom apparel and merchandise that does more than tick a marketing box. It makes your brand tangible. From front desk to field staff, from onboarding packs to client gifts, everything is designed to look sharp, feel great, and speak your brand’s language loud and clear.</p>"
       }
     },
     "featurecards": {
@@ -22,22 +22,22 @@
         "feature_card_axL6QA": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Brand-driven design.",
+            "featurecard_paragraph_text": "<p>We tailor every detail to your brand’s exact look and feel. That means we really do sweat the small stuff, running a practiced eye over every element to ensure your final product is nothing short of spot-on.</p>"
           }
         },
         "feature_card_8TaYqy": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Production power that moves.",
+            "featurecard_paragraph_text": "<p>Standard 7-10 business day turnaround. Rush jobs when you need ’em. Real-time updates so you’re never chasing. More streamlined than Michael Phelps.</p>"
           }
         },
         "feature_card_CfwUnM": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Built to scale.",
+            "featurecard_paragraph_text": "<p>From sample runs to full-team rollouts, our systems grow with you. Easy reorders, consistent sizing, and volume pricing that keeps your accountant happy.</p>"
           }
         }
       },
@@ -47,7 +47,7 @@
         "feature_card_CfwUnM"
       ],
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
+        "featurecards_heading_text": "What you get when you roll with us."
       }
     },
     "testimonialslider": {
