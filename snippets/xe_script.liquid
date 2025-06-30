@@ -138,11 +138,12 @@ function customize_product(pid, cid) {
   console.log(meta);
 
    // pvid = meta.product.variants[pvid].id;
-    alert(pvid);
+    alert(meta.product.variants[3].id);
   
     if(document.getElementById('customData')){
       pvid = document.getElementById("selected-variant-id").textContent;
     }
+  
     if (pvid == '') {
       alert('This color is not customizable please select another.');
       return false;
@@ -181,7 +182,7 @@ function customize_product(pid, cid) {
     if (isMobile || navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2) {
         window.location.href=url;
     } else {
-      //window.location.href=baseurl;
+      window.location.href=baseurl;
     }
 }
     
