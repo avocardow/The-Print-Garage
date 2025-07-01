@@ -20,7 +20,7 @@
       "type": "pageheadersplit",
       "name": "PageHeaderSplit",
       "settings": {
-        "pageheader_heading_text": "Not just another supplier",
+        "pageheader_heading_text": "Not just another supplier.",
         "pageheader_paragraph_text": "<p>We’re the quiet engine behind our distributors, deliver production power like clockwork. </p><p><br/>We give you the tools to grow: exclusive access to wholesale pricing that actually supports your margin, reliable print capacity that scales when you need it, and the peace of mind that comes with knowing your production partner has your back.</p><p><br/>Everything is white-label by default. Everything is tailored to your workflow. And everything is built to help you look good, stay profitable, and never miss a beat.</p>"
       }
     },
