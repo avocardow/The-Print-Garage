@@ -12,8 +12,16 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Trade Printing",
-        "heroheader_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "heroheader_heading_text": "Trade Printing That Has Your Back (and Your Margins)",
+        "heroheader_paragraph_text": "<p>We’re the silent partner in your corner. With pro-grade tech, full discretion, and trade-only pricing, we help you deliver high-quality prints – without stretching your gear, your margins, or your sanity.</p><p>Your reputation rides on every order. We don’t take that lightly. Whether it’s a boutique drop or a full commercial run, our white-label   trade printing is built to keep your clients impressed (and your inbox calm).</p>"
+      }
+    },
+    "pageheadersplit_nFd9mQ": {
+      "type": "pageheadersplit",
+      "name": "PageHeaderSplit",
+      "settings": {
+        "pageheader_heading_text": "We’re the silent partner in your corner.",
+        "pageheader_paragraph_text": "<p>From marketing agencies and graphic designers, to print shops blowing way past capacity, we partner with businesses who need to expand their output <em>without</em> expanding their footprint. </p><p><br/>You’ll get access to the kind of equipment and expertise that’s usually out of reach – with the speed and reliability you’d expect if it were running in your own back room.</p>"
       }
     },
     "featurecards": {
@@ -22,22 +30,22 @@
         "feature_card_zdz8zP": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Full-suite print power, minus the overhead.",
+            "featurecard_paragraph_text": "<p>Access pro-grade production without investing in more equipment, staff, or space. From bold screen prints to sharp embroidery and everything in between, our all-in-one setup means you get the right print method for every job – without juggling multiple suppliers.</p>"
           }
         },
         "feature_card_b6akTq": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Fast, distributor-speed turnarounds.",
+            "featurecard_paragraph_text": "<p>We work to your pace, not the other way around. With a standard 5–7 day production window and rush options when things get spicy, you’ll hit deadlines without breaking a sweat. Add in real-time order tracking and proactive comms, giving you full visibility without lifting a finger.</p>"
           }
         },
         "feature_card_L9amEn": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "White-Label, Start to Finish.",
+            "featurecard_paragraph_text": "<p>Your name stays on the box. Your client sees <em>your</em> brand. We’re the engine behind the scenes, delivering print perfection with zero brand bleed. No awkward questions. Just seamless fulfilment that makes <em>you</em> look like the MVP.</p>"
           }
         }
       },
@@ -47,7 +55,111 @@
         "feature_card_L9amEn"
       ],
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
+        "featurecards_heading_text": "Unmatched production power and peace of mind."
+      }
+    },
+    "bentobox_zUj4cT": {
+      "type": "bentobox",
+      "blocks": {
+        "bento_card_wz7rFA": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Trade-Only Pricing That Works for You.",
+            "card_paragraph_text": "<p>Margins aren’t just a number. They’re the difference between <strong>growth</strong> and <em>grind</em>.  That’s why our wholesale pricing is designed to back your business – not bite into it. Straightforward, volume-savvy rates that let you stay competitive, profitable, and in control. Built for scale, and designed to keep your bottom line happy.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_yGdFMY": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Exclusive Products You Won’t Find on Retail Shelves.",
+            "card_paragraph_text": "<p>If your clients wanted basic, they’d shop retail. We hook you up with premium blanks and hard-to-find gems that aren’t available to the everyday punter. It’s your not-so-secret weapon for delivering something fresh – and keeping your name at the top of their list.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_keF7fy": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Deadline-Saving Rush Capabilities.",
+            "card_paragraph_text": "<p>Last-minute job? Client having a meltdown? We’ve built our systems to move <em>fast</em>. Rush options are available across most methods, so you can swoop in with the save (without breaking a sweat). We stay silent, you look like the hero.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_C7HGWi": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Quality That Doesn’t Waver.",
+            "card_paragraph_text": "<p>Every order – big or small – gets the same obsessive attention. We’re talking calibrated tech, pro-level QC, and operators who know their stuff. The result? Flawless finishes, zero variance, and one less thing for you to double-check.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_wz7rFA",
+        "bento_card_yGdFMY",
+        "bento_card_keF7fy",
+        "bento_card_C7HGWi"
+      ],
+      "name": "BentoBox",
+      "settings": {
+        "bento_heading_text": "Perks That Actually Pull Their Weight.",
+        "bento_paragraph_text": "<p>Because you don’t need bells and whistles – you need smart, strategic advantages that make fulfilment smoother, margins healthier, and clients happier.</p>"
+      }
+    },
+    "contenttextimagespli_HTptz3": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_U4MpFX": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/custom-apparel-merch",
+            "btn_text": "Get A Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_U4MpFX"
+      ],
+      "settings": {
+        "content_layout": "is-reversed",
+        "content_tagline_text": "Seamless rollouts, zero admin headaches.",
+        "content_heading_text": "Corporate Uniform Programs.",
+        "content_paragraph_text": "<p>We manage every part of your uniform program, from design and fit guides to production, fulfilment, and direct-to-employee delivery across multiple sites. Need tailored kits by department, role, or location? We’ve got the systems (and spreadsheets) to make it happen – on brand, on time, and without drowning your ops team.</p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
     "testimonialslider": {
@@ -96,7 +208,10 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "heroheader",
+    "pageheadersplit_nFd9mQ",
     "featurecards",
+    "bentobox_zUj4cT",
+    "contenttextimagespli_HTptz3",
     "testimonialslider",
     "productslider",
     "contactcta"
