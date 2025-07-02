@@ -134,10 +134,37 @@
         "bento_paragraph_text": "<p>Because you don’t need bells and whistles – you need smart, strategic advantages that make fulfilment smoother, margins healthier, and clients happier.</p>"
       }
     },
+    "productslider_HC6RUV": {
+      "type": "productslider",
+      "blocks": {
+        "button_fyQVMr": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Become a Distributor",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_fyQVMr"
+      ],
+      "settings": {
+        "products_heading_text": "Sourced Smart. Ready to move.",
+        "products_paragraph_text": "<p>These print-perfect blanks are handpicked for performance, speed, and mileage. Your shortcut to looking like you’ve got it sorted (because now, you do).</p>",
+        "collection_select_a_collection": "all",
+        "collection_select_a_collection_limit": 6
+      }
+    },
     "testimonialslider": {
       "type": "testimonialslider",
       "settings": {
-        "testimonials_heading_text": "Words from the Workshop",
+        "testimonials_heading_text": "Words from the Workshop.",
         "testimonials_paragraph_text": "<p>We stay behind the scenes – but our trade partners aren’t quiet about the results. Here’s what happens when your secret weapon <em>actually</em> delivers.</p>"
       }
     },
@@ -156,6 +183,7 @@
     "pageheadersplit_nFd9mQ",
     "featurecards",
     "bentobox_zUj4cT",
+    "productslider_HC6RUV",
     "testimonialslider",
     "contactcta"
   ]
