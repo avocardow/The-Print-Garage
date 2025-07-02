@@ -80,7 +80,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Deadline-Saving Rush Capabilities.",
-            "card_paragraph_text": "<p>When a client’s freaking out and the deadline’s breathing down your neck, you need more than promises – you need speed that holds up under pressure. Our systems are built to deliver exactly that. With rush options across most methods and a team that knows how to move, we help you step in with the cool-headed solution that saves the day. You stay in control, look like the legend, and get the job over the line, without breaking a sweat.</p>",
+            "card_paragraph_text": "<p>When a client’s freaking out and the deadline’s breathing down your neck, you need more than promises – you need speed that holds up under pressure. Our systems are built to deliver exactly that. <br/><br/>With rush options across most methods and a team that knows how to move, we help you step in with the cool-headed solution that saves the day. You stay in control, look like the legend, and get the job over the line, without breaking a sweat.</p>",
             "card_type": "card_type_color",
             "card_size": "is-large",
             "card_bg": "background-color-secondary",
@@ -95,7 +95,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Exclusive Products You Won’t Find on Retail Shelves.",
-            "card_paragraph_text": "<p>Your clients don’t want the same tired tees or generic promo gear everyone else is flogging – and you don’t either. That’s why we give our distributors access to premium blanks, niche styles, and harder-to-source products that aren’t available through regular retail or off-the-shelf suppliers. These are the kind of items that stop the scroll, spark “ooh where’d you get that?” moments, and give your clients real reasons to reorder. With the right product mix in your corner, you’re not just meeting the brief – you’re raising the bar.</p>",
+            "card_paragraph_text": "<p>Your clients don’t want the same tired tees or generic promo gear everyone else is flogging – and you don’t either. That’s why we give our distributors access to premium blanks, niche styles, and harder-to-source products that aren’t available through regular retail or off-the-shelf suppliers. <br/><br/>These are the kind of items that stop the scroll, spark “ooh where’d you get that?” moments, and give your clients real reasons to reorder. With the right product mix in your corner, you’re not just meeting the brief – you’re raising the bar.</p>",
             "card_type": "card_type_color",
             "card_size": "is-large",
             "card_bg": "background-color-tertiary",
