@@ -67,23 +67,8 @@
             "card_heading_text": "Trade-Only Pricing That Works for You.",
             "card_paragraph_text": "<p>Margins aren’t just a number. They’re the difference between <strong>growth</strong> and <em>grind</em>.  That’s why our wholesale pricing is designed to back your business – not bite into it. Straightforward, volume-savvy rates that let you stay competitive, profitable, and in control. Built for scale, and designed to keep your bottom line happy.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-quaternary",
-            "hide_link": true,
-            "card_link": "",
-            "hide_icon": false,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_yGdFMY": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Exclusive Products You Won’t Find on Retail Shelves.",
-            "card_paragraph_text": "<p>If your clients wanted basic, they’d shop retail. We hook you up with premium blanks and hard-to-find gems that aren’t available to the everyday punter. It’s your not-so-secret weapon for delivering something fresh – and keeping your name at the top of their list.</p>",
-            "card_type": "card_type_color",
             "card_size": "is-medium",
-            "card_bg": "background-color-tertiary",
+            "card_bg": "background-color-quaternary",
             "hide_link": true,
             "card_link": "",
             "hide_icon": false,
@@ -95,10 +80,25 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Deadline-Saving Rush Capabilities.",
-            "card_paragraph_text": "<p>Last-minute job? Client having a meltdown? We’ve built our systems to move <em>fast</em>. Rush options are available across most methods, so you can swoop in with the save (without breaking a sweat). We stay silent, you look like the hero.</p>",
+            "card_paragraph_text": "<p>When a client’s freaking out and the deadline’s breathing down your neck, you need more than promises – you need speed that holds up under pressure. Our systems are built to deliver exactly that. With rush options across most methods and a team that knows how to move, we help you step in with the cool-headed solution that saves the day. You stay in control, look like the legend, and get the job over the line, without breaking a sweat.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-small",
+            "card_size": "is-large",
             "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_yGdFMY": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Exclusive Products You Won’t Find on Retail Shelves.",
+            "card_paragraph_text": "<p>Your clients don’t want the same tired tees or generic promo gear everyone else is flogging – and you don’t either. That’s why we give our distributors access to premium blanks, niche styles, and harder-to-source products that aren’t available through regular retail or off-the-shelf suppliers. These are the kind of items that stop the scroll, spark “ooh where’d you get that?” moments, and give your clients real reasons to reorder. With the right product mix in your corner, you’re not just meeting the brief – you’re raising the bar.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-large",
+            "card_bg": "background-color-tertiary",
             "hide_link": true,
             "card_link": "",
             "hide_icon": false,
@@ -124,8 +124,8 @@
       },
       "block_order": [
         "bento_card_wz7rFA",
-        "bento_card_yGdFMY",
         "bento_card_keF7fy",
+        "bento_card_yGdFMY",
         "bento_card_C7HGWi"
       ],
       "name": "BentoBox",
