@@ -171,8 +171,8 @@
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Let’s Get The Print Party Started.",
+        "contact_paragraph_text": "<p>Got questions, a brief, or a bold idea? Drop it in the message box so we can start makin' moves.</p>"
       }
     }
   },
