@@ -13,7 +13,7 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "Trade Printing That Has Your Back (and Your Margins)",
-        "heroheader_paragraph_text": "<p>We’re the silent partner in your corner. With pro-grade tech, full discretion, and trade-only pricing, we help you deliver high-quality prints – without stretching your gear, your margins, or your sanity.</p><p>Your reputation rides on every order. We don’t take that lightly. Whether it’s a boutique drop or a full commercial run, our white-label   trade printing is built to keep your clients impressed (and your inbox calm).</p>"
+        "heroheader_paragraph_text": "<p>With pro-grade tech, full discretion, and trade-only pricing, we help you deliver high-quality prints – without stretching your gear, your margins, or your sanity.</p><p>Your reputation rides on every order. We don’t take that lightly. Whether it’s a boutique drop or a full commercial run, our white-label   trade printing is built to keep your clients impressed (and your inbox calm).</p>"
       }
     },
     "pageheadersplit_nFd9mQ": {
@@ -21,7 +21,7 @@
       "name": "PageHeaderSplit",
       "settings": {
         "pageheader_heading_text": "We’re the silent partner in your corner.",
-        "pageheader_paragraph_text": "<p>From marketing agencies and graphic designers, to print shops blowing way past capacity, we partner with businesses who need to expand their output <em>without</em> expanding their footprint. </p><p><br/>You’ll get access to the kind of equipment and expertise that’s usually out of reach – with the speed and reliability you’d expect if it were running in your own back room.</p>"
+        "pageheader_paragraph_text": "<p>From marketing agencies and graphic designers, to print shops blowing way past capacity, we partner with businesses who need to expand their print output <em>without</em> expanding their footprint. </p><p><br/>You’ll get access to the kind of equipment and expertise that’s usually out of reach – with the speed and reliability you’d expect if it were running in your own back room.</p>"
       }
     },
     "featurecards": {
@@ -65,7 +65,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Trade-Only Pricing That Works for You.",
-            "card_paragraph_text": "<p>Margins aren’t just a number. They’re the difference between <strong>growth</strong> and <em>grind</em>.  That’s why our wholesale pricing is designed to back your business – not bite into it. Straightforward, volume-savvy rates that let you stay competitive, profitable, and in control. Built for scale, and designed to keep your bottom line happy.</p>",
+            "card_paragraph_text": "<p>Margins aren’t just a number. They’re the difference between <strong>growth</strong> and <em>grind</em>.  That’s why our wholesale pricing is designed to back your business – not bite into it. Straightforward, volume-savvy rates that let you stay competitive and profitable. Built for scale, and designed to keep your bottom line happy.</p>",
             "card_type": "card_type_color",
             "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
