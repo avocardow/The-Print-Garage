@@ -155,8 +155,8 @@
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Still not sure about sizing?",
+        "contact_paragraph_text": "<p>No stress. Drop us a message here and we’ll help you figure it out. Our team can guide you through sizing quirks, fabric feels, and which cut suits your vibe best.</p>"
       }
     }
   },
