@@ -12,7 +12,7 @@
     "herotextimagebg": {
       "type": "herotextimagebg",
       "settings": {
-        "hero_heading_text": "Size Guides",
+        "hero_heading_text": "Size Guide for Legends Who Like a Good Fit",
         "hero_bgimage": "shopify://shop_images/5166.jpg"
       }
     },
@@ -122,8 +122,8 @@
         ".layout527_grid {grid-auto-flow: row; /* grid-auto-flow: column; */}"
       ],
       "settings": {
-        "bento_heading_text": "Medium length hero heading goes here",
-        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "bento_heading_text": "Size Matters (Yeah, We Said What We Said).",
+        "bento_paragraph_text": "<p>Great merch isn’t just about the print – it’s also about the <em>fit</em>. And if you want people to wear your gear (and not just chuck it in the “meh” pile), sizing matters. Here's your guide to guaranteeing our premium staples are your perfect fit.</p>"
       }
     },
     "faqs": {
