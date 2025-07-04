@@ -19,8 +19,8 @@
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -31,7 +31,7 @@
       ],
       "settings": {
         "heroimage_heading_text": "Screen Printing Explained",
-        "heroimage_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "heroimage_paragraph_text": "<p>Crisp lines. Vibrant blocks of colour. A slightly raised, tactile feel you can actually run your fingers across. When you want bold graphics, high colour contrast, and a finish that’ll last the distance, this is your go-to. </p>",
         "hero_image": "shopify://shop_images/TAS_Machine.jpg"
       }
     },
