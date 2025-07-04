@@ -40,7 +40,7 @@
       "settings": {
         "content_layout": "is-horizontal",
         "content_tagline_text": "Most print-on-demand shops? Middlemen.",
-        "content_heading_text": "We're the whole damn production floor.",
+        "content_heading_text": "Us? We're the whole damn production floor.",
         "content_paragraph_text": "<p>With 30+ years under the hood, we’ve built a high-powered setup that handles screen, DTG, DTF, sublimation, UV, embroidery – every method, in-house, quality controlled, and battle-tested at scale.</p><p><br/>You get fewer delays, sharper output, and real support from people who know their press from their presets. It's not just merch. It's merch that <em>moves.</em></p>",
         "content_image": "shopify://shop_images/4525_WOS_QUILTED_JACKET_DETAIL__57227.1730172468.386.513.jpg"
       }
@@ -152,7 +152,7 @@
       ],
       "settings": {
         "bento_heading_text": "Every major print method under one roof.",
-        "bento_paragraph_text": "<p>You name it – we’ve printed it, tested it, pushed it to the edge. And now, we're helping other brands do the same.</p>"
+        "bento_paragraph_text": "<p>You name it – we’ve printed it, tested it, pushed it to the edge. And now, we help creators, brands, and enterprises do the same.</p>"
       }
     },
     "faqs": {
@@ -178,7 +178,7 @@
       "settings": {
         "faq_heading_text": "Your Print Questions, Answered.",
         "faq_cta_heading_text": "Still unsure?",
-        "faq_cta_paragraph_text": "<p>Check out our full list of FAQs to</p>"
+        "faq_cta_paragraph_text": "<p>We made a whole page just for that.</p>"
       }
     },
     "contactcta": {
