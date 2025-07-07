@@ -45,8 +45,8 @@
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -57,37 +57,121 @@
       ],
       "settings": {
         "content_layout": "is-reversed",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_tagline_text": "[ Step 1 ]",
+        "content_heading_text": "Design blueprint.",
+        "content_paragraph_text": "<p>Your artwork is converted to a high-contrast, black-and-white image and printed onto a transparent acetate film. This film acts like a stencil template or blueprint that guides the entire print process.</p>",
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
     "contenttextimagespli_eqq4wB": {
       "type": "contenttextimagespli",
       "blocks": {
-        "button_8inpir": {
+        "button_ELb6VW": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_8inpir"
+        "button_ELb6VW"
       ],
       "settings": {
         "content_layout": "is-horizontal",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "content_tagline_text": "[ Step 2 ]",
+        "content_heading_text": "Stencil Prep.",
+        "content_paragraph_text": "<p>Next, we prep the mesh screen (basically a tightly-woven fabric stretched over a frame) by coating it with a light-sensitive emulsion. This emulsion reacts to light. When we place your film over it then expose it to light, the design blocks part of the light, creating a stencil as we wash away the unhardened areas.</p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+      }
+    },
+    "contenttextimagespli_pH6XXQ": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_PPEhdm": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_PPEhdm"
+      ],
+      "settings": {
+        "content_layout": "is-reversed",
+        "content_tagline_text": "[ Step 3 ]",
+        "content_heading_text": "Ink Run.",
+        "content_paragraph_text": "<p>Once the screen’s dry and mounted, we lay your garment on the press. Ink gets pulled across the stencil with a squeegee, printing your design right onto the fabric. One colour = one screen.</p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+      }
+    },
+    "contenttextimagespli_JzKVry": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_aBCaJc": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_aBCaJc"
+      ],
+      "settings": {
+        "content_layout": "is-horizontal",
+        "content_tagline_text": "[ Step 4 ]",
+        "content_heading_text": "Heat Cure.",
+        "content_paragraph_text": "<p>Fresh prints head straight into the dryer. The heat cures the ink, locking in colour and durability so your designs hold strong wash after wash.</p>",
+        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+      }
+    },
+    "contenttextimagespli_9axhaR": {
+      "type": "contenttextimagespli",
+      "blocks": {
+        "button_dzEXE7": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_dzEXE7"
+      ],
+      "settings": {
+        "content_layout": "is-reversed",
+        "content_tagline_text": "[ Step 5 ]",
+        "content_heading_text": "Final Check.",
+        "content_paragraph_text": "<p>Before anything leaves the floor, our crew gives it a final once-over. Alignment, ink coverage, finish – every detail is checked to make sure it’s on point. </p>",
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
@@ -98,11 +182,11 @@
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
-            "btn_style": "is-secondary",
+            "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
             "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_text": "start your project",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -112,100 +196,71 @@
         "button_JmWgQp"
       ],
       "settings": {
-        "cta_heading_text": "Medium or long length heading goes here",
-        "cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
+        "cta_heading_text": "Ready to roll with screen?",
+        "cta_paragraph_text": "<p>We’ve screen-printed everything from 20-unit runs for cult indie brands to 20,000-unit campaigns for global powerhouses. If bold, scalable merch is what you’re after – screen printing is your ride or die.</p>",
         "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png",
-        "banner_bg": "background-color-secondary"
+        "banner_bg": "background-color-quaternary"
       }
     },
-    "contenttextimagespli_pH6XXQ": {
-      "type": "contenttextimagespli",
+    "bentobox_Bd6Vfa": {
+      "type": "bentobox",
       "blocks": {
-        "button_ceMfUE": {
-          "type": "button",
+        "bento_card_fTHM8i": {
+          "type": "bento-card",
           "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_ceMfUE"
-      ],
-      "settings": {
-        "content_layout": "is-reversed",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
-      }
-    },
-    "contenttextimagespli_JzKVry": {
-      "type": "contenttextimagespli",
-      "blocks": {
-        "button_AUzCAL": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_AUzCAL"
-      ],
-      "settings": {
-        "content_layout": "is-horizontal",
-        "content_tagline_text": "Short tagline here",
-        "content_heading_text": "Medium length section heading goes here",
-        "content_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
-      }
-    },
-    "featurecards_QG4EdT": {
-      "type": "featurecards",
-      "blocks": {
-        "feature_card_YBrPa7": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "card_heading_text": "Perfectly tuned to...",
+            "card_paragraph_text": "<p>⭑ Brand activations<br/>⭑ Band and tour merch<br/>⭑ Streetwear lines<br/>⭑ Staff uniforms and team kits<br/>⭑ Hi-vis and workwear<br/>⭑ Large promo runs<br/>⭑ Event giveaways and campaign kits</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
           }
         },
-        "feature_card_9rxijn": {
-          "type": "feature-card",
+        "bento_card_dCkLFg": {
+          "type": "bento-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "card_heading_text": "Custom-built for...",
+            "card_paragraph_text": "<p>⭑ Cotton tees<br/>⭑ Hoodies and sweats<br/>⭑ Tote bags<br/>⭑ Hi-vis gear and uniforms<br/>⭑ Event merch<br/>⭑ Promo kits<br/>⭑ Simpler graphics (logos, slogans, brand marks)</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": true,
+            "icon_viewbox": "",
+            "icon_path": ""
           }
         },
-        "feature_card_YMcxjN": {
-          "type": "feature-card",
+        "bento_card_893TKh": {
+          "type": "bento-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "card_heading_text": "Why you'll love it...",
+            "card_paragraph_text": "<p>⭑ Crisp detail that holds up under pressure<br/>⭑ Vibrant colour that stands out and sticks<br/>⭑ Durability that survives the spin cycle<br/>⭑ Fast, efficient production for big runs<br/>⭑ Easy reorders with repeat-ready screens<br/>⭑ Bulk-friendly pricing that protects your margins<br/>⭑ Premium finish with a pro-grade feel<br/>⭑ Every piece passes our perfectionist test</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "shopify://pages/contact",
+            "card_background_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513.jpg",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
           }
         }
       },
       "block_order": [
-        "feature_card_YBrPa7",
-        "feature_card_9rxijn",
-        "feature_card_YMcxjN"
+        "bento_card_fTHM8i",
+        "bento_card_dCkLFg",
+        "bento_card_893TKh"
       ],
+      "name": "BentoBox",
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
+        "bento_heading_text": "Performance Specs",
+        "bento_paragraph_text": "<p>We’ve perfected the screen printing process through decades of high-stakes, high-volume runs. Every press stroke. Every layer. Every dry cycle. Engineered for durability. Tuned for serious impact.</p>"
       }
     },
     "faqs_x86zJr": {
@@ -218,8 +273,8 @@
             "btn_style": "is-secondary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/printing-methods-explained",
+            "btn_text": "More Print Methods",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -229,16 +284,16 @@
         "button_tEKxNp"
       ],
       "settings": {
-        "faq_heading_text": "Medium length heading goes here",
-        "faq_cta_heading_text": "Short heading goes here",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "faq_heading_text": "Faqs",
+        "faq_cta_heading_text": "Wanna check out the full print line up?",
+        "faq_cta_paragraph_text": "<p>Head this way to explore more print methods and find the right fit for your next project.</p>"
       }
     },
     "contactcta_bT9HAW": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Want Your Merch to Make a Mark?",
+        "contact_paragraph_text": "<p>Screen printing is all about bold colour and staying power. Reach out and let’s bring your designs to life.</p>"
       }
     }
   },
@@ -248,10 +303,11 @@
     "heroheaderimage_DD3RbC",
     "contenttextimagespli_6m9VkH",
     "contenttextimagespli_eqq4wB",
-    "calltoactionbanner_eXQFtY",
     "contenttextimagespli_pH6XXQ",
     "contenttextimagespli_JzKVry",
-    "featurecards_QG4EdT",
+    "contenttextimagespli_9axhaR",
+    "calltoactionbanner_eXQFtY",
+    "bentobox_Bd6Vfa",
     "faqs_x86zJr",
     "contactcta_bT9HAW"
   ]
