@@ -12,22 +12,22 @@
     "heroheaderimage_DD3RbC": {
       "type": "heroheaderimage",
       "blocks": {
-        "button_qrbxKL": {
+        "button_cdka6V": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_qrbxKL"
+        "button_cdka6V"
       ],
       "settings": {
         "heroimage_heading_text": "Direct to Film (DTF) Explained",
@@ -45,8 +45,8 @@
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -66,22 +66,22 @@
     "contenttextimagespli_eqq4wB": {
       "type": "contenttextimagespli",
       "blocks": {
-        "button_8inpir": {
+        "button_aehtUM": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_8inpir"
+        "button_aehtUM"
       ],
       "settings": {
         "content_layout": "is-horizontal",
@@ -94,22 +94,22 @@
     "contenttextimagespli_pH6XXQ": {
       "type": "contenttextimagespli",
       "blocks": {
-        "button_ceMfUE": {
+        "button_4Mwzfn": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_ceMfUE"
+        "button_4Mwzfn"
       ],
       "settings": {
         "content_layout": "is-reversed",
@@ -122,22 +122,22 @@
     "contenttextimagespli_JzKVry": {
       "type": "contenttextimagespli",
       "blocks": {
-        "button_AUzCAL": {
+        "button_MChpg4": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_AUzCAL"
+        "button_MChpg4"
       ],
       "settings": {
         "content_layout": "is-horizontal",
@@ -150,22 +150,22 @@
     "contenttextimagespli_kqn3bw": {
       "type": "contenttextimagespli",
       "blocks": {
-        "button_k7gpch": {
+        "button_B4y4TA": {
           "type": "button",
           "settings": {
             "btn_layout": "btn_layout_both",
             "btn_style": "is-primary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "Get a Quote",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_k7gpch"
+        "button_B4y4TA"
       ],
       "settings": {
         "content_layout": "is-reversed",
@@ -178,17 +178,17 @@
     "bentobox_kwcXaj": {
       "type": "bentobox",
       "blocks": {
-        "bento_card_8BchL8": {
+        "bento_card_XbrTpU": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>☑️  Colour that actually lasts (no peeling after wash #1)<br/>☑️  Detail so sharp, it’ll make your eyes do a double take<br/>☑️  Works on all fabrics (yep, even leather and wood)<br/>☑️  No pre-treatment faff – just print and go<br/>☑️  Stretches with your fabric, not against it<br/>☑️  Made for small runs, big impact<br/>☑️  Fast setups = faster turnarounds<br/>☑️  Built tough to handle serious wear ‘n’ tear</p>",
+            "card_heading_text": "Perfectly tuned to...",
+            "card_paragraph_text": "<p>⭑ POD entrepreneurs looking to scale fast</p><p>⭑ Creators juggling multiple colour-rich SKUs</p><p>⭑ Custom merch brands that demand fabric flexibility</p><p>⭑ Agencies with campaign-based product drops</p><p>⭑ Projects that needs speed, precision, and performance</p>",
             "card_type": "card_type_color",
             "card_size": "is-medium",
-            "card_bg": "background-color-quaternary",
+            "card_bg": "background-color-secondary",
             "hide_link": true,
             "card_link": "",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -197,27 +197,28 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Custom-built for...",
-            "card_paragraph_text": "<p>Cotton tees and tanks<br/>Hoodies, sweats, and poly blends<br/>Canvas totes<br/>Caps, hats, and accessories<br/>Performance gear and activewear<br/>Promotional items<br/>Non-garment products (e.g., wood, leather, etc.)</p>",
+            "card_paragraph_text": "<p>⭑ Cotton tees and tanks<br/>⭑ Hoodies, sweats, and poly blends<br/>⭑ Canvas totes<br/>⭑ Caps, hats, and accessories<br/>⭑ Performance gear and activewear<br/>⭑ Promotional items<br/>⭑ Non-garment products (e.g., wood, leather, etc.)</p>",
             "card_type": "card_type_color",
             "card_size": "is-medium",
             "card_bg": "background-color-tertiary",
             "hide_link": true,
             "card_link": "",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
         },
-        "bento_card_XbrTpU": {
+        "bento_card_8BchL8": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Perfectly tuned to...",
-            "card_paragraph_text": "<ul><li>POD entrepreneurs looking to scale fast</li><li>Creators juggling multiple colour-rich SKUs</li><li>Custom merch brands that demand fabric flexibility</li><li>Agencies and teams with campaign-based product drops</li><li>Any project that needs speed, precision, and no fabric fuss</li></ul>",
+            "card_heading_text": "Why you'll love it...",
+            "card_paragraph_text": "<p>⭑ Colour that actually lasts (no peeling after wash #1)<br/>⭑ Detail so sharp, it’ll make your eyes do a double take<br/>⭑ Works on all fabrics (yep, even leather and wood)<br/>⭑ No pre-treatment faff – just print and go<br/>⭑ Stretches with your fabric, not against it<br/>⭑ Made for small runs, big impact<br/>⭑ Fast setups = faster turnarounds<br/>⭑ Built tough to handle serious wear ‘n’ tear</p>",
             "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-secondary",
-            "hide_link": true,
-            "card_link": "",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "shopify://pages/contact",
+            "card_background_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -225,50 +226,15 @@
         }
       },
       "block_order": [
-        "bento_card_8BchL8",
+        "bento_card_XbrTpU",
         "bento_card_JUD8L3",
-        "bento_card_XbrTpU"
+        "bento_card_8BchL8"
       ],
       "custom_css": [],
       "name": "BentoBox",
       "settings": {
         "bento_heading_text": "Performance Specs",
         "bento_paragraph_text": "<p>Think of DTF like a hybrid of DTG and screen printing, where digital precision meets durable finishes. Whether you’re printing short runs or custom pieces at scale, DTF delivers production speed and pro-level performance without the overhead.</p>"
-      }
-    },
-    "featurecards_QkCAVY": {
-      "type": "featurecards",
-      "blocks": {
-        "feature_card_A6CwbK": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        },
-        "feature_card_nKwc4W": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        },
-        "feature_card_niAjdX": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_card_A6CwbK",
-        "feature_card_nKwc4W",
-        "feature_card_niAjdX"
-      ],
-      "name": "FeatureCards",
-      "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
       }
     },
     "faqs_x86zJr": {
@@ -281,8 +247,8 @@
             "btn_style": "is-secondary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "more methods",
+            "btn_url": "shopify://pages/printing-methods-explained",
+            "btn_text": "More Print Methods",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -293,15 +259,15 @@
       ],
       "settings": {
         "faq_heading_text": "Faqs",
-        "faq_cta_heading_text": "Wanna keep nerding out on print stuff?",
-        "faq_cta_paragraph_text": "<p>Head this way to explore all our other print methods and find the perfect match for your next masterpiece.</p>"
+        "faq_cta_heading_text": "Wanna check out the full print line up?",
+        "faq_cta_paragraph_text": "<p>Head this way to explore more print methods and find the right fit for your next project.</p>"
       }
     },
     "contactcta_bT9HAW": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Keen to see what DTF can do?",
-        "contact_paragraph_text": "<p>Drop us a line below – we’re all ears (and ink). Let’s chat and bring that print vision to life.</p>"
+        "contact_heading_text": "Feelin' DTF?",
+        "contact_paragraph_text": "<p>(Direct to film, that is...) 👀 If your merch needs sharp detail, fabric versatility, and colour control – this is the one. Send us the brief and let’s make some magic.</p>"
       }
     }
   },
@@ -315,7 +281,6 @@
     "contenttextimagespli_JzKVry",
     "contenttextimagespli_kqn3bw",
     "bentobox_kwcXaj",
-    "featurecards_QkCAVY",
     "faqs_x86zJr",
     "contactcta_bT9HAW"
   ]
