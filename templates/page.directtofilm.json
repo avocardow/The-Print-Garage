@@ -175,6 +175,33 @@
         "content_image": "shopify://shop_images/WO_HEAVY.jpg"
       }
     },
+    "calltoactionbanner_7JV9wW": {
+      "type": "calltoactionbanner",
+      "blocks": {
+        "button_gdzMYA": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/contact",
+            "btn_text": "start your project",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_gdzMYA"
+      ],
+      "settings": {
+        "cta_heading_text": "Down to print with DTF?",
+        "cta_paragraph_text": "<p>We’ve run DTF for one-off Etsy legends, national apparel launches, and everything in between. If your merch needs sharp detail, fabric versatility, and max colour control – DTF’s your go-to.</p>",
+        "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png",
+        "banner_bg": "background-color-quaternary"
+      }
+    },
     "bentobox_kwcXaj": {
       "type": "bentobox",
       "blocks": {
@@ -280,6 +307,7 @@
     "contenttextimagespli_pH6XXQ",
     "contenttextimagespli_JzKVry",
     "contenttextimagespli_kqn3bw",
+    "calltoactionbanner_7JV9wW",
     "bentobox_kwcXaj",
     "faqs_x86zJr",
     "contactcta_bT9HAW"
