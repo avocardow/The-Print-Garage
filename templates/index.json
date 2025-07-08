@@ -45,7 +45,7 @@
       ],
       "settings": {
         "hero_heading_text": "Merch that moves. Made with the partner who gets creators.",
-        "hero_paragraph_text": "<p>The Print Garage is the creative merch partner for those who <strong>zig</strong> when others <em>zag</em>. We team up with creators, brands, and trade pros to turn wild ideas into merch people actually <em>want</em> to wear. This isn’t some template-driven, print-it-and-hope-it-works setup. It’s strategy-meets-style, with a side of “<em>hell yes, that’s even better than we imagined it</em>.” Think merch that’s designed to <strong>do more</strong> than just sit pretty (whether that's for street style, sale, or supply). You dream it. We’ll make it look damn good, and get it where it needs to go.</p>",
+        "hero_paragraph_text": "<p>The Print Garage is the creative merch partner for those who <strong>zig</strong> when others <em>zag</em>. We team up with creators, brands, and trade pros to turn wild ideas into merch people actually <strong>want</strong> to wear. This isn’t some template-driven, print-it-and-hope-it-works setup. It’s strategy-meets-style, with a side of “<em>hell yes, that’s even better than we imagined it</em>.” You dream it. We’ll make it look damn good, and get it where it needs to go.</p>",
         "hero_cta": "hero_btn_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
@@ -90,15 +90,50 @@
       ],
       "custom_css": [],
       "settings": {
-        "scroll_animate_text": "This whole thing started with a crew of print-obsessed humans who believed merch could hit harder, look better, and actually mean something. So we built our own garage, stacked it with top-tier tech, and started raising the bar. What we run today is more than a production house. It’s a creative engine. One backed by 30+ years of high-volume, high-impact production power."
+        "scroll_animate_text": "This whole thing started with a crew of print-obsessed humans who believed merch could hit harder, look better, and actually mean something. So we built our own garage, stacked it with top-tier tech, and started raising the bar. What we run today is more than a print house. It’s a creative engine. One backed by 30+ years of high-volume, high-impact production power."
       }
     },
     "pageheadersplit_9rz4n4": {
       "type": "pageheadersplit",
       "name": "PageHeaderSplit",
       "settings": {
-        "pageheader_heading_text": "A care for craft that’d earn a slow nod from the old-school pros.",
-        "pageheader_paragraph_text": "<p>Every print, every stitch, every ship-out is done in-house, with the kind of intention and craftsmanship most struggle to find these days. <br/><br/>We’re fuelled by a love for creativity and a soft spot for the good ol’ days. Think cutting-edge tech meets vintage grit. A retro-styled print house where your wildest ideas don’t just come to life – they come to life looking <em>damn</em> good.<br/><br/>This isn’t bulk promo wear or soul-less dropshipping. It’s shelf-ready quality, made to rival what you'd find in your favourite boutique. We obsess over clean prints, premium blanks, and finishes that feel <em>like they belong in a brand campaign, </em>not the bottom of a tote bag.</p>"
+        "pageheader_heading_text": "A care for craft that’d earn the *slow nod* from the old-school pros.",
+        "pageheader_paragraph_text": "<p>Every print, every stitch, every ship-out is done in-house – with the kind of precision and craft most shops stopped caring about years ago.<br/><br/>We’re fuelled by a love for creativity and a soft spot for the good ol’ days. Think cutting-edge tech meets vintage grit. A retro-styled print house where your wildest ideas don’t just come to life – they come to life looking <em>damn</em> good.<br/><br/>This isn’t tacky promo wear or soul-less dropshipping. It’s shelf-ready quality, made to rival what you'd find in your favourite boutique. We obsess over clean prints, premium blanks, and finishes that feel <em>like they belong in a brand campaign, </em>not the bottom of a tote bag.</p>"
+      }
+    },
+    "featurecards_NDwA4y": {
+      "type": "featurecards",
+      "blocks": {
+        "feature_card_cCQbQw": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Creators, influencers & Trend-Setters.",
+            "featurecard_paragraph_text": "<p>Got ideas in your notes app and followers asking, “when’s the drop?” We help you turn your vibe into wearable merch (without the upfront costs, bulk stock, or shipping drama). Launch your own line, create on your terms, and flex your personal brand with pieces that make people stop you on the street.</p>"
+          }
+        },
+        "feature_card_UdrXQL": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Brands, Businesses & Events Teams.",
+            "featurecard_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes merch partner for custom apparel that makes your brand tangible. Whether it’s for a team uniform, client gift, retail collab or pop-up event, let's make gear you’ll be proud to put your name on.</p>"
+          }
+        },
+        "feature_card_4BhkXf": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Distributors, Agencies & Trade Pros.",
+            "featurecard_paragraph_text": "<p>You’ve already got the client base. We bring the firepower behind the scenes. From white-label fulfilment and spec-perfect print runs, to quoting tools and priority support, we’re here to help you scale without chaos. It’s like having a full production team in your back pocket – minus the overhead.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_card_cCQbQw",
+        "feature_card_UdrXQL",
+        "feature_card_4BhkXf"
+      ],
+      "name": "FeatureCards",
+      "settings": {
+        "featurecards_heading_text": "If this is you, you're in the right garage."
       }
     },
     "bentobox_JQECti": {
@@ -323,6 +358,7 @@
     "videohero",
     "scrollanimatecontent",
     "pageheadersplit_9rz4n4",
+    "featurecards_NDwA4y",
     "bentobox_JQECti",
     "productslider_B7FDfb",
     "calltoactionbanner",
