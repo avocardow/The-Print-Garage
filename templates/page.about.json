@@ -222,12 +222,20 @@
         "bento_paragraph_text": "<p>...You'll find a crew who know their stuff, systems built for scale, and quality that speaks for itself. Here’s why teaming up with us just makes sense.</p>"
       }
     },
+    "pageheadersplit_UTjgmR": {
+      "type": "pageheadersplit",
+      "name": "PageHeaderSplit",
+      "settings": {
+        "pageheader_heading_text": "What we bring to the (print) table.",
+        "pageheader_paragraph_text": "<p>We’re <strong>authentic.</strong> You’ll never see a slick façade or a fake promise from us. We show the behind-the-scenes, own our wins <em>and</em> our whoops, and treat your brand like it’s our own.<br/><br/>We’re <strong>creative</strong> to our core. Whether it’s packaging, product lines, or problem-solving – we zig where others zag, and spot opportunities others miss.<br/><br/>We’re <strong>bold</strong>. Not loud-for-loud’s-sake, but confident, curious, and unafraid to stand out.<br/><br/>We’re <strong>approachable</strong>. You don’t need a design degree or a marketing team to create great merch with us. Just an idea. We’ll help with the rest.<br/><br/>And, we’re <strong>reliable AF</strong>. Because all the creative sauce in the world doesn’t matter if your stuff doesn’t ship on time or show up right. We’re here to bring both style <em>and</em> structure.</p><p>We’re not just a print supplier. <strong>We’re your creative merch partner.</strong></p>"
+      }
+    },
     "team_dniVtq": {
       "type": "team",
       "settings": {
         "team_tagline_text": "The Team",
         "team_heading_text": "Meet Our Merch Mechanics.",
-        "team_paragraph_text": "<p>These are the humans turning your ideas into reality – tweaking, testing, and tuning every detail behind the scenes so you don’t have to lift a finger (unless it’s to high-five yourself for choosing us). <br/><br/>From the first mockup to final dispatch, your merch is in the hands of people who actually give a damn. Designers, screen printers, embroidery experts, DTF daredevils (that’s <em>direct-to-film</em>, not the other thing), and logistics legends – all groovin’ under one roof, and movin’ towards one shared goal: make you (and your merch) look good.</p>"
+        "team_paragraph_text": "<p>These are the humans turning your ideas into reality – tweaking, testing, and tuning every detail behind the scenes so you don’t have to lift a finger (unless it’s to high-five yourself for choosing us). <br/><br/>From the first mockup to final dispatch, your merch is in the hands expert designers, screen printers, embroidery experts, DTF daredevils (that’s <em>direct-to-film</em>, not the other thing), and logistics legends – all groovin’ under one roof, and movin’ towards one shared goal: making you (and your merch) look damn good.</p>"
       }
     },
     "faqs_7iEMdP": {
@@ -271,6 +279,7 @@
     "pageheadersplit_zGNq7a",
     "featurecards_iPVhrW",
     "bentobox_3LxRdk",
+    "pageheadersplit_UTjgmR",
     "team_dniVtq",
     "faqs_7iEMdP",
     "contactcta_zVK3tN"
