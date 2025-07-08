@@ -45,50 +45,64 @@
         "pageheader_paragraph_text": "<p>At The Print Garage, we don’t just \"print stuff\". We <em>create things people actually want to wear, keep, and show off.</em> Merch that sparks convo. That turns heads. That really <strong>says</strong> something.<br/><br/>Our roots? They’re gritty and grounded. Vintage signage, tattoo flash, garage nostalgia, surf ‘n skate culture. Our aesthetic is ‘90s band tee meets creative studio: lived-in, punchy, and proudly imperfect.<br/><br/>And though we love a retro vibe, we're also at the forefront of innovation in the print space. Our team is always experimenting, testing new print tech, and dreaming up new ways to turn your ideas into wearable magic. </p>"
       }
     },
-    "calltoactionbanner_QqFEYP": {
-      "type": "calltoactionbanner",
+    "bentobox_AxCY8q": {
+      "type": "bentobox",
       "blocks": {
-        "button_hhKxf3": {
-          "type": "button",
+        "bento_card_BATAT4": {
+          "type": "bento-card",
           "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
+            "card_heading_text": "Creators, Influencers & Trend-Setters.",
+            "card_paragraph_text": "<p>Got ideas in your notes app and followers asking, “when’s the drop?” We help you turn your vibe into wearable merch (without the upfront costs, bulk stock, or shipping drama). Launch your own line, create on your terms, and flex your personal brand with pieces that make people stop you on the street.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-secondary",
+            "hide_link": false,
+            "card_link": "shopify://pages/retail-solutions",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_74pf7L": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Distributors, Agencies & Trade Pros.",
+            "card_paragraph_text": "<p>You’ve already got the client base. We bring the firepower behind the scenes. From white-label fulfilment and spec-perfect print runs, to quoting tools and priority support, we’re here to help you scale without chaos. It’s like having a full production team in your back pocket – minus the overhead.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-tertiary",
+            "hide_link": false,
+            "card_link": "shopify://pages/distributors-solutions",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_niwN9W": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Brands, Businesses & Events Teams.",
+            "card_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes merch partner for custom apparel that makes your brand tangible. Whether it’s for a team uniform, client gift, retail collab or pop-up event, let's make gear you’ll be proud to put your name on.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-large",
+            "card_bg": "background-color-quaternary",
+            "hide_link": false,
+            "card_link": "shopify://pages/corporate-solutions",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
           }
         }
       },
       "block_order": [
-        "button_hhKxf3"
+        "bento_card_BATAT4",
+        "bento_card_74pf7L",
+        "bento_card_niwN9W"
       ],
-      "name": "CallToActionBanner",
+      "name": "BentoBox",
       "settings": {
-        "cta_heading_text": "But don't let the vintage vibe fool you...",
-        "cta_paragraph_text": "",
-        "banner_bg": "background-color-quaternary"
-      }
-    },
-    "featurecards_i8UCyL": {
-      "type": "featurecards",
-      "blocks": {
-        "feature_card_3btbCJ": {
-          "type": "feature-card",
-          "settings": {
-            "featurecard_heading_text": "Creators, Influencers & Trend-Setters.",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_card_3btbCJ"
-      ],
-      "name": "FeatureCards",
-      "settings": {
-        "featurecards_heading_text": "Let's Make some cool Sh*T together."
+        "bento_heading_text": "We work with...",
+        "bento_paragraph_text": "<p>…the creators with big ideas, the brands looking for a crew that feel like an extension of their team, and the trade pros who need serious production power. If that’s you? You’re in the right garage.</p>"
       }
     },
     "bentobox_3LxRdk": {
@@ -326,8 +340,7 @@
   "order": [
     "abouthero_dKdnbM",
     "pageheadersplit_zGNq7a",
-    "calltoactionbanner_QqFEYP",
-    "featurecards_i8UCyL",
+    "bentobox_AxCY8q",
     "bentobox_3LxRdk",
     "timeline_LhGc4f",
     "testimonialslider_7Pmdry",
