@@ -30,11 +30,161 @@
         "button_wQHhmk"
       ],
       "settings": {
-        "hero_heading_text": "Driven by Creativity. \nFueled by Retro Vibes.",
-        "hero_paragraph_text": "<p>Welcome to <strong>The Print Garage</strong> – your go-to destination for <strong>Branded Merch & Apparel</strong> that stands out. <br/><br/>We’re not just another print-on-demand service; we’re where bold ideas, quality cratsmanship, and a passion for everything retro come together.</p>",
+        "hero_heading_text": "This ain’t your average print-on-demand story.",
+        "hero_paragraph_text": "<p>The Print Garage is where streetwear energy meets studio-grade finesse. A creative merch house made for cool brands, ambitious creators, and trade legends who give a damn about quality and want a true partner in production. We’re not a tech startup dabbling in tees. Our crew are print people, through and through. With our own facility, our own machines, and our own crew, we don’t just manage production. <em>We own it.</em></p>",
         "hero_image_1": "shopify://shop_images/PG_Home_Static_Image_2.jpg",
         "hero_image_2": "shopify://shop_images/BlackHoodie.jpg",
         "hero_image_3": "shopify://shop_images/mockup-t-shirt-of-a-flat-laid-t-shirt-on-a-rugged-surface-m1252.png"
+      }
+    },
+    "bentobox_3LxRdk": {
+      "type": "bentobox",
+      "blocks": {
+        "bento_card_UfrBPX": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Built to back you.",
+            "card_paragraph_text": "<p>We didn’t start in a garage – <strong>we built one. </strong>With 30+ years in high-volume production, we’ve fine-tuned every process, every press, every packaging run. <br/><br/>We’ve tested our workflows across thousands of jobs – our own and our clients’ – so you get speed, consistency, and merch that’s been battle-proven at scale.</p><p></p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_xatD99": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Designed for shelves, not showbags.",
+            "card_paragraph_text": "<p>We don’t do throwaway. Every piece is made to retail-grade standards: quality blanks, sharp prints, and pro-level finishing that holds up in-store and in the wild. This is merch your team, community and customers will wear again, and again, and again.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-medium",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_ERiVam": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Creative-first crew.",
+            "card_paragraph_text": "<p>You won’t find any cookie-cutters here. Our team is stacked with designers, strategists, and production pros who obsess over detail. We treat your merch like a brand asset, not an afterthought – bringing your creative to life with intention, alignment, and polish.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_EkrLhh": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Innovation that stands out.",
+            "card_paragraph_text": "<p>We’re not just keeping up – we’re leading. Think edge-to-edge drinkware, personalised drops at scale, hybrid finishes, and print applications others won’t even attempt. If you’ve got a bold idea, we’ll help make it real.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-medium",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513_0dfac2e9-cf02-4a6d-84aa-c5dc4716258d.jpg",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_DzFdtY": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "All-in-one, in-house.",
+            "card_paragraph_text": "<p>Every major print method – DTG, DTF, screen, UV, sublimation – lives inside our four walls. That means no third-party delays, no communication black holes, and no surprise markups. Just a streamlined process with full control and full visibility.</p>",
+            "card_type": "card_type_image",
+            "card_size": "is-medium",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "card_background_image": "shopify://shop_images/4525_WOS_QUILTED_JACKET_DETAIL__57227.1730172468.386.513.jpg",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_9gXDpA": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "Fulfilment that grows with you.",
+            "card_paragraph_text": "<p>Our operation is built for scale. Whether you’re testing a new drop, running a creator store, or launching a national campaign, we’ve got the tech and logistics to handle it – without breaking a sweat. On-brand, on-time, every time.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-tertiary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_NxyxxP": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "For brands, instead of demands.",
+            "card_paragraph_text": "<p>We’re not a print shop with a checkout button. We’re a long-game partner. That means digging into the detail, learning your brand inside-out, and setting you up with systems and support to help you scale when you're ready. </p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-secondary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        },
+        "bento_card_qfCHK3": {
+          "type": "bento-card",
+          "settings": {
+            "card_heading_text": "No tech-bro energy.",
+            "card_paragraph_text": "<p>Throwing buzzwords around to look cool? Snooze. You want damn good merch. We're here to deliver. With our own machines, in our own facility, powered by real people who know what they’re doing (and bloody love doin' it!). That’s the Print Garage difference.</p>",
+            "card_type": "card_type_color",
+            "card_size": "is-small",
+            "card_bg": "background-color-quaternary",
+            "hide_link": true,
+            "card_link": "",
+            "hide_icon": false,
+            "icon_viewbox": "",
+            "icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "bento_card_UfrBPX",
+        "bento_card_xatD99",
+        "bento_card_ERiVam",
+        "bento_card_EkrLhh",
+        "bento_card_DzFdtY",
+        "bento_card_9gXDpA",
+        "bento_card_NxyxxP",
+        "bento_card_qfCHK3"
+      ],
+      "name": "BentoBox",
+      "settings": {
+        "bento_heading_text": "Under the hood (aka How We’re Built Different).",
+        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      }
+    },
+    "pageheadersplit_zGNq7a": {
+      "type": "pageheadersplit",
+      "name": "PageHeaderSplit",
+      "settings": {
+        "pageheader_heading_text": "A little retro, a little rebellious – and 100% committed to bringing your ideas, dreams, and goals roaring to life.",
+        "pageheader_paragraph_text": "<p>At The Print Garage, we don’t just \"print stuff\". We <em>create things people actually want to wear, keep, and show off.</em> Merch that sparks convo. That turns heads. That really <strong>says</strong> something.<br/><br/>Our roots? They’re gritty and grounded. Vintage signage, tattoo flash, garage nostalgia, surf ‘n skate culture. Our aesthetic is ‘90s band tee meets creative studio: lived-in, punchy, and proudly imperfect.<br/><br/>But don’t let the vintage vibe fool you – we’re on a serious mission to reinvent what merch can truly be. Our team is always experimenting, testing new print tech, and dreaming up ways to turn ideas into wearable magic. <br/><br/>Think edge-to-edge bottle printing (shh, that’s just between us for now 👀). Dynamic design personalisation. Studio-grade fulfilment for creators, brands, and distributors. <strong>All under one roof.</strong></p>"
       }
     },
     "timeline_LhGc4f": {
@@ -94,13 +244,6 @@
         "timeline_paragraph_text": "<p>With over <strong>30 years of experience</strong> in apparel and merchandise, we specialise in delivering custom solutions for <strong>boutique motoring brands, YouTube influencers, corporate partners, resellers, and marketing agencies</strong>. <br/><br/>From <strong>t-shirts and hoodies</strong> to <strong>hats, mugs, and more</strong>, we combine cutting-edge printing techniques with a classic garage aesthetic to bring your vision to life.</p>"
       }
     },
-    "bentobox_4YEGc3": {
-      "type": "bentobox",
-      "settings": {
-        "bento_heading_text": "Our Mission & Vibe",
-        "bento_paragraph_text": "<p>The Print Garage exists to empower brands and individuals with <strong>Branded Merch & Apparel</strong> that leaves a lasting impact. We believe in making custom printing easy, creative, and authentic – without compromising on quality.  <br/>Think of us as the <strong>cool, retro print shop</strong> where ideas are fine-tuned, printed, and delivered with a dose of old-school flair and modern precision.</p>"
-      }
-    },
     "testimonialslider_7Pmdry": {
       "type": "testimonialslider",
       "settings": {
@@ -111,9 +254,9 @@
     "team_dniVtq": {
       "type": "team",
       "settings": {
-        "team_tagline_text": "Short length heading",
-        "team_heading_text": "Medium length heading goes here",
-        "team_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+        "team_tagline_text": "The Team",
+        "team_heading_text": "Meet Our Merch Mechanics.",
+        "team_paragraph_text": "<p>These are the humans turning your ideas into reality – tweaking, testing, and tuning every detail behind the scenes so you don’t have to lift a finger (unless it’s to high-five yourself for choosing us). <br/><br/>From the first mockup to final dispatch, your merch is in the hands of people who actually give a damn. Designers, screen printers, embroidery experts, DTF daredevils (that’s <em>direct-to-film</em>, not the other thing), and logistics legends – all groovin’ under one roof, and movin’ towards one shared goal: make you (and your merch) look good.</p>"
       }
     },
     "faqs_7iEMdP": {
@@ -127,8 +270,8 @@
     "contactcta_zVK3tN": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Need Assistance? Our Team is Here for You!",
-        "contact_paragraph_text": "<p>Send us a message and let one of our decoration experts guide you on your branding needs. </p>"
+        "contact_heading_text": "If you’re ready to roll, we’re ready to ride.",
+        "contact_paragraph_text": "<p>Shoot us your brief and timeline (or any questions you have), and we'll help you kick things into gear.</p>"
       }
     }
   },
@@ -136,8 +279,9 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "abouthero_dKdnbM",
+    "bentobox_3LxRdk",
+    "pageheadersplit_zGNq7a",
     "timeline_LhGc4f",
-    "bentobox_4YEGc3",
     "testimonialslider_7Pmdry",
     "team_dniVtq",
     "faqs_7iEMdP",
