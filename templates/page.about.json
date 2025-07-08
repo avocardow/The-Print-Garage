@@ -37,6 +37,60 @@
         "hero_image_3": "shopify://shop_images/mockup-t-shirt-of-a-flat-laid-t-shirt-on-a-rugged-surface-m1252.png"
       }
     },
+    "pageheadersplit_zGNq7a": {
+      "type": "pageheadersplit",
+      "name": "PageHeaderSplit",
+      "settings": {
+        "pageheader_heading_text": "A little retro, a little rebellious – and 100% committed to making your goals, dreams and ideas roar to life.",
+        "pageheader_paragraph_text": "<p>At The Print Garage, we don’t just \"print stuff\". We <em>create things people actually want to wear, keep, and show off.</em> Merch that sparks convo. That turns heads. That really <strong>says</strong> something.<br/><br/>Our roots? They’re gritty and grounded. Vintage signage, tattoo flash, garage nostalgia, surf ‘n skate culture. Our aesthetic is ‘90s band tee meets creative studio: lived-in, punchy, and proudly imperfect.<br/><br/>And though we love a retro vibe, we're also at the forefront of innovation in the print space. Our team is always experimenting, testing new print tech, and dreaming up new ways to turn your ideas into wearable magic. </p>"
+      }
+    },
+    "calltoactionbanner_QqFEYP": {
+      "type": "calltoactionbanner",
+      "blocks": {
+        "button_hhKxf3": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_hhKxf3"
+      ],
+      "name": "CallToActionBanner",
+      "settings": {
+        "cta_heading_text": "But don't let the vintage vibe fool you...",
+        "cta_paragraph_text": "",
+        "banner_bg": "background-color-quaternary"
+      }
+    },
+    "featurecards_i8UCyL": {
+      "type": "featurecards",
+      "blocks": {
+        "feature_card_3btbCJ": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Creators, Influencers & Trend-Setters.",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_card_3btbCJ"
+      ],
+      "name": "FeatureCards",
+      "settings": {
+        "featurecards_heading_text": "Let's Make some cool Sh*T together."
+      }
+    },
     "bentobox_3LxRdk": {
       "type": "bentobox",
       "blocks": {
@@ -179,14 +233,6 @@
         "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     },
-    "pageheadersplit_zGNq7a": {
-      "type": "pageheadersplit",
-      "name": "PageHeaderSplit",
-      "settings": {
-        "pageheader_heading_text": "A little retro, a little rebellious – and 100% committed to bringing your ideas, dreams, and goals roaring to life.",
-        "pageheader_paragraph_text": "<p>At The Print Garage, we don’t just \"print stuff\". We <em>create things people actually want to wear, keep, and show off.</em> Merch that sparks convo. That turns heads. That really <strong>says</strong> something.<br/><br/>Our roots? They’re gritty and grounded. Vintage signage, tattoo flash, garage nostalgia, surf ‘n skate culture. Our aesthetic is ‘90s band tee meets creative studio: lived-in, punchy, and proudly imperfect.<br/><br/>But don’t let the vintage vibe fool you – we’re on a serious mission to reinvent what merch can truly be. Our team is always experimenting, testing new print tech, and dreaming up ways to turn ideas into wearable magic. <br/><br/>Think edge-to-edge bottle printing (shh, that’s just between us for now 👀). Dynamic design personalisation. Studio-grade fulfilment for creators, brands, and distributors. <strong>All under one roof.</strong></p>"
-      }
-    },
     "timeline_LhGc4f": {
       "type": "timeline",
       "blocks": {
@@ -279,8 +325,10 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "abouthero_dKdnbM",
-    "bentobox_3LxRdk",
     "pageheadersplit_zGNq7a",
+    "calltoactionbanner_QqFEYP",
+    "featurecards_i8UCyL",
+    "bentobox_3LxRdk",
     "timeline_LhGc4f",
     "testimonialslider_7Pmdry",
     "team_dniVtq",
