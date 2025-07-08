@@ -251,8 +251,8 @@
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Ready to Roll? Drop us a message.",
-        "contact_paragraph_text": ""
+        "contact_heading_text": "Big merch dreams? We’re all ears.",
+        "contact_paragraph_text": "<p>Got a vision, a vibe, or a half-baked idea? Drop us a note, shoot through a sketch, or call to say hey – our crew’s in the garage, ready to bring it to life.</p>"
       }
     }
   },
