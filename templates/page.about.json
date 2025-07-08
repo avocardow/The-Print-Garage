@@ -105,39 +105,23 @@
         "bento_paragraph_text": "<p>…the creatives with big ideas, the brands chasing a team that feels like their own, and the trade pros who need serious production power. If that’s you? You’re in the right garage.</p>"
       }
     },
-    "scrollanimatecontent_4hzmmd": {
-      "type": "scrollanimatecontent",
+    "featurecards_iPVhrW": {
+      "type": "featurecards",
       "blocks": {
-        "scroll_animate_image_1_gnmWCh": {
-          "type": "scroll-animate-image-1",
-          "settings": {}
-        },
-        "scroll_animate_image_2_YeUC9L": {
-          "type": "scroll-animate-image-2",
-          "settings": {}
-        },
-        "button_C9ynmw": {
-          "type": "button",
+        "feature_card_d8nUxR": {
+          "type": "feature-card",
           "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
+            "featurecard_heading_text": "Medium length hero heading goes here",
+            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
           }
         }
       },
       "block_order": [
-        "scroll_animate_image_1_gnmWCh",
-        "scroll_animate_image_2_YeUC9L",
-        "button_C9ynmw"
+        "feature_card_d8nUxR"
       ],
-      "name": "ScrollAnimateContent",
+      "name": "FeatureCards",
       "settings": {
-        "scroll_animate_text": "Wanna know what we bring to the (print) table? We’re AUTHENTIC. You’ll never see a slick façade or a fake promise from us. We show the behind-the-scenes, own our wins and our whoops, and treat your brand like it’s our own.\nWe’re CREATIVE to our core. Whether it’s packaging, product lines, or problem-solving – we zig where others zag, and spot opportunities others miss.\nWe’re BOLD. Not loud-for-loud’s-sake, but confident, curious, and unafraid to stand out.\nWe’re APPROACHABLE. You don’t need a design degree or a marketing team to create great merch with us. Just an idea. We’ll help with the rest.\nAnd we’re RELIABLE AF. Because all the creative sauce in the world doesn’t matter if your stuff doesn’t ship on time or show up right. We’re here to bring both style and structure.\nWe’re not just a print supplier. We’re your creative merch partner."
+        "featurecards_heading_text": "Medium length section heading goes here"
       }
     },
     "bentobox_3LxRdk": {
@@ -279,71 +263,7 @@
       "name": "BentoBox",
       "settings": {
         "bento_heading_text": "Under the hood.",
-        "bento_paragraph_text": "<p>(aka how we’re built different and why you'll love partnering with us).<br/></p>"
-      }
-    },
-    "timeline_LhGc4f": {
-      "type": "timeline",
-      "blocks": {
-        "button_WQaQmJ": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-link",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        },
-        "timeline_item_fMgLJC": {
-          "type": "timeline-item",
-          "settings": {
-            "timeline_item_date": "End-to-End Customisation",
-            "timeline_item_heading_text": "",
-            "timeline_item_paragraph_text": "<p>Whether you want<strong> screen printing</strong>, <strong>sublimation</strong>, <strong>direct-to-garment (DTG)</strong>, <strong>UV printing</strong>, or <strong>Digital Transfer Film (DTF)</strong> – we’ve got the tools to make it happen.</p>",
-            "timeline_item_image": "shopify://shop_images/PG_Home_Static_Image_2.jpg"
-          }
-        },
-        "timeline_item_8UfLf9": {
-          "type": "timeline-item",
-          "settings": {
-            "timeline_item_date": "For Creators and Brands",
-            "timeline_item_heading_text": "",
-            "timeline_item_paragraph_text": "<p>We cater to businesses and individuals who value creativity, quality, and a distinctive look.</p>",
-            "timeline_item_image": "shopify://shop_images/HatWhite.jpg"
-          }
-        },
-        "timeline_item_TmAADE": {
-          "type": "timeline-item",
-          "settings": {
-            "timeline_item_date": "Wholesale Solutions",
-            "timeline_item_heading_text": "",
-            "timeline_item_paragraph_text": "<p>Resellers and distributors can rely on us for <strong>bulk orders, quick turnarounds, and top-tier quality</strong> every time.</p>",
-            "timeline_item_image": "shopify://shop_images/mockup-t-shirt-of-a-flat-laid-t-shirt-on-a-rugged-surface-m1252.png"
-          }
-        }
-      },
-      "block_order": [
-        "button_WQaQmJ",
-        "timeline_item_fMgLJC",
-        "timeline_item_8UfLf9",
-        "timeline_item_TmAADE"
-      ],
-      "custom_css": [],
-      "settings": {
-        "timeline_tagline_text": "Specialists In Print",
-        "timeline_heading_text": "Over 30 years of experience in apparel and merchandise",
-        "timeline_paragraph_text": "<p>With over <strong>30 years of experience</strong> in apparel and merchandise, we specialise in delivering custom solutions for <strong>boutique motoring brands, YouTube influencers, corporate partners, resellers, and marketing agencies</strong>. <br/><br/>From <strong>t-shirts and hoodies</strong> to <strong>hats, mugs, and more</strong>, we combine cutting-edge printing techniques with a classic garage aesthetic to bring your vision to life.</p>"
-      }
-    },
-    "testimonialslider_7Pmdry": {
-      "type": "testimonialslider",
-      "settings": {
-        "testimonials_heading_text": "Hear from some of our customers",
-        "testimonials_paragraph_text": "<p>Think of us as the <strong>cool, retro print shop</strong> where ideas are fine-tuned, printed, and delivered with a dose of old-school flair and modern precision.</p>"
+        "bento_paragraph_text": "<p>A crew who know their stuff, systems that actually work, and quality that speaks for itself. Here’s why teaming up with us just makes sense.</p>"
       }
     },
     "team_dniVtq": {
@@ -356,10 +276,28 @@
     },
     "faqs_7iEMdP": {
       "type": "faqs",
+      "blocks": {
+        "button_8fJBia": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/frequently-asked-questions",
+            "btn_text": "Full FAQs",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_8fJBia"
+      ],
       "settings": {
-        "faq_heading_text": "FAQs",
-        "faq_cta_heading_text": "",
-        "faq_cta_paragraph_text": ""
+        "faq_heading_text": "Questions? We’ve already answered them – because we’re psychic like that.",
+        "faq_cta_heading_text": "Still Not Sure?",
+        "faq_cta_paragraph_text": "<p>Check out the full FAQs list here.</p>"
       }
     },
     "contactcta_zVK3tN": {
@@ -376,10 +314,8 @@
     "abouthero_dKdnbM",
     "pageheadersplit_zGNq7a",
     "bentobox_AxCY8q",
-    "scrollanimatecontent_4hzmmd",
+    "featurecards_iPVhrW",
     "bentobox_3LxRdk",
-    "timeline_LhGc4f",
-    "testimonialslider_7Pmdry",
     "team_dniVtq",
     "faqs_7iEMdP",
     "contactcta_zVK3tN"
