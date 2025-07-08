@@ -102,7 +102,42 @@
       "name": "BentoBox",
       "settings": {
         "bento_heading_text": "We work with...",
-        "bento_paragraph_text": "<p>…the creators with big ideas, the brands looking for a crew that feel like an extension of their team, and the trade pros who need serious production power. If that’s you? You’re in the right garage.</p>"
+        "bento_paragraph_text": "<p>…the creatives with big ideas, the brands chasing a team that feels like their own, and the trade pros who need serious production power. If that’s you? You’re in the right garage.</p>"
+      }
+    },
+    "scrollanimatecontent_4hzmmd": {
+      "type": "scrollanimatecontent",
+      "blocks": {
+        "scroll_animate_image_1_gnmWCh": {
+          "type": "scroll-animate-image-1",
+          "settings": {}
+        },
+        "scroll_animate_image_2_YeUC9L": {
+          "type": "scroll-animate-image-2",
+          "settings": {}
+        },
+        "button_C9ynmw": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-primary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "",
+            "btn_text": "Button Text",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "scroll_animate_image_1_gnmWCh",
+        "scroll_animate_image_2_YeUC9L",
+        "button_C9ynmw"
+      ],
+      "name": "ScrollAnimateContent",
+      "settings": {
+        "scroll_animate_text": "Wanna know what we bring to the (print) table? We’re AUTHENTIC. You’ll never see a slick façade or a fake promise from us. We show the behind-the-scenes, own our wins and our whoops, and treat your brand like it’s our own.\nWe’re CREATIVE to our core. Whether it’s packaging, product lines, or problem-solving – we zig where others zag, and spot opportunities others miss.\nWe’re BOLD. Not loud-for-loud’s-sake, but confident, curious, and unafraid to stand out.\nWe’re APPROACHABLE. You don’t need a design degree or a marketing team to create great merch with us. Just an idea. We’ll help with the rest.\nAnd we’re RELIABLE AF. Because all the creative sauce in the world doesn’t matter if your stuff doesn’t ship on time or show up right. We’re here to bring both style and structure.\nWe’re not just a print supplier. We’re your creative merch partner."
       }
     },
     "bentobox_3LxRdk": {
@@ -243,8 +278,8 @@
       ],
       "name": "BentoBox",
       "settings": {
-        "bento_heading_text": "Under the hood (aka How We’re Built Different).",
-        "bento_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "bento_heading_text": "Under the hood.",
+        "bento_paragraph_text": "<p>(aka how we’re built different and why you'll love partnering with us).<br/></p>"
       }
     },
     "timeline_LhGc4f": {
@@ -341,6 +376,7 @@
     "abouthero_dKdnbM",
     "pageheadersplit_zGNq7a",
     "bentobox_AxCY8q",
+    "scrollanimatecontent_4hzmmd",
     "bentobox_3LxRdk",
     "timeline_LhGc4f",
     "testimonialslider_7Pmdry",
