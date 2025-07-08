@@ -161,99 +161,6 @@
         "bento_paragraph_text": "<p>…the creators with big ideas, the brands chasing a team that feels like their own, and the trade pros who need real production power. If that’s you? You’re in the right garage.</p>"
       }
     },
-    "bentobox_JQECti": {
-      "type": "bentobox",
-      "blocks": {
-        "bento_card_LMz49M": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "card_type": "card_type_image",
-            "card_size": "is-large",
-            "card_bg": "background-color-quaternary",
-            "hide_link": false,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Label.jpg",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_mFrkFG": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-tertiary",
-            "hide_link": false,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_DdNhgX": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-small",
-            "card_bg": "background-color-quaternary",
-            "hide_link": false,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_tkPR3y": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "We have a huge range of high quality blanks.",
-            "card_paragraph_text": "<p>We source only the highest quality blanks from trusted brands like AS Colour, known for their durability and premium feel. With a wide range of garment styles and color options, we ensure there’s something to perfectly match your unique look and feel.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-medium",
-            "card_bg": "background-color-secondary",
-            "hide_link": false,
-            "card_link": "",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_BzDcpK": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
-            "card_type": "card_type_image",
-            "card_size": "is-large",
-            "card_bg": "background-color-quaternary",
-            "hide_link": false,
-            "card_link": "",
-            "card_background_image": "shopify://shop_images/AS_Shirts.jpg",
-            "hide_icon": true,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "bento_card_LMz49M",
-        "bento_card_mFrkFG",
-        "bento_card_DdNhgX",
-        "bento_card_tkPR3y",
-        "bento_card_BzDcpK"
-      ],
-      "settings": {
-        "bento_heading_text": "best of the best blanks",
-        "bento_paragraph_text": "<p>We have selected a range of high quality garments from years of testing and experience.</p>"
-      }
-    },
     "productslider_B7FDfb": {
       "type": "productslider",
       "blocks": {
@@ -276,7 +183,7 @@
       ],
       "settings": {
         "products_heading_text": "Start with a Blank. End with a Banger.",
-        "products_paragraph_text": "<p>Our premium blanks are built to wear well, wash strong, and wow on sight. Retail-grade quality with the kind of fit and feel that turns heads (even before they hit the presses).</p>",
+        "products_paragraph_text": "<p>We're proudly printing on premium blanks from top labels like AS Colour, Gildan, JB’s Wear, RAMO, Urban Collab, and CB Clothing. Retail-grade quality with the kind of fit that turns heads? <em>Yeah, that looks good on you. </em></p>",
         "collection_select_a_collection": "show-in-designer",
         "collection_select_a_collection_limit": 6
       }
@@ -287,12 +194,12 @@
         "button_CTpzqz": {
           "type": "button",
           "settings": {
-            "btn_layout": "btn_layout_text",
+            "btn_layout": "btn_layout_both",
             "btn_style": "is-secondary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
             "btn_url": "",
-            "btn_text": "Button Text",
+            "btn_text": "Explore Print Methods",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
@@ -302,44 +209,16 @@
         "button_CTpzqz"
       ],
       "settings": {
-        "cta_heading_text": "Boost Your Brand with Custom Products",
-        "cta_paragraph_text": "<p>Stand out and make a lasting impression with branded products tailored to showcase your business. From apparel to promotional items, custom branding turns everyday items into powerful tools for exposure and customer loyalty.</p>",
+        "cta_heading_text": "All the print methods. All under one roof.",
+        "cta_paragraph_text": "<p>From bold-as-hell screen prints and UV technicolour to soft-touch DTG and detailed DTF, we’ve got the full arsenal dialled in and ready to roll. Every method lives under our roof, which means tighter quality control, faster turnarounds, and real-time problem solving from the crew who actually run the machines. No third-party delays. No chasing updates. Just expert production, all in one place, backed by a team who knows how to make merch move.</p>",
         "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png",
-        "banner_bg": "background-color-quaternary"
-      }
-    },
-    "featuredarticles": {
-      "type": "featuredarticles",
-      "blocks": {
-        "button_a9Thxa": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_text",
-            "btn_style": "is-secondary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_a9Thxa"
-      ],
-      "settings": {
-        "blog_heading_text": "From Pixels to Print",
-        "blog_paragraph_text": "<p>Exploring Techniques, Trends, and Tips within the Printing Industry</p>",
-        "article_select_article_1": "printing-methods-explained/is-dtf-printing-taking-over",
-        "article_select_article_2": "printing-methods-explained/example",
-        "article_select_article_3": "design-tips-tricks/tips-tricks"
+        "banner_bg": "background-color-tertiary"
       }
     },
     "testimonialslider": {
       "type": "testimonialslider",
       "settings": {
-        "testimonials_heading_text": "Hear from some of our customers",
+        "testimonials_heading_text": "But hey, don’t just take our word for it. Take theirs.",
         "testimonials_paragraph_text": ""
       }
     },
@@ -366,14 +245,14 @@
       "settings": {
         "faq_heading_text": "FAQs",
         "faq_cta_heading_text": "Still have questions?",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum</p>"
+        "faq_cta_paragraph_text": ""
       }
     },
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Need Assistance? Our Team is Here for You!",
-        "contact_paragraph_text": "<p>Send us a message and let one of our decoration experts guide you on your branding needs. </p>"
+        "contact_heading_text": "Ready to Roll? Drop us a message.",
+        "contact_paragraph_text": ""
       }
     }
   },
@@ -384,10 +263,8 @@
     "scrollanimatecontent",
     "pageheadersplit_9rz4n4",
     "bentobox_8C79mQ",
-    "bentobox_JQECti",
     "productslider_B7FDfb",
     "calltoactionbanner",
-    "featuredarticles",
     "testimonialslider",
     "faqs",
     "contactcta"
