@@ -212,7 +212,7 @@
         "cta_heading_text": "All the print methods. All under one roof.",
         "cta_paragraph_text": "<p>From bold-as-hell screen prints and UV technicolour to soft-touch DTG and detailed DTF, we’ve got the full arsenal dialled in and ready to roll. Every method lives under our roof, which means tighter quality control, faster turnarounds, and real-time problem solving from the crew who actually run the machines. No third-party delays. No chasing updates. Just expert production, all in one place, backed by a team who knows how to make merch move.</p>",
         "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png",
-        "banner_bg": "background-color-tertiary"
+        "banner_bg": "background-color-quaternary"
       }
     },
     "testimonialslider": {
@@ -220,32 +220,6 @@
       "settings": {
         "testimonials_heading_text": "But hey, don’t just take our word for it. Take theirs.",
         "testimonials_paragraph_text": ""
-      }
-    },
-    "faqs": {
-      "type": "faqs",
-      "blocks": {
-        "button_r6dLpL": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_text",
-            "btn_style": "is-secondary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_r6dLpL"
-      ],
-      "settings": {
-        "faq_heading_text": "FAQs",
-        "faq_cta_heading_text": "Still have questions?",
-        "faq_cta_paragraph_text": ""
       }
     },
     "contactcta": {
@@ -266,7 +240,6 @@
     "productslider_B7FDfb",
     "calltoactionbanner",
     "testimonialslider",
-    "faqs",
     "contactcta"
   ]
 }
