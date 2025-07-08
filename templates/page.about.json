@@ -42,67 +42,7 @@
       "name": "PageHeaderSplit",
       "settings": {
         "pageheader_heading_text": "A little retro, a little rebellious – and 100% committed to making your goals, dreams and ideas roar to life.",
-        "pageheader_paragraph_text": "<p>At The Print Garage, we don’t just \"print stuff\". We <em>create things people actually want to wear, keep, and show off.</em> Merch that sparks convo. That turns heads. That really <strong>says</strong> something.<br/><br/>Our roots? They’re gritty and grounded. Vintage signage, tattoo flash, garage nostalgia, surf ‘n skate culture. Our aesthetic is ‘90s band tee meets creative studio: lived-in, punchy, and proudly imperfect.<br/><br/>And though we love a retro vibe, we're also at the forefront of innovation in the print space. Our team is always experimenting, testing new print tech, and dreaming up new ways to turn your ideas into wearable magic. </p>"
-      }
-    },
-    "bentobox_AxCY8q": {
-      "type": "bentobox",
-      "blocks": {
-        "bento_card_BATAT4": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Creators, Influencers & Trend-Setters.",
-            "card_paragraph_text": "<p>Got ideas in your notes app and followers asking, “when’s the drop?” We help you turn your vibe into wearable merch (without the upfront costs, bulk stock, or shipping drama). Launch your own line, create on your terms, and flex your personal brand with pieces that make people stop you on the street.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-medium",
-            "card_bg": "background-color-secondary",
-            "hide_link": false,
-            "card_link": "shopify://pages/retail-solutions",
-            "hide_icon": false,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_74pf7L": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Distributors, Agencies & Trade Pros.",
-            "card_paragraph_text": "<p>You’ve already got the client base. We bring the firepower behind the scenes. From white-label fulfilment and spec-perfect print runs, to quoting tools and priority support, we’re here to help you scale without chaos. It’s like having a full production team in your back pocket – minus the overhead.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-medium",
-            "card_bg": "background-color-tertiary",
-            "hide_link": false,
-            "card_link": "shopify://pages/distributors-solutions",
-            "hide_icon": false,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        },
-        "bento_card_niwN9W": {
-          "type": "bento-card",
-          "settings": {
-            "card_heading_text": "Brands, Businesses & Events Teams.",
-            "card_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes merch partner for custom apparel that makes your brand tangible. Whether it’s for a team uniform, client gift, retail collab or pop-up event, let's make gear you’ll be proud to put your name on.</p>",
-            "card_type": "card_type_color",
-            "card_size": "is-large",
-            "card_bg": "background-color-quaternary",
-            "hide_link": false,
-            "card_link": "shopify://pages/corporate-solutions",
-            "hide_icon": false,
-            "icon_viewbox": "",
-            "icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "bento_card_BATAT4",
-        "bento_card_74pf7L",
-        "bento_card_niwN9W"
-      ],
-      "name": "BentoBox",
-      "settings": {
-        "bento_heading_text": "We work with...",
-        "bento_paragraph_text": "<p>…the creatives with big ideas, the brands chasing a team that feels like their own, and the trade pros who need serious production power. If that’s you? You’re in the right garage.</p>"
+        "pageheader_paragraph_text": "<p>At The Print Garage, we don’t just \"print stuff\". We <em>create things people actually want to wear, keep, and show off.</em> Merch that sparks convo. That turns heads. That really <strong>says</strong> something.<br/><br/>Our roots? They’re gritty and grounded. Vintage signage, tattoo flash, garage nostalgia, surf ‘n skate culture. Our aesthetic is ‘90s band tee meets creative studio: lived-in, punchy, and proudly imperfect.<br/><br/>We work with creatives with big ideas, brands chasing a team that feels like their own, and the trade pros who need serious production power.</p><p><br/>And though we love a retro vibe, we're also at the forefront of innovation in the print space. Our team is always experimenting, testing new print tech, and dreaming up new ways to turn your ideas into wearable magic. </p>"
       }
     },
     "featurecards_iPVhrW": {
@@ -111,17 +51,33 @@
         "feature_card_d8nUxR": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Medium length hero heading goes here",
-            "featurecard_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>"
+            "featurecard_heading_text": "Creators, influencers & Trend-Setters.",
+            "featurecard_paragraph_text": "<p>Got ideas in your notes app and followers asking, “when’s the drop?” We help you turn your vibe into wearable merch (without the upfront costs, bulk stock, or shipping drama). Launch your own line, create on your terms, and flex your personal brand with pieces that make people stop you on the street.</p>"
+          }
+        },
+        "feature_card_ET7xbg": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Brands, Businesses & Events Teams.",
+            "featurecard_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes merch partner for custom apparel that makes your brand tangible. Whether it’s for a team uniform, client gift, retail collab or pop-up event, let's make gear you’ll be proud to put your name on.</p>"
+          }
+        },
+        "feature_card_GHLkhK": {
+          "type": "feature-card",
+          "settings": {
+            "featurecard_heading_text": "Distributors, Agencies & Trade Pros.",
+            "featurecard_paragraph_text": "<p>You’ve already got the client base. We bring the firepower behind the scenes. From white-label fulfilment and spec-perfect print runs, to quoting tools and priority support, we’re here to help you scale without chaos. It’s like having a full production team in your back pocket – minus the overhead.</p>"
           }
         }
       },
       "block_order": [
-        "feature_card_d8nUxR"
+        "feature_card_d8nUxR",
+        "feature_card_ET7xbg",
+        "feature_card_GHLkhK"
       ],
       "name": "FeatureCards",
       "settings": {
-        "featurecards_heading_text": "Medium length section heading goes here"
+        "featurecards_heading_text": "If this is you, you're in the right garage."
       }
     },
     "bentobox_3LxRdk": {
@@ -262,8 +218,8 @@
       ],
       "name": "BentoBox",
       "settings": {
-        "bento_heading_text": "Under the hood.",
-        "bento_paragraph_text": "<p>A crew who know their stuff, systems that actually work, and quality that speaks for itself. Here’s why teaming up with us just makes sense.</p>"
+        "bento_heading_text": "Under the hood...",
+        "bento_paragraph_text": "<p>...You'll find a crew who know their stuff, systems built for scale, and quality that speaks for itself. Here’s why teaming up with us just makes sense.</p>"
       }
     },
     "team_dniVtq": {
@@ -313,7 +269,6 @@
   "order": [
     "abouthero_dKdnbM",
     "pageheadersplit_zGNq7a",
-    "bentobox_AxCY8q",
     "featurecards_iPVhrW",
     "bentobox_3LxRdk",
     "team_dniVtq",
