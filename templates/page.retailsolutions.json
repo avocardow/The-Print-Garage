@@ -23,21 +23,24 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Milestones + Moments Worth Printing.",
-            "featurecard_paragraph_text": "<p>Custom gear made for celebrating anything from birthdays to bridal parties, farewell gifts to footy club merch. We help you turn everyday wins and big milestones into thoughtful, wearable moments.</p>"
+            "featurecard_paragraph_text": "<p>Custom gear made for celebrating anything from birthdays to bridal parties, farewell gifts to footy club merch. We help you turn everyday wins and big milestones into thoughtful, wearable moments.</p>",
+            "featurecard_image": "shopify://shop_images/DSC08828_copy.jpg"
           }
         },
         "feature_card_tBFzJV": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Style that speaks for you.",
-            "featurecard_paragraph_text": "<p>Your design. Your vibe. Your story. Whether it’s an inside joke on a hoodie or art you’ve had sitting in your camera roll for months, bring your personal style to life with unique, one-off pieces. </p>"
+            "featurecard_paragraph_text": "<p>Your design. Your vibe. Your story. Whether it’s an inside joke on a hoodie or art you’ve had sitting in your camera roll for months, bring your personal style to life with unique, one-off pieces. </p>",
+            "featurecard_image": "shopify://shop_images/DSC00668.jpg"
           }
         },
         "feature_card_Eqcj3D": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Cult Merch, No Minimums.",
-            "featurecard_paragraph_text": "<p>Growing a YouTube channel? Want gear your community actually wants to wear? We make it easy to test, drop and scale merch without going full retail. Limited runs, premium finish, made to move with your brand.</p>"
+            "featurecard_paragraph_text": "<p>Growing a YouTube channel? Want gear your community actually wants to wear? We make it easy to test, drop and scale merch without going full retail. Limited runs, premium finish, made to move with your brand.</p>",
+            "featurecard_image": "shopify://shop_images/cbed3b15-d7a6-4ab4-a526-7b609c0d3744.png"
           }
         }
       },
@@ -75,7 +78,7 @@
         "content_tagline_text": "DIY, but make it pro.",
         "content_heading_text": "Design your own.",
         "content_paragraph_text": "<p>Turn your ideas into wearable magic – no design degree required. Upload your artwork, tweak the fonts, and play with built-in elements using our real-time design tool. Preview it live, print on premium threads, and boom! You’re in the merch game, baby.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+        "content_image": "shopify://shop_images/DSC00586.jpg"
       }
     },
     "contenttextimagespli_WYCcDX": {
@@ -103,7 +106,7 @@
         "content_tagline_text": "Garage-born. Street-smart.",
         "content_heading_text": "Curated Collection.",
         "content_paragraph_text": "<p>A handpicked lineup of originals designed in-house, printed on demand, and made for the makers. Inspired by vintage design, built with streetwear smarts, and finished with our signature garage grit.</p><p>Each piece is crafted to hold meaning, make noise, and earn its spot in your weekly rotation.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+        "content_image": "shopify://shop_images/DSC01094.jpg"
       }
     },
     "bentobox_LwWa88": {
