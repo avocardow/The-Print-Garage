@@ -139,11 +139,12 @@
           "settings": {
             "card_heading_text": "Brands, Businesses & Events Teams.",
             "card_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes print and manufacturing partner for custom apparel that makes your brand <strong>tangible</strong>. Whether it’s for team uniforms, client gifts, retail collabs or pop-up events, let's make gear you’ll be proud to put your name on.</p>",
-            "card_type": "card_type_color",
+            "card_type": "card_type_image",
             "card_size": "is-large",
             "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "shopify://pages/corporate-solutions",
+            "card_background_image": "shopify://shop_images/DSC01044.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
