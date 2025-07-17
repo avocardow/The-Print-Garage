@@ -125,7 +125,7 @@
         "content_tagline_text": "Thoughtful, not token.",
         "content_heading_text": "Client & Partner Gifting.",
         "content_paragraph_text": "<p>From end-of-year thank-yous to welcome packs and campaign collabs, we help you gift gear that feels intentional – not off-the-shelf. Thoughtful, well-made, and designed to leave a lasting impression (with your brand right there in-hand).</p>",
-        "content_image": "shopify://shop_images/DSC00565.jpg"
+        "content_image": "shopify://shop_images/DSC00016.jpg"
       }
     },
     "featurecards": {
@@ -163,7 +163,8 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Consistent Every Time.",
-            "featurecard_paragraph_text": "<p>Your brand deserves wayyy better than “close enough.” We lock in your colours, specs, and finishes from the very first order – then replicate it down to the thread. No weird variations or brand drift here.</p>"
+            "featurecard_paragraph_text": "<p>Your brand deserves wayyy better than “close enough.” We lock in your colours, specs, and finishes from the very first order – then replicate it down to the thread. No weird variations or brand drift here.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00494.jpg"
           }
         },
         "feature_card_CFKNKy": {
