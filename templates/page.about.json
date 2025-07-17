@@ -52,21 +52,24 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Creators, influencers & Trend-Setters.",
-            "featurecard_paragraph_text": "<p>Got ideas in your notes app and followers asking, “when’s the drop?” We help you turn your vibe into wearable merch (without the upfront costs, bulk stock, or shipping drama). Launch your own line, create on your terms, and flex your personal brand with pieces that make people stop you on the street.</p>"
+            "featurecard_paragraph_text": "<p>Got ideas in your notes app and followers asking, “when’s the drop?” We help you turn your vibe into wearable merch (without the upfront costs, bulk stock, or shipping drama). Launch your own line, create on your terms, and flex your personal brand with pieces that make people stop you on the street.</p>",
+            "featurecard_image": "shopify://shop_images/cbed3b15-d7a6-4ab4-a526-7b609c0d3744.png"
           }
         },
         "feature_card_ET7xbg": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Brands, Businesses & Events Teams.",
-            "featurecard_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes merch partner for custom apparel that makes your brand tangible. Whether it’s for a team uniform, client gift, retail collab or pop-up event, let's make gear you’ll be proud to put your name on.</p>"
+            "featurecard_paragraph_text": "<p>Need branded merch that doesn’t look like a giveaway tee? We’re your behind-the-scenes merch partner for custom apparel that makes your brand tangible. Whether it’s for a team uniform, client gift, retail collab or pop-up event, let's make gear you’ll be proud to put your name on.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00192.jpg"
           }
         },
         "feature_card_GHLkhK": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Distributors, Agencies & Trade Pros.",
-            "featurecard_paragraph_text": "<p>You’ve already got the client base. We bring the firepower behind the scenes. From white-label fulfilment and spec-perfect print runs, to quoting tools and priority support, we’re here to help you scale without chaos. It’s like having a full production team in your back pocket – minus the overhead.</p>"
+            "featurecard_paragraph_text": "<p>You’ve already got the client base. We bring the firepower behind the scenes. From white-label fulfilment and spec-perfect print runs, to quoting tools and priority support, we’re here to help you scale without chaos. It’s like having a full production team in your back pocket – minus the overhead.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00677.jpg"
           }
         }
       },
@@ -93,6 +96,7 @@
             "card_bg": "background-color-secondary",
             "hide_link": true,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/DSC01094.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -103,11 +107,12 @@
           "settings": {
             "card_heading_text": "Designed for shelves, not showbags.",
             "card_paragraph_text": "<p>We don’t do throwaway. Every piece is made to retail-grade standards: quality blanks, sharp prints, and pro-level finishing that holds up in-store and in the wild. This is merch your team, community and customers will wear again, and again, and again.</p>",
-            "card_type": "card_type_color",
+            "card_type": "card_type_image",
             "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
             "hide_link": true,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/DSC01094.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -123,6 +128,7 @@
             "card_bg": "background-color-tertiary",
             "hide_link": true,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/DSC01094.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
