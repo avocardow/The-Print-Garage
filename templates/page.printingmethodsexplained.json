@@ -13,7 +13,7 @@
       "type": "herotextimagebg",
       "settings": {
         "hero_heading_text": "Printing Methods Explained",
-        "hero_bgimage": "shopify://shop_images/5166.jpg"
+        "hero_bgimage": "shopify://shop_images/DSC01037.jpg"
       }
     },
     "contenttextimagespli_TqEdNP": {
@@ -42,7 +42,7 @@
         "content_tagline_text": "Most print-on-demand shops? Middlemen.",
         "content_heading_text": "Us? We're the whole damn production floor.",
         "content_paragraph_text": "<p>With 30+ years under the hood, we’ve built a high-powered setup that handles screen, DTG, DTF, sublimation, UV, embroidery – every method, in-house, quality controlled, and battle-tested at scale.</p><p><br/>You get fewer delays, sharper output, and real support from people who know their press from their presets. It's not just merch. It's merch that <em>moves.</em></p>",
-        "content_image": "shopify://shop_images/4525_WOS_QUILTED_JACKET_DETAIL__57227.1730172468.386.513.jpg"
+        "content_image": "shopify://shop_images/DSC00419.jpg"
       }
     },
     "bentobox": {
@@ -53,11 +53,12 @@
           "settings": {
             "card_heading_text": "Screen Printing.",
             "card_paragraph_text": "<p>The original merch-making workhorse that still runs the game. When you want bold graphics, high colour contrast, and a finish with unbeatable mileage, screen printing’s your go-to. It uses mesh screens and thick, plastisol inks to layer your design onto fabric with precision – and once those screens are set, you can run off hundreds (or thousands) of pieces with consistent, repeatable quality.</p><p><br/>Ideal for bold logos and simple designs with limited colours. Perfect on bulk runs of tees and brand staples. Durable, high-impact, and made to last through festivals, spin cycles, and everything in between.</p>",
-            "card_type": "card_type_color",
+            "card_type": "card_type_image",
             "card_size": "is-medium",
             "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "shopify://pages/screen-printing",
+            "card_background_image": "shopify://shop_images/DSC00487.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
