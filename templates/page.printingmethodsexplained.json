@@ -114,11 +114,12 @@
           "settings": {
             "card_heading_text": "Sublimation.",
             "card_paragraph_text": "<p>Ever seen a print so smooth it looks built in, not stuck on? That’s sublimation. It uses heat and pressure to turn ink into gas that bonds into the very fibres of your material. Your design doesn’t just sit on top, it <em>becomes part of the product</em>. We’re talking edge-to-edge colour, zero fade, and a buttery-soft feel that looks premium and wears even better. It’s the go-to for all-over tees, showpiece drinkware, and merch that’s made to stand out (and stay that way).</p>",
-            "card_type": "card_type_color",
+            "card_type": "card_type_image",
             "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
             "hide_link": false,
             "card_link": "shopify://pages/sublimation",
+            "card_background_image": "shopify://shop_images/DSC09864.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
