@@ -32,9 +32,9 @@
       "settings": {
         "hero_heading_text": "This ain’t your average print-on-demand story.",
         "hero_paragraph_text": "<p>The Print Garage is where streetwear energy meets studio-grade finesse. A creative merch house made for cool brands, ambitious creators, and trade legends who give a damn about quality and want a true partner in production. We’re not a tech startup dabbling in tees. Our crew are print people, through and through. With our own facility, our own machines, and our own crew, we don’t just manage production. <em>We own it.</em></p>",
-        "hero_image_1": "shopify://shop_images/PG_Home_Static_Image_2.jpg",
-        "hero_image_2": "shopify://shop_images/BlackHoodie.jpg",
-        "hero_image_3": "shopify://shop_images/mockup-t-shirt-of-a-flat-laid-t-shirt-on-a-rugged-surface-m1252.png"
+        "hero_image_1": "shopify://shop_images/DSC00898.jpg",
+        "hero_image_2": "shopify://shop_images/DSC00482.jpg",
+        "hero_image_3": "shopify://shop_images/DSC00016.jpg"
       }
     },
     "pageheadersplit_zGNq7a": {
@@ -232,6 +232,7 @@
     },
     "team_dniVtq": {
       "type": "team",
+      "disabled": true,
       "settings": {
         "team_tagline_text": "The Team",
         "team_heading_text": "Meet Our Merch Mechanics.",
