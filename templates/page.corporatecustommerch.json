@@ -135,28 +135,32 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Brand-First Design.",
-            "featurecard_paragraph_text": "<p>Every detail is tailored to your brand’s exact look and feel. That means we <em>really do sweat the small stuff</em>, running a practiced eye over every element to ensure your final product is nothing short of spot-on.</p>"
+            "featurecard_paragraph_text": "<p>Every detail is tailored to your brand’s exact look and feel. That means we <em>really do sweat the small stuff</em>, running a practiced eye over every element to ensure your final product is nothing short of spot-on.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00071.jpg"
           }
         },
         "feature_card_8TaYqy": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Fast, Reliable Turnarounds.",
-            "featurecard_paragraph_text": "<p>Deadlines don’t scare us. We keep your merch movin' and groovin' with a standard 7–10 business day turnaround (and rush options when things get tight). You’ll get real-time updates, clear comms, and delivery that shows up on time, <em>every</em> time.</p>"
+            "featurecard_paragraph_text": "<p>Deadlines don’t scare us. We keep your merch movin' and groovin' with a standard 7–10 business day turnaround (and rush options when things get tight). You’ll get real-time updates, clear comms, and delivery that shows up on time, <em>every</em> time.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00419.jpg"
           }
         },
         "feature_card_CfwUnM": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Support built to scale.",
-            "featurecard_paragraph_text": "<p>Growth without the growing pains? We're all about it. Our systems are built for speed and scalability (think easy reorders and volume pricing that makes your accountant happy) so we can ride with you every step of the way.</p>"
+            "featurecard_paragraph_text": "<p>Growth without the growing pains? We're all about it. Our systems are built for speed and scalability (think easy reorders and volume pricing that makes your accountant happy) so we can ride with you every step of the way.</p>",
+            "featurecard_image": "shopify://shop_images/DSC08721.jpg"
           }
         },
         "feature_card_iqHC9T": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Built for Real-World Wear.",
-            "featurecard_paragraph_text": "<p>Our gear is made to move, last, and look sharp while doing it. From polished polos and branded hoodies to hard-wearing workwear, every piece that leaves our garage is durable enough for the daily grind, good-looking enough for Friday arvo drinks.</p>"
+            "featurecard_paragraph_text": "<p>Our gear is made to move, last, and look sharp while doing it. From polished polos and branded hoodies to hard-wearing workwear, every piece that leaves our garage is durable enough for the daily grind, good-looking enough for Friday arvo drinks.</p>",
+            "featurecard_image": "shopify://shop_images/DSC08700.jpg"
           }
         },
         "feature_card_KtmjCY": {
@@ -171,7 +175,8 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Sizing that makes sense.",
-            "featurecard_paragraph_text": "<p>Fit shouldn’t be a lucky guess. With clear, detailed size guides and optional samples, you get the right fit upfront (and keep it consistent as your team or client list grows). Less confusion, fewer returns, more happy wearers.</p>"
+            "featurecard_paragraph_text": "<p>Fit shouldn’t be a lucky guess. With clear, detailed size guides and optional samples, you get the right fit upfront (and keep it consistent as your team or client list grows). Less confusion, fewer returns, more happy wearers.</p>",
+            "featurecard_image": "shopify://shop_images/DSC08882_copy.jpg"
           }
         }
       },
