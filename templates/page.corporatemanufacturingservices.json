@@ -144,7 +144,8 @@
           "settings": {
             "timeline_item_date": "[ 2 ]",
             "timeline_item_heading_text": "Product Sourcing & Development.",
-            "timeline_item_paragraph_text": "<p>We don’t force-fit your ideas into off-the-shelf options. Instead, we tap into our deep network of vetted suppliers – local and offshore – to find the right product base. And if it doesn’t exist? We’ll help you develop it from scratch. You get real choice, high-quality materials, and complete visibility around lead times, pricing, and options.</p>"
+            "timeline_item_paragraph_text": "<p>We don’t force-fit your ideas into off-the-shelf options. Instead, we tap into our deep network of vetted suppliers – local and offshore – to find the right product base. And if it doesn’t exist? We’ll help you develop it from scratch. You get real choice, high-quality materials, and complete visibility around lead times, pricing, and options.</p>",
+            "timeline_item_image": "shopify://shop_images/DSC00071.jpg"
           }
         },
         "timeline_item_6jz3kd": {
@@ -152,7 +153,8 @@
           "settings": {
             "timeline_item_date": "[ 3 ]",
             "timeline_item_heading_text": "Design & Prototyping.",
-            "timeline_item_paragraph_text": "<p>Our in-house design crew works closely with you to translate your vision into tangible concepts. We create visual mock-ups and then produce real-world samples, so you can feel the fabric, test the fit, and sign off with confidence before we hit the go button. You'll never catch us thinking, “hope this turns out.” We do merch that’s dialled in from the start.</p>"
+            "timeline_item_paragraph_text": "<p>Our in-house design crew works closely with you to translate your vision into tangible concepts. We create visual mock-ups and then produce real-world samples, so you can feel the fabric, test the fit, and sign off with confidence before we hit the go button. You'll never catch us thinking, “hope this turns out.” We do merch that’s dialled in from the start.</p>",
+            "timeline_item_image": "shopify://shop_images/DSC00592_copy_cropped.jpg"
           }
         },
         "timeline_item_xHbEAK": {
@@ -168,7 +170,8 @@
           "settings": {
             "timeline_item_date": "[ 5 ]",
             "timeline_item_heading_text": "Fulfilment & Delivery.",
-            "timeline_item_paragraph_text": "<p>When it’s go-time, we pack and ship with care and precision. Need everything in one place? Easy. Need 300 kits sent to individual addresses across the country? Also easy. Every box is tracked, every detail is handled, and you stay in the loop until it lands.</p>"
+            "timeline_item_paragraph_text": "<p>When it’s go-time, we pack and ship with care and precision. Need everything in one place? Easy. Need 300 kits sent to individual addresses across the country? Also easy. Every box is tracked, every detail is handled, and you stay in the loop until it lands.</p>",
+            "timeline_item_image": "shopify://shop_images/DSC08894_copy.jpg"
           }
         }
       },
