@@ -197,21 +197,24 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "End-to-End Production, In-House.",
-            "featurecard_paragraph_text": "<p>Every step, from sourcing and sampling to QC and delivery, is managed under one roof. You’ll save time, reduce handovers, and avoid costly communication breakdowns with a partner who owns the full process and knows your project inside-out.</p>"
+            "featurecard_paragraph_text": "<p>Every step, from sourcing and sampling to QC and delivery, is managed under one roof. You’ll save time, reduce handovers, and avoid costly communication breakdowns with a partner who owns the full process and knows your project inside-out.</p>",
+            "featurecard_image": "shopify://shop_images/DSC01098.jpg"
           }
         },
         "feature_card_BbryQG": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Retail-grade output at scale.",
-            "featurecard_paragraph_text": "<p>High-volume doesn’t mean low impact. Our production capabilities are built for bulk without compromising quality. You’ll get premium finishes, consistent sizing, and repeatable results that meet the standards of big brands, internal teams, and national campaigns.</p>"
+            "featurecard_paragraph_text": "<p>High-volume doesn’t mean low impact. Our production capabilities are built for bulk without compromising quality. You’ll get premium finishes, consistent sizing, and repeatable results that meet the standards of big brands, internal teams, and national campaigns.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00689.jpg"
           }
         },
         "feature_card_nimRqP": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Clear comms, one point of contact.",
-            "featurecard_paragraph_text": "<p>Manufacturing doesn’t have to be messy. With one dedicated project lead across your rollout, you stay in the loop, cut through internal chaos, and keep things moving – on brief, on budget, and on schedule.</p>"
+            "featurecard_paragraph_text": "<p>Manufacturing doesn’t have to be messy. With one dedicated project lead across your rollout, you stay in the loop, cut through internal chaos, and keep things moving – on brief, on budget, and on schedule.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00328.jpg"
           }
         }
       },
