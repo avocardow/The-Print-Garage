@@ -309,7 +309,7 @@
             "type": "column-2-resource-card",
             "settings": {
               "resourcescard_heading_text": "Design Tips & Tricks",
-              "resourcescard_paragraph_text": "Hot tips for cool prints.",
+              "resourcescard_paragraph_text": "Hot tips for cool prints. So you don’t rage-quit your mockup at 1am.",
               "resourcescard_link": "shopify://pages/design-tips-tricks",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
@@ -318,7 +318,7 @@
             "type": "column-2-resource-card",
             "settings": {
               "resourcescard_heading_text": "Size Guides",
-              "resourcescard_paragraph_text": "\"One-size-fits-all\"? In the bin. Get gear that fits every brief and bod.",
+              "resourcescard_paragraph_text": "\"One-size-fits-all\"? Please. Get gear that fits every brief and bod.",
               "resourcescard_link": "shopify://pages/size-guides",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
