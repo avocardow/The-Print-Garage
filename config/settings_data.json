@@ -309,7 +309,7 @@
             "type": "column-2-resource-card",
             "settings": {
               "resourcescard_heading_text": "Design Tips & Tricks",
-              "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "resourcescard_paragraph_text": "Hot tips for cool prints.",
               "resourcescard_link": "shopify://pages/design-tips-tricks",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
@@ -318,7 +318,7 @@
             "type": "column-2-resource-card",
             "settings": {
               "resourcescard_heading_text": "Size Guides",
-              "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "resourcescard_paragraph_text": "\"One-size-fits-all\"? In the bin. Get gear that fits every brief and bod.",
               "resourcescard_link": "shopify://pages/size-guides",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
@@ -327,7 +327,7 @@
             "type": "column-2-resource-card",
             "settings": {
               "resourcescard_heading_text": "Frequently Asked Questions",
-              "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "resourcescard_paragraph_text": "No BS. Just straight answers to what you wanna know.",
               "resourcescard_link": "shopify://pages/frequently-asked-questions",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
@@ -336,7 +336,7 @@
             "type": "column-2-resource-card",
             "settings": {
               "resourcescard_heading_text": "Testimonials & Case Studies",
-              "resourcescard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "resourcescard_paragraph_text": "Real peeps. Real brands. Real proof we don’t mess around.",
               "resourcescard_link": "shopify://pages/testimonials-case-studies",
               "resourcescard_icon": "shopify://shop_images/becket_tets_2.png"
             }
