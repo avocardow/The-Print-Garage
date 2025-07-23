@@ -104,7 +104,7 @@
             "type": "column-1-service-card",
             "settings": {
               "servicecard_heading_text": "Design Your Own",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_paragraph_text": "Pick your blank. Upload your design. Hit print.",
               "servicecard_link": "shopify://pages/design-your-own",
               "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
@@ -113,7 +113,7 @@
             "type": "column-1-service-card",
             "settings": {
               "servicecard_heading_text": "Decorated Product Range",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_paragraph_text": "Choose from ready-to-print, garage-approved designs from our crew of creatives.",
               "servicecard_link": "shopify://pages/retro-automotive-range",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
@@ -122,7 +122,7 @@
             "type": "column-2-service-card",
             "settings": {
               "servicecard_heading_text": "Customised Apparel & Merchandise",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_paragraph_text": "Wearable brand impact. For teams, events, onboarding kits & more.",
               "servicecard_link": "shopify://pages/custom-apparel-merch",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
@@ -131,7 +131,7 @@
             "type": "column-2-service-card",
             "settings": {
               "servicecard_heading_text": "Manufacturing Services",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_paragraph_text": "Your one-stop-workshop for sourcing, sampling, production and fulfilment.",
               "servicecard_link": "shopify://pages/manufacturing-services",
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
             }
@@ -140,7 +140,7 @@
             "type": "column-3-service-card",
             "settings": {
               "servicecard_heading_text": "Trade Printing",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_paragraph_text": "Reliable, white-label, and built to scale without the stress.",
               "servicecard_link": "shopify://pages/trade-printing",
               "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
@@ -149,7 +149,7 @@
             "type": "column-3-service-card",
             "settings": {
               "servicecard_heading_text": "Trade Manufacturing",
-              "servicecard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "servicecard_paragraph_text": "Your silent sidekick, with serious print and production game.",
               "servicecard_link": "shopify://pages/trade-manufacturing",
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left.png"
             }
