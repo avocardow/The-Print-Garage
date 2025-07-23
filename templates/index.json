@@ -57,18 +57,6 @@
     "scrollanimatecontent": {
       "type": "scrollanimatecontent",
       "blocks": {
-        "scroll_animate_image_1_zgbkq4": {
-          "type": "scroll-animate-image-1",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/Green_TShirt_left_shadow_v2.png"
-          }
-        },
-        "scroll_animate_image_2_YW99rM": {
-          "type": "scroll-animate-image-2",
-          "settings": {
-            "scroll_animate_image": "shopify://shop_images/Pink_Mug_Right.png"
-          }
-        },
         "button_g3YLYV": {
           "type": "button",
           "settings": {
@@ -84,8 +72,6 @@
         }
       },
       "block_order": [
-        "scroll_animate_image_1_zgbkq4",
-        "scroll_animate_image_2_YW99rM",
         "button_g3YLYV"
       ],
       "custom_css": [],
