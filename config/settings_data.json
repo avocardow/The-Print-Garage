@@ -104,7 +104,7 @@
             "type": "column-1-service-card",
             "settings": {
               "servicecard_heading_text": "Design Your Own",
-              "servicecard_paragraph_text": "Pick your blank. Upload your design. Hit print.",
+              "servicecard_paragraph_text": "Your ideas brought to life in a couple of clicks.",
               "servicecard_link": "shopify://pages/design-your-own",
               "servicecard_icon": "shopify://shop_images/becket_tets.png"
             }
@@ -113,7 +113,7 @@
             "type": "column-1-service-card",
             "settings": {
               "servicecard_heading_text": "Decorated Product Range",
-              "servicecard_paragraph_text": "Choose from ready-to-print, garage-approved designs from our crew of creatives.",
+              "servicecard_paragraph_text": "Ready-to-print, garage-approved designs from our crew of creatives.",
               "servicecard_link": "shopify://pages/retro-automotive-range",
               "servicecard_icon": "shopify://shop_images/Pink_Mug_Right.png"
             }
@@ -149,7 +149,7 @@
             "type": "column-3-service-card",
             "settings": {
               "servicecard_heading_text": "Trade Manufacturing",
-              "servicecard_paragraph_text": "Your silent sidekick, with serious print and production game.",
+              "servicecard_paragraph_text": "Behind-the-scenes custom builds trusted for trade, education, and enterprise.",
               "servicecard_link": "shopify://pages/trade-manufacturing",
               "servicecard_icon": "shopify://shop_images/Green_TShirt_left.png"
             }
