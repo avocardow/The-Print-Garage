@@ -245,7 +245,7 @@
             "btn_style": "is-secondary",
             "btn_size": "is-default",
             "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
+            "btn_url": "shopify://pages/printing-methods-explained",
             "btn_text": "More Print Methods",
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
