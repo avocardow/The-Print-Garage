@@ -170,7 +170,7 @@
             "card_size": "is-large",
             "card_bg": "background-color-quaternary",
             "hide_link": false,
-            "card_link": "",
+            "card_link": "shopify://pages/become-a-distributor",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
