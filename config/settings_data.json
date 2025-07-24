@@ -261,7 +261,8 @@
             "type": "column-1-resource-card",
             "settings": {
               "resourcescard_heading_text": "Screen Printing",
-              "resourcescard_link": "shopify://pages/screen-printing"
+              "resourcescard_link": "shopify://pages/screen-printing",
+              "resourcescard_icon": "shopify://shop_images/Green_TShirt.png"
             }
           },
           "column_1_resource_card_TiaQke": {
