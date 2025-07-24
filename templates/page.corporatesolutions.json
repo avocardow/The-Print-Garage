@@ -39,7 +39,8 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Speed, scale + support.",
-            "featurecard_paragraph_text": "<p>Need it yesterday? We’ve got you. Our production crew and systems are built for speed and for scale – perfect for tight turnarounds, last-minute event prep, and campaign drops that can’t afford to miss. Whether you’re launching a new product, gearing up for a trade show, or pulling together a nationwide rollout, we keep things fast, fuss-free, and on-brand.</p>"
+            "featurecard_paragraph_text": "<p>Need it yesterday? We’ve got you. Our production crew and systems are built for speed and for scale – perfect for tight turnarounds, last-minute event prep, and campaign drops that can’t afford to miss. Whether you’re launching a new product, gearing up for a trade show, or pulling together a nationwide rollout, we keep things fast, fuss-free, and on-brand.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00757.jpg"
           }
         }
       },
