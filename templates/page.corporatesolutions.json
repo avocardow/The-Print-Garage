@@ -23,14 +23,16 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Corporate Apparel.",
-            "featurecard_paragraph_text": "<p>Uniforms don’t have to be boring. We help you create branded pieces your team actually <em>wants</em> to wear – sharp enough for Monday meetings, durable enough for warehouse shifts, and relaxed enough for Friday arvo beers. From elevated workwear to easygoing everyday fits, we blend premium blanks with intentional design that reflects your brand and fits how your people actually show up.</p>"
+            "featurecard_paragraph_text": "<p>Uniforms don’t have to be boring. We help you create branded pieces your team actually <em>wants</em> to wear – sharp enough for Monday meetings, durable enough for warehouse shifts, and relaxed enough for Friday arvo beers. From elevated workwear to easygoing everyday fits, we blend premium blanks with intentional design that reflects your brand and fits how your people actually show up.</p>",
+            "featurecard_image": "shopify://shop_images/DSC08681_3d99093f-ceee-4f95-8961-972f1fcbe074.jpg"
           }
         },
         "feature_card_tBFzJV": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Promotional Merchandise.",
-            "featurecard_paragraph_text": "<p>From client gifts to conference giveaways, we make sure your promos pack a punch. Pair our premium, retail-grade blanks and design expertise with your killer campaign creative and – *<em>chef’s kiss*</em> – you’ve got a match made in brand heaven. Think quality drinkware, slick tech accessories, durable totes, and desk-friendly extras that carry your brand well beyond the moment. Made to impress. Built to stick around.</p>"
+            "featurecard_paragraph_text": "<p>From client gifts to conference giveaways, we make sure your promos pack a punch. Pair our premium, retail-grade blanks and design expertise with your killer campaign creative and – *<em>chef’s kiss*</em> – you’ve got a match made in brand heaven. Think quality drinkware, slick tech accessories, durable totes, and desk-friendly extras that carry your brand well beyond the moment. Made to impress. Built to stick around.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00565.jpg"
           }
         },
         "feature_card_Eqcj3D": {
@@ -75,7 +77,7 @@
         "content_tagline_text": "Turn your brand into a wearable experience.",
         "content_heading_text": "Custom Apparel & Merch",
         "content_paragraph_text": "<p>Whether you're building an apparel brand, expanding your creator merch line, or giving your business a new layer of visibility, we bring the print precision and product know-how to match your ambition.<br/><br/>Think streetwear-grade finishes, premium blanks, and a creative crew that treats your ideas like their own. From sample to scale, we’re here to help you launch gear that looks as good in-store as it does online.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+        "content_image": "shopify://shop_images/ratbag.jpg"
       }
     },
     "contenttextimagespli_WYCcDX": {
@@ -103,7 +105,7 @@
         "content_tagline_text": "When off-the-shelf isn’t enough.",
         "content_heading_text": "Manufacturing Services.",
         "content_paragraph_text": "<p>Managing a national promo campaign? Need 10,000 custom garments for an event, rollout or retail program? We partner with agencies and brands to handle the heavy lifting and take care of everything from sourcing and sampling to full-scale fulfilment. <br/><br/>Backed by real infrastructure (local and offshore), our team works behind the scenes to make you look good out front.</p>",
-        "content_image": "shopify://shop_images/WO_HEAVY.jpg"
+        "content_image": "shopify://shop_images/DSC00112.jpg"
       }
     },
     "bentobox_LwWa88": {
