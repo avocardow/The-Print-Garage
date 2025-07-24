@@ -116,7 +116,7 @@
       "settings": {
         "products_heading_text": "Start with a Blank. End with a Banger.",
         "products_paragraph_text": "<p>We're proudly printing on premium blanks from top labels like AS Colour, Gildan, JB’s Wear, RAMO, Urban Collab, and CB Clothing. Retail-grade quality with the kind of fit that turns heads? <em>Yeah, that looks good on you. </em></p>",
-        "collection_select_a_collection": "show-in-designer",
+        "collection_select_a_collection": "all",
         "collection_select_a_collection_limit": 8
       }
     },
