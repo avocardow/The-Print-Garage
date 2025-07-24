@@ -24,11 +24,12 @@
           "settings": {
             "card_heading_text": "Pick the right garment for the job.",
             "card_paragraph_text": "<p>That killer design? It won’t shine if you slap it on the wrong base. Not all fabrics are created equal – and not every print method plays nice with every surface. <br/><br/>The same design can look drastically different on two garments depending on material composition (cotton, polyester, blends), fabric thickness, colour of the garment, and the print method used (DTG, DTF, sublimation, screen printing, etc). <strong><br/><br/>Keep in mind...<br/></strong></p><ul><li>For sharp detail and softness, choose 100% cotton with DTG printing</li><li>For bold colour and flexibility, go with DTF (works on most fabrics)</li><li>For all-over prints or polyester-based products, sublimation is king</li><li>For high-volume orders and vibrant block colours, go with screen printing</li></ul><p><strong><br/>HOT TIP. </strong>Order a sample before launching. Fabric type alone can change how ink looks and feels.</p>",
-            "card_type": "card_type_color",
+            "card_type": "card_type_image",
             "card_size": "is-medium",
             "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "",
+            "card_background_image": "shopify://shop_images/DSC01060.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -89,7 +90,7 @@
             "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "",
-            "card_background_image": "shopify://shop_images/5801_STANDARD_JEAN_DETAIL4__17801.1690763523.386.513_0dfac2e9-cf02-4a6d-84aa-c5dc4716258d.jpg",
+            "card_background_image": "shopify://shop_images/DSC01044.jpg",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
