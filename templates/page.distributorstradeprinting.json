@@ -31,21 +31,24 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Full-suite print power, minus the overhead.",
-            "featurecard_paragraph_text": "<p>Access pro-grade production without investing in more equipment, staff, or space. From bold screen prints to sharp embroidery and everything in between, our all-in-one setup means you get the right print method for every job – without juggling multiple suppliers.</p>"
+            "featurecard_paragraph_text": "<p>Access pro-grade production without investing in more equipment, staff, or space. From bold screen prints to sharp embroidery and everything in between, our all-in-one setup means you get the right print method for every job – without juggling multiple suppliers.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00757.jpg"
           }
         },
         "feature_card_b6akTq": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Fast, distributor-speed turnarounds.",
-            "featurecard_paragraph_text": "<p>We work to your pace, not the other way around. With a standard 5–7 day production window and rush options when things get spicy, you’ll hit deadlines without breaking a sweat. Add in real-time order tracking and proactive comms, giving you full visibility without lifting a finger.</p>"
+            "featurecard_paragraph_text": "<p>We work to your pace, not the other way around. With a standard 5–7 day production window and rush options when things get spicy, you’ll hit deadlines without breaking a sweat. Add in real-time order tracking and proactive comms, giving you full visibility without lifting a finger.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00112.jpg"
           }
         },
         "feature_card_L9amEn": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "White-Label, Start to Finish.",
-            "featurecard_paragraph_text": "<p>Your name stays on the box. Your client sees <em>your</em> brand. We’re the engine behind the scenes, delivering print perfection with zero brand bleed. No awkward questions. Just seamless fulfilment that makes <em>you</em> look like the MVP.</p>"
+            "featurecard_paragraph_text": "<p>Your name stays on the box. Your client sees <em>your</em> brand. We’re the engine behind the scenes, delivering print perfection with zero brand bleed. No awkward questions. Just seamless fulfilment that makes <em>you</em> look like the MVP.</p>",
+            "featurecard_image": "shopify://shop_images/DSC08894_copy.jpg"
           }
         }
       },
