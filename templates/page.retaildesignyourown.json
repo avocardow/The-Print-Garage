@@ -24,21 +24,23 @@
           "settings": {
             "featurecard_heading_text": "Choose your gear.",
             "featurecard_paragraph_text": "<p>Pick your starting point. A tee, hoodie, mug, tote, or whatever suits your vibe. Every product is tried, tested, and print-approved by our crew. You won’t find blanks pulled from the bargain bin, here. No, sir. These are the same quality we use for national retail runs.</p>",
-            "featurecard_image": "shopify://shop_images/WO_HEAVY.jpg"
+            "featurecard_image": "shopify://shop_images/DSC01060.jpg"
           }
         },
         "feature_card_NHHyHB": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Bring the vision.",
-            "featurecard_paragraph_text": "<p>Upload your art. Drop in some text. Browse our graphic bits and design gallery if you need a hand or some extra inspo. Move it, size it, shift the colour. You’ve got full control – and a live preview that shows you exactly how it’ll look in the real world.</p>"
+            "featurecard_paragraph_text": "<p>Upload your art. Drop in some text. Browse our graphic bits and design gallery if you need a hand or some extra inspo. Move it, size it, shift the colour. You’ve got full control – and a live preview that shows you exactly how it’ll look in the real world.</p>",
+            "featurecard_image": "shopify://shop_images/DSC00592_copy_cropped.jpg"
           }
         },
         "feature_card_JYcRjQ": {
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Send it to the presses.",
-            "featurecard_paragraph_text": "<p>Once you’re happy with your design, we’re ready to roll. Your product is printed fresh in our Brisbane HQ, packed with care, and shipped with speed. Every step is managed by humans who know their stuff and caretake your merch like it's their first born. </p>"
+            "featurecard_paragraph_text": "<p>Once you’re happy with your design, we’re ready to roll. Your product is printed fresh in our Brisbane HQ, packed with care, and shipped with speed. Every step is managed by humans who know their stuff and caretake your merch like it's their first born. </p>",
+            "featurecard_image": "shopify://shop_images/DSC00633.jpg"
           }
         }
       },
