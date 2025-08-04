@@ -226,8 +226,8 @@
     "contactcta": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Big merch dreams? We’re all ears.",
-        "contact_paragraph_text": "<p>Got a vision, a vibe, or a half-baked idea? Drop us a note, shoot through a sketch, or call to say hey – our crew’s in the garage, ready to bring it to life.</p>"
+        "contact_heading_text": "Big idea? We’re all ears.",
+        "contact_paragraph_text": "<p>Drop us a note, shoot through a sketch, or call to say hey – our crew’s in the garage, ready to bring it to life.</p>"
       }
     }
   },
