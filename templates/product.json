@@ -12,7 +12,8 @@
     "product_hero_kMCttr": {
       "type": "product_hero",
       "custom_css": [
-        ".product-header_quantity div, .product-header_quantity input {display: none;}"
+        ".swiper-container.is-product-gallery {position: static;}",
+        ".product-header_quantity div,.product-header_quantity input {display: none;}"
       ],
       "settings": {
         "text_delivery_time": "1–3 Days",
