@@ -29,6 +29,7 @@
       "block_order": [
         "button_yRGFHe"
       ],
+      "disabled": true,
       "settings": {
         "collection_heading_text": "Medium length hero heading goes here",
         "collection_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>",
