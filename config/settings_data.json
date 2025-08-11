@@ -299,6 +299,7 @@
           },
           "column_1_resource_card_JyKFxd": {
             "type": "column-1-resource-card",
+            "disabled": true,
             "settings": {
               "resourcescard_heading_text": "Embroidery",
               "resourcescard_link": "shopify://pages/embroidery",
