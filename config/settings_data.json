@@ -184,6 +184,7 @@
           },
           "solution_menu_item_3KF9LJ": {
             "type": "solution-menu-item",
+            "disabled": true,
             "settings": {
               "url_select_a_solution_page": "shopify://pages/retail-solutions",
               "text_solution_label": "Retail (B2C) Solutions"
@@ -191,6 +192,7 @@
           },
           "solution_menu_item_rrEhrf": {
             "type": "solution-menu-item",
+            "disabled": true,
             "settings": {
               "url_select_a_solution_page": "shopify://pages/corporate-solutions",
               "text_solution_label": "Corporate (B2B) Solutions"
@@ -198,6 +200,7 @@
           },
           "solution_menu_item_PTDAdP": {
             "type": "solution-menu-item",
+            "disabled": true,
             "settings": {
               "url_select_a_solution_page": "shopify://pages/distributors-solutions",
               "text_solution_label": "Distributors (B2D) Solutions"
