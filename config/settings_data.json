@@ -58,12 +58,13 @@
           "featured_product_category_hMDdan": {
             "type": "featured-product-category",
             "settings": {
-              "url_select_a_collection": "shopify://collections/hats",
-              "text_collection_label": "Hats"
+              "url_select_a_collection": "shopify://collections/t-shirts",
+              "text_collection_label": "Mens T-Shirts"
             }
           },
           "featured_product_category_6qKjAA": {
             "type": "featured-product-category",
+            "disabled": true,
             "settings": {
               "url_select_a_collection": "shopify://collections/hats",
               "text_collection_label": "Hats"
@@ -71,6 +72,7 @@
           },
           "featured_product_category_Lx3ybH": {
             "type": "featured-product-category",
+            "disabled": true,
             "settings": {
               "url_select_a_collection": "shopify://collections/hats",
               "text_collection_label": "Hats"
