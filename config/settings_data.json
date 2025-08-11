@@ -112,6 +112,7 @@
           },
           "column_1_service_card_Fqy8Je": {
             "type": "column-1-service-card",
+            "disabled": true,
             "settings": {
               "servicecard_heading_text": "Decorated Product Range",
               "servicecard_paragraph_text": "Ready-to-print, garage-approved designs from our crew of creatives.",
