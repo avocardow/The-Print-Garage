@@ -208,6 +208,7 @@
           },
           "solution_card_UU4zYb": {
             "type": "solution-card",
+            "disabled": true,
             "settings": {
               "solutioncard_heading_text": "Short heading goes here",
               "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
@@ -217,6 +218,7 @@
           },
           "solution_card_LeexB7": {
             "type": "solution-card",
+            "disabled": true,
             "settings": {
               "solutioncard_heading_text": "Short heading goes here",
               "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
@@ -226,6 +228,7 @@
           },
           "solution_card_eiPVbF": {
             "type": "solution-card",
+            "disabled": true,
             "settings": {
               "solutioncard_heading_text": "Short heading goes here",
               "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
@@ -235,6 +238,7 @@
           },
           "solution_card_eBXGtz": {
             "type": "solution-card",
+            "disabled": true,
             "settings": {
               "solutioncard_heading_text": "Short heading goes here",
               "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
@@ -244,6 +248,7 @@
           },
           "solution_card_7KzxPe": {
             "type": "solution-card",
+            "disabled": true,
             "settings": {
               "solutioncard_heading_text": "Short heading goes here",
               "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
@@ -253,6 +258,7 @@
           },
           "solution_card_YFGPNp": {
             "type": "solution-card",
+            "disabled": true,
             "settings": {
               "solutioncard_heading_text": "Short heading goes here",
               "solutioncard_paragraph_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
