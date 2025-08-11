@@ -9,20 +9,20 @@
  */
 {
   "sections": {
+    "faqsalternate_aD4d3w": {
+      "type": "faqsalternate",
+      "settings": {
+        "faq_heading_text": "you want to know more?",
+        "faq_paragraph_text": "<p>Below you can find our most frequently asked questions.</p>",
+        "faq_cta_heading_text": "didnt find the answers you were loo king for?",
+        "faq_cta_paragraph_text": "<p>Shoot us an email, we would be more than happy to help out!</p>"
+      }
+    },
     "contactcta_jGLn4M": {
       "type": "contactcta",
       "settings": {
         "contact_heading_text": "Medium length section heading goes here",
         "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
-      }
-    },
-    "faqsalternate_aD4d3w": {
-      "type": "faqsalternate",
-      "settings": {
-        "faq_heading_text": "Short heading here",
-        "faq_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
-        "faq_cta_heading_text": "Short heading goes here",
-        "faq_cta_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       }
     }
   },
