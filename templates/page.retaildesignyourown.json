@@ -12,8 +12,8 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Your moment made real in minutes, with Design Your Own.",
-        "heroheader_paragraph_text": "<p>Big ideas deserve more than a dusty sketchbook or a forgotten draft folder. They deserve to be seen, worn, and shared.</p><p>Enter: The Print Garage Design Your Own studio, an easy-to-use platform built for creators, business owners, and anyone with a bold idea. </p><p>Upload your artwork, fine-tune your layout, add text, and explore design elements that help your vision stand out. You’ll see exactly how your product will look before it hits the press (goodbye, back-and-forth approvals 👋).</p><p>From first idea to final print, every step is simple – and backed by Garage-grade quality on premium stock.</p>"
+        "heroheader_heading_text": "Got a bold idea? Let's make it wearable.",
+        "heroheader_paragraph_text": "<p>In our <em>Design Your Own </em>studio, you’re in the driver’s seat. Upload your artwork, tweak the details, and watch your vision come to life on Garage-grade premium stock that’s built to stand out.</p>"
       }
     },
     "featurecards": {
@@ -22,8 +22,8 @@
         "feature_card_WfVyzT": {
           "type": "feature-card",
           "settings": {
-            "featurecard_heading_text": "Choose your gear.",
-            "featurecard_paragraph_text": "<p>Pick your starting point. A tee, hoodie, mug, tote, or whatever suits your vibe. Every product is tried, tested, and print-approved by our crew. You won’t find blanks pulled from the bargain bin, here. No, sir. These are the same quality we use for national retail runs.</p>",
+            "featurecard_heading_text": "Choose your base.",
+            "featurecard_paragraph_text": "<p>A tee, hoodie, mug, tote, or whatever suits your vibe. Every product is tried, tested, and print-approved by our crew. You won’t find blanks pulled from the bargain bin, here. No, sir. These are the same quality we use for national retail runs.</p>",
             "featurecard_image": "shopify://shop_images/DSC01060.jpg"
           }
         },
@@ -31,7 +31,7 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Bring the vision.",
-            "featurecard_paragraph_text": "<p>Upload your art. Drop in some text. Browse our graphic bits and design gallery if you need a hand or some extra inspo. Move it, size it, shift the colour. You’ve got full control – and a live preview that shows you exactly how it’ll look in the real world.</p>",
+            "featurecard_paragraph_text": "<p>Upload your art. Add some words. Raid our design gallery if you’re feeling spicy. Shift it, stretch it, switch the colours — you call the shots. And with a live preview, you’ll know exactly how your merch will look before it hits the presses.</p>",
             "featurecard_image": "shopify://shop_images/DSC00592_copy_cropped.jpg"
           }
         },
@@ -76,7 +76,7 @@
       "name": "CallToActionBanner",
       "settings": {
         "cta_heading_text": "Trial one.  Wear one.  Gift one. You’re in control.",
-        "cta_paragraph_text": "<p>Select products in our <em>Design Your Own </em>range are available with no minimums, so you can start small without holding back big ideas.</p><p><br/>Test-drive a new concept without the inventory gamble. Create thoughtful, one-off gifts that still feel polished. Launch your first drop with zero pressure to bulk order. Get real feedback, refine, and relaunch like a pro.</p><p><br/>Built for visionary creators, gifts-as-their-love-language-ers, and side-hustlers who want to dream big but start smart.</p>",
+        "cta_paragraph_text": "<p>Select products in our <em>Design Your Own </em>range are available with no minimums, so you can test-drive your design before you go full send. <br/><br/>Create thoughtful, one-off gifts that still feel polished. Launch your first drop with zero pressure to bulk order. Get real feedback, refine, and relaunch like a pro.<br/><br/>Built for visionary creators, gifts-as-their-love-language-ers, and side-hustlers who want to dream big but start smart.</p>",
         "banner_bg": "background-color-quaternary"
       }
     },
@@ -138,14 +138,14 @@
       "settings": {
         "header_tagline_text": "Make it personal. Make it wearable.",
         "header_heading_text": "Make it yours.",
-        "header_paragraph_text": "<p>The Design Your Own studio was made for the dreamers, gifters, side-hustlers and late-night tinkerers. The ones with big ideas, niche obsessions, and bold style that doesn’t come off a shelf. <strong><br/><br/>Design gear that feels like you.</strong></p>"
+        "header_paragraph_text": "<p>The <em>Design Your Own </em>studio was made for the dreamers, gifters, side-hustlers and late-night tinkerers. The ones with big ideas, niche obsessions, and bold style that doesn’t come off a shelf. <strong><br/><br/>Design gear that feels like you.</strong></p>"
       }
     },
     "contactcta": {
       "type": "contactcta",
       "settings": {
         "contact_heading_text": "Got something cookin'?",
-        "contact_paragraph_text": "<p>Need a quote? Not sure what print method to roll with? Want to turn “meh” merch into something people actually <em>want</em> to wear? Whether you’ve got a fully-formed brief or just a sketch on a napkin, we’re here to help.</p>"
+        "contact_paragraph_text": "<p>Need a quote? Not sure what print method to roll with? Want to turn “meh” into magic? Whether you’ve got a fully-formed brief or just a sketch on a napkin, we’re here to help.</p>"
       }
     }
   },
