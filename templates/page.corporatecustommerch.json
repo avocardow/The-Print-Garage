@@ -13,7 +13,7 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "Branded merch that means business.",
-        "heroheader_paragraph_text": "<p>We help businesses create custom apparel and merchandise that does more than tick a marketing box. It makes your brand <em>tangible</em>. From front desk to field staff, from onboarding packs to client gifts, everything is designed to look sharp, feel great, and speak your brand’s language loud and clear.</p>"
+        "heroheader_paragraph_text": "<p>We help businesses create custom apparel and merch that does more than tick a marketing box — it makes your brand tangible. From onboarding packs to client gifts, retail collabs to pop-up experiences, every piece is designed to look sharp, feel great, and tell your brand’s story in a way people remember.</p>"
       }
     },
     "contenttextimagespli_xJtpyW": {
@@ -38,9 +38,9 @@
       ],
       "settings": {
         "content_layout": "is-horizontal",
-        "content_tagline_text": "Look the part. Play the part. Rep it with pride.",
+        "content_tagline_text": "Outfit your crew for whatever the day throws at them.",
         "content_heading_text": "Team Uniforms.",
-        "content_paragraph_text": "<p>From warehouse floors to weekend footy, we outfit teams with gear that turns heads and brings people together. Built for movement, made for visibility – this is branded apparel that shows up strong on game day, team day, or any day in between.</p>",
+        "content_paragraph_text": "<p>Whether it’s warehouse floors or weekend footy, we kit out teams in gear that turns heads and rallies the crew. Built for movement and made for visibility, this is branded apparel that shows up strong — on game day, team day, and every day in between.</p>",
         "content_image": "shopify://shop_images/DSC08681_3d99093f-ceee-4f95-8961-972f1fcbe074.jpg"
       }
     },
@@ -68,7 +68,7 @@
         "content_layout": "is-reversed",
         "content_tagline_text": "Something they can touch, keep, and talk about.",
         "content_heading_text": "Campaigns & Events.",
-        "content_paragraph_text": "<p>Your campaign deserves more than a digital moment. We help you create merch that shows up in real life – on desks, backs, and in content. Made to move fast, spark conversation, and stretch your impact beyond the day-of.</p>",
+        "content_paragraph_text": "<p>Your campaign deserves more than a digital moment. We help you create merch that shows up in real life — on desks, backs, and social feeds. Made to move fast, spark conversation, and stretch your impact beyond the day-of.</p>",
         "content_image": "shopify://shop_images/DSC08828_copy.jpg"
       }
     },
@@ -124,7 +124,7 @@
         "content_layout": "is-reversed",
         "content_tagline_text": "Thoughtful, not token.",
         "content_heading_text": "Client & Partner Gifting.",
-        "content_paragraph_text": "<p>From end-of-year thank-yous to welcome packs and campaign collabs, we help you gift gear that feels intentional – not off-the-shelf. Thoughtful, well-made, and designed to leave a lasting impression (with your brand right there in-hand).</p>",
+        "content_paragraph_text": "<p>From end-of-year thank-yous to new client welcome packs, we help you create brand touchpoints that feel intentional, not off-the-shelf. Thoughtful, well-made, and designed to leave a lasting impression (with your brand right there in-hand).</p>",
         "content_image": "shopify://shop_images/DSC00016.jpg"
       }
     },
@@ -143,7 +143,7 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Fast, Reliable Turnarounds.",
-            "featurecard_paragraph_text": "<p>Deadlines don’t scare us. We keep your merch movin' and groovin' with a standard 7–10 business day turnaround (and rush options when things get tight). You’ll get real-time updates, clear comms, and delivery that shows up on time, <em>every</em> time.</p>",
+            "featurecard_paragraph_text": "<p>Deadlines don’t scare us. We keep your merch movin' and groovin' with a 7–10 business day turnaround (and rush options for when you're in a bind. You get real-time updates, clear comms, and delivery that shows up on time, <em>every</em> time.</p>",
             "featurecard_image": "shopify://shop_images/DSC00419.jpg"
           }
         },
