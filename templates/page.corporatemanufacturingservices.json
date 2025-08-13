@@ -136,7 +136,7 @@
           "settings": {
             "timeline_item_date": "[ 1 ]",
             "timeline_item_heading_text": "Pop the hood.",
-            "timeline_item_paragraph_text": "<p>We start by getting under the hood of your brand. What’s the merch for? Who’s it going to? How does it need to perform? Whether it’s a staff uniform rollout, a nationwide promo drop, or a custom product development we’ll recommend the right product mix, formats, and timelines to meet your goals, without overcomplicating the process.</p>",
+            "timeline_item_paragraph_text": "<p>We start by getting into the nitty gritty of your brand. What’s the merch for? Who’s it going to? How does it need to perform? Whether it’s a staff uniform rollout, a nationwide promo drop, or a custom product development we’ll recommend the right product mix, formats, and timelines to meet your goals, without overcomplicating the process.</p>",
             "timeline_item_image": "shopify://shop_images/DSC01037.jpg"
           }
         },
@@ -172,7 +172,7 @@
           "settings": {
             "timeline_item_date": "[ 5 ]",
             "timeline_item_heading_text": "Fulfilment & Delivery.",
-            "timeline_item_paragraph_text": "<p>When it’s go-time, we pack and ship with care and precision. Need everything in one place? Easy. Need 300 kits sent to individual addresses across the country? Also easy. Every box is tracked, every detail is handled, and you stay in the loop until it lands.</p>",
+            "timeline_item_paragraph_text": "<p>When it’s go-time, we pack and ship with care and precision. Need everything in one place? Easy. Need 300 kits sent to individual addresses across the country? No dramas. Every box is tracked, every detail is handled, and you stay in the loop until it lands.</p>",
             "timeline_item_image": "shopify://shop_images/DSC08894_copy.jpg"
           }
         }
@@ -187,7 +187,7 @@
       "name": "Timeline",
       "settings": {
         "timeline_tagline_text": "How does it work?",
-        "timeline_heading_text": "From idea to outcome, we’ve got the whole thing dialled.",
+        "timeline_heading_text": "Dialled in. Pressed fresh. Ready to rep.",
         "timeline_paragraph_text": "<p>Big projects need more than a printer. They need a production partner who knows the difference between “good enough” and “HECK YES, this is exactly what we pictured.” <strong>That’s us.</strong></p>"
       }
     },
