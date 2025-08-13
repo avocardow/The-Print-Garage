@@ -44,8 +44,8 @@
         "button_GXw7Q8"
       ],
       "settings": {
-        "hero_heading_text": "Merch that moves. Made with the partner who gets creators.",
-        "hero_paragraph_text": "<p>The Print Garage is the creative merch partner for those who <strong>zig</strong> when others <em>zag</em>. We team up with creators, brands, and trade pros to turn wild ideas into merch people actually <strong>want</strong> to wear. This isn’t some template-driven, print-it-and-hope-it-works setup. It’s strategy-meets-style, with a side of “<em>hell yes, that’s even better than we imagined it</em>.” You dream it. We’ll make it look damn good, and get it where it needs to go.</p>",
+        "hero_heading_text": "Bring your brand's identity to life through great quality merch.",
+        "hero_paragraph_text": "<p>We’ve spent 30+ years perfecting the art of merch that doesn’t just rep your brand — it owns the room. Design-led and fuelled by decades of creative firepower, we turn wild concepts into retail-ready merch people actually <em>want</em> to wear. The kind that jumps straight into the wardrobe rotation and makes waves bigger than a social caption ever could. </p>",
         "hero_cta": "hero_btn_cta",
         "newsletter_input_placeholder": "",
         "newsletter_btn_text": "",
@@ -99,7 +99,7 @@
       "name": "PageHeaderSplit",
       "settings": {
         "pageheader_heading_text": "A care for craft that’d earn a *slow nod* from the old-school pros.",
-        "pageheader_paragraph_text": "<p>Every print, every stitch, every ship-out is done in-house – with the kind of precision and craft most shops stopped caring about years ago.<br/><br/>We’re fuelled by a love for creativity and a soft spot for the good ol’ days. Think cutting-edge tech meets vintage grit. A retro-styled print house where your wildest ideas don’t just come to life – they come to life looking <em>damn</em> good.<br/><br/>This isn’t tacky promo wear or soul-less dropshipping. It’s shelf-ready quality, made to rival what you'd find in your favourite boutique. We obsess over clean prints, premium blanks, and finishes that feel <em>like they belong in a brand campaign, </em>not the bottom of a tote bag.</p>"
+        "pageheader_paragraph_text": "<p>Every print, every stitch, every ship-out is done in-house – with the kind of precision and craft most shops stopped caring about years ago.<br/><br/>We’re fuelled by a love for creativity and a soft spot for the good ol’ days. Think cutting-edge tech meets vintage grit. A retro-styled print house where your wildest ideas don’t just come to life – they come to life looking <em>damn</em> good.<br/><br/>This isn’t tacky promo wear or soul-less dropshipping. It’s shelf-ready quality, made to rival what you'd find in your favourite store or boutique. We obsess over clean prints, premium blanks, and finishes that feel <em>like they belong in a brand campaign, </em>not the bottom of a tote bag.</p>"
       }
     },
     "productslider_B7FDfb": {
@@ -169,7 +169,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Brands, Businesses & Events Teams.",
-            "card_paragraph_text": "<p>Need merch that <em>doesn’t</em> scream “freebie tee”? We’re your behind-the-scenes print and production partner — bringing your brand to life through premium custom apparel.<br/><br/>From uniforms and client gifts to retail collabs and pop-up runs, we’ll help you create gear you’re actually proud to put your name on.</p>",
+            "card_paragraph_text": "<p>Need merch that <em>doesn’t</em> scream “freebie tee”? We’re your behind-the-scenes print and production partner — bringing your brand to life through premium custom apparel.<br/><br/>From team uniforms and client gifts, to brand collabs, experiential campaigns and pop-up events, we’ll help you create gear you’re actually proud to put your name on.</p>",
             "card_type": "card_type_image",
             "card_size": "is-large",
             "card_bg": "background-color-secondary",
@@ -215,7 +215,7 @@
       ],
       "settings": {
         "cta_heading_text": "All the print methods. All under one roof.",
-        "cta_paragraph_text": "<p>From bold-as-hell screen prints and UV technicolour to soft-touch DTG and detailed DTF, we’ve got the full arsenal dialled in and ready to roll. Every method lives under our roof, which means tighter quality control, faster turnarounds, and real-time problem solving from the crew who actually run the machines. You can forget about third-party delays and chasing updates. Forget third-party delays or chasing updates. This is expert production — all in one place, delivered by a team who knows how to make merch move.</p>",
+        "cta_paragraph_text": "<p>From bold-as-hell screen prints and UV technicolour to soft-touch DTG and detailed DTF, we’ve got the full arsenal dialled in and ready to roll. Every method lives under our roof, which means tighter quality control, faster turnarounds, and real-time problem solving from the crew who actually run the machines. Forget about third-party delays or chasing fulfillment updates. This is expert production — all in one place, delivered by a team who knows how to make merch move.</p>",
         "cta_banner_image": "shopify://shop_images/CTA_Main_PageFinal.png",
         "banner_bg": "background-color-quaternary"
       }
