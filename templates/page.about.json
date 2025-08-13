@@ -106,7 +106,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Designed for shelves, not showbags.",
-            "card_paragraph_text": "<p>We don’t do throwaway. Every piece is made to retail-grade standards: quality blanks, sharp prints, and pro-level finishing that holds up in-store and in the wild. This is merch your team, community and customers will wear again, and again, and again.</p>",
+            "card_paragraph_text": "<p>We don’t do throwaway. Every piece is made to retail-grade standards: quality blanks, sharp prints, and pro-level finishes that hold up in-store and in the wild. This is merch your team, community and customers will wear again, and again, and again.</p>",
             "card_type": "card_type_image",
             "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
@@ -122,7 +122,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Creative-first crew.",
-            "card_paragraph_text": "<p>You won’t find any cookie-cutters here. Our team is stacked with designers, strategists, and production pros who obsess over detail. We treat your merch like a brand asset, not an afterthought – bringing your creative to life with intention, alignment, and polish.</p>",
+            "card_paragraph_text": "<p>You won’t find any cookie-cutters here. Our team is stacked with designers, strategists, and production pros who obsess over detail. We treat your merch like a brand asset, not an afterthought, bringing your artwork to life with intention, alignment, and polish.</p>",
             "card_type": "card_type_color",
             "card_size": "is-small",
             "card_bg": "background-color-tertiary",
@@ -138,7 +138,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Innovation that stands out.",
-            "card_paragraph_text": "<p>We’re not just keeping up – we’re leading. Think edge-to-edge drinkware, personalised drops at scale, hybrid finishes, and print applications others won’t even attempt. If you’ve got a bold idea, we’ll help make it real.</p>",
+            "card_paragraph_text": "<p>We’re not just keeping up – we’re leading the pack. Think edge-to-edge drinkware, personalised drops at scale, hybrid finishes, and print applications others won’t even attempt. If you’ve got a bold idea, we’ll help make it real.</p>",
             "card_type": "card_type_image",
             "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
@@ -233,7 +233,7 @@
       "name": "PageHeaderSplit",
       "settings": {
         "pageheader_heading_text": "What we bring to the (print) table.",
-        "pageheader_paragraph_text": "<p>We’re <strong>authentic.</strong> You’ll never see a slick façade or a fake promise from us. We show the behind-the-scenes, own our wins <em>and</em> our whoops, and treat your brand like it’s our own.<br/><br/>We’re <strong>creative</strong> to our core. Whether it’s packaging, product lines, or problem-solving – we zig where others zag, and spot opportunities others miss.<br/><br/>We’re <strong>bold</strong>. Not loud-for-loud’s-sake, but confident, curious, and unafraid to stand out.<br/><br/>We’re <strong>approachable</strong>. You don’t need a design degree or a marketing team to create great merch with us. Just an idea. We’ll help with the rest.<br/><br/>And, we’re <strong>reliable AF</strong>. Because all the creative sauce in the world doesn’t matter if your stuff doesn’t ship on time or show up right. We’re here to bring both style <em>and</em> structure.</p><p>We’re not just a print supplier. <strong>We’re your creative merch partner.</strong></p>"
+        "pageheader_paragraph_text": "<p>We’re <strong>authentic.</strong> You’ll never see a slick façade or a fake promise from us. We show the behind-the-scenes, own our wins <em>and</em> our whoops, and treat your brand like it’s our own.<br/><br/>We’re <strong>creative</strong> to our core. Whether it’s packaging, product lines, or problem-solving – we zig where others zag, and spot opportunities others miss.<br/><br/>We’re <strong>bold</strong>. Not loud-for-loud’s-sake, but confident, curious, and unafraid to stand out.<br/><br/>We’re <strong>approachable</strong>. You don’t need a design degree or a marketing team to create great merch with us. Just an idea. We’ll help with the rest.<br/><br/>And, we’re <strong>reliable AF</strong>. Because all the creative sauce in the world doesn’t matter if your stuff doesn’t ship on time or show up right. We’re here to bring both style <em>and</em> structure. <br/><br/>We’re not just a print supplier. <strong>We’re your creative merch partner.</strong></p>"
       }
     },
     "team_dniVtq": {
