@@ -156,18 +156,18 @@
               "servicecard_icon": "shopify://shop_images/Sewing_Machine-19_flipped.png"
             }
           },
-          "recommended_service_6WrWnU": {
-            "type": "recommended-service",
-            "settings": {
-              "url_select_a_service_page": "shopify://pages/corporate-solutions",
-              "text_recommended_service_label": "Corporate Apparel"
-            }
-          },
           "recommended_service_teUwKq": {
             "type": "recommended-service",
             "settings": {
               "url_select_a_service_page": "shopify://pages/retail-solutions",
               "text_recommended_service_label": "Personalised Gifts"
+            }
+          },
+          "recommended_service_6WrWnU": {
+            "type": "recommended-service",
+            "settings": {
+              "url_select_a_service_page": "shopify://pages/corporate-solutions",
+              "text_recommended_service_label": "Corporate Apparel"
             }
           },
           "recommended_service_gTmtyH": {
@@ -400,8 +400,8 @@
           "column_2_service_card_RcCkaz",
           "column_3_service_card_HbUq46",
           "column_3_service_card_tFyzdM",
-          "recommended_service_6WrWnU",
           "recommended_service_teUwKq",
+          "recommended_service_6WrWnU",
           "recommended_service_gTmtyH",
           "recommended_service_CGtgmN",
           "solution_menu_item_3KF9LJ",
