@@ -13,7 +13,7 @@
       "type": "heroheader",
       "settings": {
         "heroheader_heading_text": "Retail-ready gear. Made fresh to order.",
-        "heroheader_paragraph_text": "<p>T-shirts that talk. Hoodies that hit different. Mugs that actually get used. Our made-to-order retail solutions are built for those who want high-quality, stand-out <strong>gear that tells their story. <br/><br/></strong>Every piece is printed fresh when you hit “order,” using stock-backed blanks and studio-grade finishes. It’s merch that’s meant to be worn, not stockpiled.</p>"
+        "heroheader_paragraph_text": "<p>T-shirts that talk. Hoodies that hit different. Mugs that actually get used. Our made-to-order retail solutions are built for those who want high-quality, stand-out <strong>gear that tells their story. </strong>Every piece is printed fresh when you hit “order,” using stock-backed blanks and studio-grade finishes. It’s merch that’s meant to be worn, not stockpiled.</p>"
       }
     },
     "featurecards_8gcrNH": {
@@ -23,7 +23,7 @@
           "type": "feature-card",
           "settings": {
             "featurecard_heading_text": "Milestones + Moments Worth Printing.",
-            "featurecard_paragraph_text": "<p>Custom gear made for celebrating anything from birthdays to bridal parties, farewell gifts to footy club merch. We help you turn everyday wins and big milestones into thoughtful, wearable moments.</p>",
+            "featurecard_paragraph_text": "<p>Custom gear made for celebrating anything from birthdays to baby showers, buck's parties to funny farewells. We help you turn everyday wins and big milestones into thoughtful, wearable moments.</p>",
             "featurecard_image": "shopify://shop_images/DSC08828_copy.jpg"
           }
         },
