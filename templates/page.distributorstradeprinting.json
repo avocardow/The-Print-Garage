@@ -177,6 +177,16 @@
         "contact_heading_text": "Let’s Get The Print Party Started.",
         "contact_paragraph_text": "<p>Got questions, a brief, or a bold idea? Drop it in the message box so we can start making moves.</p>"
       }
+    },
+    "distributorformimage_NCtiTE": {
+      "type": "distributorformimage",
+      "name": "DistributorFormImage",
+      "settings": {
+        "contact_form_tagline_text": "Become A Distributor",
+        "contact_form_heading_text": "Let’s Get The Print Party Started.",
+        "contact_form_paragraph_text": "<p>Got questions, a brief, or a bold idea? Drop it in the message box so we can start making moves.</p>",
+        "contact_form_image": "shopify://shop_images/DSC01092.jpg"
+      }
     }
   },
   "layout": "page.distributorstradeprinting",
@@ -188,6 +198,7 @@
     "bentobox_zUj4cT",
     "productslider_HC6RUV",
     "testimonialslider",
-    "contactcta"
+    "contactcta",
+    "distributorformimage_NCtiTE"
   ]
 }
