@@ -37,11 +37,25 @@
             "btn_icon_viewbox": "",
             "btn_icon_path": ""
           }
+        },
+        "button_mV9Te7": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-tertiary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://pages/retail-services",
+            "btn_text": "For Retail",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
         }
       },
       "block_order": [
         "button_Bmn4Hz",
-        "button_GXw7Q8"
+        "button_GXw7Q8",
+        "button_mV9Te7"
       ],
       "settings": {
         "hero_heading_text": "Bring your brand's identity to life through great quality apparel & merch.",
