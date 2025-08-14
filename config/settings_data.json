@@ -150,7 +150,7 @@
           "column_3_service_card_tFyzdM": {
             "type": "column-3-service-card",
             "settings": {
-              "servicecard_heading_text": "Trade Manufacturing",
+              "servicecard_heading_text": "Built-To-Spec for Trade",
               "servicecard_paragraph_text": "Behind-the-scenes custom builds trusted for trade, education, and enterprise.",
               "servicecard_link": "shopify://pages/trade-manufacturing",
               "servicecard_icon": "shopify://shop_images/Sewing_Machine-19_flipped.png"
