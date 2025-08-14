@@ -110,7 +110,7 @@
             "card_bg": "background-color-tertiary",
             "hide_link": false,
             "card_link": "shopify://pages/become-a-distributor",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -126,7 +126,7 @@
             "hide_link": false,
             "card_link": "shopify://pages/become-a-distributor",
             "card_background_image": "shopify://shop_images/DSC00071.jpg",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -171,7 +171,7 @@
             "card_bg": "background-color-quaternary",
             "hide_link": false,
             "card_link": "shopify://pages/become-a-distributor",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
