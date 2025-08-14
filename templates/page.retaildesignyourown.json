@@ -107,6 +107,9 @@
       "block_order": [
         "button_QVYkwV"
       ],
+      "custom_css": [
+        ".product-item_form-wrapper {display: none;}"
+      ],
       "settings": {
         "products_heading_text": "Start with a blank. End with a banger.",
         "products_paragraph_text": "<p>Soft, sturdy, and seriously wearable. These blanks are the unsung heroes behind your favourite fits.</p>",
