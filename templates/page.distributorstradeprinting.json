@@ -89,7 +89,7 @@
             "card_bg": "background-color-secondary",
             "hide_link": false,
             "card_link": "shopify://pages/become-a-distributor",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
@@ -104,7 +104,7 @@
             "card_bg": "background-color-tertiary",
             "hide_link": false,
             "card_link": "shopify://pages/become-a-distributor",
-            "hide_icon": false,
+            "hide_icon": true,
             "icon_viewbox": "",
             "icon_path": ""
           }
