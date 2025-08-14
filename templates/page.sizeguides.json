@@ -22,13 +22,13 @@
         "bento_card_DbfV4f": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "View AS Colour Size Guides",
+            "card_paragraph_text": "",
             "card_type": "card_type_color",
             "card_size": "is-medium",
             "card_bg": "background-color-secondary",
             "hide_link": false,
-            "card_link": "",
+            "card_link": "https://ascolour.app.box.com/s/iygsjnobz7ptg5h4cl39dtl03tj8ccgp",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -37,13 +37,13 @@
         "bento_card_h8GBy7": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "Medium length hero heading goes here",
-            "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
+            "card_heading_text": "Tee & Hoodie Fit Guide",
+            "card_paragraph_text": "",
             "card_type": "card_type_color",
-            "card_size": "is-small",
+            "card_size": "is-medium",
             "card_bg": "background-color-tertiary",
             "hide_link": false,
-            "card_link": "",
+            "card_link": "https://ascolour.app.box.com/s/8791o3sxbxa6rlo89ngupmraewet3y74",
             "hide_icon": false,
             "icon_viewbox": "",
             "icon_path": ""
@@ -51,6 +51,7 @@
         },
         "bento_card_fMxtNC": {
           "type": "bento-card",
+          "disabled": true,
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
@@ -66,6 +67,7 @@
         },
         "bento_card_Mffyti": {
           "type": "bento-card",
+          "disabled": true,
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
@@ -81,6 +83,7 @@
         },
         "bento_card_7Rytm6": {
           "type": "bento-card",
+          "disabled": true,
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
@@ -96,6 +99,7 @@
         },
         "bento_card_7EhAJK": {
           "type": "bento-card",
+          "disabled": true,
           "settings": {
             "card_heading_text": "Medium length hero heading goes here",
             "card_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>",
