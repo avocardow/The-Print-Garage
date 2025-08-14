@@ -59,7 +59,7 @@
         "content_layout": "is-reversed",
         "content_tagline_text": "[ Step 1 ]",
         "content_heading_text": "Garment Pre-Treatment.",
-        "content_paragraph_text": "<p>We start by applying a pre-treatment solution to the garment (especially important for darker colours). This creates a smooth, ink-friendly surface that helps colours stay vibrant and crisp. It also stops designs from fading or bleeding after the first wash!</p>",
+        "content_paragraph_text": "<p>We start by applying a pre-treatment solution to the garment (super important for darker colours). This creates a smooth, ink-friendly surface that helps colours stay vibrant and crisp. It also stops designs from fading or bleeding after the first wash!</p>",
         "content_image": "shopify://shop_images/pretreat.jpg"
       }
     },
@@ -87,7 +87,7 @@
         "content_layout": "is-horizontal",
         "content_tagline_text": "[ Step 2 ]",
         "content_heading_text": "High-Def Print.",
-        "content_paragraph_text": "<p>Once the pre-treatment is dry, the garment is carefully loaded into our DTG printer. It begins by laying down a white underbase (unless it's a white tee), which gives your design a bold foundation. Then, the CMYK inks are sprayed directly onto the fabric, layer by layer. Yep, just like a giant high-def inkjet printer for apparel.</p>",
+        "content_paragraph_text": "<p>Once the pre-treatment is dry, the garment is carefully loaded into our DTG printer. It begins by laying down a white underbase (unless it's a white tee), which gives your design a bold foundation. Then, the CMYK inks are sprayed directly onto the fabric, layer by layer. Yep, just like a giant high-definition inkjet printer for apparel.</p>",
         "content_image": "shopify://shop_images/DSC00715.jpg"
       }
     },
@@ -232,7 +232,7 @@
       "name": "BentoBox",
       "settings": {
         "bento_heading_text": "Performance Specs",
-        "bento_paragraph_text": "<p>If you’re trialling designs, launching a test collection, building a POD store without the upfront inventory risk, or just need small-batch, high-detail, full-colour prints, DTG is about to become your bestie.</p>"
+        "bento_paragraph_text": "<p>Perfect for small batches, high detail, and full-colour brilliance, DTG delivers print quality that makes your designs pop — without locking you into big commitments.</p>"
       }
     },
     "faqs_x86zJr": {
