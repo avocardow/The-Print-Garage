@@ -116,9 +116,9 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Quality that goes the distance.",
-            "card_paragraph_text": "<p>Every piece is printed on premium blanks that feel as good as they look – no flimsy tees or throwaway threads here.</p>",
+            "card_paragraph_text": "<p>Every piece is printed on premium blanks that feel as good as they look — soft on the skin, sharp in the fit, and tough enough to handle repeat wear. We don’t do flimsy, we don’t do throwaway. We do gear that earns its spot in the wardrobe and keeps your brand looking top-shelf, wash after wash.</p>",
             "card_type": "card_type_image",
-            "card_size": "is-large",
+            "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
             "hide_link": true,
             "card_link": "",
@@ -132,9 +132,9 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Creative control, without the chaos.",
-            "card_paragraph_text": "<p>Our easy design tool puts you in the driver’s seat. Make something meaningful without needing a studio setup or design team.</p>",
+            "card_paragraph_text": "<p>Our easy-to-use design tool puts you in the driver’s seat, giving you full creative control without the need for a studio setup or design team. Upload, tweak, experiment — then see exactly how it’ll look before it hits the press. Making something meaningful has never been this simple.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-small",
+            "card_size": "is-medium",
             "card_bg": "background-color-secondary",
             "hide_link": true,
             "card_link": "",
@@ -147,9 +147,9 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Flexibility to suit your scale.",
-            "card_paragraph_text": "<p>Order one or one hundred. Whether you’re gifting a mate, testing a drop, or repping your personal brand, we meet you where you're at.</p>",
+            "card_paragraph_text": "<p>Order one or one hundred — we don’t flinch. Whether you’re surprising a mate with something custom, testing a drop before going all in, or flying the flag for your personal brand, we’ll meet you where you’re at and crank it up a notch. Every piece gets the same attention to detail, so even the smallest run packs a big punch and earns its place in the spotlight.</p>",
             "card_type": "card_type_color",
-            "card_size": "is-small",
+            "card_size": "is-medium",
             "card_bg": "background-color-tertiary",
             "hide_link": true,
             "card_link": "",
@@ -162,7 +162,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Style with substance.",
-            "card_paragraph_text": "<p>Our custom prints and in-house collections are made to wear and made to last – nostalgic, clever, and curated for people who care about design.</p>",
+            "card_paragraph_text": "<p>Our custom prints and in-house collections are made to wear and made to last — nostalgic nods, clever concepts, and curated pieces for people who care about design as much as we do. Every item is built with quality, comfort, and a little creative mischief, so it feels as good as it looks and stands the test of time.</p>",
             "card_type": "card_type_color",
             "card_size": "is-medium",
             "card_bg": "background-color-quaternary",
@@ -177,7 +177,7 @@
           "type": "bento-card",
           "settings": {
             "card_heading_text": "Fresh prints, zero waste.",
-            "card_paragraph_text": "<p>Caring is cool. So is not overprinting. Everything’s made to order, so you’re not stuck with stock you don’t need (and we’re not churning out pieces that end up in landfill). It’s better for you, and better for the planet.</p>",
+            "card_paragraph_text": "<p>Caring is cool. So is reducing waste. Every piece we produce is made to order, which means you get exactly what you need, when you need it — no dusty boxes of leftovers, no awkward “what now?” moments. <br/><br/>It’s merch with purpose: built to be worn, kept, and loved, not tossed. Smarter for you, sharper for your budget, and better for the planet. </p>",
             "card_type": "card_type_image",
             "card_size": "is-large",
             "card_bg": "background-color-quaternary",
@@ -206,7 +206,7 @@
       "type": "contactcta",
       "settings": {
         "contact_heading_text": "Wanna collab but have zero clue where to start?",
-        "contact_paragraph_text": "<p>If it’s wearable, printable, or just plain weird, we’re your people. Drop us a line and let’s make some merch magic.</p>"
+        "contact_paragraph_text": "<p>If it’s wearable, printable, or just plain weird, we’re your people. Drop us a note and let’s make some merch magic.</p>"
       }
     }
   },
