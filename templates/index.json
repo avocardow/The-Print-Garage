@@ -84,6 +84,19 @@
         "collection_select_a_collection_limit": 6
       }
     },
+    "imagetabs_QBGDUU": {
+      "type": "imagetabs",
+      "name": "ImageTabs",
+      "settings": {
+        "tabs_heading_text": "Apparel & Merch Specialists",
+        "tabs_button1_text": "Tees",
+        "tabs_button2_text": "Hoodies",
+        "tabs_button3_text": "Drinkware",
+        "tabs_image1": "shopify://shop_images/DSC00432.jpg",
+        "tabs_image2": "shopify://shop_images/5166_FLATLAY_GROUP2.jpg",
+        "tabs_image3": "shopify://shop_images/DSC00915.jpg"
+      }
+    },
     "scrollanimatecontent": {
       "type": "scrollanimatecontent",
       "blocks": {
@@ -121,19 +134,6 @@
       "custom_css": [],
       "settings": {
         "scroll_animate_text": "This whole thing started with a crew of print-obsessed humans who knew great merch is more than decoration on a tee — it’s expression, it’s a conversation starter, it’s how creators and brands bring their identity to life. So we built our own garage, stacked it with top-tier tech, and started raising the bar. What we run today is more than a print house. It’s a creative engine. One backed by 30+ years of high-volume, high-impact production power."
-      }
-    },
-    "imagetabs_QBGDUU": {
-      "type": "imagetabs",
-      "name": "ImageTabs",
-      "settings": {
-        "tabs_heading_text": "Apparel & Merch Specialists",
-        "tabs_button1_text": "Tees",
-        "tabs_button2_text": "Hoodies",
-        "tabs_button3_text": "Drinkware",
-        "tabs_image1": "shopify://shop_images/DSC00432.jpg",
-        "tabs_image2": "shopify://shop_images/5166_FLATLAY_GROUP2.jpg",
-        "tabs_image3": "shopify://shop_images/DSC00915.jpg"
       }
     },
     "bentobox_8C79mQ": {
@@ -253,8 +253,8 @@
   "order": [
     "videohero",
     "productslider_B7FDfb",
-    "scrollanimatecontent",
     "imagetabs_QBGDUU",
+    "scrollanimatecontent",
     "bentobox_8C79mQ",
     "pageheadersplit_9rz4n4",
     "calltoactionbanner",
