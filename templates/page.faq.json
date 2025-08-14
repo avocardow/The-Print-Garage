@@ -12,17 +12,17 @@
     "faqsalternate_aD4d3w": {
       "type": "faqsalternate",
       "settings": {
-        "faq_heading_text": "you want to know more?",
-        "faq_paragraph_text": "<p>Below you can find our most frequently asked questions.</p>",
-        "faq_cta_heading_text": "didnt find the answers you were loo king for?",
-        "faq_cta_paragraph_text": "<p>Shoot us an email, we would be more than happy to help out!</p>"
+        "faq_heading_text": "Got Questions? We’ve Got the Goods.",
+        "faq_paragraph_text": "<p>The insider info, pro tips, and straight-up answers to keep your merch plans moving full throttle.</p>",
+        "faq_cta_heading_text": "",
+        "faq_cta_paragraph_text": ""
       }
     },
     "contactcta_jGLn4M": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "More Questions? Bring ’Em.",
+        "contact_paragraph_text": "<p>Send your curveballs, your what-ifs, and your “this might be a dumb question” questions. We’ll sort you out.</p>"
       }
     }
   },
