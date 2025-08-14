@@ -9,36 +9,12 @@
  */
 {
   "sections": {
-    "blogs_GeNi8U": {
-      "type": "blogs",
-      "settings": {
-        "article_select_featured_article": "design-tips-tricks/tips-tricks"
-      }
-    },
     "featuredarticles_9Lcyih": {
       "type": "featuredarticles",
-      "blocks": {
-        "button_DL964B": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-primary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "",
-            "btn_text": "Button Text",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_DL964B"
-      ],
       "name": "FeaturedArticles",
       "settings": {
-        "blog_heading_text": "Short heading goes here",
-        "blog_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "blog_heading_text": "Garage intel.",
+        "blog_paragraph_text": "<p>The ideas, insights, and insider tricks to make your merch impossible to ignore — and unforgettable once it’s out in the world.</p>",
         "article_select_article_1": "printing-methods-explained/is-dtf-printing-taking-over",
         "article_select_article_2": "printing-methods-explained/example",
         "article_select_article_3": "design-tips-tricks/tips-tricks"
@@ -47,15 +23,14 @@
     "contactcta_Aizq7D": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Medium length section heading goes here",
-        "contact_paragraph_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+        "contact_heading_text": "Got Ideas to Fuel? Let’s Talk.",
+        "contact_paragraph_text": "<p>Tell us what you’re working on and we’ll map the fastest, smartest route to make it happen.</p>"
       }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "blogs_GeNi8U",
     "featuredarticles_9Lcyih",
     "contactcta_Aizq7D"
   ]
