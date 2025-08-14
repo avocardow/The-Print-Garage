@@ -286,14 +286,14 @@
       "settings": {
         "faq_heading_text": "Faqs",
         "faq_cta_heading_text": "Wanna check out the full print line up?",
-        "faq_cta_paragraph_text": "<p>Head this way to explore more print methods and find the right fit for your next project.</p>"
+        "faq_cta_paragraph_text": "<p>Explore more print methods and find the right fit for your next project.</p>"
       }
     },
     "contactcta_bT9HAW": {
       "type": "contactcta",
       "settings": {
-        "contact_heading_text": "Want Your Merch to Make a Mark?",
-        "contact_paragraph_text": "<p>Screen printing is all about bold colour and staying power. Reach out and let’s bring your designs to life.</p>"
+        "contact_heading_text": "Make Merch They Can’t Ignore.",
+        "contact_paragraph_text": "<p>Ready to turn your idea into something they’ll wear on repeat? Let’s make it happen.</p>"
       }
     }
   },
