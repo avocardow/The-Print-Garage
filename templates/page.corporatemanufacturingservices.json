@@ -12,8 +12,8 @@
     "heroheader": {
       "type": "heroheader",
       "settings": {
-        "heroheader_heading_text": "Level up with our built-to-spec range",
-        "heroheader_paragraph_text": "<p>Outgrown off-the-shelf? Our Built-To-Spec range is made for brands, agencies, and operators with big merch ambitions. We handle the whole process – from product dev and sampling to local/offshore production, quality control, and logistics – so you get retail-grade results without the runaround. </p>"
+        "heroheader_heading_text": "Level up with our built-to-spec range.",
+        "heroheader_paragraph_text": "<p>Outgrown off-the-shelf? Our Built-To-Spec range is built for brands, agencies, and operators who need end-to-end corporate apparel solutions with zero compromise. From product development and sampling to local or offshore production, quality control, and logistics — we handle it all, delivering retail-grade results without the runaround.</p>"
       }
     },
     "calltoactionbanner_kH8dR9": {
@@ -38,8 +38,8 @@
       ],
       "name": "CallToActionBanner",
       "settings": {
-        "cta_heading_text": "Your BTS Print Partner",
-        "cta_paragraph_text": "<p>When your merch vision goes beyond quick prints and casual drops, you need more than a t-shirt printer – you need a powerful production partner. From sourcing and sampling to full-scale fulfilment, we bring the grunt, gear, and grit to help you launch heavyweight campaigns with confidence.</p>",
+        "cta_heading_text": "Your BTS Manufacturing Muscle",
+        "cta_paragraph_text": "<p>When your merch vision goes beyond quick prints and casual drops, you need more than a t-shirt printer — you need a powerful production partner. We handle everything from concept to creation for full-scale corporate merch and apparel programs, bringing the grunt, gear, and grit to help you kit out your people and launch heavyweight campaigns with confidence.</p>",
         "cta_banner_image": "shopify://shop_images/Laptop_to_garment.png",
         "banner_bg": "background-color-quaternary"
       }
