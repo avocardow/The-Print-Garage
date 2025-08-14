@@ -54,6 +54,36 @@
         "hero_video": "shopify://files/videos/Print Garage Video.mp4"
       }
     },
+    "productslider_B7FDfb": {
+      "type": "productslider",
+      "blocks": {
+        "button_8XVhKE": {
+          "type": "button",
+          "settings": {
+            "btn_layout": "btn_layout_both",
+            "btn_style": "is-secondary",
+            "btn_size": "is-default",
+            "btn_icon_size": "icon-1x1-small",
+            "btn_url": "shopify://collections/all",
+            "btn_text": "All Products",
+            "btn_icon_viewbox": "",
+            "btn_icon_path": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_8XVhKE"
+      ],
+      "custom_css": [
+        ".product-item_form-wrapper {display: none;}"
+      ],
+      "settings": {
+        "products_heading_text": "Start with a Blank. End with a Banger.",
+        "products_paragraph_text": "<p>We're proudly printing on premium blanks from top labels like AS Colour, Gildan, JB’s Wear, RAMO, Urban Collab, and CB Clothing. Retail-grade quality with the kind of fit that turns heads? <em>Yeah, that looks good on you. </em></p>",
+        "collection_select_a_collection": "show-in-designer",
+        "collection_select_a_collection_limit": 6
+      }
+    },
     "scrollanimatecontent": {
       "type": "scrollanimatecontent",
       "blocks": {
@@ -93,43 +123,17 @@
         "scroll_animate_text": "This whole thing started with a crew of print-obsessed humans who knew great merch is more than decoration on a tee — it’s expression, it’s a conversation starter, it’s how creators and brands bring their identity to life. So we built our own garage, stacked it with top-tier tech, and started raising the bar. What we run today is more than a print house. It’s a creative engine. One backed by 30+ years of high-volume, high-impact production power."
       }
     },
-    "pageheadersplit_9rz4n4": {
-      "type": "pageheadersplit",
-      "custom_css": [],
-      "name": "PageHeaderSplit",
+    "imagetabs_QBGDUU": {
+      "type": "imagetabs",
+      "name": "ImageTabs",
       "settings": {
-        "pageheader_heading_text": "A care for craft that’d earn a *slow nod* from the old-school pros.",
-        "pageheader_paragraph_text": "<p>Every print, every stitch, every ship-out is done in-house – with the kind of precision and craft most shops stopped caring about years ago.<br/><br/>We’re fuelled by a love for creativity and a soft spot for the good ol’ days. Think cutting-edge tech meets vintage grit. A retro-styled print house where your wildest ideas don’t just come to life – they come to life looking <em>damn</em> good.<br/><br/>This isn’t tacky promo wear or soul-less dropshipping. It’s shelf-ready quality, made to rival what you'd find in your favourite store or boutique. We obsess over clean prints, premium blanks, and finishes that feel <em>like they belong in a brand campaign, </em>not the bottom of a tote bag.</p>"
-      }
-    },
-    "productslider_B7FDfb": {
-      "type": "productslider",
-      "blocks": {
-        "button_8XVhKE": {
-          "type": "button",
-          "settings": {
-            "btn_layout": "btn_layout_both",
-            "btn_style": "is-secondary",
-            "btn_size": "is-default",
-            "btn_icon_size": "icon-1x1-small",
-            "btn_url": "shopify://collections/all",
-            "btn_text": "All Products",
-            "btn_icon_viewbox": "",
-            "btn_icon_path": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_8XVhKE"
-      ],
-      "custom_css": [
-        ".product-item_form-wrapper {display: none;}"
-      ],
-      "settings": {
-        "products_heading_text": "Start with a Blank. End with a Banger.",
-        "products_paragraph_text": "<p>We're proudly printing on premium blanks from top labels like AS Colour, Gildan, JB’s Wear, RAMO, Urban Collab, and CB Clothing. Retail-grade quality with the kind of fit that turns heads? <em>Yeah, that looks good on you. </em></p>",
-        "collection_select_a_collection": "show-in-designer",
-        "collection_select_a_collection_limit": 6
+        "tabs_heading_text": "Apparel & Merch Specialists",
+        "tabs_button1_text": "Tees",
+        "tabs_button2_text": "Hoodies",
+        "tabs_button3_text": "Drinkware",
+        "tabs_image1": "shopify://shop_images/DSC00432.jpg",
+        "tabs_image2": "shopify://shop_images/5166_FLATLAY_GROUP2.jpg",
+        "tabs_image3": "shopify://shop_images/DSC00915.jpg"
       }
     },
     "bentobox_8C79mQ": {
@@ -193,6 +197,15 @@
         "bento_paragraph_text": "<p>The creators with big ideas, the brands chasing a team that feels like their own, and the trade pros who need real production power. If that’s you? You’re in the right garage.</p>"
       }
     },
+    "pageheadersplit_9rz4n4": {
+      "type": "pageheadersplit",
+      "custom_css": [],
+      "name": "PageHeaderSplit",
+      "settings": {
+        "pageheader_heading_text": "A care for craft that’d earn a *slow nod* from the old-school pros.",
+        "pageheader_paragraph_text": "<p>Every print, every stitch, every ship-out is done in-house – with the kind of precision and craft most shops stopped caring about years ago.<br/><br/>We’re fuelled by a love for creativity and a soft spot for the good ol’ days. Think cutting-edge tech meets vintage grit. A retro-styled print house where your wildest ideas don’t just come to life – they come to life looking <em>damn</em> good.<br/><br/>This isn’t tacky promo wear or soul-less dropshipping. It’s shelf-ready quality, made to rival what you'd find in your favourite store or boutique. We obsess over clean prints, premium blanks, and finishes that feel <em>like they belong in a brand campaign, </em>not the bottom of a tote bag.</p>"
+      }
+    },
     "calltoactionbanner": {
       "type": "calltoactionbanner",
       "blocks": {
@@ -239,10 +252,11 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "videohero",
-    "scrollanimatecontent",
-    "pageheadersplit_9rz4n4",
     "productslider_B7FDfb",
+    "scrollanimatecontent",
+    "imagetabs_QBGDUU",
     "bentobox_8C79mQ",
+    "pageheadersplit_9rz4n4",
     "calltoactionbanner",
     "testimonialslider",
     "contactcta"
