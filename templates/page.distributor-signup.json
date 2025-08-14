@@ -87,6 +87,7 @@
         "timeline_item_9knkNc",
         "timeline_item_9ePwmn"
       ],
+      "disabled": true,
       "name": "Timeline",
       "settings": {
         "timeline_tagline_text": "What happens next?",
