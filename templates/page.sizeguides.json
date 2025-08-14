@@ -12,7 +12,7 @@
     "herotextimagebg": {
       "type": "herotextimagebg",
       "settings": {
-        "hero_heading_text": "Size Guide for Legends Who Like a Good Fit",
+        "hero_heading_text": "The Size Guide for Legends Who Like a Good Fit",
         "hero_bgimage": "shopify://shop_images/5166.jpg"
       }
     },
@@ -22,7 +22,7 @@
         "bento_card_DbfV4f": {
           "type": "bento-card",
           "settings": {
-            "card_heading_text": "View AS Colour Size Guides",
+            "card_heading_text": "AS Colour Size Guides",
             "card_paragraph_text": "",
             "card_type": "card_type_color",
             "card_size": "is-medium",
@@ -127,7 +127,7 @@
       ],
       "settings": {
         "bento_heading_text": "Size Matters (Yeah, We Said What We Said).",
-        "bento_paragraph_text": "<p>Great merch isn’t just about the print – it’s also about the <em>fit</em>. And if you want people to wear your gear (and not just chuck it in the “meh” pile), sizing matters. Here's your guide to guaranteeing our premium staples are your perfect fit.</p>"
+        "bento_paragraph_text": "<p>Great merch isn’t just about the print – it’s also about the <em>fit</em>. And if you want people to wear your gear (and not just chuck it in the “meh” pile), sizing matters.</p>"
       }
     },
     "faqs": {
@@ -151,16 +151,16 @@
         "button_HXqpXM"
       ],
       "settings": {
-        "faq_heading_text": "Medium length heading goes here",
-        "faq_cta_heading_text": "Ready To Design?",
-        "faq_cta_paragraph_text": "<p>View Our Complete Product Range</p>"
+        "faq_heading_text": "Your faq essentials kit.",
+        "faq_cta_heading_text": "Ready to get started?",
+        "faq_cta_paragraph_text": "<p>Take a look at our product range and let the inspiration fly free.</p>"
       }
     },
     "contactcta": {
       "type": "contactcta",
       "settings": {
         "contact_heading_text": "Still not sure about sizing?",
-        "contact_paragraph_text": "<p>No stress. Drop us a message here and we’ll help you figure it out. Our team can guide you through sizing quirks, fabric feels, and which cut suits your vibe best.</p>"
+        "contact_paragraph_text": "<p>No stress. Send us a message here and we’ll help you figure it out. Our team can guide you through sizing quirks, fabric feels, and which cut suits your vibe best.</p>"
       }
     }
   },
