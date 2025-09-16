@@ -276,6 +276,7 @@
         "slide_YRdaHC",
         "slide_h6HpTW"
       ],
+      "disabled": true,
       "name": "Full Width Banner Slider",
       "settings": {
         "slider_height": 600,
@@ -285,20 +286,20 @@
         "loop": true,
         "transition_effect": "slide",
         "transition_speed": 600,
-        "bg_color_1": "#8B5CF6",
-        "bg_color_2": "#A855F7",
+        "bg_color_1": "#8b5cf6",
+        "bg_color_2": "#a855f7",
         "overlay_opacity": 30,
         "text_alignment": "left",
         "header_size": 48,
-        "header_color": "#FFFFFF",
+        "header_color": "#ffffff",
         "description_size": 18,
-        "description_color": "#FFFFFF",
-        "button_bg_1": "#F97316",
-        "button_bg_2": "#EA580C",
-        "button_text_color": "#FFFFFF",
+        "description_color": "#ffffff",
+        "button_bg_1": "#f97316",
+        "button_bg_2": "#ea580c",
+        "button_text_color": "#ffffff",
         "button_radius": 25,
-        "navigation_color": "#FFFFFF",
-        "pagination_active_color": "#FFFFFF"
+        "navigation_color": "#ffffff",
+        "pagination_active_color": "#ffffff"
       }
     }
   },
