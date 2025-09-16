@@ -1,746 +1,69 @@
-<!-- sections/banner-slider.liquid -->
-<div class="banner-slider-wrapper" id="bannerSlider{{ section.id }}">
-  <div class="slider-container">
-    <div class="slider-track">
-      {% for block in section.blocks %}
-        <div class="slide {% if forloop.first %}active{% endif %}" data-slide="{{ forloop.index0 }}">
-          {% if block.settings.banner_image != blank %}
-            <div class="slide-background">
-              <img src="{{ block.settings.banner_image | image_url: width: 1920 }}" 
-                   alt="{{ block.settings.banner_image.alt | escape }}"
-                   loading="lazy">
-            </div>
+<div class="banner-slider swiper-container">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <div class="banner-slide-content">
+          {% if block.settings.image %}
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.heading | escape }}" class="banner-slide-image" />
           {% endif %}
-          <div class="slide-overlay"></div>
-          <div class="slide-content">
-            <div class="container">
-              <div class="text-content">
-                {% if block.settings.header != blank %}
-                  <h1 class="slide-header">{{ block.settings.header }}</h1>
-                {% endif %}
-                {% if block.settings.description != blank %}
-                  <p class="slide-description">{{ block.settings.description }}</p>
-                {% endif %}
-                {% if block.settings.button_text != blank and block.settings.button_link != blank %}
-                  <a href="{{ block.settings.button_link }}" class="slide-button">
-                    {{ block.settings.button_text }}
-                  </a>
-                {% endif %}
-              </div>
-            </div>
+
+          <div class="banner-text">
+            {% if block.settings.heading != blank %}
+              <h2 class="banner-heading">{{ block.settings.heading }}</h2>
+            {% endif %}
+
+            {% if block.settings.description != blank %}
+              <p class="banner-description">{{ block.settings.description }}</p>
+            {% endif %}
+
+            {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+              <a href="{{ block.settings.button_link }}" class="banner-button">
+                {{ block.settings.button_text }}
+              </a>
+            {% endif %}
           </div>
         </div>
-      {% endfor %}
-    </div>
-    
-    {% if section.blocks.size > 1 %}
-      <!-- Navigation arrows -->
-      <button class="slider-nav prev" data-slider="{{ section.id }}" data-direction="prev">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
-        </svg>
-      </button>
-      <button class="slider-nav next" data-slider="{{ section.id }}" data-direction="next">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-        </svg>
-      </button>
-      
-      <!-- Pagination dots -->
-      <div class="slider-pagination">
-        {% for block in section.blocks %}
-          <button class="pagination-dot {% if forloop.first %}active{% endif %}" 
-                  data-slider="{{ section.id }}" 
-                  data-slide="{{ forloop.index0 }}"></button>
-        {% endfor %}
       </div>
-    {% endif %}
+    {% endfor %}
   </div>
+
+  <!-- Slider controls -->
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 </div>
-
-<style>
-  .banner-slider-wrapper {
-    width: 100%;
-    height: {{ section.settings.slider_height }}px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .slider-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  .slider-track {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.6s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background: linear-gradient(135deg, {{ section.settings.bg_color_1 }}, {{ section.settings.bg_color_2 }});
-  }
-
-  .slide.active {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .slide-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-
-  .slide-background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  .slide-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, {{ section.settings.overlay_opacity | divided_by: 100.0 }});
-    z-index: 2;
-  }
-
-  .slide-content {
-    position: relative;
-    z-index: 3;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    width: 100%;
-  }
-
-  .text-content {
-    max-width: 600px;
-    text-align: {{ section.settings.text_alignment }};
-  }
-
-  .slide-header {
-    font-size: {{ section.settings.header_size }}px;
-    font-weight: 900;
-    color: {{ section.settings.header_color }};
-    margin: 0 0 20px 0;
-    line-height: 1.1;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-
-  .slide-description {
-    font-size: {{ section.settings.description_size }}px;
-    color: {{ section.settings.description_color }};
-    margin: 0 0 30px 0;
-    line-height: 1.4;
-    font-weight: 600;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  }
-
-  .slide-button {
-    display: inline-block;
-    background: linear-gradient(45deg, {{ section.settings.button_bg_1 }}, {{ section.settings.button_bg_2 }});
-    color: {{ section.settings.button_text_color }};
-    padding: 15px 40px;
-    text-decoration: none;
-    border-radius: {{ section.settings.button_radius }}px;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  }
-
-  .slide-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-    filter: brightness(1.1);
-  }
-
-  /* Navigation Styling */
-  .slider-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.2);
-    border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: {{ section.settings.navigation_color }};
-    cursor: pointer;
-    transition: all 0.3s ease;
-    z-index: 10;
-    backdrop-filter: blur(10px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .slider-nav:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-50%) scale(1.1);
-  }
-
-  .slider-nav.prev {
-    left: 30px;
-  }
-
-  .slider-nav.next {
-    right: 30px;
-  }
-
-  /* Pagination Styling */
-  .slider-pagination {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 12px;
-    z-index: 10;
-  }
-
-  .pagination-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-
-  .pagination-dot.active,
-  .pagination-dot:hover {
-    background: {{ section.settings.pagination_active_color }};
-    transform: scale(1.2);
-  }
-
-  /* Mobile Responsive */
-  @media (max-width: 768px) {
-    .banner-slider-wrapper {
-      height: {{ section.settings.mobile_height }}px;
-    }
-
-    .text-content {
-      text-align: center;
-      padding: 0 10px;
-    }
-
-    .slide-header {
-      font-size: {{ section.settings.header_size | times: 0.7 }}px;
-      margin-bottom: 15px;
-    }
-
-    .slide-description {
-      font-size: {{ section.settings.description_size | times: 0.9 }}px;
-      margin-bottom: 25px;
-    }
-
-    .slide-button {
-      padding: 12px 30px;
-      font-size: 14px;
-    }
-
-    .slider-nav {
-      width: 40px;
-      height: 40px;
-    }
-
-    .slider-nav.prev {
-      left: 15px;
-    }
-
-    .slider-nav.next {
-      right: 15px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .banner-slider-wrapper {
-      height: {{ section.settings.mobile_height | times: 0.8 }}px;
-    }
-
-    .slide-header {
-      font-size: {{ section.settings.header_size | times: 0.6 }}px;
-    }
-
-    .slide-description {
-      font-size: {{ section.settings.description_size | times: 0.8 }}px;
-    }
-
-    .container {
-      padding: 0 15px;
-    }
-  }
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Object to store all slider instances
-  const sliders = {};
-  
-  // Initialize slider for this section
-  const sectionId = '{{ section.id }}';
-  sliders[sectionId] = {
-    currentSlide: 0,
-    totalSlides: {{ section.blocks.size }},
-    autoplayInterval: null,
-    isAutoplay: {{ section.settings.autoplay }},
-    autoplaySpeed: {{ section.settings.autoplay_speed }}000
-  };
-  
-  // Function to change slide
-  function changeSlide(sliderId, direction) {
-    console.log('Changing slide:', sliderId, direction);
-    
-    const slider = sliders[sliderId];
-    if (!slider) return;
-    
-    const sliderElement = document.getElementById('bannerSlider' + sliderId);
-    if (!sliderElement) return;
-    
-    const slides = sliderElement.querySelectorAll('.slide');
-    const dots = sliderElement.querySelectorAll('.pagination-dot');
-    
-    // Remove active classes
-    slides[slider.currentSlide].classList.remove('active');
-    if (dots[slider.currentSlide]) {
-      dots[slider.currentSlide].classList.remove('active');
-    }
-    
-    // Calculate new slide
-    if (direction === 'next') {
-      slider.currentSlide = (slider.currentSlide + 1) % slider.totalSlides;
-    } else if (direction === 'prev') {
-      slider.currentSlide = slider.currentSlide === 0 ? slider.totalSlides - 1 : slider.currentSlide - 1;
-    }
-    
-    // Add active classes
-    slides[slider.currentSlide].classList.add('active');
-    if (dots[slider.currentSlide]) {
-      dots[slider.currentSlide].classList.add('active');
-    }
-    
-    // Restart autoplay
-    if (slider.isAutoplay) {
-      restartAutoplay(sliderId);
-    }
-  }
-  
-  // Function to go to specific slide
-  function goToSlide(sliderId, slideIndex) {
-    console.log('Going to slide:', sliderId, slideIndex);
-    
-    const slider = sliders[sliderId];
-    if (!slider) return;
-    
-    const sliderElement = document.getElementById('bannerSlider' + sliderId);
-    if (!sliderElement) return;
-    
-    const slides = sliderElement.querySelectorAll('.slide');
-    const dots = sliderElement.querySelectorAll('.pagination-dot');
-    
-    // Remove active classes
-    slides[slider.currentSlide].classList.remove('active');
-    if (dots[slider.currentSlide]) {
-      dots[slider.currentSlide].classList.remove('active');
-    }
-    
-    // Set new slide
-    slider.currentSlide = slideIndex;
-    
-    // Add active classes
-    slides[slider.currentSlide].classList.add('active');
-    if (dots[slider.currentSlide]) {
-      dots[slider.currentSlide].classList.add('active');
-    }
-    
-    // Restart autoplay
-    if (slider.isAutoplay) {
-      restartAutoplay(sliderId);
-    }
-  }
-  
-  // Autoplay functions
-  function startAutoplay(sliderId) {
-    const slider = sliders[sliderId];
-    if (!slider || !slider.isAutoplay) return;
-    
-    slider.autoplayInterval = setInterval(function() {
-      changeSlide(sliderId, 'next');
-    }, slider.autoplaySpeed);
-  }
-  
-  function stopAutoplay(sliderId) {
-    const slider = sliders[sliderId];
-    if (!slider || !slider.autoplayInterval) return;
-    
-    clearInterval(slider.autoplayInterval);
-    slider.autoplayInterval = null;
-  }
-  
-  function restartAutoplay(sliderId) {
-    stopAutoplay(sliderId);
-    startAutoplay(sliderId);
-  }
-  
-  // Add event listeners for navigation arrows - with detailed debugging
-  document.addEventListener('click', function(e) {
-    console.log('Click detected on:', e.target);
-    console.log('Clicked element classes:', e.target.className);
-    
-    // Check for arrow button clicks
-    const navButton = e.target.closest('.slider-nav');
-    if (navButton) {
-      console.log('Arrow button clicked!', navButton);
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const sliderId = navButton.getAttribute('data-slider');
-      const direction = navButton.getAttribute('data-direction');
-      
-      console.log('Slider ID:', sliderId, 'Direction:', direction);
-      
-      if (sliderId && direction) {
-        changeSlide(sliderId, direction);
-      } else {
-        console.error('Missing slider ID or direction');
-      }
-      return;
-    }
-    
-    // Check for dot clicks
-    const dotButton = e.target.closest('.pagination-dot');
-    if (dotButton) {
-      console.log('Dot button clicked!', dotButton);
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const sliderId = dotButton.getAttribute('data-slider');
-      const slideIndex = parseInt(dotButton.getAttribute('data-slide'));
-      
-      console.log('Slider ID:', sliderId, 'Slide Index:', slideIndex);
-      
-      if (sliderId && !isNaN(slideIndex)) {
-        goToSlide(sliderId, slideIndex);
-      } else {
-        console.error('Missing slider ID or slide index');
-      }
-      return;
-    }
-    
-    // Log if click was on slider area but not on buttons
-    if (e.target.closest('.banner-slider-wrapper')) {
-      console.log('Click inside slider area but not on nav buttons');
-    }
-  });
-  
-  // Also add direct event listeners to buttons as backup
-  const sliderElement = document.getElementById('bannerSlider' + sectionId);
-  if (sliderElement) {
-    // Arrow buttons
-    const prevBtn = sliderElement.querySelector('.slider-nav.prev');
-    const nextBtn = sliderElement.querySelector('.slider-nav.next');
-    
-    if (prevBtn) {
-      console.log('Found prev button, adding direct listener');
-      prevBtn.addEventListener('click', function(e) {
-        console.log('PREV BUTTON DIRECT CLICK!');
-        e.preventDefault();
-        changeSlide(sectionId, 'prev');
-      });
-    }
-    
-    if (nextBtn) {
-      console.log('Found next button, adding direct listener');
-      nextBtn.addEventListener('click', function(e) {
-        console.log('NEXT BUTTON DIRECT CLICK!');
-        e.preventDefault();
-        changeSlide(sectionId, 'next');
-      });
-    }
-    
-    // Dot buttons
-    const dots = sliderElement.querySelectorAll('.pagination-dot');
-    dots.forEach(function(dot, index) {
-      console.log('Adding direct listener to dot', index);
-      dot.addEventListener('click', function(e) {
-        console.log('DOT DIRECT CLICK!', index);
-        e.preventDefault();
-        goToSlide(sectionId, index);
-      });
-    });
-  }
-  
-  // Start autoplay
-  {% if section.settings.autoplay %}
-  startAutoplay(sectionId);
-  
-  // Pause on hover
-  const sliderElement = document.getElementById('bannerSlider' + sectionId);
-  if (sliderElement) {
-    sliderElement.addEventListener('mouseenter', function() {
-      stopAutoplay(sectionId);
-    });
-    
-    sliderElement.addEventListener('mouseleave', function() {
-      startAutoplay(sectionId);
-    });
-  }
-  {% endif %}
-  
-  // Touch support
-  let touchStartX = 0;
-  let touchEndX = 0;
-  
-  const sliderElement = document.getElementById('bannerSlider' + sectionId);
-  if (sliderElement) {
-    sliderElement.addEventListener('touchstart', function(e) {
-      touchStartX = e.changedTouches[0].screenX;
-    });
-    
-    sliderElement.addEventListener('touchend', function(e) {
-      touchEndX = e.changedTouches[0].screenX;
-      const diff = touchStartX - touchEndX;
-      
-      if (Math.abs(diff) > 50) {
-        if (diff > 0) {
-          changeSlide(sectionId, 'next');
-        } else {
-          changeSlide(sectionId, 'prev');
-        }
-      }
-    });
-  }
-  
-  console.log('Banner slider initialized for section:', sectionId);
-});
-</script>
 
 {% schema %}
 {
-  "name": "Full Width Banner Slider",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Slider Settings"
-    },
-    {
-      "type": "range",
-      "id": "slider_height",
-      "min": 400,
-      "max": 800,
-      "step": 50,
-      "unit": "px",
-      "label": "Desktop Height",
-      "default": 600
-    },
-    {
-      "type": "range",
-      "id": "mobile_height",
-      "min": 300,
-      "max": 600,
-      "step": 25,
-      "unit": "px",
-      "label": "Mobile Height",
-      "default": 450
-    },
-    {
-      "type": "checkbox",
-      "id": "autoplay",
-      "label": "Enable Autoplay",
-      "default": true
-    },
-    {
-      "type": "range",
-      "id": "autoplay_speed",
-      "min": 3,
-      "max": 10,
-      "step": 1,
-      "unit": "s",
-      "label": "Autoplay Speed",
-      "default": 5
-    },
-    {
-      "type": "header",
-      "content": "Background & Overlay"
-    },
-    {
-      "type": "color",
-      "id": "bg_color_1",
-      "label": "Fallback Gradient Start",
-      "default": "#8B5CF6"
-    },
-    {
-      "type": "color",
-      "id": "bg_color_2",
-      "label": "Fallback Gradient End",
-      "default": "#A855F7"
-    },
-    {
-      "type": "range",
-      "id": "overlay_opacity",
-      "min": 0,
-      "max": 80,
-      "step": 10,
-      "unit": "%",
-      "label": "Image Overlay Opacity",
-      "default": 30
-    },
-    {
-      "type": "header",
-      "content": "Text Content"
-    },
-    {
-      "type": "select",
-      "id": "text_alignment",
-      "label": "Text Alignment",
-      "options": [
-        { "value": "left", "label": "Left" },
-        { "value": "center", "label": "Center" },
-        { "value": "right", "label": "Right" }
-      ],
-      "default": "left"
-    },
-    {
-      "type": "range",
-      "id": "header_size",
-      "min": 28,
-      "max": 72,
-      "step": 2,
-      "unit": "px",
-      "label": "Header Font Size",
-      "default": 48
-    },
-    {
-      "type": "color",
-      "id": "header_color",
-      "label": "Header Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "range",
-      "id": "description_size",
-      "min": 14,
-      "max": 28,
-      "step": 1,
-      "unit": "px",
-      "label": "Description Font Size",
-      "default": 18
-    },
-    {
-      "type": "color",
-      "id": "description_color",
-      "label": "Description Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "header",
-      "content": "Button Styling"
-    },
-    {
-      "type": "color",
-      "id": "button_bg_1",
-      "label": "Button Gradient Start",
-      "default": "#F97316"
-    },
-    {
-      "type": "color",
-      "id": "button_bg_2",
-      "label": "Button Gradient End",
-      "default": "#EA580C"
-    },
-    {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "Button Text Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "range",
-      "id": "button_radius",
-      "min": 0,
-      "max": 50,
-      "step": 5,
-      "unit": "px",
-      "label": "Button Border Radius",
-      "default": 25
-    },
-    {
-      "type": "header",
-      "content": "Navigation"
-    },
-    {
-      "type": "color",
-      "id": "navigation_color",
-      "label": "Arrow Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "color",
-      "id": "pagination_active_color",
-      "label": "Active Dot Color",
-      "default": "#FFFFFF"
-    }
-  ],
+  "name": "Banner Slider",
+  "settings": [],
   "blocks": [
     {
       "type": "slide",
-      "name": "Banner Slide",
+      "name": "Slide",
       "settings": [
         {
           "type": "image_picker",
-          "id": "banner_image",
-          "label": "Background Image"
+          "id": "image",
+          "label": "Slide Image"
         },
         {
           "type": "text",
-          "id": "header",
-          "label": "Header Text",
-          "default": "FULL WRAP BOTTLE PRINTING"
+          "id": "heading",
+          "label": "Heading",
+          "default": "Your Banner Title"
         },
         {
           "type": "textarea",
           "id": "description",
-          "label": "Description Text",
-          "default": "WITH AN MOQ OF 15!"
+          "label": "Description",
+          "default": "Your banner description goes here."
         },
         {
           "type": "text",
           "id": "button_text",
           "label": "Button Text",
-          "default": "Learn More"
+          "default": "Shop Now"
         },
         {
           "type": "url",
@@ -752,13 +75,28 @@ document.addEventListener('DOMContentLoaded', function() {
   ],
   "presets": [
     {
-      "name": "Full Width Banner Slider",
-      "blocks": [
-        {
-          "type": "slide"
-        }
-      ]
+      "name": "Banner Slider",
+      "category": "Slideshow"
     }
   ]
 }
 {% endschema %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new Swiper(".banner-slider", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  });
+</script>
