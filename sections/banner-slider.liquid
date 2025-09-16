@@ -106,33 +106,56 @@
 
 
 <style>
-  /* Arrows */
+ /* Image takes full width */
+.banner-slide-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text is below image now */
+.banner-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner-description {
+  margin-bottom: 15px;
+}
+
+.banner-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff5a5f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Arrows */
 .swiper-button-prev,
 .swiper-button-next {
-  color: #fff; /* white arrows */
-  font-weight: bold;
-  width: 40px;
-  height: 40px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
   font-size: 24px;
+  font-weight: bold;
 }
 
-/* Position arrows vertically centered */
-.swiper-button-prev {
-  left: 10px;
-}
-.swiper-button-next {
-  right: 10px;
-}
-
-/* Pagination dots bottom-right */
+/* Dots bottom-right */
 .swiper-pagination {
   text-align: right !important;
-  bottom: 10px !important;
-  right: 15px !important;
+  bottom: 15px !important;
+  right: 20px !important;
   left: auto !important;
 }
 
@@ -142,9 +165,10 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: #ff5a5f; /* highlight color */
+  background: #ff5a5f;
   opacity: 1;
 }
+
 
 
 </style>
