@@ -415,24 +415,93 @@ document.addEventListener('DOMContentLoaded', function() {
     startAutoplay(sliderId);
   }
   
-  // Add event listeners for navigation arrows
+  // Add event listeners for navigation arrows - with detailed debugging
   document.addEventListener('click', function(e) {
-    if (e.target.closest('.slider-nav')) {
+    console.log('Click detected on:', e.target);
+    console.log('Clicked element classes:', e.target.className);
+    
+    // Check for arrow button clicks
+    const navButton = e.target.closest('.slider-nav');
+    if (navButton) {
+      console.log('Arrow button clicked!', navButton);
       e.preventDefault();
-      const button = e.target.closest('.slider-nav');
-      const sliderId = button.getAttribute('data-slider');
-      const direction = button.getAttribute('data-direction');
-      changeSlide(sliderId, direction);
+      e.stopPropagation();
+      
+      const sliderId = navButton.getAttribute('data-slider');
+      const direction = navButton.getAttribute('data-direction');
+      
+      console.log('Slider ID:', sliderId, 'Direction:', direction);
+      
+      if (sliderId && direction) {
+        changeSlide(sliderId, direction);
+      } else {
+        console.error('Missing slider ID or direction');
+      }
+      return;
     }
     
-    if (e.target.closest('.pagination-dot')) {
+    // Check for dot clicks
+    const dotButton = e.target.closest('.pagination-dot');
+    if (dotButton) {
+      console.log('Dot button clicked!', dotButton);
       e.preventDefault();
-      const button = e.target.closest('.pagination-dot');
-      const sliderId = button.getAttribute('data-slider');
-      const slideIndex = parseInt(button.getAttribute('data-slide'));
-      goToSlide(sliderId, slideIndex);
+      e.stopPropagation();
+      
+      const sliderId = dotButton.getAttribute('data-slider');
+      const slideIndex = parseInt(dotButton.getAttribute('data-slide'));
+      
+      console.log('Slider ID:', sliderId, 'Slide Index:', slideIndex);
+      
+      if (sliderId && !isNaN(slideIndex)) {
+        goToSlide(sliderId, slideIndex);
+      } else {
+        console.error('Missing slider ID or slide index');
+      }
+      return;
+    }
+    
+    // Log if click was on slider area but not on buttons
+    if (e.target.closest('.banner-slider-wrapper')) {
+      console.log('Click inside slider area but not on nav buttons');
     }
   });
+  
+  // Also add direct event listeners to buttons as backup
+  const sliderElement = document.getElementById('bannerSlider' + sectionId);
+  if (sliderElement) {
+    // Arrow buttons
+    const prevBtn = sliderElement.querySelector('.slider-nav.prev');
+    const nextBtn = sliderElement.querySelector('.slider-nav.next');
+    
+    if (prevBtn) {
+      console.log('Found prev button, adding direct listener');
+      prevBtn.addEventListener('click', function(e) {
+        console.log('PREV BUTTON DIRECT CLICK!');
+        e.preventDefault();
+        changeSlide(sectionId, 'prev');
+      });
+    }
+    
+    if (nextBtn) {
+      console.log('Found next button, adding direct listener');
+      nextBtn.addEventListener('click', function(e) {
+        console.log('NEXT BUTTON DIRECT CLICK!');
+        e.preventDefault();
+        changeSlide(sectionId, 'next');
+      });
+    }
+    
+    // Dot buttons
+    const dots = sliderElement.querySelectorAll('.pagination-dot');
+    dots.forEach(function(dot, index) {
+      console.log('Adding direct listener to dot', index);
+      dot.addEventListener('click', function(e) {
+        console.log('DOT DIRECT CLICK!', index);
+        e.preventDefault();
+        goToSlide(sectionId, index);
+      });
+    });
+  }
   
   // Start autoplay
   {% if section.settings.autoplay %}
