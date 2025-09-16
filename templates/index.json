@@ -248,58 +248,36 @@
         "contact_paragraph_text": "<p>Drop us a note, shoot through a sketch, or call to say hey – our crew’s in the garage, ready to bring it to life.</p>"
       }
     },
-    "banner_slider_rUKCpd": {
+    "banner_slider_rPABRh": {
       "type": "banner-slider",
       "blocks": {
-        "slide_YRdaHC": {
+        "slide_Rjy7dJ": {
           "type": "slide",
           "settings": {
-            "banner_image": "shopify://shop_images/DSC00197.jpg",
-            "header": "FULL WRAP BOTTLE PRINTING",
-            "description": "WITH AN MOQ OF 15!",
-            "button_text": "Learn More",
+            "image": "shopify://shop_images/DSC00192.jpg",
+            "heading": "Your Banner Title",
+            "description": "Your banner description goes here.",
+            "button_text": "Shop Now",
             "button_link": ""
           }
         },
-        "slide_h6HpTW": {
+        "slide_kgbttd": {
           "type": "slide",
           "settings": {
-            "banner_image": "shopify://shop_images/DSC00129.jpg",
-            "header": "FULL WRAP BOTTLE PRINTING",
-            "description": "WITH AN MOQ OF 15!",
-            "button_text": "Learn More",
+            "image": "shopify://shop_images/DSC00197.jpg",
+            "heading": "Your Banner Title",
+            "description": "Your banner description goes here.",
+            "button_text": "Shop Now",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "slide_YRdaHC",
-        "slide_h6HpTW"
+        "slide_Rjy7dJ",
+        "slide_kgbttd"
       ],
-      "name": "Full Width Banner Slider",
-      "settings": {
-        "slider_height": 600,
-        "mobile_height": 450,
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "loop": true,
-        "transition_effect": "slide",
-        "transition_speed": 600,
-        "bg_color_1": "#8b5cf6",
-        "bg_color_2": "#a855f7",
-        "overlay_opacity": 30,
-        "text_alignment": "left",
-        "header_size": 48,
-        "header_color": "#ffffff",
-        "description_size": 18,
-        "description_color": "#ffffff",
-        "button_bg_1": "#f97316",
-        "button_bg_2": "#ea580c",
-        "button_text_color": "#ffffff",
-        "button_radius": 25,
-        "navigation_color": "#ffffff",
-        "pagination_active_color": "#ffffff"
-      }
+      "name": "Banner Slider",
+      "settings": {}
     }
   },
   "layout": "theme",
@@ -313,6 +291,6 @@
     "calltoactionbanner",
     "testimonialslider",
     "contactcta",
-    "banner_slider_rUKCpd"
+    "banner_slider_rPABRh"
   ]
 }
