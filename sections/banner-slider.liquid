@@ -1,328 +1,327 @@
 <!-- sections/banner-slider.liquid -->
-<div class="banner-slider-container">
-  <div class="banner-slider" id="bannerSlider{{ section.id }}">
-    {% for block in section.blocks %}
-      <div class="banner-slide {% if forloop.first %}active{% endif %}" data-slide="{{ forloop.index0 }}">
-        <div class="banner-content">
-          <div class="banner-text">
-            {% if block.settings.header != blank %}
-              <h2 class="banner-header">{{ block.settings.header }}</h2>
-            {% endif %}
-            {% if block.settings.description != blank %}
-              <p class="banner-description">{{ block.settings.description }}</p>
-            {% endif %}
-            {% if block.settings.button_text != blank and block.settings.button_link != blank %}
-              <a href="{{ block.settings.button_link }}" class="banner-button">
-                {{ block.settings.button_text }}
-              </a>
-            {% endif %}
-          </div>
+<div class="banner-slider-wrapper">
+  <div class="swiper bannerSwiper{{ section.id }}">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
           {% if block.settings.banner_image != blank %}
-            <div class="banner-image">
-              <img src="{{ block.settings.banner_image | image_url: width: 600 }}" 
+            <div class="slide-background">
+              <img src="{{ block.settings.banner_image | image_url: width: 1920 }}" 
                    alt="{{ block.settings.banner_image.alt | escape }}"
                    loading="lazy">
             </div>
           {% endif %}
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <div class="container">
+              <div class="text-content">
+                {% if block.settings.header != blank %}
+                  <h1 class="slide-header">{{ block.settings.header }}</h1>
+                {% endif %}
+                {% if block.settings.description != blank %}
+                  <p class="slide-description">{{ block.settings.description }}</p>
+                {% endif %}
+                {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+                  <a href="{{ block.settings.button_link }}" class="slide-button">
+                    {{ block.settings.button_text }}
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    {% endfor %}
-  </div>
-  
-  {% if section.blocks.size > 1 %}
-    <!-- Navigation Dots -->
-    <div class="slider-dots">
-      {% for block in section.blocks %}
-        <button class="dot {% if forloop.first %}active{% endif %}" 
-                onclick="showSlide({{ forloop.index0 }}, '{{ section.id }}')"></button>
       {% endfor %}
     </div>
     
-    <!-- Navigation Arrows -->
-    <button class="slider-arrow prev" onclick="changeSlide(-1, '{{ section.id }}')" aria-label="Previous slide">‹</button>
-    <button class="slider-arrow next" onclick="changeSlide(1, '{{ section.id }}')" aria-label="Next slide">›</button>
-  {% endif %}
+    {% if section.blocks.size > 1 %}
+      <!-- Navigation arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      
+      <!-- Pagination dots -->
+      <div class="swiper-pagination"></div>
+    {% endif %}
+  </div>
 </div>
 
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+
 <style>
-  .banner-slider-container {
-    position: relative;
+  .banner-slider-wrapper {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: {{ section.settings.border_radius }}px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  }
-
-  .banner-slider {
-    position: relative;
     height: {{ section.settings.slider_height }}px;
-    min-height: 400px;
+    position: relative;
+    overflow: hidden;
   }
 
-  .banner-slide {
+  .bannerSwiper{{ section.id }} {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(135deg, {{ section.settings.bg_color_1 }}, {{ section.settings.bg_color_2 }});
+  }
+
+  .slide-background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    background: linear-gradient(135deg, {{ section.settings.bg_color_1 }}, {{ section.settings.bg_color_2 }});
+    z-index: 1;
+  }
+
+  .slide-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, {{ section.settings.overlay_opacity | divided_by: 100.0 }});
+    z-index: 2;
+  }
+
+  .slide-content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
   }
 
-  .banner-slide.active {
-    opacity: 1;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
   }
 
-  .banner-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 1000px;
-    padding: 40px 20px;
-    gap: 40px;
+  .text-content {
+    max-width: 600px;
+    text-align: {{ section.settings.text_alignment }};
   }
 
-  .banner-text {
-    flex: 1;
-    max-width: 500px;
-  }
-
-  .banner-header {
+  .slide-header {
     font-size: {{ section.settings.header_size }}px;
     font-weight: 900;
     color: {{ section.settings.header_color }};
     margin: 0 0 20px 0;
-    line-height: 1.2;
+    line-height: 1.1;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    animation: slideInLeft 0.8s ease-out;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: slideInUp 0.8s ease-out;
   }
 
-  .banner-description {
+  .slide-description {
     font-size: {{ section.settings.description_size }}px;
     color: {{ section.settings.description_color }};
     margin: 0 0 30px 0;
     line-height: 1.4;
     font-weight: 600;
-    animation: slideInLeft 0.8s ease-out 0.2s both;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    animation: slideInUp 0.8s ease-out 0.2s both;
   }
 
-  .banner-button {
+  .slide-button {
     display: inline-block;
     background: linear-gradient(45deg, {{ section.settings.button_bg_1 }}, {{ section.settings.button_bg_2 }});
     color: {{ section.settings.button_text_color }};
-    padding: 15px 30px;
+    padding: 15px 40px;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: {{ section.settings.button_radius }}px;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    animation: slideInLeft 0.8s ease-out 0.4s both;
-  }
-
-  .banner-button:hover {
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  }
-
-  .banner-image {
-    flex: 1;
-    max-width: 400px;
-    animation: slideInRight 0.8s ease-out 0.3s both;
-  }
-
-  .banner-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  }
-
-  .slider-dots {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
-  }
-
-  .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     border: none;
-    background: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    transition: background 0.3s ease;
+    animation: slideInUp 0.8s ease-out 0.4s both;
   }
 
-  .dot.active,
-  .dot:hover {
-    background: white;
+  .slide-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    filter: brightness(1.1);
   }
 
-  .slider-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.8);
-    border: none;
+  /* Swiper Navigation Styling */
+  .bannerSwiper{{ section.id }} .swiper-button-next,
+  .bannerSwiper{{ section.id }} .swiper-button-prev {
+    color: {{ section.settings.navigation_color }};
+    background: rgba(255, 255, 255, 0.2);
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
+    backdrop-filter: blur(10px);
     transition: all 0.3s ease;
-    z-index: 10;
   }
 
-  .slider-arrow:hover {
-    background: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  .bannerSwiper{{ section.id }} .swiper-button-next:after,
+  .bannerSwiper{{ section.id }} .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: bold;
   }
 
-  .slider-arrow.prev {
-    left: 20px;
+  .bannerSwiper{{ section.id }} .swiper-button-next:hover,
+  .bannerSwiper{{ section.id }} .swiper-button-prev:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
   }
 
-  .slider-arrow.next {
-    right: 20px;
+  /* Pagination Styling */
+  .bannerSwiper{{ section.id }} .swiper-pagination {
+    bottom: 30px;
   }
 
-  @keyframes slideInLeft {
+  .bannerSwiper{{ section.id }} .swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    transition: all 0.3s ease;
+  }
+
+  .bannerSwiper{{ section.id }} .swiper-pagination-bullet-active {
+    background: {{ section.settings.pagination_active_color }};
+    transform: scale(1.2);
+  }
+
+  @keyframes slideInUp {
     from {
       opacity: 0;
-      transform: translateX(-50px);
+      transform: translateY(30px);
     }
     to {
       opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes slideInRight {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
+      transform: translateY(0);
     }
   }
 
   /* Mobile Responsive */
   @media (max-width: 768px) {
-    .banner-content {
-      flex-direction: column;
+    .banner-slider-wrapper {
+      height: {{ section.settings.mobile_height }}px;
+    }
+
+    .text-content {
       text-align: center;
-      gap: 30px;
+      padding: 0 10px;
     }
 
-    .banner-header {
-      font-size: {{ section.settings.header_size | minus: 10 }}px;
+    .slide-header {
+      font-size: {{ section.settings.header_size | times: 0.7 }}px;
+      margin-bottom: 15px;
     }
 
-    .banner-description {
-      font-size: {{ section.settings.description_size | minus: 2 }}px;
+    .slide-description {
+      font-size: {{ section.settings.description_size | times: 0.9 }}px;
+      margin-bottom: 25px;
     }
 
-    .slider-arrow {
+    .slide-button {
+      padding: 12px 30px;
+      font-size: 14px;
+    }
+
+    .bannerSwiper{{ section.id }} .swiper-button-next,
+    .bannerSwiper{{ section.id }} .swiper-button-prev {
       width: 40px;
       height: 40px;
-      font-size: 20px;
     }
 
-    .slider-arrow.prev {
-      left: 10px;
-    }
-
-    .slider-arrow.next {
-      right: 10px;
+    .bannerSwiper{{ section.id }} .swiper-button-next:after,
+    .bannerSwiper{{ section.id }} .swiper-button-prev:after {
+      font-size: 16px;
     }
   }
 
   @media (max-width: 480px) {
-    .banner-slider {
-      height: auto;
-      min-height: 350px;
+    .banner-slider-wrapper {
+      height: {{ section.settings.mobile_height | times: 0.8 }}px;
     }
 
-    .banner-content {
-      padding: 30px 15px;
+    .slide-header {
+      font-size: {{ section.settings.header_size | times: 0.6 }}px;
     }
 
-    .banner-header {
-      font-size: {{ section.settings.header_size | minus: 15 }}px;
+    .slide-description {
+      font-size: {{ section.settings.description_size | times: 0.8 }}px;
+    }
+
+    .container {
+      padding: 0 15px;
     }
   }
 </style>
 
+<!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+
 <script>
-  let currentSlides = {};
-
-  function initializeSlider(sectionId) {
-    currentSlides[sectionId] = 0;
-    
-    // Auto-play functionality
-    {% if section.settings.autoplay %}
-      setInterval(function() {
-        changeSlide(1, sectionId);
-      }, {{ section.settings.autoplay_speed }}000);
-    {% endif %}
-  }
-
-  function showSlide(slideIndex, sectionId) {
-    const slides = document.querySelectorAll(`#bannerSlider${sectionId} .banner-slide`);
-    const dots = document.querySelectorAll(`#bannerSlider${sectionId}`).parentNode.querySelectorAll('.dot');
-    
-    // Hide all slides
-    slides.forEach(slide => slide.classList.remove('active'));
-    dots.forEach(dot => dot.classList.remove('active'));
-    
-    // Show current slide
-    slides[slideIndex].classList.add('active');
-    dots[slideIndex].classList.add('active');
-    
-    currentSlides[sectionId] = slideIndex;
-  }
-
-  function changeSlide(direction, sectionId) {
-    const slides = document.querySelectorAll(`#bannerSlider${sectionId} .banner-slide`);
-    const totalSlides = slides.length;
-    
-    currentSlides[sectionId] += direction;
-    
-    if (currentSlides[sectionId] >= totalSlides) {
-      currentSlides[sectionId] = 0;
-    }
-    if (currentSlides[sectionId] < 0) {
-      currentSlides[sectionId] = totalSlides - 1;
-    }
-    
-    showSlide(currentSlides[sectionId], sectionId);
-  }
-
-  // Initialize slider when page loads
   document.addEventListener('DOMContentLoaded', function() {
-    initializeSlider('{{ section.id }}');
+    const swiper{{ section.id }} = new Swiper('.bannerSwiper{{ section.id }}', {
+      loop: {{ section.settings.loop }},
+      autoplay: {% if section.settings.autoplay %}
+        {
+          delay: {{ section.settings.autoplay_speed }}000,
+          disableOnInteraction: false,
+        }
+      {% else %}
+        false
+      {% endif %},
+      speed: {{ section.settings.transition_speed }},
+      effect: '{{ section.settings.transition_effect }}',
+      {% if section.settings.transition_effect == 'fade' %}
+      fadeEffect: {
+        crossFade: true
+      },
+      {% endif %}
+      navigation: {
+        nextEl: '.bannerSwiper{{ section.id }} .swiper-button-next',
+        prevEl: '.bannerSwiper{{ section.id }} .swiper-button-prev',
+      },
+      pagination: {
+        el: '.bannerSwiper{{ section.id }} .swiper-pagination',
+        clickable: true,
+      },
+      on: {
+        slideChange: function () {
+          // Re-trigger animations on slide change
+          const activeSlide = this.slides[this.activeIndex];
+          const textElements = activeSlide.querySelectorAll('.slide-header, .slide-description, .slide-button');
+          textElements.forEach((el, index) => {
+            el.style.animation = 'none';
+            setTimeout(() => {
+              el.style.animation = `slideInUp 0.8s ease-out ${index * 0.2}s both`;
+            }, 50);
+          });
+        }
+      }
+    });
   });
 </script>
 
 {% schema %}
 {
-  "name": "Banner Slider",
+  "name": "Full Width Banner Slider",
   "settings": [
     {
       "type": "header",
@@ -331,22 +330,22 @@
     {
       "type": "range",
       "id": "slider_height",
-      "min": 300,
+      "min": 400,
       "max": 800,
       "step": 50,
       "unit": "px",
-      "label": "Slider Height",
-      "default": 500
+      "label": "Desktop Height",
+      "default": 600
     },
     {
       "type": "range",
-      "id": "border_radius",
-      "min": 0,
-      "max": 30,
-      "step": 5,
+      "id": "mobile_height",
+      "min": 300,
+      "max": 600,
+      "step": 25,
       "unit": "px",
-      "label": "Border Radius",
-      "default": 15
+      "label": "Mobile Height",
+      "default": 450
     },
     {
       "type": "checkbox",
@@ -365,30 +364,77 @@
       "default": 5
     },
     {
+      "type": "checkbox",
+      "id": "loop",
+      "label": "Loop Slides",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "transition_effect",
+      "label": "Transition Effect",
+      "options": [
+        { "value": "slide", "label": "Slide" },
+        { "value": "fade", "label": "Fade" }
+      ],
+      "default": "slide"
+    },
+    {
+      "type": "range",
+      "id": "transition_speed",
+      "min": 300,
+      "max": 1500,
+      "step": 100,
+      "unit": "ms",
+      "label": "Transition Speed",
+      "default": 600
+    },
+    {
       "type": "header",
-      "content": "Background Colors"
+      "content": "Background & Overlay"
     },
     {
       "type": "color",
       "id": "bg_color_1",
-      "label": "Background Gradient Start",
+      "label": "Fallback Gradient Start",
       "default": "#8B5CF6"
     },
     {
       "type": "color",
       "id": "bg_color_2",
-      "label": "Background Gradient End",
+      "label": "Fallback Gradient End",
       "default": "#A855F7"
     },
     {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 80,
+      "step": 10,
+      "unit": "%",
+      "label": "Image Overlay Opacity",
+      "default": 30
+    },
+    {
       "type": "header",
-      "content": "Text Styling"
+      "content": "Text Content"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
     },
     {
       "type": "range",
       "id": "header_size",
-      "min": 24,
-      "max": 60,
+      "min": 28,
+      "max": 72,
       "step": 2,
       "unit": "px",
       "label": "Header Font Size",
@@ -397,14 +443,14 @@
     {
       "type": "color",
       "id": "header_color",
-      "label": "Header Text Color",
+      "label": "Header Color",
       "default": "#FFFFFF"
     },
     {
       "type": "range",
       "id": "description_size",
       "min": 14,
-      "max": 24,
+      "max": 28,
       "step": 1,
       "unit": "px",
       "label": "Description Font Size",
@@ -413,7 +459,7 @@
     {
       "type": "color",
       "id": "description_color",
-      "label": "Description Text Color",
+      "label": "Description Color",
       "default": "#FFFFFF"
     },
     {
@@ -437,6 +483,32 @@
       "id": "button_text_color",
       "label": "Button Text Color",
       "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "button_radius",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Button Border Radius",
+      "default": 25
+    },
+    {
+      "type": "header",
+      "content": "Navigation"
+    },
+    {
+      "type": "color",
+      "id": "navigation_color",
+      "label": "Arrow Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "pagination_active_color",
+      "label": "Active Dot Color",
+      "default": "#FFFFFF"
     }
   ],
   "blocks": [
@@ -445,27 +517,27 @@
       "name": "Banner Slide",
       "settings": [
         {
+          "type": "image_picker",
+          "id": "banner_image",
+          "label": "Background Image"
+        },
+        {
           "type": "text",
           "id": "header",
-          "label": "Banner Header",
+          "label": "Header Text",
           "default": "FULL WRAP BOTTLE PRINTING"
         },
         {
           "type": "textarea",
           "id": "description",
-          "label": "Banner Description",
+          "label": "Description Text",
           "default": "WITH AN MOQ OF 15!"
-        },
-        {
-          "type": "image_picker",
-          "id": "banner_image",
-          "label": "Banner Image"
         },
         {
           "type": "text",
           "id": "button_text",
           "label": "Button Text",
-          "default": "BUTTON"
+          "default": "Learn More"
         },
         {
           "type": "url",
@@ -477,7 +549,7 @@
   ],
   "presets": [
     {
-      "name": "Banner Slider",
+      "name": "Full Width Banner Slider",
       "blocks": [
         {
           "type": "slide"
