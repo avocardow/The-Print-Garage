@@ -1,0 +1,489 @@
+<!-- sections/banner-slider.liquid -->
+<div class="banner-slider-container">
+  <div class="banner-slider" id="bannerSlider{{ section.id }}">
+    {% for block in section.blocks %}
+      <div class="banner-slide {% if forloop.first %}active{% endif %}" data-slide="{{ forloop.index0 }}">
+        <div class="banner-content">
+          <div class="banner-text">
+            {% if block.settings.header != blank %}
+              <h2 class="banner-header">{{ block.settings.header }}</h2>
+            {% endif %}
+            {% if block.settings.description != blank %}
+              <p class="banner-description">{{ block.settings.description }}</p>
+            {% endif %}
+            {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+              <a href="{{ block.settings.button_link }}" class="banner-button">
+                {{ block.settings.button_text }}
+              </a>
+            {% endif %}
+          </div>
+          {% if block.settings.banner_image != blank %}
+            <div class="banner-image">
+              <img src="{{ block.settings.banner_image | image_url: width: 600 }}" 
+                   alt="{{ block.settings.banner_image.alt | escape }}"
+                   loading="lazy">
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  {% if section.blocks.size > 1 %}
+    <!-- Navigation Dots -->
+    <div class="slider-dots">
+      {% for block in section.blocks %}
+        <button class="dot {% if forloop.first %}active{% endif %}" 
+                onclick="showSlide({{ forloop.index0 }}, '{{ section.id }}')"></button>
+      {% endfor %}
+    </div>
+    
+    <!-- Navigation Arrows -->
+    <button class="slider-arrow prev" onclick="changeSlide(-1, '{{ section.id }}')" aria-label="Previous slide">‹</button>
+    <button class="slider-arrow next" onclick="changeSlide(1, '{{ section.id }}')" aria-label="Next slide">›</button>
+  {% endif %}
+</div>
+
+<style>
+  .banner-slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: {{ section.settings.border_radius }}px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .banner-slider {
+    position: relative;
+    height: {{ section.settings.slider_height }}px;
+    min-height: 400px;
+  }
+
+  .banner-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background: linear-gradient(135deg, {{ section.settings.bg_color_1 }}, {{ section.settings.bg_color_2 }});
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-slide.active {
+    opacity: 1;
+  }
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .banner-text {
+    flex: 1;
+    max-width: 500px;
+  }
+
+  .banner-header {
+    font-size: {{ section.settings.header_size }}px;
+    font-weight: 900;
+    color: {{ section.settings.header_color }};
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: slideInLeft 0.8s ease-out;
+  }
+
+  .banner-description {
+    font-size: {{ section.settings.description_size }}px;
+    color: {{ section.settings.description_color }};
+    margin: 0 0 30px 0;
+    line-height: 1.4;
+    font-weight: 600;
+    animation: slideInLeft 0.8s ease-out 0.2s both;
+  }
+
+  .banner-button {
+    display: inline-block;
+    background: linear-gradient(45deg, {{ section.settings.button_bg_1 }}, {{ section.settings.button_bg_2 }});
+    color: {{ section.settings.button_text_color }};
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: slideInLeft 0.8s ease-out 0.4s both;
+  }
+
+  .banner-button:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .banner-image {
+    flex: 1;
+    max-width: 400px;
+    animation: slideInRight 0.8s ease-out 0.3s both;
+  }
+
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .slider-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .dot.active,
+  .dot:hover {
+    background: white;
+  }
+
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+  }
+
+  .slider-arrow:hover {
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .slider-arrow.prev {
+    left: 20px;
+  }
+
+  .slider-arrow.next {
+    right: 20px;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .banner-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+    }
+
+    .banner-header {
+      font-size: {{ section.settings.header_size | minus: 10 }}px;
+    }
+
+    .banner-description {
+      font-size: {{ section.settings.description_size | minus: 2 }}px;
+    }
+
+    .slider-arrow {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+
+    .slider-arrow.prev {
+      left: 10px;
+    }
+
+    .slider-arrow.next {
+      right: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .banner-slider {
+      height: auto;
+      min-height: 350px;
+    }
+
+    .banner-content {
+      padding: 30px 15px;
+    }
+
+    .banner-header {
+      font-size: {{ section.settings.header_size | minus: 15 }}px;
+    }
+  }
+</style>
+
+<script>
+  let currentSlides = {};
+
+  function initializeSlider(sectionId) {
+    currentSlides[sectionId] = 0;
+    
+    // Auto-play functionality
+    {% if section.settings.autoplay %}
+      setInterval(function() {
+        changeSlide(1, sectionId);
+      }, {{ section.settings.autoplay_speed }}000);
+    {% endif %}
+  }
+
+  function showSlide(slideIndex, sectionId) {
+    const slides = document.querySelectorAll(`#bannerSlider${sectionId} .banner-slide`);
+    const dots = document.querySelectorAll(`#bannerSlider${sectionId}`).parentNode.querySelectorAll('.dot');
+    
+    // Hide all slides
+    slides.forEach(slide => slide.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+    
+    // Show current slide
+    slides[slideIndex].classList.add('active');
+    dots[slideIndex].classList.add('active');
+    
+    currentSlides[sectionId] = slideIndex;
+  }
+
+  function changeSlide(direction, sectionId) {
+    const slides = document.querySelectorAll(`#bannerSlider${sectionId} .banner-slide`);
+    const totalSlides = slides.length;
+    
+    currentSlides[sectionId] += direction;
+    
+    if (currentSlides[sectionId] >= totalSlides) {
+      currentSlides[sectionId] = 0;
+    }
+    if (currentSlides[sectionId] < 0) {
+      currentSlides[sectionId] = totalSlides - 1;
+    }
+    
+    showSlide(currentSlides[sectionId], sectionId);
+  }
+
+  // Initialize slider when page loads
+  document.addEventListener('DOMContentLoaded', function() {
+    initializeSlider('{{ section.id }}');
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Banner Slider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Slider Settings"
+    },
+    {
+      "type": "range",
+      "id": "slider_height",
+      "min": 300,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Slider Height",
+      "default": 500
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "label": "Border Radius",
+      "default": 15
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Enable Autoplay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Autoplay Speed",
+      "default": 5
+    },
+    {
+      "type": "header",
+      "content": "Background Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color_1",
+      "label": "Background Gradient Start",
+      "default": "#8B5CF6"
+    },
+    {
+      "type": "color",
+      "id": "bg_color_2",
+      "label": "Background Gradient End",
+      "default": "#A855F7"
+    },
+    {
+      "type": "header",
+      "content": "Text Styling"
+    },
+    {
+      "type": "range",
+      "id": "header_size",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Header Font Size",
+      "default": 48
+    },
+    {
+      "type": "color",
+      "id": "header_color",
+      "label": "Header Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Description Font Size",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Button Styling"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_1",
+      "label": "Button Gradient Start",
+      "default": "#F97316"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_2",
+      "label": "Button Gradient End",
+      "default": "#EA580C"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Banner Slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "header",
+          "label": "Banner Header",
+          "default": "FULL WRAP BOTTLE PRINTING"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Banner Description",
+          "default": "WITH AN MOQ OF 15!"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_image",
+          "label": "Banner Image"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "BUTTON"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Slider",
+      "blocks": [
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
