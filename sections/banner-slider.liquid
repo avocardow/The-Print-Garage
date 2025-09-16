@@ -27,10 +27,12 @@
     {% endfor %}
   </div>
 
-  <!-- Slider controls -->
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-next"></div>
+  <!-- ARROWS -->
   <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- DOTS -->
+  <div class="swiper-pagination"></div>
 </div>
 
 {% schema %}
@@ -89,53 +91,59 @@
   document.addEventListener("DOMContentLoaded", function() {
     new Swiper(".banner-slider", {
       loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
     });
   });
 </script>
 
+
 <style>
-    .banner-slide-content {
-  position: relative;
-  text-align: center;
-  color: #fff;
-}
-
-.banner-slide-image {
-  width: 100%;
-  height: auto;
-}
-
-.banner-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.banner-heading {
-  font-size: 2rem;
+  /* Arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff; /* white arrows */
   font-weight: bold;
+  width: 40px;
+  height: 40px;
 }
 
-.banner-description {
-  margin: 10px 0;
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px;
 }
 
-.banner-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #ff5a5f;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+/* Position arrows vertically centered */
+.swiper-button-prev {
+  left: 10px;
 }
+.swiper-button-next {
+  right: 10px;
+}
+
+/* Pagination dots bottom-right */
+.swiper-pagination {
+  text-align: right !important;
+  bottom: 10px !important;
+  right: 15px !important;
+  left: auto !important;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff5a5f; /* highlight color */
+  opacity: 1;
+}
+
 
 </style>
