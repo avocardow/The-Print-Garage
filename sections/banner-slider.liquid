@@ -71,31 +71,37 @@
   });
 </script>
 
+
 <style>
-    .swiper {
-  width: 100%;
-  height: auto;
+.banner-slide-content {
+  position: relative;
 }
 
-.swiper-slide img {
+.banner-slide-image {
   width: 100%;
   height: auto;
-  object-fit: cover;
   display: block;
 }
 
 .banner-text {
-  padding: 20px;
+  position: absolute;
+  bottom: 30px; /* push text near bottom of image */
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
+  color: #fff; /* white text for overlay */
+  max-width: 80%;
 }
 
 .banner-heading {
   font-size: 2rem;
   font-weight: bold;
+  margin: 0 0 10px;
 }
 
 .banner-description {
-  margin: 10px 0;
+  margin: 0 0 15px;
+  font-size: 1rem;
 }
 
 .banner-button {
@@ -107,4 +113,6 @@
   border-radius: 5px;
 }
 
+
 </style>
+
