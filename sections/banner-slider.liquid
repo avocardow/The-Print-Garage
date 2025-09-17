@@ -33,7 +33,6 @@
 </div>
 
 
-
 {% schema %}
 {
   "name": "Banner Slider",
@@ -75,22 +74,22 @@
 
 
 <style>
-/* Container holds image + text */
+/* Slide container: 2/3 of viewport height */
 .banner-slide-content {
   position: relative;
-  height: 66vh; /* 2/3 of screen height */
+  height: 66vh;
   overflow: hidden;
 }
 
-/* Image fits container height */
+/* Image fills container */
 .banner-slide-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* crop instead of stretching */
+  object-fit: cover;
   display: block;
 }
 
-/* Text centered over image */
+/* Text block centered */
 .banner-text {
   position: absolute;
   top: 50%;
@@ -101,28 +100,21 @@
   max-width: 80%;
 }
 
-.banner-heading {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 0 0 15px;
-}
-
-.banner-description {
-  font-size: 1.2rem;
-  margin: 0 0 20px;
-}
-
+/* Button anchored 100px above bottom */
 .banner-button {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
   display: inline-block;
   padding: 12px 24px;
   background: #ff5a5f;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: 600;
 }
-.swiper-button-next, .swiper-button-prev{
-    color: white;
-}
+
 
 </style>
 
