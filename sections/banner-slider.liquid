@@ -73,46 +73,51 @@
 
 
 <style>
+/* Container holds image + text */
 .banner-slide-content {
   position: relative;
+  height: 66vh; /* 2/3 of screen height */
+  overflow: hidden;
 }
 
+/* Image fits container height */
 .banner-slide-image {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover; /* crop instead of stretching */
   display: block;
 }
 
+/* Text centered over image */
 .banner-text {
   position: absolute;
-  bottom: 30px; /* push text near bottom of image */
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff; /* white text for overlay */
+  color: #fff;
   max-width: 80%;
 }
 
 .banner-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 
 .banner-description {
-  margin: 0 0 15px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin: 0 0 20px;
 }
 
 .banner-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 24px;
   background: #ff5a5f;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
-
 
 </style>
 
