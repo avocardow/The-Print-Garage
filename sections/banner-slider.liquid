@@ -17,8 +17,12 @@
           </div>
 
           {% if block.settings.button_text != blank and block.settings.button_link != blank %}
-            <a href="{{ block.settings.button_link }}" class="banner-button">
-              {{ block.settings.button_text }}
+            
+            <a li-object:href="{{ block.settings.button_link }}" href="{{ block.settings.button_link }}" class="button w-inline-block is-default is-primary banner-button"><div class="settings-schema w-embed"></div>
+                    <span li-if="block.settings.btn_layout != 'btn_layout_icon'">
+                    {{ block.settings.button_text }}   </span>
+                    <svg viewBox="0 0 384 512" width="100%" fill="currentColor" li-if="block.settings.btn_layout != 'btn_layout_text'" class="icon-1x1-small icon-1x1-small">
+                    <path d="M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z"></path>    </svg>
             </a>
           {% endif %}
         </div>
