@@ -11,17 +11,29 @@
   "sections": {
     "defaulthero_8LknxR": {
       "type": "defaulthero",
+      "disabled": true,
       "settings": {}
     },
     "defaultcontent_qhJxNe": {
       "type": "defaultcontent",
+      "disabled": true,
       "settings": {}
+    },
+    "thank_you_bT4Bkq": {
+      "type": "thank-you",
+      "name": "Thank You",
+      "settings": {
+        "heading": "Let’s plan your project.",
+        "description": "<p>Thanks for your enquiry. Choose a time for a quick planning session with the Yarn Corp team.<br/> In one call we’ll align on your goals, artwork pathway (your logo or First Nations art), quantities and timing, and map next steps.</p>",
+        "liquid": "<!-- Start of Meetings Embed Script -->\n    <div class=\"meetings-iframe-container\" data-src=\"https://meetings.hubspot.com/yarn/theprintgarage?embed=true\"></div>\n    <script type=\"text/javascript\" src=\"https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js\"></script>\n  <!-- End of Meetings Embed Script -->"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
     "defaulthero_8LknxR",
-    "defaultcontent_qhJxNe"
+    "defaultcontent_qhJxNe",
+    "thank_you_bT4Bkq"
   ]
 }
