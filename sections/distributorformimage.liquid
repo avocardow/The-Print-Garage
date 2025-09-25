@@ -32,7 +32,17 @@
             <!-- CONTACT FORM -->
             <div class="form_component">
               <div class="form6_block w-form">
-                {% form 'contact', return_to: '/pages/thank-you', class: 'contact5_form' %}
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "5189439",
+                    formId: "b0a716cc-071d-4122-a692-d99f213bc258",
+                    region: "na1"
+                });
+                </script>
+
+
+                {% comment %} {% form 'contact', return_to: '/pages/thank-you', class: 'contact5_form' %}
                   <!-- Name fields -->
                   <div class="form_field-wrapper">
                     <label for="Form-6-First-Name-2" class="form_field-label">First and last name</label>
@@ -129,7 +139,7 @@
                          data-wait="Please wait..."
                          class="button w-button"
                          value="Submit">
-                {% endform %}
+                {% endform %} {% endcomment %}
 
                 <!-- Success & Error -->
                 <div class="form_message-success-wrapper w-form-done">
