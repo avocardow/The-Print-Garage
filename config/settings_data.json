@@ -498,6 +498,16 @@
         "type": "shopify://apps/google-reviews/blocks/app-embed-block/4eeaae1c-902b-481c-bec5-3f32291a58d5",
         "disabled": false,
         "settings": {}
+      },
+      "14533838777183026278": {
+        "type": "shopify://apps/google-reviews/blocks/floating-review-slider-embed/4eeaae1c-902b-481c-bec5-3f32291a58d5",
+        "disabled": false,
+        "settings": {
+          "rank": "1",
+          "theme": "light",
+          "position": "bottom",
+          "alignment": "right"
+        }
       }
     }
   }
