@@ -283,6 +283,20 @@
     "1764731249cb469fe4": {
       "type": "apps",
       "blocks": {
+        "appio_google_reviews_anchor_slider1_mGnhgW": {
+          "type": "shopify://apps/appio-google-reviews/blocks/anchor-slider1/25437a0d-2feb-4f5f-b07d-e313afa21656",
+          "settings": {
+            "location": "bottom",
+            "alignment": "right",
+            "compact": false,
+            "show_close_button": true,
+            "auto_scroll": true,
+            "slide_delay": 3,
+            "card_background_color": "#FFFFFF",
+            "card_text_color": "#3A454F",
+            "star_color": "#FBBC05"
+          }
+        },
         "appio_google_reviews_carousel2_Ywdeic": {
           "type": "shopify://apps/appio-google-reviews/blocks/carousel2/25437a0d-2feb-4f5f-b07d-e313afa21656",
           "settings": {
@@ -312,6 +326,7 @@
         }
       },
       "block_order": [
+        "appio_google_reviews_anchor_slider1_mGnhgW",
         "appio_google_reviews_carousel2_Ywdeic"
       ],
       "settings": {}
