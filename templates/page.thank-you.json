@@ -23,9 +23,9 @@
       "type": "thank-you",
       "name": "Thank You",
       "settings": {
-        "heading": "Let’s plan your project.",
-        "description": "<p>Thanks for your enquiry. Choose a time for a quick planning session with the Yarn Corp team.<br/> In one call we’ll align on your goals, artwork pathway (your logo or First Nations art), quantities and timing, and map next steps.</p>",
-        "liquid": "<!-- Start of Meetings Embed Script -->\n    <div class=\"meetings-iframe-container\" data-src=\"https://meetings.hubspot.com/yarn/theprintgarage?embed=true\"></div>\n    <script type=\"text/javascript\" src=\"https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js\"></script>\n  <!-- End of Meetings Embed Script -->"
+        "heading": "THANK YOU FOR YOUR ENQUIRY.",
+        "description": "<p>Our team is ready to help and will be in touch shortly.</p><p>If you'd like to discuss things in more detail:</p><ul><li>Come see us in person at Unit 2 / 338 Lytton Road, Morningside, QLD 4170</li><li>Call us on <strong><a href=\"tel:+61739023200\">(07) 3902 3200</a></strong></li><li>Email our team at <a href=\"mailto:sales@theprintgarage.com.au\">sales@theprintgarage.com.au</a></li><li>Schedule a time to meet via video call</li></ul><p><a href=\"#book-meeting\">Book a meeting</a></p>",
+        "liquid": "<!-- Start of Meetings Embed Script -->\n    <div class=\"meetings-iframe-container\" data-src=\"https://meetings-ap1.hubspot.com/yarn/theprintgarage?embed=true\"></div>\n    <script type=\"text/javascript\" src=\"https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js\"></script>\n  <!-- End of Meetings Embed Script -->"
       }
     }
   },
