@@ -16,7 +16,7 @@
         ".product-header_quantity div,.product-header_quantity input {display: none;}"
       ],
       "settings": {
-        "text_delivery_time": "Due to Xmas Holidays orders will start shipping the week of the 12th of January",
+        "text_delivery_time": "Orders Dispatched within 7-10 days",
         "text_product_description_heading": "Description"
       }
     },
